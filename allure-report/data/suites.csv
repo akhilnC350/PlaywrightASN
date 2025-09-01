@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","95063","E2E - Registration >> Add Address >> Logout >> Login","chromium","Mon Sep 01 19:13:57 IST 2025","passed","Mon Sep 01 19:15:32 IST 2025","","E2E.spec.ts","",""
+"","13467","Failed Login - valid Email and Invalid passwword","chromium","Mon Sep 01 17:00:50 IST 2025","passed","Mon Sep 01 17:01:04 IST 2025","🔑 Data-Driven Login Tests (CSV)","LoginPage.spec.ts","",""
+"","11635","Empty fields - skipt both field and click on login button","chromium","Mon Sep 01 17:00:54 IST 2025","passed","Mon Sep 01 17:01:06 IST 2025","🔑 Data-Driven Login Tests (CSV)","LoginPage.spec.ts","",""
+"","21071","Successful Login","chromium","Mon Sep 01 17:00:31 IST 2025","passed","Mon Sep 01 17:00:52 IST 2025","🔑 Data-Driven Login Tests (CSV)","LoginPage.spec.ts","",""
+"","17499","Failed Login - Invalid Email and valid passwword","chromium","Mon Sep 01 17:00:31 IST 2025","passed","Mon Sep 01 17:00:49 IST 2025","🔑 Data-Driven Login Tests (CSV)","LoginPage.spec.ts","",""

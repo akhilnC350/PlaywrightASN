@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@utils/*": ["utils/*"],
+      "@types/*": ["types/*"]
+    },
+    "typeRoots": ["./types", "./node_modules/@types"]
+  },
+  "include": [
+    "playwright.config.ts",
+    "tests/**/*.ts",
+    "types/**/*.d.ts"
+  ]
+}

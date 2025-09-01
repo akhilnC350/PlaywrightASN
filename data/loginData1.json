@@ -1,0 +1,17 @@
+[
+  {
+    "scenario1": "✅ Successful Login",
+    "username": "akhil1809@gmail.com",
+    "password": "Password123!",
+    "expected": "My Account",
+    "screenshot": "C:\\PlaywrightASN\\screenshots\\login_success.png"
+  },
+  {
+    "scenario2": "❌ Failed Login - Invalid Credentials",
+    "username": "invalid@test.com",
+    "password": "wrongPass!",
+    "expected": "Warning: No match for E-Mail Address and/or Password.",
+    "screenshot": "C:\\PlaywrightASN\\screenshots\\InvalidEmailid.png"
+  }
+]
+

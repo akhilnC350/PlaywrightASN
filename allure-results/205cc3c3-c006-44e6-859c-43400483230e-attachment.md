@@ -1,0 +1,592 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - button "$ Currency " [ref=e7] [cursor=pointer]:
+        - strong [ref=e8] [cursor=pointer]: $
+        - generic [ref=e9] [cursor=pointer]: Currency
+        - generic [ref=e10] [cursor=pointer]: 
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "" [ref=e14] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/contact
+            - generic [ref=e15] [cursor=pointer]: 
+          - generic [ref=e16]: "123456789"
+        - listitem [ref=e17]:
+          - link " My Account" [ref=e18] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/account
+            - generic [ref=e19] [cursor=pointer]: 
+            - generic [ref=e20] [cursor=pointer]: My Account
+        - listitem [ref=e22]:
+          - link " Wish List (0)" [ref=e23] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/wishlist
+            - generic [ref=e24] [cursor=pointer]: 
+            - generic [ref=e25] [cursor=pointer]: Wish List (0)
+        - listitem [ref=e26]:
+          - link " Shopping Cart" [ref=e27] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=checkout/cart
+            - generic [ref=e28] [cursor=pointer]: 
+            - generic [ref=e29] [cursor=pointer]: Shopping Cart
+        - listitem [ref=e30]:
+          - link " Checkout" [ref=e31] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=checkout/checkout
+            - generic [ref=e32] [cursor=pointer]: 
+            - generic [ref=e33] [cursor=pointer]: Checkout
+  - banner [ref=e34]:
+    - generic [ref=e36]:
+      - link "naveenopencart" [ref=e39] [cursor=pointer]:
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+        - img "naveenopencart" [ref=e40] [cursor=pointer]
+      - generic [ref=e42]:
+        - textbox "Search" [ref=e43]
+        - button "" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46] [cursor=pointer]: 
+      - button " 0 item(s) - $0.00" [ref=e49] [cursor=pointer]:
+        - generic [ref=e50] [cursor=pointer]: 
+        - generic [ref=e51] [cursor=pointer]: 0 item(s) - $0.00
+  - navigation [ref=e53]:
+    - generic: 
+    - list [ref=e55]:
+      - listitem [ref=e56]:
+        - link "Desktops" [ref=e57] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=20
+      - listitem [ref=e58]:
+        - link "Laptops & Notebooks" [ref=e59] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=18
+      - listitem [ref=e60]:
+        - link "Components" [ref=e61] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=25
+      - listitem [ref=e62]:
+        - link "Tablets" [ref=e63] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=57
+      - listitem [ref=e64]:
+        - link "Software" [ref=e65] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=17
+      - listitem [ref=e66]:
+        - link "Phones & PDAs" [ref=e67] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=24
+      - listitem [ref=e68]:
+        - link "Cameras" [ref=e69] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=33
+      - listitem [ref=e70]:
+        - link "MP3 Players" [ref=e71] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=34
+  - generic [ref=e72]:
+    - list [ref=e73]:
+      - listitem [ref=e74]:
+        - link "" [ref=e75] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+          - generic [ref=e76] [cursor=pointer]: 
+      - listitem [ref=e77]:
+        - link "Account" [ref=e78] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/account
+      - listitem [ref=e79]:
+        - link "Address Book" [ref=e80] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/address
+      - listitem [ref=e81]:
+        - link "Add Address" [ref=e82] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/address/add
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - heading "Add Address" [level=2] [ref=e85]
+        - generic [ref=e86]:
+          - group [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e89]: "* First Name"
+              - textbox "* First Name" [ref=e91]: Akhil
+            - generic [ref=e92]:
+              - generic [ref=e93]: "* Last Name"
+              - textbox "* Last Name" [ref=e95]: Negi
+            - generic [ref=e96]:
+              - generic [ref=e97]: Company
+              - textbox "Company" [ref=e99]: ASN
+            - generic [ref=e100]:
+              - generic [ref=e101]: "* Address 1"
+              - textbox "* Address 1" [ref=e103]: S/807, Green Park
+            - generic [ref=e104]:
+              - generic [ref=e105]: Address 2
+              - textbox "Address 2" [ref=e107]
+            - generic [ref=e108]:
+              - generic [ref=e109]: "* City"
+              - textbox "* City" [ref=e111]: Pune
+            - generic [ref=e112]:
+              - generic [ref=e113]: "* Post Code"
+              - textbox "* Post Code" [active] [ref=e115]: "232112"
+            - generic [ref=e116]:
+              - generic [ref=e117]: "* Country"
+              - combobox "* Country" [ref=e119]:
+                - option "--- Please Select ---"
+                - option "Aaland Islands"
+                - option "Afghanistan"
+                - option "Albania"
+                - option "Algeria"
+                - option "American Samoa"
+                - option "Andorra"
+                - option "Angola"
+                - option "Anguilla"
+                - option "Antarctica"
+                - option "Antigua and Barbuda"
+                - option "Argentina"
+                - option "Armenia"
+                - option "Aruba"
+                - option "Ascension Island (British)"
+                - option "Australia"
+                - option "Austria"
+                - option "Azerbaijan"
+                - option "Bahamas"
+                - option "Bahrain"
+                - option "Bangladesh"
+                - option "Barbados"
+                - option "Belarus"
+                - option "Belgium"
+                - option "Belize"
+                - option "Benin"
+                - option "Bermuda"
+                - option "Bhutan"
+                - option "Bolivia"
+                - option "Bonaire, Sint Eustatius and Saba"
+                - option "Bosnia and Herzegovina"
+                - option "Botswana"
+                - option "Bouvet Island"
+                - option "Brazil"
+                - option "British Indian Ocean Territory"
+                - option "Brunei Darussalam"
+                - option "Bulgaria"
+                - option "Burkina Faso"
+                - option "Burundi"
+                - option "Cambodia"
+                - option "Cameroon"
+                - option "Canada"
+                - option "Canary Islands"
+                - option "Cape Verde"
+                - option "Cayman Islands"
+                - option "Central African Republic"
+                - option "Chad"
+                - option "Chile"
+                - option "China"
+                - option "Christmas Island"
+                - option "Cocos (Keeling) Islands"
+                - option "Colombia"
+                - option "Comoros"
+                - option "Congo"
+                - option "Cook Islands"
+                - option "Costa Rica"
+                - option "Cote D'Ivoire"
+                - option "Croatia"
+                - option "Cuba"
+                - option "Curacao"
+                - option "Cyprus"
+                - option "Czech Republic"
+                - option "Democratic Republic of Congo"
+                - option "Denmark"
+                - option "Djibouti"
+                - option "Dominica"
+                - option "Dominican Republic"
+                - option "East Timor"
+                - option "Ecuador"
+                - option "Egypt"
+                - option "El Salvador"
+                - option "Equatorial Guinea"
+                - option "Eritrea"
+                - option "Estonia"
+                - option "Ethiopia"
+                - option "Falkland Islands (Malvinas)"
+                - option "Faroe Islands"
+                - option "Fiji"
+                - option "Finland"
+                - option "France, Metropolitan"
+                - option "French Guiana"
+                - option "French Polynesia"
+                - option "French Southern Territories"
+                - option "FYROM"
+                - option "Gabon"
+                - option "Gambia"
+                - option "Georgia"
+                - option "Germany"
+                - option "Ghana"
+                - option "Gibraltar"
+                - option "Greece"
+                - option "Greenland"
+                - option "Grenada"
+                - option "Guadeloupe"
+                - option "Guam"
+                - option "Guatemala"
+                - option "Guernsey"
+                - option "Guinea"
+                - option "Guinea-Bissau"
+                - option "Guyana"
+                - option "Haiti"
+                - option "Heard and Mc Donald Islands"
+                - option "Honduras"
+                - option "Hong Kong"
+                - option "Hungary"
+                - option "Iceland"
+                - option "India"
+                - option "Indonesia"
+                - option "Iran (Islamic Republic of)"
+                - option "Iraq"
+                - option "Ireland"
+                - option "Isle of Man"
+                - option "Israel"
+                - option "Italy"
+                - option "Jamaica"
+                - option "Japan"
+                - option "Jersey"
+                - option "Jordan"
+                - option "Kazakhstan"
+                - option "Kenya"
+                - option "Kiribati"
+                - option "Kosovo, Republic of"
+                - option "Kuwait"
+                - option "Kyrgyzstan"
+                - option "Lao People's Democratic Republic"
+                - option "Latvia"
+                - option "Lebanon"
+                - option "Lesotho"
+                - option "Liberia"
+                - option "Libyan Arab Jamahiriya"
+                - option "Liechtenstein"
+                - option "Lithuania"
+                - option "Luxembourg"
+                - option "Macau"
+                - option "Madagascar"
+                - option "Malawi"
+                - option "Malaysia"
+                - option "Maldives"
+                - option "Mali"
+                - option "Malta"
+                - option "Marshall Islands"
+                - option "Martinique"
+                - option "Mauritania"
+                - option "Mauritius"
+                - option "Mayotte"
+                - option "Mexico"
+                - option "Micronesia, Federated States of"
+                - option "Moldova, Republic of"
+                - option "Monaco"
+                - option "Mongolia"
+                - option "Montenegro"
+                - option "Montserrat"
+                - option "Morocco"
+                - option "Mozambique"
+                - option "Myanmar"
+                - option "Namibia"
+                - option "Nauru"
+                - option "Nepal"
+                - option "Netherlands"
+                - option "Netherlands Antilles"
+                - option "New Caledonia"
+                - option "New Zealand"
+                - option "Nicaragua"
+                - option "Niger"
+                - option "Nigeria"
+                - option "Niue"
+                - option "Norfolk Island"
+                - option "North Korea"
+                - option "Northern Mariana Islands"
+                - option "Norway"
+                - option "Oman"
+                - option "Pakistan"
+                - option "Palau"
+                - option "Palestinian Territory, Occupied"
+                - option "Panama"
+                - option "Papua New Guinea"
+                - option "Paraguay"
+                - option "Peru"
+                - option "Philippines"
+                - option "Pitcairn"
+                - option "Poland"
+                - option "Portugal"
+                - option "Puerto Rico"
+                - option "Qatar"
+                - option "Reunion"
+                - option "Romania"
+                - option "Russian Federation"
+                - option "Rwanda"
+                - option "Saint Kitts and Nevis"
+                - option "Saint Lucia"
+                - option "Saint Vincent and the Grenadines"
+                - option "Samoa"
+                - option "San Marino"
+                - option "Sao Tome and Principe"
+                - option "Saudi Arabia"
+                - option "Senegal"
+                - option "Serbia"
+                - option "Seychelles"
+                - option "Sierra Leone"
+                - option "Singapore"
+                - option "Slovak Republic"
+                - option "Slovenia"
+                - option "Solomon Islands"
+                - option "Somalia"
+                - option "South Africa"
+                - option "South Georgia & South Sandwich Islands"
+                - option "South Korea"
+                - option "South Sudan"
+                - option "Spain"
+                - option "Sri Lanka"
+                - option "St. Barthelemy"
+                - option "St. Helena"
+                - option "St. Martin (French part)"
+                - option "St. Pierre and Miquelon"
+                - option "Sudan"
+                - option "Suriname"
+                - option "Svalbard and Jan Mayen Islands"
+                - option "Swaziland"
+                - option "Sweden"
+                - option "Switzerland"
+                - option "Syrian Arab Republic"
+                - option "Taiwan"
+                - option "Tajikistan"
+                - option "Tanzania, United Republic of"
+                - option "Thailand"
+                - option "Togo"
+                - option "Tokelau"
+                - option "Tonga"
+                - option "Trinidad and Tobago"
+                - option "Tristan da Cunha"
+                - option "Tunisia"
+                - option "Turkey"
+                - option "Turkmenistan"
+                - option "Turks and Caicos Islands"
+                - option "Tuvalu"
+                - option "Uganda"
+                - option "Ukraine"
+                - option "United Arab Emirates"
+                - option "United Kingdom" [selected]
+                - option "United States"
+                - option "United States Minor Outlying Islands"
+                - option "Uruguay"
+                - option "Uzbekistan"
+                - option "Vanuatu"
+                - option "Vatican City State (Holy See)"
+                - option "Venezuela"
+                - option "Viet Nam"
+                - option "Virgin Islands (British)"
+                - option "Virgin Islands (U.S.)"
+                - option "Wallis and Futuna Islands"
+                - option "Western Sahara"
+                - option "Yemen"
+                - option "Zambia"
+                - option "Zimbabwe"
+            - generic [ref=e120]:
+              - generic [ref=e121]: "* Region / State"
+              - combobox "* Region / State" [ref=e123]:
+                - option "--- Please Select ---" [selected]
+                - option "Aberdeen"
+                - option "Aberdeenshire"
+                - option "Anglesey"
+                - option "Angus"
+                - option "Argyll and Bute"
+                - option "Bedfordshire"
+                - option "Berkshire"
+                - option "Blaenau Gwent"
+                - option "Bridgend"
+                - option "Bristol"
+                - option "Buckinghamshire"
+                - option "Caerphilly"
+                - option "Cambridgeshire"
+                - option "Cardiff"
+                - option "Carmarthenshire"
+                - option "Ceredigion"
+                - option "Cheshire"
+                - option "Clackmannanshire"
+                - option "Conwy"
+                - option "Cornwall"
+                - option "County Antrim"
+                - option "County Armagh"
+                - option "County Down"
+                - option "County Fermanagh"
+                - option "County Londonderry"
+                - option "County Tyrone"
+                - option "Cumbria"
+                - option "Denbighshire"
+                - option "Derbyshire"
+                - option "Devon"
+                - option "Dorset"
+                - option "Dumfries and Galloway"
+                - option "Dundee"
+                - option "Durham"
+                - option "East Ayrshire"
+                - option "East Dunbartonshire"
+                - option "East Lothian"
+                - option "East Renfrewshire"
+                - option "East Riding of Yorkshire"
+                - option "East Sussex"
+                - option "Edinburgh"
+                - option "Essex"
+                - option "Falkirk"
+                - option "Fife"
+                - option "Flintshire"
+                - option "Glasgow"
+                - option "Gloucestershire"
+                - option "Greater London"
+                - option "Greater Manchester"
+                - option "Gwynedd"
+                - option "Hampshire"
+                - option "Herefordshire"
+                - option "Hertfordshire"
+                - option "Highlands"
+                - option "Inverclyde"
+                - option "Isle of Wight"
+                - option "Kent"
+                - option "Lancashire"
+                - option "Leicestershire"
+                - option "Lincolnshire"
+                - option "Merseyside"
+                - option "Merthyr Tydfil"
+                - option "Midlothian"
+                - option "Monmouthshire"
+                - option "Moray"
+                - option "Neath Port Talbot"
+                - option "Newport"
+                - option "Norfolk"
+                - option "North Ayrshire"
+                - option "North Lanarkshire"
+                - option "North Yorkshire"
+                - option "Northamptonshire"
+                - option "Northumberland"
+                - option "Nottinghamshire"
+                - option "Orkney Islands"
+                - option "Oxfordshire"
+                - option "Pembrokeshire"
+                - option "Perth and Kinross"
+                - option "Powys"
+                - option "Renfrewshire"
+                - option "Rhondda Cynon Taff"
+                - option "Rutland"
+                - option "Scottish Borders"
+                - option "Shetland Islands"
+                - option "Shropshire"
+                - option "Somerset"
+                - option "South Ayrshire"
+                - option "South Lanarkshire"
+                - option "South Yorkshire"
+                - option "Staffordshire"
+                - option "Stirling"
+                - option "Suffolk"
+                - option "Surrey"
+                - option "Swansea"
+                - option "Torfaen"
+                - option "Tyne and Wear"
+                - option "Vale of Glamorgan"
+                - option "Warwickshire"
+                - option "West Dunbartonshire"
+                - option "West Lothian"
+                - option "West Midlands"
+                - option "West Sussex"
+                - option "West Yorkshire"
+                - option "Western Isles"
+                - option "Wiltshire"
+                - option "Worcestershire"
+                - option "Wrexham"
+            - generic [ref=e124]:
+              - generic [ref=e125]: Default Address
+              - generic [ref=e126]:
+                - generic [ref=e127] [cursor=pointer]:
+                  - radio "Yes" [ref=e128]
+                  - text: "Yes"
+                - generic [ref=e129] [cursor=pointer]:
+                  - radio "No" [checked] [ref=e130]
+                  - text: "No"
+          - generic [ref=e131]:
+            - link "Back" [ref=e133] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/address
+            - button "Continue" [ref=e135] [cursor=pointer]
+      - complementary [ref=e136]:
+        - generic [ref=e137]:
+          - link "My Account" [ref=e138] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/account
+          - link "Edit Account" [ref=e139] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/edit
+          - link "Password" [ref=e140] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/password
+          - link "Address Book" [ref=e141] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/address
+          - link "Wish List" [ref=e142] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/wishlist
+          - link "Order History" [ref=e143] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/order
+          - link "Downloads" [ref=e144] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/download
+          - link "Recurring payments" [ref=e145] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/recurring
+          - link "Reward Points" [ref=e146] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/reward
+          - link "Returns" [ref=e147] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/return
+          - link "Transactions" [ref=e148] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/transaction
+          - link "Newsletter" [ref=e149] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/newsletter
+          - link "Logout" [ref=e150] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/logout
+  - contentinfo [ref=e151]:
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - heading "Information" [level=5] [ref=e155]
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "About Us" [ref=e158] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=4
+            - listitem [ref=e159]:
+              - link "Delivery Information" [ref=e160] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=6
+            - listitem [ref=e161]:
+              - link "Privacy Policy" [ref=e162] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=3
+            - listitem [ref=e163]:
+              - link "Terms & Conditions" [ref=e164] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=5
+        - generic [ref=e165]:
+          - heading "Customer Service" [level=5] [ref=e166]
+          - list [ref=e167]:
+            - listitem [ref=e168]:
+              - link "Contact Us" [ref=e169] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/contact
+            - listitem [ref=e170]:
+              - link "Returns" [ref=e171] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/return/add
+            - listitem [ref=e172]:
+              - link "Site Map" [ref=e173] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/sitemap
+        - generic [ref=e174]:
+          - heading "Extras" [level=5] [ref=e175]
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Brands" [ref=e178] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/manufacturer
+            - listitem [ref=e179]:
+              - link "Gift Certificates" [ref=e180] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/voucher
+            - listitem [ref=e181]:
+              - link "Affiliate" [ref=e182] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=affiliate/login
+            - listitem [ref=e183]:
+              - link "Specials" [ref=e184] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/special
+        - generic [ref=e185]:
+          - heading "My Account" [level=5] [ref=e186]
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - link "My Account" [ref=e189] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/account
+            - listitem [ref=e190]:
+              - link "Order History" [ref=e191] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/order
+            - listitem [ref=e192]:
+              - link "Wish List" [ref=e193] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/wishlist
+            - listitem [ref=e194]:
+              - link "Newsletter" [ref=e195] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/newsletter
+      - separator [ref=e196]
+      - paragraph [ref=e197]:
+        - text: Powered By
+        - link "OpenCart" [ref=e198] [cursor=pointer]:
+          - /url: http://www.opencart.com
+        - text: naveenopencart © 2025
+```

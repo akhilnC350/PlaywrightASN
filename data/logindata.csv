@@ -1,0 +1,5 @@
+Scenario,username,password,expected,screenshot
+Successful Login,te23st@email.com,12345678!,My Account,C:\\PlaywrightASN\\screenshots\\login_success.png
+Failed Login - Invalid Email and valid passwword,invalid@test.com,Password123,Warning: No match for E-Mail Address and/or Password.,C:\\PlaywrightASN\\screenshots\\Invalid Email and valid passwword.png
+Failed Login - valid Email and Invalid passwword,akhil1809@gmail.com,Hellodidi!,Warning: No match for E-Mail Address and/or Password.,C:\\PlaywrightASN\\screenshots\\Valid Email and Invlid passwword.png
+Empty fields - skipt both field and click on login button, , , Warning: No match for E-Mail Address and/or Password.,C:\\PlaywrightASN\\screenshots\\Invalid Emptyfield.png
