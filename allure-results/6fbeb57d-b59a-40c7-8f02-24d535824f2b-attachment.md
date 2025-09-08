@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Tricentis Logo Vehicle Insurance Application This is a sample application, Version 1.0.1" [ref=e6] [cursor=pointer]:
+        - /url: index.php
+        - img "Tricentis Logo" [ref=e7] [cursor=pointer]
+        - generic [ref=e8] [cursor=pointer]:
+          - heading "Vehicle Insurance Application" [level=1] [ref=e9] [cursor=pointer]
+          - generic [ref=e10] [cursor=pointer]: This is a sample application, Version 1.0.1
+      - generic [ref=e12]:
+        - link " Visit Support!" [ref=e13] [cursor=pointer]:
+          - /url: https://support.tricentis.com
+          - generic [ref=e14] [cursor=pointer]: 
+          - text: Visit Support!
+        - textbox "Search Support..." [ref=e15]
+        - button "" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17] [cursor=pointer]: 
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - text: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Automobile" [ref=e23] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e24]:
+            - link "Truck" [ref=e25] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e26]:
+            - link "Motorcycle" [ref=e27] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e28]:
+            - link "Camper" [ref=e29] [cursor=pointer]:
+              - /url: "#"
+      - link "Request Demo" [ref=e31] [cursor=pointer]:
+        - /url: http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+  - main [ref=e32]:
+    - link "Home" [ref=e35] [cursor=pointer]:
+      - /url: index.php
+  - generic [ref=e36]:
+    - generic [ref=e39]:
+      - navigation [ref=e40]
+      - generic [ref=e42]:       
+    - generic [ref=e45]:
+      - navigation [ref=e46]:
+        - link "About" [ref=e47] [cursor=pointer]:
+          - /url: http://www.tricentis.com/about
+        - link "Products" [ref=e48] [cursor=pointer]:
+          - /url: http://www.tricentis.com/tricentis-tosca-testsuite
+        - link "Events & Webinars" [ref=e49] [cursor=pointer]:
+          - /url: http://www.tricentis.com/events-webinars
+        - link "Resources" [ref=e50] [cursor=pointer]:
+          - /url: http://www.tricentis.com/resources
+        - link "Services" [ref=e51] [cursor=pointer]:
+          - /url: http://www.tricentis.com/services
+      - generic [ref=e52]:
+        - link "" [ref=e53] [cursor=pointer]:
+          - /url: https://www.facebook.com/TRICENTIS
+          - generic [ref=e54] [cursor=pointer]: 
+        - link "" [ref=e55] [cursor=pointer]:
+          - /url: https://twitter.com/Tricentis
+          - generic [ref=e56] [cursor=pointer]: 
+        - link "" [ref=e57] [cursor=pointer]:
+          - /url: https://plus.google.com/108151335013813449490/posts
+          - generic [ref=e58] [cursor=pointer]: 
+      - generic [ref=e59]: Copyright 2021 by Tricentis GmbH. All rights reserved.
+```

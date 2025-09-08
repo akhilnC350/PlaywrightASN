@@ -1,0 +1,153 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Tricentis Logo Vehicle Insurance Application This is a sample application, Version 1.0.1" [ref=e6] [cursor=pointer]:
+        - /url: index.php
+        - img "Tricentis Logo" [ref=e7] [cursor=pointer]
+        - generic [ref=e8] [cursor=pointer]:
+          - heading "Vehicle Insurance Application" [level=1] [ref=e9] [cursor=pointer]
+          - generic [ref=e10] [cursor=pointer]: This is a sample application, Version 1.0.1
+      - generic [ref=e12]:
+        - link " Visit Support!" [ref=e13] [cursor=pointer]:
+          - /url: https://support.tricentis.com
+          - generic [ref=e14] [cursor=pointer]: 
+          - text: Visit Support!
+        - textbox "Search Support..." [ref=e15]
+        - button "" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17] [cursor=pointer]: 
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - text: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Automobile" [ref=e23] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e24]:
+            - link "Truck" [ref=e25] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e26]:
+            - link "Motorcycle" [ref=e27] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e28]:
+            - link "Camper" [ref=e29] [cursor=pointer]:
+              - /url: "#"
+      - link "Request Demo" [ref=e31] [cursor=pointer]:
+        - /url: http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+  - generic [ref=e32]:
+    - list [ref=e33]:
+      - listitem [ref=e34]:
+        - generic [ref=e36]:
+          - heading "Get your Camper Insurance" [level=2] [ref=e37]:
+            - text: Get your
+            - strong [ref=e38]: Camper Insurance
+          - paragraph [ref=e39]: Well, the best way to get to know new software is to use an example to try it out. This sample application has been designed to give you the opportunity to get acquainted with the functional beauty and strength of Tricentis Tosca Testsuite.
+          - link "Get a quote" [ref=e40] [cursor=pointer]:
+            - /url: "#"
+      - listitem [ref=e41]:
+        - generic [ref=e43]:
+          - heading "Get your Automobile Insurance" [level=2] [ref=e44]:
+            - text: Get your
+            - strong [ref=e45]: Automobile Insurance
+          - paragraph [ref=e46]: Well, the best way to get to know new software is to use an example to try it out. This sample application has been designed to give you the opportunity to get acquainted with the functional beauty and strength of Tricentis Tosca Testsuite.
+          - link "Get a quote" [ref=e47] [cursor=pointer]:
+            - /url: "#"
+      - listitem [ref=e48]:
+        - generic [ref=e50]:
+          - heading "Get your Truck Insurance" [level=2] [ref=e51]:
+            - text: Get your
+            - strong [ref=e52]: Truck Insurance
+          - paragraph [ref=e53]: Well, the best way to get to know new software is to use an example to try it out. This sample application has been designed to give you the opportunity to get acquainted with the functional beauty and strength of Tricentis Tosca Testsuite.
+          - link "Get a quote" [ref=e54] [cursor=pointer]:
+            - /url: "#"
+      - listitem [ref=e55]:
+        - generic [ref=e57]:
+          - heading "Get your Motorcycle Insurance" [level=2] [ref=e58]:
+            - text: Get your
+            - strong [ref=e59]: Motorcycle Insurance
+          - paragraph [ref=e60]: Well, the best way to get to know new software is to use an example to try it out. This sample application has been designed to give you the opportunity to get acquainted with the functional beauty and strength of Tricentis Tosca Testsuite.
+          - link "Get a quote" [ref=e61] [cursor=pointer]:
+            - /url: "#"
+    - list [ref=e62]:
+      - listitem [ref=e63]:
+        - generic [ref=e64] [cursor=pointer]: "1"
+      - listitem [ref=e65]:
+        - generic [ref=e66] [cursor=pointer]: "2"
+      - listitem [ref=e67]:
+        - generic [ref=e68] [cursor=pointer]: "3"
+      - listitem [ref=e69]:
+        - generic [ref=e70] [cursor=pointer]: "4"
+  - main [ref=e71]:
+    - generic [ref=e73]:
+      - heading "Welcome Aboard!" [level=2] [ref=e74]
+      - generic [ref=e75]: ...and take not only your insurance application testing to the next level
+      - generic [ref=e76]:
+        - generic [ref=e78]:
+          - img [ref=e79]
+          - heading "We've Got You Covered" [level=3] [ref=e80]
+          - paragraph [ref=e81]: Optimize your test by minimizing the number of test cases while achieving the highest possible risk coverage.
+        - generic [ref=e83]:
+          - img [ref=e84]
+          - heading "No More Search and Destroy" [level=3] [ref=e85]
+          - paragraph [ref=e86]: Use a fully integrated set of capabilities for the design, generation, provisioning and management of test data.
+        - generic [ref=e88]:
+          - img [ref=e89]
+          - heading "Relax and Automate" [level=3] [ref=e90]
+          - paragraph [ref=e91]: Go beyond script based test automation, using a more powerful, robust and scalable model based approach.
+        - generic [ref=e93]:
+          - img [ref=e94]
+          - heading "Don't Play Solo" [level=3] [ref=e95]
+          - paragraph [ref=e96]: Mimic actions and the behavior of missing services by our orchestrated service virtualization solution.
+      - paragraph [ref=e98]:
+        - text: ...and that's just an infinitesimal excerpt of our numerous capabilities.
+        - link "Read more" [ref=e99] [cursor=pointer]:
+          - /url: http://www.tricentis.com
+          - generic [ref=e100] [cursor=pointer]: Read more
+    - generic [ref=e102]:
+      - heading "Our Insane Insurance Offer" [level=2] [ref=e103]
+      - generic [ref=e104]: Scrutinize our motives, and get your quote now!
+      - generic [ref=e105]:
+        - link "Offer Automobile Automobile" [ref=e108] [cursor=pointer]:
+          - /url: "#"
+          - img "Offer Automobile" [ref=e109] [cursor=pointer]
+          - heading "Automobile" [level=3] [ref=e111] [cursor=pointer]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - link "Offer Camper Camper" [ref=e116] [cursor=pointer]:
+              - /url: "#"
+              - img "Offer Camper" [ref=e117] [cursor=pointer]
+              - heading "Camper" [level=3] [ref=e119] [cursor=pointer]
+            - link "Offer Truck Truck" [ref=e122] [cursor=pointer]:
+              - /url: "#"
+              - img "Offer Truck" [ref=e123] [cursor=pointer]
+              - heading "Truck" [level=3] [ref=e125] [cursor=pointer]
+          - link "Offer Motorcycle Motorcycle" [ref=e129] [cursor=pointer]:
+            - /url: "#"
+            - img "Offer Motorcycle" [ref=e130] [cursor=pointer]
+            - heading "Motorcycle" [level=3] [ref=e132] [cursor=pointer]
+  - generic [ref=e135]:
+    - navigation [ref=e136]:
+      - link "About" [ref=e137] [cursor=pointer]:
+        - /url: http://www.tricentis.com/about
+      - link "Products" [ref=e138] [cursor=pointer]:
+        - /url: http://www.tricentis.com/tricentis-tosca-testsuite
+      - link "Events & Webinars" [ref=e139] [cursor=pointer]:
+        - /url: http://www.tricentis.com/events-webinars
+      - link "Resources" [ref=e140] [cursor=pointer]:
+        - /url: http://www.tricentis.com/resources
+      - link "Services" [ref=e141] [cursor=pointer]:
+        - /url: http://www.tricentis.com/services
+    - generic [ref=e142]:
+      - link "" [ref=e143] [cursor=pointer]:
+        - /url: https://www.facebook.com/TRICENTIS
+        - generic [ref=e144] [cursor=pointer]: 
+      - link "" [ref=e145] [cursor=pointer]:
+        - /url: https://twitter.com/Tricentis
+        - generic [ref=e146] [cursor=pointer]: 
+      - link "" [ref=e147] [cursor=pointer]:
+        - /url: https://plus.google.com/108151335013813449490/posts
+        - generic [ref=e148] [cursor=pointer]: 
+    - generic [ref=e149]: Copyright 2021 by Tricentis GmbH. All rights reserved.
+```

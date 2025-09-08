@@ -1,0 +1,640 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Tricentis Logo Vehicle Insurance Application This is a sample application, Version 1.0.1" [ref=e6] [cursor=pointer]:
+        - /url: index.php
+        - img "Tricentis Logo" [ref=e7] [cursor=pointer]
+        - generic [ref=e8] [cursor=pointer]:
+          - heading "Vehicle Insurance Application" [level=1] [ref=e9] [cursor=pointer]
+          - generic [ref=e10] [cursor=pointer]: This is a sample application, Version 1.0.1
+      - generic [ref=e12]:
+        - link " Visit Support!" [ref=e13] [cursor=pointer]:
+          - /url: https://support.tricentis.com
+          - generic [ref=e14] [cursor=pointer]: 
+          - text: Visit Support!
+        - textbox "Search Support..." [ref=e15]
+        - button "" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17] [cursor=pointer]: 
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - text: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Automobile" [ref=e23] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e24]:
+            - link "Truck" [ref=e25] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e26]:
+            - link "Motorcycle" [ref=e27] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e28]:
+            - link "Camper" [ref=e29] [cursor=pointer]:
+              - /url: "#"
+      - link "Request Demo" [ref=e31] [cursor=pointer]:
+        - /url: http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+  - main [ref=e32]:
+    - link "Home" [ref=e35] [cursor=pointer]:
+      - /url: index.php
+  - generic [ref=e36]:
+    - generic [ref=e39]:
+      - navigation
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: Make
+            - combobox [ref=e45] [cursor=pointer]:
+              - option "– please select –"
+              - option "Audi" [selected]
+              - option "BMW"
+              - option "Ford"
+              - option "Honda"
+              - option "Mazda"
+              - option "Mercedes Benz"
+              - option "Nissan"
+              - option "Opel"
+              - option "Porsche"
+              - option "Renault"
+              - option "Skoda"
+              - option "Suzuki"
+              - option "Toyota"
+              - option "Volkswagen"
+              - option "Volvo"
+          - generic [ref=e47]:
+            - generic [ref=e48]: Model
+            - combobox [ref=e49] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "Scooter"
+              - option "Three-Wheeler"
+              - option "Moped"
+              - option "Motorcycle"
+          - generic [ref=e51]:
+            - generic [ref=e52]: Cylinder Capacity [ccm]
+            - textbox [ref=e53]
+          - generic [ref=e55]:
+            - generic [ref=e56]: Engine Performance [kW]
+            - textbox [ref=e57]: "2000"
+          - generic [ref=e59]:
+            - generic [ref=e60]: Date of Manufacture
+            - textbox "MM/DD/YYYY" [ref=e61]: 01/01/2020
+          - generic [ref=e63]:
+            - generic [ref=e64]: Number of Seats
+            - combobox [ref=e65] [cursor=pointer]:
+              - option "– please select –"
+              - option "1"
+              - option "2" [selected]
+              - option "3"
+              - option "4"
+              - option "5"
+              - option "6"
+              - option "7"
+              - option "8"
+              - option "9"
+          - generic [ref=e67]:
+            - generic [ref=e68]: Right Hand Drive
+            - paragraph [ref=e69]:
+              - generic [ref=e70]:
+                - radio "Yes" [ref=e71]
+                - text: "Yes"
+              - generic [ref=e72]:
+                - radio "No" [ref=e73]
+                - text: "No"
+          - generic [ref=e74]:
+            - generic [ref=e75]: Number of Seats
+            - combobox [ref=e76] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "1"
+              - option "2"
+              - option "3"
+          - generic [ref=e78]:
+            - generic [ref=e79]: Fuel Type
+            - combobox [ref=e80] [cursor=pointer]:
+              - option "– please select –"
+              - option "Petrol" [selected]
+              - option "Diesel"
+              - option "Electric Power"
+              - option "Gas"
+              - option "Other"
+          - generic [ref=e82]:
+            - generic [ref=e83]: Payload [kg]
+            - textbox [ref=e84]
+          - generic [ref=e86]:
+            - generic [ref=e87]: Total Weight [kg]
+            - textbox [ref=e88]
+          - generic [ref=e90]:
+            - generic [ref=e91]: List Price [$]
+            - textbox [ref=e92]: "1000"
+          - generic [ref=e94]:
+            - generic [ref=e95]: License Plate Number
+            - textbox [ref=e96]: ABC123
+          - generic [ref=e98]:
+            - generic [ref=e99]: Annual Mileage [mi]
+            - textbox [active] [ref=e100]: "15000"
+          - button "Next »" [ref=e104] [cursor=pointer]
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]: First Name
+            - textbox [ref=e108]
+          - generic [ref=e110]:
+            - generic [ref=e111]: Last Name
+            - textbox [ref=e112]
+          - generic [ref=e114]:
+            - generic [ref=e115]: Date of Birth
+            - textbox "MM/DD/YYYY" [ref=e116]
+          - generic [ref=e118]:
+            - generic [ref=e119]: Gender
+            - paragraph [ref=e120]:
+              - generic [ref=e121]:
+                - radio "Male" [ref=e122]
+                - text: Male
+              - generic [ref=e123]:
+                - radio "Female" [ref=e124]
+                - text: Female
+          - generic [ref=e125]:
+            - generic [ref=e126]: Street Address
+            - textbox [ref=e127]
+          - generic [ref=e129]:
+            - generic [ref=e130]: Country
+            - combobox [ref=e131] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "Andorra"
+              - option "United Arab Emirates"
+              - option "Afghanistan"
+              - option "Antigua and Barbuda"
+              - option "Anguilla"
+              - option "Albania"
+              - option "Armenia"
+              - option "Angola"
+              - option "Antarctica"
+              - option "Argentina"
+              - option "American Samoa"
+              - option "Austria"
+              - option "Australia"
+              - option "Aruba"
+              - option "Åland Islands"
+              - option "Azerbaijan"
+              - option "Bosnia and Herzegovina"
+              - option "Barbados"
+              - option "Bangladesh"
+              - option "Belgium"
+              - option "Burkina Faso"
+              - option "Bulgaria"
+              - option "Bahrain"
+              - option "Burundi"
+              - option "Benin"
+              - option "Saint Barthélemy"
+              - option "Bermuda"
+              - option "Brunei Darussalam"
+              - option "Bolivia - Plurinational State of"
+              - option "Bonaire - Sint Eustatius and Saba"
+              - option "Brazil"
+              - option "Bahamas"
+              - option "Bhutan"
+              - option "Bouvet Island"
+              - option "Botswana"
+              - option "Belarus"
+              - option "Belize"
+              - option "Canada"
+              - option "Cocos (Keeling) Islands"
+              - option "Congo - the Democratic Republic of the"
+              - option "Central African Republic"
+              - option "Congo"
+              - option "Switzerland"
+              - option "Côte d'Ivoire"
+              - option "Cook Islands"
+              - option "Chile"
+              - option "Cameroon"
+              - option "China"
+              - option "Colombia"
+              - option "Costa Rica"
+              - option "Cuba"
+              - option "Cabo Verde"
+              - option "Curaçao"
+              - option "Christmas Island"
+              - option "Cyprus"
+              - option "Czech Republic"
+              - option "Germany"
+              - option "Djibouti"
+              - option "Denmark"
+              - option "Dominica"
+              - option "Dominican Republic"
+              - option "Algeria"
+              - option "Ecuador"
+              - option "Estonia"
+              - option "Egypt"
+              - option "Western Sahara"
+              - option "Eritrea"
+              - option "Spain"
+              - option "Ethiopia"
+              - option "Finland"
+              - option "Fiji"
+              - option "Falkland Islands (Malvinas)"
+              - option "Micronesia - Federated States of"
+              - option "Faroe Islands"
+              - option "France"
+              - option "Gabon"
+              - option "United Kingdom"
+              - option "Grenada"
+              - option "Georgia"
+              - option "French Guiana"
+              - option "Guernsey"
+              - option "Ghana"
+              - option "Gibraltar"
+              - option "Greenland"
+              - option "Gambia"
+              - option "Guinea"
+              - option "Guadeloupe"
+              - option "Equatorial Guinea"
+              - option "Greece"
+              - option "South Georgia and the South Sandwich Islands"
+              - option "Guatemala"
+              - option "Guam"
+              - option "Guinea-Bissau"
+              - option "Guyana"
+              - option "Hong Kong"
+              - option "Heard Island and McDonald Islands"
+              - option "Honduras"
+              - option "Croatia"
+              - option "Haiti"
+              - option "Hungary"
+              - option "Indonesia"
+              - option "Ireland"
+              - option "Israel"
+              - option "Isle of Man"
+              - option "India"
+              - option "British Indian Ocean Territory"
+              - option "Iraq"
+              - option "Iran - Islamic Republic of"
+              - option "Iceland"
+              - option "Italy"
+              - option "Jersey"
+              - option "Jamaica"
+              - option "Jordan"
+              - option "Japan"
+              - option "Kenya"
+              - option "Kyrgyzstan"
+              - option "Cambodia"
+              - option "Kiribati"
+              - option "Comoros"
+              - option "Saint Kitts and Nevis"
+              - option "Korea - Democratic People's Republic of"
+              - option "Korea - Republic of"
+              - option "Kuwait"
+              - option "Cayman Islands"
+              - option "Kazakhstan"
+              - option "Lao People's Democratic Republic"
+              - option "Lebanon"
+              - option "Saint Lucia"
+              - option "Liechtenstein"
+              - option "Sri Lanka"
+              - option "Liberia"
+              - option "Lesotho"
+              - option "Lithuania"
+              - option "Luxembourg"
+              - option "Latvia"
+              - option "Libya"
+              - option "Morocco"
+              - option "Monaco"
+              - option "Moldova - Republic of"
+              - option "Montenegro"
+              - option "Saint Martin (French part)"
+              - option "Madagascar"
+              - option "Marshall Islands"
+              - option "Macedonia - the former Yugoslav Republic of"
+              - option "Mali"
+              - option "Myanmar"
+              - option "Mongolia"
+              - option "Macao"
+              - option "Northern Mariana Islands"
+              - option "Martinique"
+              - option "Mauritania"
+              - option "Montserrat"
+              - option "Malta"
+              - option "Mauritius"
+              - option "Maldives"
+              - option "Malawi"
+              - option "Mexico"
+              - option "Malaysia"
+              - option "Mozambique"
+              - option "Namibia"
+              - option "New Caledonia"
+              - option "Niger"
+              - option "Norfolk Island"
+              - option "Nigeria"
+              - option "Nicaragua"
+              - option "Netherlands"
+              - option "Norway"
+              - option "Nepal"
+              - option "Nauru"
+              - option "Niue"
+              - option "New Zealand"
+              - option "Oman"
+              - option "Panama"
+              - option "Peru"
+              - option "French Polynesia"
+              - option "Papua New Guinea"
+              - option "Philippines"
+              - option "Pakistan"
+              - option "Poland"
+              - option "Saint Pierre and Miquelon"
+              - option "Pitcairn"
+              - option "Puerto Rico"
+              - option "Palestine - State of"
+              - option "Portugal"
+              - option "Palau"
+              - option "Paraguay"
+              - option "Qatar"
+              - option "Réunion"
+              - option "Romania"
+              - option "Serbia"
+              - option "Russian Federation"
+              - option "Rwanda"
+              - option "Saudi Arabia"
+              - option "Solomon Islands"
+              - option "Seychelles"
+              - option "Sudan"
+              - option "Sweden"
+              - option "Singapore"
+              - option "Saint Helena - Ascension and Tristan da Cunha"
+              - option "Slovenia"
+              - option "Svalbard and Jan Mayen"
+              - option "Slovakia"
+              - option "Sierra Leone"
+              - option "San Marino"
+              - option "Senegal"
+              - option "Somalia"
+              - option "Suriname"
+              - option "South Sudan"
+              - option "Sao Tome and Principe"
+              - option "El Salvador"
+              - option "Sint Maarten (Dutch part)"
+              - option "Syrian Arab Republic"
+              - option "Swaziland"
+              - option "Turks and Caicos Islands"
+              - option "Chad"
+              - option "French Southern Territories"
+              - option "Togo"
+              - option "Thailand"
+              - option "Tajikistan"
+              - option "Tokelau"
+              - option "Timor-Leste"
+              - option "Turkmenistan"
+              - option "Tunisia"
+              - option "Tonga"
+              - option "Turkey"
+              - option "Trinidad and Tobago"
+              - option "Tuvalu"
+              - option "Taiwan - Province of China"
+              - option "Tanzania - United Republic of"
+              - option "Ukraine"
+              - option "Uganda"
+              - option "United States Minor Outlying Islands"
+              - option "United States"
+              - option "Uruguay"
+              - option "Uzbekistan"
+              - option "Holy See (Vatican City State)"
+              - option "Saint Vincent and the Grenadines"
+              - option "Venezuela - Bolivarian Republic of"
+              - option "Virgin Islands - British"
+              - option "Virgin Islands - U.S."
+              - option "Viet Nam"
+              - option "Vanuatu"
+              - option "Wallis and Futuna"
+              - option "Samoa"
+              - option "Yemen"
+              - option "Mayotte"
+              - option "South Africa"
+              - option "Zambia"
+              - option "Zimbabwe"
+          - generic [ref=e133]:
+            - generic [ref=e134]: Zip Code
+            - textbox [ref=e135]
+          - generic [ref=e137]:
+            - generic [ref=e138]: City
+            - textbox [ref=e139]
+          - generic [ref=e140]:
+            - generic [ref=e141]: Occupation
+            - combobox [ref=e142] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "Employee"
+              - option "Public Official"
+              - option "Farmer"
+              - option "Unemployed"
+              - option "Selfemployed"
+          - generic [ref=e144]:
+            - generic [ref=e145]: Hobbies
+            - paragraph [ref=e146]:
+              - generic [ref=e147]:
+                - checkbox "Speeding" [ref=e148]
+                - text: Speeding
+              - generic [ref=e149]:
+                - checkbox "Bungee Jumping" [ref=e150]
+                - text: Bungee Jumping
+              - generic [ref=e151]:
+                - checkbox "Cliff Diving" [ref=e152]
+                - text: Cliff Diving
+              - generic [ref=e153]:
+                - checkbox "Skydiving" [ref=e154]
+                - text: Skydiving
+              - generic [ref=e155]:
+                - checkbox "Other" [ref=e156]
+                - text: Other
+          - generic [ref=e158]:
+            - generic [ref=e159]: Website
+            - textbox [ref=e160]
+          - generic [ref=e162]:
+            - generic [ref=e163]: Picture
+            - button "Choose File" [ref=e164]
+          - generic [ref=e166]:
+            - button "« Prev" [ref=e168] [cursor=pointer]
+            - button "Next »" [ref=e169] [cursor=pointer]
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - generic [ref=e172]: Start Date
+            - textbox "MM/DD/YYYY" [ref=e173]
+          - generic [ref=e175]:
+            - generic [ref=e176]: Insurance Sum [$]
+            - combobox [ref=e177] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "3.000.000,00"
+              - option "5.000.000,00"
+              - option "7.000.000,00"
+              - option "10.000.000,00"
+              - option "15.000.000,00"
+              - option "20.000.000,00"
+              - option "25.000.000,00"
+              - option "30.000.000,00"
+              - option "35.000.000,00"
+          - generic [ref=e179]:
+            - generic [ref=e180]: Merit Rating
+            - combobox [ref=e181] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "Super Bonus"
+              - option "Bonus 1"
+              - option "Bonus 2"
+              - option "Bonus 3"
+              - option "Bonus 4"
+              - option "Bonus 5"
+              - option "Bonus 6"
+              - option "Bonus 7"
+              - option "Bonus 8"
+              - option "Bonus 9"
+              - option "Malus 10"
+              - option "Malus 11"
+              - option "Malus 12"
+              - option "Malus 13"
+              - option "Malus 14"
+              - option "Malus 15"
+              - option "Malus 16"
+              - option "Malus 17"
+          - generic [ref=e183]:
+            - generic [ref=e184]: Damage Insurance
+            - combobox [ref=e185] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "No Coverage"
+              - option "Partial Coverage"
+              - option "Full Coverage"
+          - generic [ref=e187]:
+            - generic [ref=e188]: Optional Products
+            - paragraph [ref=e189]:
+              - generic [ref=e190]:
+                - checkbox "Euro Protection" [ref=e191]
+                - text: Euro Protection
+              - generic [ref=e192]:
+                - checkbox "Legal Defense Insurance" [ref=e193]
+                - text: Legal Defense Insurance
+          - generic [ref=e195]:
+            - generic [ref=e196]: Courtesy Car
+            - combobox [ref=e197] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "No"
+              - option "Yes"
+          - generic [ref=e199]:
+            - button "« Prev" [ref=e201] [cursor=pointer]
+            - button "Next »" [ref=e202] [cursor=pointer]
+        - generic [ref=e203]:
+          - paragraph [ref=e205]: Please, complete the first three steps to see the price table.
+          - generic [ref=e206]:
+            - table [ref=e208]:
+              - rowgroup [ref=e209]:
+                - row "Silver Gold Platinum Ultimate" [ref=e210]:
+                  - cell [ref=e211]
+                  - cell "Silver" [ref=e212]
+                  - cell "Gold" [ref=e213]
+                  - cell "Platinum" [ref=e214]
+                  - cell "Ultimate" [ref=e215]
+              - rowgroup [ref=e216]:
+                - row "Price per Year ($) 122 233 344 455" [ref=e217]:
+                  - cell "Price per Year ($)" [ref=e218]
+                  - cell "122" [ref=e219]:
+                    - generic [ref=e220]: "122"
+                  - cell "233" [ref=e221]:
+                    - generic [ref=e222]: "233"
+                  - cell "344" [ref=e223]:
+                    - generic [ref=e224]: "344"
+                  - cell "455" [ref=e225]:
+                    - generic [ref=e226]: "455"
+                - row "Online Claim No Submit Submit Submit" [ref=e227]:
+                  - cell "Online Claim" [ref=e228]
+                  - cell "No" [ref=e229]
+                  - cell "Submit" [ref=e230]
+                  - cell "Submit" [ref=e231]
+                  - cell "Submit" [ref=e232]
+                - row "Claims Discount (%) No 2 5 10" [ref=e233]:
+                  - cell "Claims Discount (%)" [ref=e234]
+                  - cell "No" [ref=e235]
+                  - cell "2" [ref=e236]
+                  - cell "5" [ref=e237]
+                  - cell "10" [ref=e238]
+                - row "Worldwide Cover No Limited Limited Unlimited" [ref=e239]:
+                  - cell "Worldwide Cover" [ref=e240]
+                  - cell "No" [ref=e241]
+                  - cell "Limited" [ref=e242]
+                  - cell "Limited" [ref=e243]
+                  - cell "Unlimited" [ref=e244]
+              - rowgroup [ref=e245]:
+                - row "Select Option" [ref=e246]:
+                  - cell "Select Option" [ref=e247]
+                  - cell [ref=e248]:
+                    - radio [ref=e250]
+                    - radio [ref=e252]
+                    - radio [ref=e254]
+                    - radio [ref=e256]
+            - text:  
+        - generic [ref=e258]:
+          - paragraph [ref=e260]: Please, select a price option to send the quote.
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - generic [ref=e263]: E-Mail
+              - textbox [ref=e264]
+            - generic [ref=e266]:
+              - generic [ref=e267]: Phone
+              - textbox [ref=e268]
+            - generic [ref=e270]:
+              - generic [ref=e271]: Username
+              - textbox [ref=e272]
+            - generic [ref=e274]:
+              - generic [ref=e275]: Password
+              - textbox [ref=e276]
+            - generic [ref=e278]:
+              - generic [ref=e279]: Confirm Password
+              - textbox [ref=e280]
+            - generic [ref=e282]:
+              - generic [ref=e283]: Comments
+              - textbox [ref=e284]
+            - generic [ref=e286]:
+              - button "« Prev" [ref=e288] [cursor=pointer]
+              - button "« Send »" [ref=e289] [cursor=pointer]
+            - generic [ref=e291]:
+              - generic [ref=e293]:
+                - link "" [ref=e295] [cursor=pointer]:
+                  - /url: index.php
+                  - generic [ref=e297] [cursor=pointer]: 
+                - generic [ref=e298]: Main page
+              - generic [ref=e300]:
+                - link "" [ref=e302] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e304] [cursor=pointer]: 
+                - generic [ref=e305]: New Automobile Insurance
+              - generic [ref=e307]:
+                - link "" [ref=e309] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e311] [cursor=pointer]: 
+                - generic [ref=e312]: New Truck Insurance
+              - generic [ref=e314]:
+                - link "" [ref=e316] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e318] [cursor=pointer]: 
+                - generic [ref=e319]: New Motorcycle Insurance
+              - generic [ref=e321]:
+                - link "" [ref=e323] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e325] [cursor=pointer]: 
+                - generic [ref=e326]: New Camper Insurance
+    - generic [ref=e329]:
+      - navigation [ref=e330]:
+        - link "About" [ref=e331] [cursor=pointer]:
+          - /url: http://www.tricentis.com/about
+        - link "Products" [ref=e332] [cursor=pointer]:
+          - /url: http://www.tricentis.com/tricentis-tosca-testsuite
+        - link "Events & Webinars" [ref=e333] [cursor=pointer]:
+          - /url: http://www.tricentis.com/events-webinars
+        - link "Resources" [ref=e334] [cursor=pointer]:
+          - /url: http://www.tricentis.com/resources
+        - link "Services" [ref=e335] [cursor=pointer]:
+          - /url: http://www.tricentis.com/services
+      - generic [ref=e336]:
+        - link "" [ref=e337] [cursor=pointer]:
+          - /url: https://www.facebook.com/TRICENTIS
+          - generic [ref=e338] [cursor=pointer]: 
+        - link "" [ref=e339] [cursor=pointer]:
+          - /url: https://twitter.com/Tricentis
+          - generic [ref=e340] [cursor=pointer]: 
+        - link "" [ref=e341] [cursor=pointer]:
+          - /url: https://plus.google.com/108151335013813449490/posts
+          - generic [ref=e342] [cursor=pointer]: 
+      - generic [ref=e343]: Copyright 2021 by Tricentis GmbH. All rights reserved.
+```
