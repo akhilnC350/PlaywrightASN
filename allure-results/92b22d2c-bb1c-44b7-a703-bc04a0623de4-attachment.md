@@ -1,0 +1,257 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e8] [cursor=pointer]:
+        - link [ref=f1e10] [cursor=pointer]:
+          - /url: https://clck.mgid.com/ghits/24627646/i/58092114/0/pp/1/4?h=GhX7thNSlaux6TAi6CgcysPvY6YTPy2jT26BoIwV1LcvjDqTgzigoVWW9iDLSqdW_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf5nGITtH2GS0HXGK1TuFZ4K&rid=e2e7402f-8e5a-11f0-b306-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8a5-Ww9nVt8&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa0S7QsOb4TyE5H_wq1CwLY0HH-u_5JZgeRgEIlwY4x2w**
+        - generic [ref=f1e13] [cursor=pointer]:
+          - link "डायबिटीज़ से छुटकारा पाने का असली रहस्य आखिर उजागर हुआ" [ref=f1e15] [cursor=pointer]:
+            - /url: https://clck.mgid.com/ghits/24627646/i/58092114/0/pp/1/4?h=GhX7thNSlaux6TAi6CgcysPvY6YTPy2jT26BoIwV1LcvjDqTgzigoVWW9iDLSqdW_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf5nGITtH2GS0HXGK1TuFZ4K&rid=e2e7402f-8e5a-11f0-b306-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8a5-Ww9nVt8&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa0S7QsOb4TyE5H_wq1CwLY0HH-u_5JZgeRgEIlwY4x2w**
+          - link "Sugar Shield" [ref=f1e17] [cursor=pointer]:
+            - /url: https://clck.mgid.com/ghits/24627646/i/58092114/0/pp/1/4?h=GhX7thNSlaux6TAi6CgcysPvY6YTPy2jT26BoIwV1LcvjDqTgzigoVWW9iDLSqdW_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf5nGITtH2GS0HXGK1TuFZ4K&rid=e2e7402f-8e5a-11f0-b306-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8a5-Ww9nVt8&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa0S7QsOb4TyE5H_wq1CwLY0HH-u_5JZgeRgEIlwY4x2w**
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e23] [cursor=pointer]:
+              - img [ref=e25] [cursor=pointer]
+              - text: Elements
+            - img [ref=e30] [cursor=pointer]
+          - list [ref=e35]:
+            - listitem [ref=e36] [cursor=pointer]:
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: Text Box
+            - listitem [ref=e40] [cursor=pointer]:
+              - img [ref=e41] [cursor=pointer]
+              - generic [ref=e43] [cursor=pointer]: Check Box
+            - listitem [ref=e44] [cursor=pointer]:
+              - img [ref=e45] [cursor=pointer]
+              - generic [ref=e47] [cursor=pointer]: Radio Button
+            - listitem [ref=e48] [cursor=pointer]:
+              - img [ref=e49] [cursor=pointer]
+              - generic [ref=e51] [cursor=pointer]: Web Tables
+            - listitem [ref=e52] [cursor=pointer]:
+              - img [ref=e53] [cursor=pointer]
+              - generic [ref=e55] [cursor=pointer]: Buttons
+            - listitem [ref=e56] [cursor=pointer]:
+              - img [ref=e57] [cursor=pointer]
+              - generic [ref=e59] [cursor=pointer]: Links
+            - listitem [ref=e60] [cursor=pointer]:
+              - img [ref=e61] [cursor=pointer]
+              - generic [ref=e63] [cursor=pointer]: Broken Links - Images
+            - listitem [ref=e64] [cursor=pointer]:
+              - img [ref=e65] [cursor=pointer]
+              - generic [ref=e67] [cursor=pointer]: Upload and Download
+            - listitem [ref=e68] [cursor=pointer]:
+              - img [ref=e69] [cursor=pointer]
+              - generic [ref=e71] [cursor=pointer]: Dynamic Properties
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75] [cursor=pointer]:
+            - img [ref=e77] [cursor=pointer]
+            - text: Forms
+          - img [ref=e83] [cursor=pointer]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90] [cursor=pointer]:
+            - img [ref=e92] [cursor=pointer]
+            - text: Alerts, Frame & Windows
+          - img [ref=e97] [cursor=pointer]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104] [cursor=pointer]:
+            - img [ref=e106] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e111] [cursor=pointer]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118] [cursor=pointer]:
+            - img [ref=e120] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e125] [cursor=pointer]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132] [cursor=pointer]:
+            - img [ref=e134] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e139] [cursor=pointer]
+      - generic [ref=e143]:
+        - iframe [ref=e146]:
+          - generic [ref=f2e8] [cursor=pointer]:
+            - link [ref=f2e10] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24627662/i/58092122/0/pp/1/1?h=edwuwNuT0UGODQGK1rUzvA1jeY3HNJI2aVc7qdcuKxwrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4kMAF-mvsN8cHGMxXGsttm&rid=f8f144c2-8e5a-11f0-bd5a-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**&muid=p8a5-Ww9nVt8
+            - generic [ref=f2e13] [cursor=pointer]:
+              - link "Sugar Shield" [ref=f2e15] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627662/i/58092122/0/pp/1/1?h=edwuwNuT0UGODQGK1rUzvA1jeY3HNJI2aVc7qdcuKxwrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4kMAF-mvsN8cHGMxXGsttm&rid=f8f144c2-8e5a-11f0-bd5a-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**&muid=p8a5-Ww9nVt8
+              - link "इस विधि ने मधुमेह को कंट्रोल करने में मेरी बहुत मदद की" [ref=f2e17] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627662/i/58092122/0/pp/1/1?h=edwuwNuT0UGODQGK1rUzvA1jeY3HNJI2aVc7qdcuKxwrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4kMAF-mvsN8cHGMxXGsttm&rid=f8f144c2-8e5a-11f0-bd5a-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**&muid=p8a5-Ww9nVt8
+              - link "और जानें→" [ref=f2e19] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627662/i/58092122/0/pp/1/1?h=edwuwNuT0UGODQGK1rUzvA1jeY3HNJI2aVc7qdcuKxwrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4kMAF-mvsN8cHGMxXGsttm&rid=f8f144c2-8e5a-11f0-bd5a-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**&muid=p8a5-Ww9nVt8
+                - text: और जानें
+                - generic [ref=f2e20] [cursor=pointer]: →
+        - heading "Web Tables" [level=1] [ref=e147]
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - button "Add" [ref=e151] [cursor=pointer]
+            - generic [ref=e153]:
+              - textbox "Type to search" [ref=e154]
+              - img [ref=e158]
+          - generic [ref=e161]:
+            - grid [ref=e162]:
+              - row "First Name Last Name Age Email Salary Department Action" [ref=e164]:
+                - columnheader "First Name" [ref=e165] [cursor=pointer]:
+                  - generic [ref=e166] [cursor=pointer]: First Name
+                - columnheader "Last Name" [ref=e168] [cursor=pointer]:
+                  - generic [ref=e169] [cursor=pointer]: Last Name
+                - columnheader "Age" [ref=e171] [cursor=pointer]:
+                  - generic [ref=e172] [cursor=pointer]: Age
+                - columnheader "Email" [ref=e174] [cursor=pointer]:
+                  - generic [ref=e175] [cursor=pointer]: Email
+                - columnheader "Salary" [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178] [cursor=pointer]: Salary
+                - columnheader "Department" [ref=e180] [cursor=pointer]:
+                  - generic [ref=e181] [cursor=pointer]: Department
+                - columnheader "Action" [ref=e183] [cursor=pointer]:
+                  - generic [ref=e184] [cursor=pointer]: Action
+              - generic [ref=e186]:
+                - rowgroup [ref=e187]:
+                  - row "Cierra Vega 39 cierra@example.com 10000 Insurance Edit Delete" [ref=e188]:
+                    - gridcell "Cierra" [ref=e189]
+                    - gridcell "Vega" [ref=e190]
+                    - gridcell "39" [ref=e191]
+                    - gridcell "cierra@example.com" [ref=e192]
+                    - gridcell "10000" [ref=e193]
+                    - gridcell "Insurance" [ref=e194]
+                    - gridcell "Edit Delete" [ref=e195]:
+                      - generic [ref=e196]:
+                        - img [ref=e198] [cursor=pointer]
+                        - img [ref=e201] [cursor=pointer]
+                - rowgroup [ref=e203]:
+                  - row "Alden Cantrell 45 alden@example.com 12000 Compliance Edit Delete" [ref=e204]:
+                    - gridcell "Alden" [ref=e205]
+                    - gridcell "Cantrell" [ref=e206]
+                    - gridcell "45" [ref=e207]
+                    - gridcell "alden@example.com" [ref=e208]
+                    - gridcell "12000" [ref=e209]
+                    - gridcell "Compliance" [ref=e210]
+                    - gridcell "Edit Delete" [ref=e211]:
+                      - generic [ref=e212]:
+                        - img [ref=e214] [cursor=pointer]
+                        - img [ref=e217] [cursor=pointer]
+                - rowgroup [ref=e219]:
+                  - row "Kierra Gentry 29 kierra@example.com 2000 Legal Edit Delete" [ref=e220]:
+                    - gridcell "Kierra" [ref=e221]
+                    - gridcell "Gentry" [ref=e222]
+                    - gridcell "29" [ref=e223]
+                    - gridcell "kierra@example.com" [ref=e224]
+                    - gridcell "2000" [ref=e225]
+                    - gridcell "Legal" [ref=e226]
+                    - gridcell "Edit Delete" [ref=e227]:
+                      - generic [ref=e228]:
+                        - img [ref=e230] [cursor=pointer]
+                        - img [ref=e233] [cursor=pointer]
+                - rowgroup [ref=e235]:
+                  - row [ref=e236]:
+                    - gridcell [ref=e237]
+                    - gridcell [ref=e239]
+                    - gridcell [ref=e241]
+                    - gridcell [ref=e243]
+                    - gridcell [ref=e245]
+                    - gridcell [ref=e247]
+                    - gridcell [ref=e249]
+                - rowgroup [ref=e251]:
+                  - row [ref=e252]:
+                    - gridcell [ref=e253]
+                    - gridcell [ref=e255]
+                    - gridcell [ref=e257]
+                    - gridcell [ref=e259]
+                    - gridcell [ref=e261]
+                    - gridcell [ref=e263]
+                    - gridcell [ref=e265]
+                - rowgroup [ref=e267]:
+                  - row [ref=e268]:
+                    - gridcell [ref=e269]
+                    - gridcell [ref=e271]
+                    - gridcell [ref=e273]
+                    - gridcell [ref=e275]
+                    - gridcell [ref=e277]
+                    - gridcell [ref=e279]
+                    - gridcell [ref=e281]
+                - rowgroup [ref=e283]:
+                  - row [ref=e284]:
+                    - gridcell [ref=e285]
+                    - gridcell [ref=e287]
+                    - gridcell [ref=e289]
+                    - gridcell [ref=e291]
+                    - gridcell [ref=e293]
+                    - gridcell [ref=e295]
+                    - gridcell [ref=e297]
+                - rowgroup [ref=e299]:
+                  - row [ref=e300]:
+                    - gridcell [ref=e301]
+                    - gridcell [ref=e303]
+                    - gridcell [ref=e305]
+                    - gridcell [ref=e307]
+                    - gridcell [ref=e309]
+                    - gridcell [ref=e311]
+                    - gridcell [ref=e313]
+                - rowgroup [ref=e315]:
+                  - row [ref=e316]:
+                    - gridcell [ref=e317]
+                    - gridcell [ref=e319]
+                    - gridcell [ref=e321]
+                    - gridcell [ref=e323]
+                    - gridcell [ref=e325]
+                    - gridcell [ref=e327]
+                    - gridcell [ref=e329]
+                - rowgroup [ref=e331]:
+                  - row [ref=e332]:
+                    - gridcell [ref=e333]
+                    - gridcell [ref=e335]
+                    - gridcell [ref=e337]
+                    - gridcell [ref=e339]
+                    - gridcell [ref=e341]
+                    - gridcell [ref=e343]
+                    - gridcell [ref=e345]
+            - generic [ref=e348]:
+              - button "Previous" [disabled] [ref=e350]
+              - generic [ref=e351]:
+                - generic [ref=e352]:
+                  - text: Page
+                  - spinbutton "jump to page" [ref=e354]: "1"
+                  - text: of
+                  - generic [ref=e355]: "1"
+                - combobox "rows per page" [ref=e357]:
+                  - option "5 rows"
+                  - option "10 rows" [selected]
+                  - option "20 rows"
+                  - option "25 rows"
+                  - option "50 rows"
+                  - option "100 rows"
+              - button "Next" [disabled] [ref=e359]
+            - generic:
+              - generic: Loading...
+      - generic [ref=e365]:
+        - img "Build PlayWright tests with AI" [ref=e367] [cursor=pointer]
+        - iframe [ref=e370]:
+          - generic [ref=f3e7] [cursor=pointer]:
+            - link [ref=f3e8] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/1?h=edwuwNuT0UGODQGK1rUzvGRLPbie3qrXVmKrSuOIrmYGnsTNAwEXO2nTXE88aKmp_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrcRJ2yquYmA7aX9gyd1Iu1I&rid=f8e2a6ed-8e5a-11f0-bd59-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa0S7QsOb4TyE5H_wq1CwLY0HH-u_5JZgeRgEIlwY4x2w**&k=1761661fc*f!fZk4P3GNfZk4P5w5fNGExNGJiOWY0MjRkZGRhZTRmMjE0NGY4YzZhNmZjNTI%3DfMnwxNjA%3Df!ffff!ff%2C*f%2C*ffQf%3AfaHR0cHM6Ly9hMDc3NTQxMmRlNjJjYzUyYzYwMTBlOTUyNzg3ZTRlOC5zYWZlZnJhbWUuZ29vZ2xlc3luZGljYXRpb24uY29tL3NhZmVmcmFtZ%248xLTAtNDUvaHRtbC9jb250YWluZXIuaHRtbA%3D%3DfaHR0cHM6Ly9kZW1vcWEuY29tLw%3D%3DfaHR0cHM6Ly9kZW1vcWEuY29tLw%3D%3Df%3BfMnwxNjB8MHwwffIf%3BfcfMjUw*DMwMHww*DA%3DfUAfLQff!fTW96aWxsY%2481LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChL%24FRNTCwgbGlrZ%24BHZWNrbykgQ2hyb21lLzE0MC4wLjczMzkuMTYgU2FmYXJpLzUzNy4zNg%3D%3DfUERGVmlld2Vy*ENocm9tZVBERlZpZXdlcnxDaHJvbWl1bVBERlZpZXdlcnxNaWNyb3NvZnRFZGdlUERGVmlld2Vy*FdlYktpdGJ1aWx0LWluUERGf!fV2luMzI%3DfMzMwfMHwyMA%3D%3DfMTI4MHw2ODA%3DfdW5rbm93bnw0Z3wwfKfKfQfKlQWX%24ff*(TVZ4T%3A&crst=1757518182&wrst=1757518181&muid=p8a5-Ww9nVt8
+            - generic [ref=f3e9] [cursor=pointer]:
+              - link [ref=f3e11] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/1?h=edwuwNuT0UGODQGK1rUzvGRLPbie3qrXVmKrSuOIrmYGnsTNAwEXO2nTXE88aKmp_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrcRJ2yquYmA7aX9gyd1Iu1I&rid=f8e2a6ed-8e5a-11f0-bd59-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa0S7QsOb4TyE5H_wq1CwLY0HH-u_5JZgeRgEIlwY4x2w**&muid=p8a5-Ww9nVt8
+              - generic [ref=f3e14] [cursor=pointer]:
+                - link "Himalaya Herbal Age Defying Hand Cream" [ref=f3e16] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/1?h=edwuwNuT0UGODQGK1rUzvGRLPbie3qrXVmKrSuOIrmYGnsTNAwEXO2nTXE88aKmp_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrcRJ2yquYmA7aX9gyd1Iu1I&rid=f8e2a6ed-8e5a-11f0-bd59-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa0S7QsOb4TyE5H_wq1CwLY0HH-u_5JZgeRgEIlwY4x2w**&muid=p8a5-Ww9nVt8
+                - link "Amazon" [ref=f3e18] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/1?h=edwuwNuT0UGODQGK1rUzvGRLPbie3qrXVmKrSuOIrmYGnsTNAwEXO2nTXE88aKmp_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrcRJ2yquYmA7aX9gyd1Iu1I&rid=f8e2a6ed-8e5a-11f0-bd59-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa0S7QsOb4TyE5H_wq1CwLY0HH-u_5JZgeRgEIlwY4x2w**&muid=p8a5-Ww9nVt8
+                - link [ref=f3e19] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/1?h=edwuwNuT0UGODQGK1rUzvGRLPbie3qrXVmKrSuOIrmYGnsTNAwEXO2nTXE88aKmp_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrcRJ2yquYmA7aX9gyd1Iu1I&rid=f8e2a6ed-8e5a-11f0-bd59-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa0S7QsOb4TyE5H_wq1CwLY0HH-u_5JZgeRgEIlwY4x2w**&muid=p8a5-Ww9nVt8
+                  - img [ref=f3e20] [cursor=pointer]
+    - contentinfo [ref=e371]:
+      - generic [ref=e372]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

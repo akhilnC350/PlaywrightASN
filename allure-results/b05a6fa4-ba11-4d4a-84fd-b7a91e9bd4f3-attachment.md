@@ -1,0 +1,125 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e23] [cursor=pointer]:
+              - img [ref=e25] [cursor=pointer]
+              - text: Elements
+            - img [ref=e30] [cursor=pointer]
+          - list [ref=e35]:
+            - listitem [ref=e36] [cursor=pointer]:
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: Text Box
+            - listitem [ref=e40] [cursor=pointer]:
+              - img [ref=e41] [cursor=pointer]
+              - generic [ref=e43] [cursor=pointer]: Check Box
+            - listitem [ref=e44] [cursor=pointer]:
+              - img [ref=e45] [cursor=pointer]
+              - generic [ref=e47] [cursor=pointer]: Radio Button
+            - listitem [ref=e48] [cursor=pointer]:
+              - img [ref=e49] [cursor=pointer]
+              - generic [ref=e51] [cursor=pointer]: Web Tables
+            - listitem [ref=e52] [cursor=pointer]:
+              - img [ref=e53] [cursor=pointer]
+              - generic [ref=e55] [cursor=pointer]: Buttons
+            - listitem [ref=e56] [cursor=pointer]:
+              - img [ref=e57] [cursor=pointer]
+              - generic [ref=e59] [cursor=pointer]: Links
+            - listitem [ref=e60] [cursor=pointer]:
+              - img [ref=e61] [cursor=pointer]
+              - generic [ref=e63] [cursor=pointer]: Broken Links - Images
+            - listitem [ref=e64] [cursor=pointer]:
+              - img [ref=e65] [cursor=pointer]
+              - generic [ref=e67] [cursor=pointer]: Upload and Download
+            - listitem [ref=e68] [cursor=pointer]:
+              - img [ref=e69] [cursor=pointer]
+              - generic [ref=e71] [cursor=pointer]: Dynamic Properties
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75] [cursor=pointer]:
+            - img [ref=e77] [cursor=pointer]
+            - text: Forms
+          - img [ref=e83] [cursor=pointer]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90] [cursor=pointer]:
+            - img [ref=e92] [cursor=pointer]
+            - text: Alerts, Frame & Windows
+          - img [ref=e97] [cursor=pointer]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104] [cursor=pointer]:
+            - img [ref=e106] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e111] [cursor=pointer]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118] [cursor=pointer]:
+            - img [ref=e120] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e125] [cursor=pointer]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132] [cursor=pointer]:
+            - img [ref=e134] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e139] [cursor=pointer]
+      - generic [ref=e143]:
+        - heading "Check Box" [level=1] [ref=e144]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - button "Expand all" [ref=e148] [cursor=pointer]:
+              - img [ref=e149] [cursor=pointer]: 
+            - button "Collapse all" [ref=e151] [cursor=pointer]:
+              - img [ref=e152] [cursor=pointer]: 
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - generic [ref=e156]:
+                - button "Toggle" [active] [ref=e157] [cursor=pointer]:
+                  - img [ref=e158] [cursor=pointer]: 
+                - generic [ref=e160] [cursor=pointer]:
+                  - img [ref=e162] [cursor=pointer]: 
+                  - img [ref=e165] [cursor=pointer]: 
+                  - generic [ref=e167] [cursor=pointer]: Home
+              - list [ref=e168]:
+                - listitem [ref=e169]:
+                  - generic [ref=e170]:
+                    - button "Toggle" [ref=e171] [cursor=pointer]:
+                      - img [ref=e172] [cursor=pointer]: 
+                    - generic [ref=e174] [cursor=pointer]:
+                      - img [ref=e176] [cursor=pointer]: 
+                      - img [ref=e179] [cursor=pointer]: 
+                      - generic [ref=e181] [cursor=pointer]: Desktop
+                - listitem [ref=e182]:
+                  - generic [ref=e183]:
+                    - button "Toggle" [ref=e184] [cursor=pointer]:
+                      - img [ref=e185] [cursor=pointer]: 
+                    - generic [ref=e187] [cursor=pointer]:
+                      - img [ref=e189] [cursor=pointer]: 
+                      - img [ref=e192] [cursor=pointer]: 
+                      - generic [ref=e194] [cursor=pointer]: Documents
+                - listitem [ref=e195]:
+                  - generic [ref=e196]:
+                    - button "Toggle" [ref=e197] [cursor=pointer]:
+                      - img [ref=e198] [cursor=pointer]: 
+                    - generic [ref=e200] [cursor=pointer]:
+                      - img [ref=e202] [cursor=pointer]: 
+                      - img [ref=e205] [cursor=pointer]: 
+                      - generic [ref=e207] [cursor=pointer]: Downloads
+        - iframe [ref=e211]:
+          
+      - generic [ref=e216]:
+        - img "Build PlayWright tests with AI" [ref=e218] [cursor=pointer]
+        - iframe [ref=e221]:
+          
+    - contentinfo [ref=e222]:
+      - generic [ref=e223]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
