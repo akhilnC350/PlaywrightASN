@@ -1,0 +1,463 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [active] [ref=e9]:
+      - generic [ref=f1e2]:
+        - link "Advertisement" [active] [ref=f1e4] [cursor=pointer]:
+          - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjstWMQEeiYoxKF6owvTP9qk7uhKMofUFUkrKImEl8G70yF-jv8YOZO88Wmxajd4T01HEHSzCn-80JEawVcQwEszr9CDMOaJgu8icxKoj8OxKvypS1XVdOTN9g6udot-aof2a16K-qU3potcJGQ3GNsWgSbEI1BXvZA8jXn__jeaXQvh1FWXhatwmpxmFOYn31J7OPaS_jDxM0WLT_t9Z5pN2QgZ0BzKUEZeAeX9VZirTOhx1wDZyjXCSpvwmk3Cchmlw4VizYLxoj_S5M5HGx5gdNGcTfbr9qPX9w_9N01qtUO0zfPkkTq00dwMDmmuxqbmsYesxeemxgJmG8ZsPhJo9MwPw-aXtxbfWru42j7YuFSf8gLbvXCyQmQ6MJwdAKWPSCm5Q9rVtKK5I0Wh3QOktNbCOoTk3CNhZ5MAdOpUQ7TOH3jQYXzahHDffXQwfMUvFP9gpwo5As-5Nkjdv9Be0qAyDTTihXNhzg_75N_LpsdHqEK7XoaTz5z5r9jrieUnPkweG6KbeKbl8yqsK9-5GPYKbwfLAN_-wd-PpLcmJ7Ei-mwVdpU1hfxf2qUK4IwDP2CScwWyWA8La8jmNUpLfg84dDq_5uHQVLspnh2xtdQNlDmY2b6gIVFwzvHSFGtEfnUCA6Jo8ZLLgSD8u0k6LMaDufvZgceBsaaZy2FnS3ekDD1oVhcw_hwMXRoICCHVLtZ4frS9lDB2QGJcud9DosKkM1fUIHjlmSuWYJwev-oD02moVTyS-4a0K3loIrKztdqB0kI9oT0Y2PEo1hXwcLmdgQR7kv6PG68qw2O3YfimUHNvyaMrftqewxgQ2cF8mMA_a87XW6YqgEOmmdCa6Yo3YDe37ssxWopMlV5Lt1GHk8d3VtuJ5U2XoJvDyidD39xk7h-QgF3JnI0LkH0SKEVgYsnP9jqZs88-vKtiXIZnHwdNpDlT7FKYKFX7oDSxb4QAUv0xfk_v0xqXiHi97Te4W3JAcL7J_MBJQSRhtnmAr9QH6AnE7kqC3ppJa8dxy5oCQVW6cg_Gd98FhgyHH1xYF4ujhpHo3tT029ScKG8S0GHR2szU0iIOm9RtOQ8_ZKxXzWFWWOQeN-nvVPnTqb0gxEX8QAuCKmJ6l27sYJxq9QKtd4hrU-MW2pYoR7YNB-OoyJxcEV7hixbRc6QWRv6t16YQBOAUqr96ClZUTYpiqdhECMpUNPvkVV-uy531uvV3K0OwKbXBeZVoGhiaA9ZU60HX_QmTpve7yizLoMXm6a0PJwbHRq__ckAxZntho1jXnXlWxtV1k4q2c-qSso91Dr1of0o7PeS8DYrXdu9yGvbYFL2IR_D-uI7CKAp-sT0Wz-E_1mCaRyBm44Lf__1PJrT9E_QcQ-EeO9bGhcJQSv4fk-SsRI3KAErQyD3qoImaSnTZRFDMifDh9FUtdYTd0tDMsQROuto2yrhP1qKZIi7-pUvFQsLy72j7h_QjX3OiRCbQcD71dMPYnnwLa4w25Bj0ArFN_m-PBQUNUjvgSxcwoZIgpEO5ViycALHQtrIJIbm3PLTTC3yjQL0LhIS9dd1oXi2N3q4DQIK4sfubirn-T1e8&sai=AMfl-YSFFuGEegzOw5tYaB9dYWRzraCCpaesQ3B-BscEAOFbh5brYTCowB9bdnBvzzuSiG5uKoqEAs5NEOgSbyiREkk5w2rBUMagGyoFCBMUR8n9qMYweWOty1FGC6vVyFLhk0QTlYmUU3SlkUeejyDNWaBc39poFcwoBD4fRSVz9Q0NISWKDOPj5AASRSspzKcW4ElWxSxb6gTlMGd9SF2pa8WPQQpdvLc2zc20yGhZWXdPv25GtfDPQRE3-Q2bcr2d3SnYT5aW2Ol24Hv_fxnGEb-e7r744i3R1o9kNpXKOE-s0H9EToXO9mOnhu3r5bcF1yDvHQflzhbtXm1LBf47nZPzdivJrJBZtlUJATz7eZVXoxuo31P6P_9Q9gBBEeprGCCMP8eFB2RRIEHHRuVNKoQ-o-Mx2K1cQ6gvG7QC2i6R9wvEiePHP0JtC-RnBcvA4MoRe1dHPVMwJDuAYGuGLq_WCJs8muLDLZeQhjMZc-dkqTiC1BlaarhhpUxODDAlD-DYF1U33mYOgeZOCDSfZE-69vFZlD_abtByQPUVWxqjbiMA2EqnweaUMmEWkVQJr1w8HDw7jjMvAeAzXbm_CHd8daElfe-KOIedE0TGL7yNZdntIMW3vrszepzlqdu_I_2zRjECYC7C1dL_KTKbWzIf4bawjDGknAZkSaI6vrYsH1d1Jv6X8BrTZRf9uPb74xyUWwU&sig=Cg0ArKJSzPdi1wvoteH6&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9iYWphamFsbGlhbnouY29t&urlfix=1&nx=438&ny=51&dim=970x90&adurl=https://www.bajajallianz.com/health-insurance-online/product%3Futm_source%3DPaidDisplay%26utm_medium%3DCPM%26utm_campaign%3DBranding_HealthInsuranceIA_Sept25_DV_SheildTheirSmiles%26utm_term%3DStatic%26utm_content%3DSheildTheirSmiles%26dclid%3D%25edclid!%26gad_source%3D7
+          - img "Advertisement" [ref=f1e5] [cursor=pointer]
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13] [cursor=pointer]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23] [cursor=pointer]:
+            - img [ref=e25] [cursor=pointer]
+            - text: Elements
+          - img [ref=e30] [cursor=pointer]
+        - generic [ref=e34]:
+          - generic [ref=e36] [cursor=pointer]:
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e39] [cursor=pointer]
+              - text: Forms
+            - img [ref=e45] [cursor=pointer]
+          - list [ref=e50]:
+            - listitem [ref=e51] [cursor=pointer]:
+              - img [ref=e52] [cursor=pointer]
+              - generic [ref=e54] [cursor=pointer]: Practice Form
+        - generic [ref=e57] [cursor=pointer]:
+          - generic [ref=e58] [cursor=pointer]:
+            - img [ref=e60] [cursor=pointer]
+            - text: Alerts, Frame & Windows
+          - img [ref=e65] [cursor=pointer]
+        - generic [ref=e71] [cursor=pointer]:
+          - generic [ref=e72] [cursor=pointer]:
+            - img [ref=e74] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e79] [cursor=pointer]
+        - generic [ref=e85] [cursor=pointer]:
+          - generic [ref=e86] [cursor=pointer]:
+            - img [ref=e88] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e93] [cursor=pointer]
+        - generic [ref=e99] [cursor=pointer]:
+          - generic [ref=e100] [cursor=pointer]:
+            - img [ref=e102] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e107] [cursor=pointer]
+      - generic [ref=e111]:
+        - iframe [ref=e114]:
+          - generic [ref=f2e6]:
+            - generic [ref=f2e8] [cursor=pointer]:
+              - link [ref=f2e10] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627645/i/58092114/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8wk60esi2KPGwjaVkySvZAxztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4DOmrX2GNKwtmPMcWZ4gzT&rid=7cc00ea4-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEuMP5sYG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+              - generic [ref=f2e13] [cursor=pointer]:
+                - link "मधुमेह से पीड़ित व्यक्ति इसे हटाने से पहले तुरंत पढ़ें" [ref=f2e15] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24627645/i/58092114/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8wk60esi2KPGwjaVkySvZAxztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4DOmrX2GNKwtmPMcWZ4gzT&rid=7cc00ea4-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEuMP5sYG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+                - link "Sugar Shield" [ref=f2e17] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24627645/i/58092114/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8wk60esi2KPGwjaVkySvZAxztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4DOmrX2GNKwtmPMcWZ4gzT&rid=7cc00ea4-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEuMP5sYG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+            - generic [ref=f2e19] [cursor=pointer]:
+              - link [ref=f2e21] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627665/i/58092114/0/pp/2/19?h=h9U6IeWGLHsVS5lI_hcl81iAdKSixC3R58k6AYQ3eufd8mlp5CVz6fmL3COaKUyr_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf65_xsJJ5Za7cfOWG8__Aua&rid=7cc00ea4-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEuMP5sYG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+              - generic [ref=f2e24] [cursor=pointer]:
+                - link "डायबिटीज से बचना चाहते हैं तो आज ही इसे अपने रूटीन में करें शामिल" [ref=f2e26] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24627665/i/58092114/0/pp/2/19?h=h9U6IeWGLHsVS5lI_hcl81iAdKSixC3R58k6AYQ3eufd8mlp5CVz6fmL3COaKUyr_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf65_xsJJ5Za7cfOWG8__Aua&rid=7cc00ea4-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEuMP5sYG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+                - link "Sugar Shield" [ref=f2e28] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24627665/i/58092114/0/pp/2/19?h=h9U6IeWGLHsVS5lI_hcl81iAdKSixC3R58k6AYQ3eufd8mlp5CVz6fmL3COaKUyr_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf65_xsJJ5Za7cfOWG8__Aua&rid=7cc00ea4-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEuMP5sYG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+        - generic [ref=e115]:
+          - heading "Practice Form" [level=1] [ref=e116]
+          - heading "Student Registration Form" [level=5] [ref=e117]
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e121]: Name
+              - textbox "First Name" [ref=e123]: Akhil
+              - textbox "Last Name" [ref=e126]: Negi
+            - generic [ref=e127]:
+              - generic [ref=e129]: Email
+              - textbox "name@example.com" [ref=e131]: akhil1809@gmail.com
+            - generic [ref=e132]:
+              - generic [ref=e133]: Gender
+              - generic [ref=e134]:
+                - generic [ref=e135]:
+                  - radio "Male" [checked] [ref=e136]
+                  - generic [ref=e137]: Male
+                - generic [ref=e138]:
+                  - radio "Female" [ref=e139]
+                  - generic [ref=e140]: Female
+                - generic [ref=e141]:
+                  - radio "Other" [ref=e142]
+                  - generic [ref=e143]: Other
+            - generic [ref=e144]:
+              - generic [ref=e146]:
+                - text: Mobile
+                - generic [ref=e147]: (10 Digits)
+              - textbox "Mobile Number" [ref=e149]: "9717530599"
+            - generic [ref=e150]:
+              - generic [ref=e152]: Date of Birth
+              - generic [ref=e153]:
+                - textbox [ref=e156]: 18 Sep 1988
+                - generic [ref=e159]:
+                  - button "Previous Month" [ref=e161] [cursor=pointer]
+                  - button "Next Month" [ref=e162] [cursor=pointer]
+                  - generic [ref=e163]:
+                    - generic [ref=e164]:
+                      - generic [ref=e165]: September 1988
+                      - generic [ref=e166]:
+                        - combobox [ref=e168]:
+                          - option "January"
+                          - option "February"
+                          - option "March"
+                          - option "April"
+                          - option "May"
+                          - option "June"
+                          - option "July"
+                          - option "August"
+                          - option "September" [selected]
+                          - option "October"
+                          - option "November"
+                          - option "December"
+                        - combobox [ref=e170]:
+                          - option "1900"
+                          - option "1901"
+                          - option "1902"
+                          - option "1903"
+                          - option "1904"
+                          - option "1905"
+                          - option "1906"
+                          - option "1907"
+                          - option "1908"
+                          - option "1909"
+                          - option "1910"
+                          - option "1911"
+                          - option "1912"
+                          - option "1913"
+                          - option "1914"
+                          - option "1915"
+                          - option "1916"
+                          - option "1917"
+                          - option "1918"
+                          - option "1919"
+                          - option "1920"
+                          - option "1921"
+                          - option "1922"
+                          - option "1923"
+                          - option "1924"
+                          - option "1925"
+                          - option "1926"
+                          - option "1927"
+                          - option "1928"
+                          - option "1929"
+                          - option "1930"
+                          - option "1931"
+                          - option "1932"
+                          - option "1933"
+                          - option "1934"
+                          - option "1935"
+                          - option "1936"
+                          - option "1937"
+                          - option "1938"
+                          - option "1939"
+                          - option "1940"
+                          - option "1941"
+                          - option "1942"
+                          - option "1943"
+                          - option "1944"
+                          - option "1945"
+                          - option "1946"
+                          - option "1947"
+                          - option "1948"
+                          - option "1949"
+                          - option "1950"
+                          - option "1951"
+                          - option "1952"
+                          - option "1953"
+                          - option "1954"
+                          - option "1955"
+                          - option "1956"
+                          - option "1957"
+                          - option "1958"
+                          - option "1959"
+                          - option "1960"
+                          - option "1961"
+                          - option "1962"
+                          - option "1963"
+                          - option "1964"
+                          - option "1965"
+                          - option "1966"
+                          - option "1967"
+                          - option "1968"
+                          - option "1969"
+                          - option "1970"
+                          - option "1971"
+                          - option "1972"
+                          - option "1973"
+                          - option "1974"
+                          - option "1975"
+                          - option "1976"
+                          - option "1977"
+                          - option "1978"
+                          - option "1979"
+                          - option "1980"
+                          - option "1981"
+                          - option "1982"
+                          - option "1983"
+                          - option "1984"
+                          - option "1985"
+                          - option "1986"
+                          - option "1987"
+                          - option "1988" [selected]
+                          - option "1989"
+                          - option "1990"
+                          - option "1991"
+                          - option "1992"
+                          - option "1993"
+                          - option "1994"
+                          - option "1995"
+                          - option "1996"
+                          - option "1997"
+                          - option "1998"
+                          - option "1999"
+                          - option "2000"
+                          - option "2001"
+                          - option "2002"
+                          - option "2003"
+                          - option "2004"
+                          - option "2005"
+                          - option "2006"
+                          - option "2007"
+                          - option "2008"
+                          - option "2009"
+                          - option "2010"
+                          - option "2011"
+                          - option "2012"
+                          - option "2013"
+                          - option "2014"
+                          - option "2015"
+                          - option "2016"
+                          - option "2017"
+                          - option "2018"
+                          - option "2019"
+                          - option "2020"
+                          - option "2021"
+                          - option "2022"
+                          - option "2023"
+                          - option "2024"
+                          - option "2025"
+                          - option "2026"
+                          - option "2027"
+                          - option "2028"
+                          - option "2029"
+                          - option "2030"
+                          - option "2031"
+                          - option "2032"
+                          - option "2033"
+                          - option "2034"
+                          - option "2035"
+                          - option "2036"
+                          - option "2037"
+                          - option "2038"
+                          - option "2039"
+                          - option "2040"
+                          - option "2041"
+                          - option "2042"
+                          - option "2043"
+                          - option "2044"
+                          - option "2045"
+                          - option "2046"
+                          - option "2047"
+                          - option "2048"
+                          - option "2049"
+                          - option "2050"
+                          - option "2051"
+                          - option "2052"
+                          - option "2053"
+                          - option "2054"
+                          - option "2055"
+                          - option "2056"
+                          - option "2057"
+                          - option "2058"
+                          - option "2059"
+                          - option "2060"
+                          - option "2061"
+                          - option "2062"
+                          - option "2063"
+                          - option "2064"
+                          - option "2065"
+                          - option "2066"
+                          - option "2067"
+                          - option "2068"
+                          - option "2069"
+                          - option "2070"
+                          - option "2071"
+                          - option "2072"
+                          - option "2073"
+                          - option "2074"
+                          - option "2075"
+                          - option "2076"
+                          - option "2077"
+                          - option "2078"
+                          - option "2079"
+                          - option "2080"
+                          - option "2081"
+                          - option "2082"
+                          - option "2083"
+                          - option "2084"
+                          - option "2085"
+                          - option "2086"
+                          - option "2087"
+                          - option "2088"
+                          - option "2089"
+                          - option "2090"
+                          - option "2091"
+                          - option "2092"
+                          - option "2093"
+                          - option "2094"
+                          - option "2095"
+                          - option "2096"
+                          - option "2097"
+                          - option "2098"
+                          - option "2099"
+                          - option "2100"
+                      - generic [ref=e171]:
+                        - generic [ref=e172]: Su
+                        - generic [ref=e173]: Mo
+                        - generic [ref=e174]: Tu
+                        - generic [ref=e175]: We
+                        - generic [ref=e176]: Th
+                        - generic [ref=e177]: Fr
+                        - generic [ref=e178]: Sa
+                    - listbox "month 1988-09" [ref=e179]:
+                      - generic [ref=e180]:
+                        - option "Choose Sunday, August 28th, 1988" [ref=e181] [cursor=pointer]: "28"
+                        - option "Choose Monday, August 29th, 1988" [ref=e182] [cursor=pointer]: "29"
+                        - option "Choose Tuesday, August 30th, 1988" [ref=e183] [cursor=pointer]: "30"
+                        - option "Choose Wednesday, August 31st, 1988" [ref=e184] [cursor=pointer]: "31"
+                        - option "Choose Thursday, September 1st, 1988" [ref=e185] [cursor=pointer]: "1"
+                        - option "Choose Friday, September 2nd, 1988" [ref=e186] [cursor=pointer]: "2"
+                        - option "Choose Saturday, September 3rd, 1988" [ref=e187] [cursor=pointer]: "3"
+                      - generic [ref=e188]:
+                        - option "Choose Sunday, September 4th, 1988" [ref=e189] [cursor=pointer]: "4"
+                        - option "Choose Monday, September 5th, 1988" [ref=e190] [cursor=pointer]: "5"
+                        - option "Choose Tuesday, September 6th, 1988" [ref=e191] [cursor=pointer]: "6"
+                        - option "Choose Wednesday, September 7th, 1988" [ref=e192] [cursor=pointer]: "7"
+                        - option "Choose Thursday, September 8th, 1988" [ref=e193] [cursor=pointer]: "8"
+                        - option "Choose Friday, September 9th, 1988" [ref=e194] [cursor=pointer]: "9"
+                        - option "Choose Saturday, September 10th, 1988" [ref=e195] [cursor=pointer]: "10"
+                      - generic [ref=e196]:
+                        - option "Choose Sunday, September 11th, 1988" [ref=e197] [cursor=pointer]: "11"
+                        - option "Choose Monday, September 12th, 1988" [ref=e198] [cursor=pointer]: "12"
+                        - option "Choose Tuesday, September 13th, 1988" [ref=e199] [cursor=pointer]: "13"
+                        - option "Choose Wednesday, September 14th, 1988" [ref=e200] [cursor=pointer]: "14"
+                        - option "Choose Thursday, September 15th, 1988" [ref=e201] [cursor=pointer]: "15"
+                        - option "Choose Friday, September 16th, 1988" [ref=e202] [cursor=pointer]: "16"
+                        - option "Choose Saturday, September 17th, 1988" [ref=e203] [cursor=pointer]: "17"
+                      - generic [ref=e204]:
+                        - option "Choose Sunday, September 18th, 1988" [ref=e205] [cursor=pointer]: "18"
+                        - option "Choose Monday, September 19th, 1988" [ref=e206] [cursor=pointer]: "19"
+                        - option "Choose Tuesday, September 20th, 1988" [ref=e207] [cursor=pointer]: "20"
+                        - option "Choose Wednesday, September 21st, 1988" [ref=e208] [cursor=pointer]: "21"
+                        - option "Choose Thursday, September 22nd, 1988" [ref=e209] [cursor=pointer]: "22"
+                        - option "Choose Friday, September 23rd, 1988" [ref=e210] [cursor=pointer]: "23"
+                        - option "Choose Saturday, September 24th, 1988" [ref=e211] [cursor=pointer]: "24"
+                      - generic [ref=e212]:
+                        - option "Choose Sunday, September 25th, 1988" [ref=e213] [cursor=pointer]: "25"
+                        - option "Choose Monday, September 26th, 1988" [ref=e214] [cursor=pointer]: "26"
+                        - option "Choose Tuesday, September 27th, 1988" [ref=e215] [cursor=pointer]: "27"
+                        - option "Choose Wednesday, September 28th, 1988" [ref=e216] [cursor=pointer]: "28"
+                        - option "Choose Thursday, September 29th, 1988" [ref=e217] [cursor=pointer]: "29"
+                        - option "Choose Friday, September 30th, 1988" [ref=e218] [cursor=pointer]: "30"
+                        - option "Choose Saturday, October 1st, 1988" [ref=e219] [cursor=pointer]: "1"
+                      - generic [ref=e220]:
+                        - option "Choose Sunday, October 2nd, 1988" [ref=e221] [cursor=pointer]: "2"
+                        - option "Choose Monday, October 3rd, 1988" [ref=e222] [cursor=pointer]: "3"
+                        - option "Choose Tuesday, October 4th, 1988" [ref=e223] [cursor=pointer]: "4"
+                        - option "Choose Wednesday, October 5th, 1988" [ref=e224] [cursor=pointer]: "5"
+                        - option "Choose Thursday, October 6th, 1988" [ref=e225] [cursor=pointer]: "6"
+                        - option "Choose Friday, October 7th, 1988" [ref=e226] [cursor=pointer]: "7"
+                        - option "Choose Saturday, October 8th, 1988" [ref=e227] [cursor=pointer]: "8"
+            - generic [ref=e228]:
+              - generic [ref=e230]: Subjects
+              - textbox [ref=e237]
+            - generic [ref=e240]:
+              - generic [ref=e242]: Hobbies
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - checkbox "Sports" [ref=e245]
+                  - generic [ref=e246]: Sports
+                - generic [ref=e247]:
+                  - checkbox "Reading" [ref=e248]
+                  - generic [ref=e249]: Reading
+                - generic [ref=e250]:
+                  - checkbox "Music" [ref=e251]
+                  - generic [ref=e252]: Music
+            - generic [ref=e253]:
+              - generic [ref=e255]: Picture
+              - generic [ref=e257]:
+                - generic [ref=e258]: Select picture
+                - button "Select picture" [ref=e259]
+            - generic [ref=e260]:
+              - generic [ref=e262]: Current Address
+              - textbox "Current Address" [ref=e264]
+            - generic [ref=e265]:
+              - generic [ref=e267]: State and City
+              - generic [ref=e270]:
+                - generic [ref=e271]:
+                  - generic [ref=e272]: Select State
+                  - textbox [ref=e275]
+                - img [ref=e279]
+              - generic [ref=e281]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Select City
+                      - generic:
+                        - generic:
+                          - textbox [disabled]
+                    - generic:
+                      - generic:
+                        - img
+            - button "Submit" [ref=e284] [cursor=pointer]
+        - iframe [ref=e288]:
+          - generic [ref=f3e8] [cursor=pointer]:
+            - link [ref=f3e10] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24627645/i/58092122/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8xz2Dj2-qr6BmHigjAsqkEtztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6_Hd9SU5shEI_yV_HCXppp&rid=7cbe4c9d-92e1-11f0-a238-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEPNufxTG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+            - generic [ref=f3e13] [cursor=pointer]:
+              - link "Sugar Shield" [ref=f3e15] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627645/i/58092122/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8xz2Dj2-qr6BmHigjAsqkEtztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6_Hd9SU5shEI_yV_HCXppp&rid=7cbe4c9d-92e1-11f0-a238-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEPNufxTG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+              - link "मधुमेह से पीड़ित व्यक्ति इसे हटाने से पहले तुरंत पढ़ें" [ref=f3e17] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627645/i/58092122/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8xz2Dj2-qr6BmHigjAsqkEtztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6_Hd9SU5shEI_yV_HCXppp&rid=7cbe4c9d-92e1-11f0-a238-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEPNufxTG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+              - link "और जानें→" [ref=f3e19] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627645/i/58092122/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8xz2Dj2-qr6BmHigjAsqkEtztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6_Hd9SU5shEI_yV_HCXppp&rid=7cbe4c9d-92e1-11f0-a238-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEPNufxTG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+                - text: और जानें
+                - generic [ref=f3e20] [cursor=pointer]: →
+      - generic [ref=e293]:
+        - img "Build PlayWright tests with AI" [ref=e295] [cursor=pointer]
+        - iframe [ref=e298]:
+          - generic [ref=f4e7] [cursor=pointer]:
+            - link [ref=f4e8] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24627645/i/58092113/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8xdKsizMhgsP1TKZva6PR_JztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4uxFdSM3Zr23Apnu-PrWIQ&rid=7cbef90f-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEpPJjWOG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa1rzEWQZezd-64DXb6fFOm1okvAjPXkfnreHqzPqQ4uQ**
+            - generic [ref=f4e9] [cursor=pointer]:
+              - link [ref=f4e11] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627645/i/58092113/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8xdKsizMhgsP1TKZva6PR_JztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4uxFdSM3Zr23Apnu-PrWIQ&rid=7cbef90f-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEpPJjWOG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa1rzEWQZezd-64DXb6fFOm1okvAjPXkfnreHqzPqQ4uQ**
+              - generic [ref=f4e14] [cursor=pointer]:
+                - link "मधुमेह से पीड़ित व्यक्ति इसे हटाने से पहले तुरंत पढ़ें" [ref=f4e16] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24627645/i/58092113/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8xdKsizMhgsP1TKZva6PR_JztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4uxFdSM3Zr23Apnu-PrWIQ&rid=7cbef90f-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEpPJjWOG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa1rzEWQZezd-64DXb6fFOm1okvAjPXkfnreHqzPqQ4uQ**
+                - link "Sugar Shield" [ref=f4e18] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24627645/i/58092113/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8xdKsizMhgsP1TKZva6PR_JztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4uxFdSM3Zr23Apnu-PrWIQ&rid=7cbef90f-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEpPJjWOG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa1rzEWQZezd-64DXb6fFOm1okvAjPXkfnreHqzPqQ4uQ**
+                - link [ref=f4e19] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24627645/i/58092113/0/pp/1/19?h=h9U6IeWGLHsVS5lI_hcl8xdKsizMhgsP1TKZva6PR_JztOcDGZ-mBLn9vrVvtwDI_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf4uxFdSM3Zr23Apnu-PrWIQ&rid=7cbef90f-92e1-11f0-b35c-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gEpPJjWOG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa1rzEWQZezd-64DXb6fFOm1okvAjPXkfnreHqzPqQ4uQ**
+                  - img [ref=f4e20] [cursor=pointer]
+    - contentinfo [ref=e299]:
+      - generic [ref=e300]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

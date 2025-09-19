@@ -1,0 +1,105 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - link "Advertisement" [ref=f1e4] [cursor=pointer]:
+          - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsswHpAMVWRR9ObNSh7uVUIregSYCdNDDIKHGRQ1kpclsjPwwlVOD6z0VC5AemD60NUieecdqtrDeweVuv6w6WSU30LCMqPgko3ogsEpupjHW-Hyz1Ni4T7QfSmbiL3IPJTGwl0YBg89BcgkxtVjrB3If_sFxek8e-KBdxjKO7kLcLRfInl7ZiS-cWb23jc0Fy9sdcAsckCvChIp_asAJQ540oUTuINqkjG5wwsQOG0OsN9BZD6SBPzUoSlIS5-kM8ZhvGGwkInBSI9ufN4bzT0qXqR1GFVj5BuiqVOLAw-pWy_kxZT_cLpX2-V1IBCRsnXQI5dwd3veTvnJpTZOQl-gLC4PVCRG2kdydn6YCxMNJJLCvL1pKx0BXEejSFMpk1eoO3rPTKZMLw9PfSCPR7Gos64qKrwZbOpnD2JEUBs5ui4qwtFJLkM6VDIY8UvBPk9f6RdppKEmdKWshC8309OcnuV0-cIfocEKl1ppATV-PItSdxwgJCLkA39q7VQK0EsxhnuJ1OrA_M53rC8CjCMHe1DodKkDZPYd6klEHt4E95r9tRA7kH-8ijKiyVmaH-y-7Nn1plg2y82jsfWuIyKjHMYXwz2ep1dqYx_8CjDFGhHcSTZyiwLChxA2xpZs03K6ciRsSmNj9_AxnXRhYAjiWXZGPely4kTUGYjube-PC355ZdAkM8Vq80z3MpoWhsYbfQ7pM7o4i9pVbNVyWZBCxrGvcFH_mznCwBM3ddsQbTm8z8FDojv2gEDyhiwgu_UO-SCh9BPYVpMbekmif2PbYCuSxB5HqVpDs353w-lIZO1SRJPtaEGyVmDSY8lnd6cq5IDm7V5nMDTrfiSJ-ipB2AFFGCUaEJoyE5yfngJvRACk_SMpA-U9Y5qwG9Dm2K1_B0vyN1ub55J2p0UMVj4xds52Q-HfjWj5NwWje7c2rDp51baA5h87UICJy5_LDGbs5MynDXeT7ZH9da0epFOfGoGkbE6C4HQ7I9ENGcFEf7tW7uslzX-NNeHhGkajl0A5tB3ZexjgJLQarFgwWBz7SngvjL8kAX38zMNAIvcLviPytfh9RtdLVpcHtPjBUbiFAsiczb7JTjVGnBpVkWiMEUvzhpd_nfB-fBFr4qqWXfBnrFmMfjTTGzRLAjk57z57M_QL7QuS16kLKRtyI4rVaDS_lLHOtTyt9ySVFYjEV81mQGPBVYIp21-5-ar2OX8tlsqgZ91wvhxDbt5moPsJtDkHLgQTBDyxxngP3z6Q-k5jEoSfncadOGR35zJbBVokOcb5o45f_gv29WC-4lnpzcUhTXKK-UqUnqVrSD_0Y4LIRPjStoNQEhGFQ1EtBx9805f7g2aX0UrJUrTNdB4KeGkKgA5nL8J6NN_TbTzd6ycvloAn9NvpMNnV8Ba0Nf_bIYywy7EFG7fAGkUY1qVG2fZSRPaCpfu8ma2esSeN49f8Pi3xK4l-sVHGpYiyDE9xS1i1Ld1YMxbI5kIJaX2-WMYpAKw8wLOO3R3QOt4WI3vq1GmVEuAMgySchv1sGKoQv_jTIzlPd984uKnk753J15ztE3HMu4A&sai=AMfl-YTPlHsMWv1Gc-ZZWbtIg1AglLy1GmyhNR_ZK-FXhuKwmqGHFQb6BLFwm12WdJoLdTvv9HLXAfYgUHDSyOu7i3weiezV6f0YGOGz2UHjSaab33n0AmeuVamorX4jNUNU-Hw9Og_puvr3f4Ft6v8UWuiI3P4MtwwxJAyCPfIcuqMXoOjS32hWCJUcaG-bp7-TDAwj7jQO0QoM0dlSylMLUUGwAVue3L9kNHJOU-ZwldHLzwlP8cw8OeH9yh_rlqp2cM3_HvSgQiEZ6Bozlg6_RImeVSUFYFFxbIqQjrioLy_Nybo1lw63EjO0OKcjjZR_-SUDwqpKl0dwRVH9dEn_iywE5d60Dz3Tb8CQ7V465upW4tSaeincZDFEN-kNbZ6u-W4fitOvByhjHzsMf1eceZI00JPS6N7UKnEJlRkP8-fAM-h4tAr1brVKyY5Gs04BdHjSPcnDdws9vnJ5d9g4egcNhjXk9A2w5qY6eHRuVRPGWj0NXUtBU8p8R7xPznJSdg3Nnl0AdO4bRKLxpF2FojAJUfgSoQ4-oCpC7mV9dGY8oOAVuHDLKOVprixT-i2BiTSGELqrbsF-FZV7IDNlBxQpHxi80o9AI40JCVTBKS0kJGhglfZ7NEjUiI2DREHtAhE2dbiafsjamsiBFSL2tnmZIpeQyEtI7FIiL5h7xgvFPTo8uQWZK07k4i8ncibr80G5zng&sig=Cg0ArKJSzPI9rEikNIAx&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9iYWphamFsbGlhbnouY29t&urlfix=1&adurl=https://www.bajajallianz.com/health-insurance-online/product%3Futm_source%3DPaidDisplay%26utm_medium%3DCPM%26utm_campaign%3DBranding_HealthInsuranceIA_Sept25_DV_SheildTheirSmiles%26utm_term%3DStatic%26utm_content%3DSheildTheirSmiles%26dclid%3D%25edclid!%26gad_source%3D7
+          - img "Advertisement" [ref=f1e5] [cursor=pointer]
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13] [cursor=pointer]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23] [cursor=pointer]:
+            - img [ref=e25] [cursor=pointer]
+            - text: Elements
+          - img [ref=e30] [cursor=pointer]
+        - generic [ref=e36] [cursor=pointer]:
+          - generic [ref=e37] [cursor=pointer]:
+            - img [ref=e39] [cursor=pointer]
+            - text: Forms
+          - img [ref=e45] [cursor=pointer]
+        - generic [ref=e49]:
+          - generic [ref=e51] [cursor=pointer]:
+            - generic [ref=e52] [cursor=pointer]:
+              - img [ref=e54] [cursor=pointer]
+              - text: Alerts, Frame & Windows
+            - img [ref=e59] [cursor=pointer]
+          - list [ref=e64]:
+            - listitem [ref=e65] [cursor=pointer]:
+              - img [ref=e66] [cursor=pointer]
+              - generic [ref=e68] [cursor=pointer]: Browser Windows
+            - listitem [ref=e69] [cursor=pointer]:
+              - img [ref=e70] [cursor=pointer]
+              - generic [ref=e72] [cursor=pointer]: Alerts
+            - listitem [ref=e73] [cursor=pointer]:
+              - img [ref=e74] [cursor=pointer]
+              - generic [ref=e76] [cursor=pointer]: Frames
+            - listitem [ref=e77] [cursor=pointer]:
+              - img [ref=e78] [cursor=pointer]
+              - generic [ref=e80] [cursor=pointer]: Nested Frames
+            - listitem [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+              - generic [ref=e84] [cursor=pointer]: Modal Dialogs
+        - generic [ref=e87] [cursor=pointer]:
+          - generic [ref=e88] [cursor=pointer]:
+            - img [ref=e90] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e95] [cursor=pointer]
+        - generic [ref=e101] [cursor=pointer]:
+          - generic [ref=e102] [cursor=pointer]:
+            - img [ref=e104] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e109] [cursor=pointer]
+        - generic [ref=e115] [cursor=pointer]:
+          - generic [ref=e116] [cursor=pointer]:
+            - img [ref=e118] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e123] [cursor=pointer]
+      - generic [ref=e127]:
+        - iframe [ref=e130]:
+          
+        - generic [ref=e131]:
+          - heading "Alerts" [level=1] [ref=e132]
+          - generic [ref=e133]:
+            - generic [ref=e135]: Click Button to see alert
+            - button "Click me" [active] [ref=e137] [cursor=pointer]
+          - generic [ref=e138]:
+            - generic [ref=e140]: On button click, alert will appear after 5 seconds
+            - button "Click me" [ref=e142] [cursor=pointer]
+          - generic [ref=e143]:
+            - generic [ref=e145]: On button click, confirm box will appear
+            - button "Click me" [ref=e147] [cursor=pointer]
+          - generic [ref=e148]:
+            - generic [ref=e150]: On button click, prompt box will appear
+            - button "Click me" [ref=e152] [cursor=pointer]
+        - iframe [ref=e156]:
+          - generic [ref=f3e2]:
+            - iframe [ref=f3e5]:
+              - generic [ref=f4e2] [cursor=pointer]:
+                - img [ref=f4e4] [cursor=pointer]
+                - button [ref=f4e955] [cursor=pointer]
+            - generic [ref=f3e6]:
+              - generic:
+                - img [ref=f3e10] [cursor=pointer]
+                - button [ref=f3e12] [cursor=pointer]:
+                  - img [ref=f3e13] [cursor=pointer]
+      - generic [ref=e161]:
+        - img "Build PlayWright tests with AI" [ref=e163] [cursor=pointer]
+        - iframe [ref=e166]:
+          
+    - contentinfo [ref=e167]:
+      - generic [ref=e168]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

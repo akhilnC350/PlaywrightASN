@@ -1,0 +1,115 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - link "Advertisement" [ref=f1e4] [cursor=pointer]:
+          - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjstUsJuSlDVQnDuZOt6xqzVXIgffmroEMgkaLPLOBwMhyoNjOiWt52amNtK8wpL9HNUxZBXrNvQUjJupg33KY7yn0B6VR6PxxPwdMv4EK0af3Kq-MCWKqOu5p-hu4kkos6ruPXnJ3bfKx1APXcLrprmDyUdkyF2vQ83hJHgcFOxVO-_YlUHtW2kQ2orcZeBRFxveFE4WXOFXTyUfdvkHAXuWjHZRP7HfIkQhOTAc9Lp23utKG-MEWyAY0NThno4UJFEar9sQ4yA1m3cjqgaRY7WhxWcW0G04WHrDzW69mSLTOLkUJXl3P59aicnAUL03l1nXG9OOoQMQfrZpytW2251PKKSqII4Rz4Sd0WzCt1qa2C1-0AmeUPDU_br8B9au_Goer-KMGlYrxzrUOkTEMZl7g9yYy8FDJOFbikQgy-SSweCgiI0xItFS1FaHw54aDxeY_vuWPf1I_7QumzvGbvYFDKrvROpkmT3Y2VndEF2Fu10B15HB680ZD8JiwJ2gyXkawdglpC6VELFKcOJAueXnVAi3SMrMH2RqxPFclmdd21dsQmLi9AwmuuzrMxfzMVAr0zX4X_k6dItxyM8JEVtj4Ke-gr0Q9sDYVYaKkRpGAyksveehSFFUH0k5MYgL5ZZpD6Yoha7ju1yTOzQJO3f1m_Qqo-vGrPBE4hef_aFYViRl750Jet0pDZgkPfKB39zE9uQMkPfqoDKj-kw0RrodveCCjCf6uw6YOleNAv9BpzHvLCCKoHVmOpz0x7NQD3RjLmNgIH1_DMR7PqcB61dAArZpsZRGtI8MdXzYfSgNMFosK1v7sBl6PxURLB1frNMtGO1BCscN0b6z9VlUkLoa0DQ5dvXm1vIy0Vvx_TjhdNBlkeC1WE2CxMKttyKwyHKmgxA8MtsV18RrvrywJdSn79J31ZwHRCgfNcFPop7x0JljGUvDMxYWOBdkKTciMBqOpfR_buaw2fF26whLoBA_vMmqbX08ceTwHIYRi40B1H9V2k3xyqEY04X2jMNNM5h__IHcSqu5o76wMDPY3k-klqDaEhBNdaL7W__Mt1YHO-XkzZ0opxuY7ht6MOAoBrNhPW4leQij1ykQ1O14aT9-qxKUZDpvZubxQLs5zpO5GfBQxe74ekzDDfSy7Vy5b6_dOtVwkrRTRyuY2HGAAD7pu9D0OHGP8IxDgjI_R_XoTdO-4E1g60YlltidoHOtjKIDz41jVWZc7-VBpgG7kZdB7WQ6LP0rUU3X6IiPgRAd2mIedTZBulhJFwv-9EDZm2k9gcLJk_VqVRutXDZIOmOjdnVc2gw7sqRRzNAevEXXuSsboTNJn5Hq55cI9ydPpk2_5KLGXPk5QjjZpjul30qGw0d67fDIN8qPWng0AFI6C8fRDUs7p2aTXI50YhGR_WdMJ44wX2LAUZmpgbkGzqeXhFsojNU7NHzg_1m4eosdh_I8kcUW9ikTOebYNxc23rQVEYN6fi3I7PrSRMsl4dhW8mZEr5kMOcYTmyHJ6d7uAfhrTRjhUgGxfS-ymR8srtFUanqGalXANVkp_2q3cHru&sai=AMfl-YQWiMviit9QHBUWzReQlKayPpJ_eokkRG8FCsrQEl_dFhF_TKjNsm34U7iWd1TfoSBoCO1lTm9TT4RazxEhxQUGuii1HgOzIdSeboKDPva2w7srTEd0Qhghk4BexSggBIzYHIY6D9HRnxydInbx3TFfqpiBXmKboNzkzK-APQr7fJimpIRlSILVrMKzUV9c2MfDb4YXNoChIdCca1hNyvDziVY5ZLYb7Ek0_Fcf7_tYQu2zHfh4gj1ETjK4Lb4St-5vGCbZfOcs0oKzsR10CKiSU6OQwFtNXWOLL741-JqW4s_DJmLRtHOCyS2u3CXiTs3f8syuZrOIhbBZaQVGvi7vNaNzGI1U8-xRlkky-KToFY-gbGEOMckHL6pJld_N7OpGw4DhrHof7MKdWy0KTMe1iOTm6gS56kKBOaR3nmGNMMQqxeJh2F-zU5aq5hGiltsOAwSjABcuRYBc5jf1SRVwga97Emr334ObBvSBLvmFH8bKkpP5i4VoyF9eThtCR9XZqVusiOg_4bB8tlCAWHUjmtAeg28SFka1CcHq0_GlyDvMQ04CrsgceHQbIXVuORfuALazfEYGLNX5_wHUighcLneh0eaThaHnoVauobIhAOJJDGC_YIOMwlCpsk4v8ua7yU8vDGd7ZkZHtLFfdyUQVr5x2VbxQ9_wSzx50f6AqDpU0GeQNtjlod-vetHEBVXX&sig=Cg0ArKJSzLWrZaos6mMZ&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9iYWphamFsbGlhbnouY29t&urlfix=1&adurl=https://www.bajajallianz.com/health-insurance-online/product%3Futm_source%3DPaidDisplay%26utm_medium%3DCPM%26utm_campaign%3DBranding_HealthInsuranceIA_Sept25_DV_SheildTheirSmiles%26utm_term%3DStatic%26utm_content%3DSheildTheirSmiles%26dclid%3D%25edclid!%26gad_source%3D7
+          - img "Advertisement" [ref=f1e5] [cursor=pointer]
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13] [cursor=pointer]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23] [cursor=pointer]:
+            - img [ref=e25] [cursor=pointer]
+            - text: Elements
+          - img [ref=e30] [cursor=pointer]
+        - generic [ref=e36] [cursor=pointer]:
+          - generic [ref=e37] [cursor=pointer]:
+            - img [ref=e39] [cursor=pointer]
+            - text: Forms
+          - img [ref=e45] [cursor=pointer]
+        - generic [ref=e49]:
+          - generic [ref=e51] [cursor=pointer]:
+            - generic [ref=e52] [cursor=pointer]:
+              - img [ref=e54] [cursor=pointer]
+              - text: Alerts, Frame & Windows
+            - img [ref=e59] [cursor=pointer]
+          - list [ref=e64]:
+            - listitem [ref=e65] [cursor=pointer]:
+              - img [ref=e66] [cursor=pointer]
+              - generic [ref=e68] [cursor=pointer]: Browser Windows
+            - listitem [ref=e69] [cursor=pointer]:
+              - img [ref=e70] [cursor=pointer]
+              - generic [ref=e72] [cursor=pointer]: Alerts
+            - listitem [ref=e73] [cursor=pointer]:
+              - img [ref=e74] [cursor=pointer]
+              - generic [ref=e76] [cursor=pointer]: Frames
+            - listitem [ref=e77] [cursor=pointer]:
+              - img [ref=e78] [cursor=pointer]
+              - generic [ref=e80] [cursor=pointer]: Nested Frames
+            - listitem [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+              - generic [ref=e84] [cursor=pointer]: Modal Dialogs
+        - generic [ref=e87] [cursor=pointer]:
+          - generic [ref=e88] [cursor=pointer]:
+            - img [ref=e90] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e95] [cursor=pointer]
+        - generic [ref=e101] [cursor=pointer]:
+          - generic [ref=e102] [cursor=pointer]:
+            - img [ref=e104] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e109] [cursor=pointer]
+        - generic [ref=e115] [cursor=pointer]:
+          - generic [ref=e116] [cursor=pointer]:
+            - img [ref=e118] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e123] [cursor=pointer]
+      - generic [ref=e127]:
+        - iframe [ref=e130]:
+          - generic [ref=f2e3]:
+            - button [ref=f2e4]:
+              - img [ref=f2e5]
+            - generic [ref=f2e7]:
+              - button "Replay" [ref=f2e15]:
+                - img [ref=f2e17] [cursor=pointer]
+              - button "Learn more" [ref=f2e24] [cursor=pointer]
+        - generic [ref=e131]:
+          - heading "Alerts" [level=1] [ref=e132]
+          - generic [ref=e133]:
+            - generic [ref=e135]: Click Button to see alert
+            - button "Click me" [ref=e137] [cursor=pointer]
+          - generic [ref=e138]:
+            - generic [ref=e140]: On button click, alert will appear after 5 seconds
+            - button "Click me" [active] [ref=e142] [cursor=pointer]
+          - generic [ref=e143]:
+            - generic [ref=e145]: On button click, confirm box will appear
+            - button "Click me" [ref=e147] [cursor=pointer]
+          - generic [ref=e148]:
+            - generic [ref=e150]: On button click, prompt box will appear
+            - button "Click me" [ref=e152] [cursor=pointer]
+        - iframe [ref=e156]:
+          
+      - generic [ref=e161]:
+        - img "Build PlayWright tests with AI" [ref=e163] [cursor=pointer]
+        - iframe [ref=e166]:
+          - generic [ref=f4e7] [cursor=pointer]:
+            - link [ref=f4e8] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/11?h=hxHkJI4gdvOxLqBClgJ1vMRfCE_hi3gmTyFZ7TyYEz93g1BqeEriQ4Gv3RpjAhmK_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrcDJRFHnVxKmpIdpmXUlZid&rid=31ef0fa5-93ab-11f0-94b3-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8hx0wkZuwK2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqbqUd95bTSEBwmXOMB8XK7TtD2_cdYSi0iw0l0QOs0-_w**
+            - generic [ref=f4e9] [cursor=pointer]:
+              - link [ref=f4e11] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/11?h=hxHkJI4gdvOxLqBClgJ1vMRfCE_hi3gmTyFZ7TyYEz93g1BqeEriQ4Gv3RpjAhmK_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrcDJRFHnVxKmpIdpmXUlZid&rid=31ef0fa5-93ab-11f0-94b3-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8hx0wkZuwK2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqbqUd95bTSEBwmXOMB8XK7TtD2_cdYSi0iw0l0QOs0-_w**
+              - generic [ref=f4e14] [cursor=pointer]:
+                - link "Himalaya Herbal Age Defying Hand Cream" [ref=f4e16] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/11?h=hxHkJI4gdvOxLqBClgJ1vMRfCE_hi3gmTyFZ7TyYEz93g1BqeEriQ4Gv3RpjAhmK_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrcDJRFHnVxKmpIdpmXUlZid&rid=31ef0fa5-93ab-11f0-94b3-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8hx0wkZuwK2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqbqUd95bTSEBwmXOMB8XK7TtD2_cdYSi0iw0l0QOs0-_w**
+                - link "Amazon" [ref=f4e18] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/11?h=hxHkJI4gdvOxLqBClgJ1vMRfCE_hi3gmTyFZ7TyYEz93g1BqeEriQ4Gv3RpjAhmK_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrcDJRFHnVxKmpIdpmXUlZid&rid=31ef0fa5-93ab-11f0-94b3-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8hx0wkZuwK2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqbqUd95bTSEBwmXOMB8XK7TtD2_cdYSi0iw0l0QOs0-_w**
+                - link [ref=f4e19] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/11?h=hxHkJI4gdvOxLqBClgJ1vMRfCE_hi3gmTyFZ7TyYEz93g1BqeEriQ4Gv3RpjAhmK_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrcDJRFHnVxKmpIdpmXUlZid&rid=31ef0fa5-93ab-11f0-94b3-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8hx0wkZuwK2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqbqUd95bTSEBwmXOMB8XK7TtD2_cdYSi0iw0l0QOs0-_w**
+                  - img [ref=f4e20] [cursor=pointer]
+    - contentinfo [ref=e167]:
+      - generic [ref=e168]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

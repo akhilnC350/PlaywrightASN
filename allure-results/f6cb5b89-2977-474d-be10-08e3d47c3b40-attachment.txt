@@ -1,0 +1,7 @@
+Dialog message: This alert appeared after 5 seconds
+Dialog message: This alert appeared after 5 seconds
+Dialog message: Do you confirm action?
+Dialog message: Do you confirm action?
+Dialog message: Please enter your name
+Dialog message: Please enter your name
+Dialog message: Please enter your name

@@ -1,0 +1,174 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23] [cursor=pointer]:
+            - img [ref=e25] [cursor=pointer]
+            - text: Elements
+          - img [ref=e30] [cursor=pointer]
+        - generic [ref=e34]:
+          - generic [ref=e36] [cursor=pointer]:
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e39] [cursor=pointer]
+              - text: Forms
+            - img [ref=e45] [cursor=pointer]
+          - list [ref=e50]:
+            - listitem [ref=e51] [cursor=pointer]:
+              - img [ref=e52] [cursor=pointer]
+              - generic [ref=e54] [cursor=pointer]: Practice Form
+        - generic [ref=e57] [cursor=pointer]:
+          - generic [ref=e58] [cursor=pointer]:
+            - img [ref=e60] [cursor=pointer]
+            - text: Alerts, Frame & Windows
+          - img [ref=e65] [cursor=pointer]
+        - generic [ref=e71] [cursor=pointer]:
+          - generic [ref=e72] [cursor=pointer]:
+            - img [ref=e74] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e79] [cursor=pointer]
+        - generic [ref=e85] [cursor=pointer]:
+          - generic [ref=e86] [cursor=pointer]:
+            - img [ref=e88] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e93] [cursor=pointer]
+        - generic [ref=e99] [cursor=pointer]:
+          - generic [ref=e100] [cursor=pointer]:
+            - img [ref=e102] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e107] [cursor=pointer]
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - heading [level=1] [ref=e113]: Practice Form
+          - heading [level=5] [ref=e114]: Student Registration Form
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e118]: Name
+              - textbox [ref=e120]: Akhil
+              - textbox [ref=e123]: Negi
+            - generic [ref=e124]:
+              - generic [ref=e126]: Email
+              - textbox [ref=e128]: akhil1809@gmail.com
+            - generic [ref=e129]:
+              - generic [ref=e130]: Gender
+              - generic [ref=e131]:
+                - generic [ref=e132]:
+                  - radio [checked] [ref=e133]
+                  - generic [ref=e134]: Male
+                - generic [ref=e135]:
+                  - radio [ref=e136]
+                  - generic [ref=e137]: Female
+                - generic [ref=e138]:
+                  - radio [ref=e139]
+                  - generic [ref=e140]: Other
+            - generic [ref=e141]:
+              - generic [ref=e143]:
+                - text: Mobile
+                - generic [ref=e144]: (10 Digits)
+              - textbox [ref=e146]: "9717530599"
+            - generic [ref=e147]:
+              - generic [ref=e149]: Date of Birth
+              - textbox [ref=e153]: 18 Sep 1988
+            - generic [ref=e154]:
+              - generic [ref=e156]: Subjects
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - generic [ref=e161]:
+                    - generic [ref=e162]: Maths
+                    - img [ref=e164]
+                  - textbox [ref=e168]
+                - img [ref=e171]
+            - generic [ref=e174]:
+              - generic [ref=e176]: Hobbies
+              - generic [ref=e177]:
+                - generic [ref=e178]:
+                  - checkbox [ref=e179]
+                  - generic [ref=e180]: Sports
+                - generic [ref=e181]:
+                  - checkbox [ref=e182]
+                  - generic [ref=e183]: Reading
+                - generic [ref=e184]:
+                  - checkbox [ref=e185]
+                  - generic [ref=e186]: Music
+            - generic [ref=e187]:
+              - generic [ref=e189]: Picture
+              - generic [ref=e191]:
+                - generic [ref=e192]: Select picture
+                - button [ref=e193]
+            - generic [ref=e194]:
+              - generic [ref=e196]: Current Address
+              - textbox [ref=e198]: test test tets test
+            - generic [ref=e199]:
+              - generic [ref=e201]: State and City
+              - generic [ref=e204]:
+                - generic [ref=e205]:
+                  - generic [ref=e206]: NCR
+                  - textbox [ref=e209]
+                - img [ref=e213]
+              - generic [ref=e217]:
+                - generic [ref=e218]:
+                  - generic [ref=e219]: Delhi
+                  - textbox [ref=e222]
+                - img [ref=e226]
+            - button [ref=e230] [cursor=pointer]: Submit
+        - iframe [ref=e234]:
+          
+      - generic [ref=e239]:
+        - img [ref=e241] [cursor=pointer]
+        - iframe [ref=e244]:
+          
+    - contentinfo [ref=e245]:
+      - generic [ref=e246]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+  - dialog "Thanks for submitting the form" [active] [ref=e248]:
+    - document:
+      - generic [ref=e249]:
+        - generic [ref=e251]: Thanks for submitting the form
+        - table [ref=e254]:
+          - rowgroup [ref=e255]:
+            - row "Label Values" [ref=e256]:
+              - cell "Label" [ref=e257]
+              - cell "Values" [ref=e258]
+          - rowgroup [ref=e259]:
+            - row "Student Name Akhil Negi" [ref=e260]:
+              - cell "Student Name" [ref=e261]
+              - cell "Akhil Negi" [ref=e262]
+            - row "Student Email akhil1809@gmail.com" [ref=e263]:
+              - cell "Student Email" [ref=e264]
+              - cell "akhil1809@gmail.com" [ref=e265]
+            - row "Gender Male" [ref=e266]:
+              - cell "Gender" [ref=e267]
+              - cell "Male" [ref=e268]
+            - row "Mobile 9717530599" [ref=e269]:
+              - cell "Mobile" [ref=e270]
+              - cell "9717530599" [ref=e271]
+            - row "Date of Birth 18 September,1988" [ref=e272]:
+              - cell "Date of Birth" [ref=e273]
+              - cell "18 September,1988" [ref=e274]
+            - row "Subjects Maths" [ref=e275]:
+              - cell "Subjects" [ref=e276]
+              - cell "Maths" [ref=e277]
+            - row "Hobbies" [ref=e278]:
+              - cell "Hobbies" [ref=e279]
+              - cell [ref=e280]
+            - row "Picture dice.jpg" [ref=e281]:
+              - cell "Picture" [ref=e282]
+              - cell "dice.jpg" [ref=e283]
+            - row "Address test test tets test" [ref=e284]:
+              - cell "Address" [ref=e285]
+              - cell "test test tets test" [ref=e286]
+            - row "State and City NCR Delhi" [ref=e287]:
+              - cell "State and City" [ref=e288]
+              - cell "NCR Delhi" [ref=e289]
+        - button "Close" [ref=e291] [cursor=pointer]
+```

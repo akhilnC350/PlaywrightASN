@@ -1,0 +1,107 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e1]:
+        - generic [ref=f1e2]:
+          - generic:
+            - img [ref=f1e6] [cursor=pointer]
+            - button [ref=f1e8] [cursor=pointer]:
+              - img [ref=f1e9] [cursor=pointer]
+        - insertion [ref=f1e16]:
+          - link "Advertisement" [ref=f1e19] [cursor=pointer]:
+            - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsvS7znB1zDBiSmiNdiHuY0TjwngR2jrx7LM-5TddUNL9GYSwLRQLrVY6VZviXau7ubhL3UE7fxREStgvbpHYahhjEvE_UhLPZOan4zaLMVYtEbvNA5728hrTFxZy_dAcZlScF0Dm02mMpgvHd985r3eDFFLqAtqH39VHTTqNDgPUDb5VW_njzaWWdtBMB31x5r7J8zSyUuKsFJBtCKcA7c3StzHEwvYbdwWvAQbpiacYYliQJT4wG-6Gb88EwGJh2cIJFzs2C1xdMQYkoi63wzbj-9H4-DTnFTsNncJm_puCCV1MLpcx0WdKB4pJFMy_Nh6_Jqw4PlolNOeg7HrSfAnsKCYXMRShbctcc0pLF_-XXO9STubDDvBYq94gYnQen9nzbPQstSKPRafVQ_Qrm8wfwbe5JHerRoDnPED1ik4u8_0-OU9FbkHv3CapP0vQTIL1bZT3QlffTeQnA9w5bxc_3rnt08WYbwkNPOLfu4fOnRDbNR71q6UT2oqcECqetcqKBVCNptsGg0VqBf_DSNwdMHx&sai=AMfl-YSSgFkzDzLY4ga4ZpfouZ_4qgeKRgl1ki8tU1Erx2r7kLydlKPC8z0s5X4zRAE9ckkNzslr6sM8GR3bNeMX04R4PS6Dujhr3kwNyTrcAYP2ImM5CkP5xhtdup6IwxYVH3aU7W_q-wECPH9IrRGWNft0ltgFbdbBPeCKbORRq5O_j9LCQcbInhY37hIc63T3UWjki09f11yZNaCnIRTKoor7_RoKeVw946jVm_xRlASpUA&sig=Cg0ArKJSzCJeLQ7KxMu_&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly91bml0ZWRoZWFsdGhncm91cC5jb20&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DCJUnZl7PDaMzxLMiSssUP7rbC0QT7mMCGgQGck-_z6RTwLhABIMb71nlg5arlg6wOoAHu5d7iAcgBCakCFsy4-SRISD6oAwHIA5sEqgT2AU_QW6p82yznEctINfA85ecF-fIEHbaIIiTIx52mAdEAUYyDBsYQd_je211Aho66-9e6UVWwxBhHZJJGwcu6bekPAjJXPBc03GI7E0VV3HNwytE5dA4Kaqy757reN-6jtHzeJ_gMwGVBhMxsJhB9xQv-lwceJp4BAVLTAco1-Apnnf3GahD89kBFbNJhrPR3ussKszOtkCzhjwmFz2wzIU0dEL41uv68KBgdv9MT7x0nOh8Dbl90-1yOM71XDah0eVBbRCl0QoJ0Bxg24zI3EYIcDdy6o3teutejEKV4YVheX-T2YTd8PJ9_REFiqbKhcBcm2eFbDcAEu_nH65MF4AQDiAXqoPCqU5AGAaAGTYAH-pmhnQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQKoB-fXsQLYBwDSCCkIgGEQARidATICigI6DYBAgMCAgICAqIACqANIvf3BOli9kfbYwtKPA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MoAKA5gLAcgLAYAMAaoNAklO4g0TCNbT9tjC0o8DFUiJrAIdbpswSuoNEwiIr_fYwtKPAxVIiawCHW6bMErwDQGIDv___________wGwE__9nx7YEw2IFAHYFAHQFQHKFgIKAPgWAYAXAbIXDhgCKgo2MTY4NTc2NTA1qhgXCQAAAADQTfJAEgo2MTY4NTc2NTA1GAGyGAkSAvpTGE0iAQA%26ae%3D1%26num%3D1%26cid%3DCAQSrAEA2abss5FrM4BUyjkMiVJyv5QtPweVJqDPe80I1BC41f7UCCRfuIX06yamhqxnVpDxXZ1-ZqouqB4dtIkIs9lpr5oEujfB_8E7qhru0j0Bn2N9hb2LZw4NbWxNC554emFH2r-gFwQRrOnDwnzLcYx4UW75XWASAfJXUY6xNS8m_SESwIxn1YigoYx75U9A7UdQEpQJNbb4OE7Za2_uHDlOdoVda8fHnFgCLCsmGAE%26sig%3DAOD64_2KjLmC0ivLeDiqucSgn0xKkgxS7Q%26client%3Dca-pub-4573231550355221%26dbm_c%3DAKAmf-C2Fu7N-N0_kUp_S9b8iSkSTvGt91yy3-aDTVvxYG5obYFjZ6_6L9K5U0HSYR5fMDrNT9tUXExpDpZXttE6FjOjXMVpYNFG152qPE4ljB2z-j81lCslGSlvK9aEnwI8zcCym48_y11KmcfTNXg7bRi_TAhgAfGpRbs-Vh_FUiDj-2SIljq89T4pSyMvafBpkYQ818nP6ctK9k-B4luhl5bkvi-uD6XYEQ0XxRf0wHWgAilRbootDIVPI3sVKPlD59EO3UTvSsxzXC8g2jvziwWsRowj-d1ji8lexCh6iF3fbppkyps%26cry%3D1%26dbm_d%3DAKAmf-A2uOWLeTiwQHRqU-rXotskJa62aFf6Owl_w9p3OjS_uglN_F_Ic1D1ycZmffnnuZVRNwy55Vxv0Zy62dmqgYBAIyGWLA7fnyCzYqnUPC9ZLVVDRCbYz2GFUhkcNLIZfFsgyD76ZY2dOhMUUQoXqfN03AVY_YHypQBmfE2HkpArESmisI4KZ6y7WTd20zk57Cm6sF9QrA2lUWJAq8YJBAhGkj_O6zWXX6HiWjXIWkj0Np1z_Jm_DB6IryktDG3A1IREyEnxlY9wkI-pNEFZDAGbhpBk4O1fkBjMhdq4oHBJlECuWLiCLh32gfPQrdoLHGz9ZMNGf37KyuIfqbtSbdBFM25bk9NlJSCz35fk2J6XoeA3lZmNdPtb__SlOdK7I3UNt9Lranb8CxpxVnIzc9D2kKN0Izn3S6OZ94RGHVL3n10KQazwEXu0b_95iMDRDdZ0ndUFQPI-EKiWBHTFAFhe5HkAlgD127J5EKNVL0aSQAEdnd1d_S8MxQ3xThL__5VnfUl3R_ZFEclirkc65vQ7hQGfn7O7MC60AT1NvEYV-swYXIjOEE4W_gRgt1ZT_q4IE-jJi8Z0ssOJ3dgVnZtqQiGEBdJq03457mUD35AKzL4dZgtXgr2tlsn8WXfcbQIWSq1NlXn5eHj0oMXGdmvhydORJojp1xkfawnqD6D4aJT9GZAEfuSahxlhp_fr0NR9cFpD%26adurl%3Dhttps://careers.unitedhealthgroup.com/job-search-results/%253Fkeyword%253D%252523gen%2526location%253DIndia%2526country%253DIN%2526radius%253D25%2526src%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D419325185%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7
+            - img "Advertisement" [ref=f1e20] [cursor=pointer]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e23] [cursor=pointer]:
+              - img [ref=e25] [cursor=pointer]
+              - text: Elements
+            - img [ref=e30] [cursor=pointer]
+          - list [ref=e35]:
+            - listitem [ref=e36] [cursor=pointer]:
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: Text Box
+            - listitem [ref=e40] [cursor=pointer]:
+              - img [ref=e41] [cursor=pointer]
+              - generic [ref=e43] [cursor=pointer]: Check Box
+            - listitem [ref=e44] [cursor=pointer]:
+              - img [ref=e45] [cursor=pointer]
+              - generic [ref=e47] [cursor=pointer]: Radio Button
+            - listitem [ref=e48] [cursor=pointer]:
+              - img [ref=e49] [cursor=pointer]
+              - generic [ref=e51] [cursor=pointer]: Web Tables
+            - listitem [ref=e52] [cursor=pointer]:
+              - img [ref=e53] [cursor=pointer]
+              - generic [ref=e55] [cursor=pointer]: Buttons
+            - listitem [ref=e56] [cursor=pointer]:
+              - img [ref=e57] [cursor=pointer]
+              - generic [ref=e59] [cursor=pointer]: Links
+            - listitem [ref=e60] [cursor=pointer]:
+              - img [ref=e61] [cursor=pointer]
+              - generic [ref=e63] [cursor=pointer]: Broken Links - Images
+            - listitem [ref=e64] [cursor=pointer]:
+              - img [ref=e65] [cursor=pointer]
+              - generic [ref=e67] [cursor=pointer]: Upload and Download
+            - listitem [ref=e68] [cursor=pointer]:
+              - img [ref=e69] [cursor=pointer]
+              - generic [ref=e71] [cursor=pointer]: Dynamic Properties
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75] [cursor=pointer]:
+            - img [ref=e77] [cursor=pointer]
+            - text: Forms
+          - img [ref=e83] [cursor=pointer]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90] [cursor=pointer]:
+            - img [ref=e92] [cursor=pointer]
+            - text: Alerts, Frame & Windows
+          - img [ref=e97] [cursor=pointer]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104] [cursor=pointer]:
+            - img [ref=e106] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e111] [cursor=pointer]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118] [cursor=pointer]:
+            - img [ref=e120] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e125] [cursor=pointer]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132] [cursor=pointer]:
+            - img [ref=e134] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e139] [cursor=pointer]
+      - generic [ref=e143]:
+        - iframe [ref=e146]:
+          
+        - generic [ref=e147]:
+          - heading "Broken Links - Images" [level=1] [ref=e148]
+          - paragraph [ref=e149]: Valid image
+          - img [ref=e150]
+          - paragraph [ref=e151]: Broken image
+          - img [ref=e152]
+          - paragraph [ref=e153]: Valid Link
+          - link "Click Here for Valid Link" [ref=e154] [cursor=pointer]:
+            - /url: http://demoqa.com
+          - paragraph [ref=e155]: Broken Link
+          - link "Click Here for Broken Link" [ref=e156] [cursor=pointer]:
+            - /url: http://the-internet.herokuapp.com/status_codes/500
+        - iframe [ref=e160]:
+          
+      - generic [ref=e165]:
+        - img "Build PlayWright tests with AI" [ref=e167] [cursor=pointer]
+        - iframe [ref=e170]:
+          
+    - contentinfo [ref=e171]:
+      - generic [ref=e172]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

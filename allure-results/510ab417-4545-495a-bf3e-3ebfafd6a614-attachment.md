@@ -1,0 +1,102 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e23] [cursor=pointer]:
+              - img [ref=e25] [cursor=pointer]
+              - text: Elements
+            - img [ref=e30] [cursor=pointer]
+          - list [ref=e35]:
+            - listitem [ref=e36] [cursor=pointer]:
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: Text Box
+            - listitem [ref=e40] [cursor=pointer]:
+              - img [ref=e41] [cursor=pointer]
+              - generic [ref=e43] [cursor=pointer]: Check Box
+            - listitem [ref=e44] [cursor=pointer]:
+              - img [ref=e45] [cursor=pointer]
+              - generic [ref=e47] [cursor=pointer]: Radio Button
+            - listitem [ref=e48] [cursor=pointer]:
+              - img [ref=e49] [cursor=pointer]
+              - generic [ref=e51] [cursor=pointer]: Web Tables
+            - listitem [ref=e52] [cursor=pointer]:
+              - img [ref=e53] [cursor=pointer]
+              - generic [ref=e55] [cursor=pointer]: Buttons
+            - listitem [ref=e56] [cursor=pointer]:
+              - img [ref=e57] [cursor=pointer]
+              - generic [ref=e59] [cursor=pointer]: Links
+            - listitem [ref=e60] [cursor=pointer]:
+              - img [ref=e61] [cursor=pointer]
+              - generic [ref=e63] [cursor=pointer]: Broken Links - Images
+            - listitem [ref=e64] [cursor=pointer]:
+              - img [ref=e65] [cursor=pointer]
+              - generic [ref=e67] [cursor=pointer]: Upload and Download
+            - listitem [ref=e68] [cursor=pointer]:
+              - img [ref=e69] [cursor=pointer]
+              - generic [ref=e71] [cursor=pointer]: Dynamic Properties
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75] [cursor=pointer]:
+            - img [ref=e77] [cursor=pointer]
+            - text: Forms
+          - img [ref=e83] [cursor=pointer]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90] [cursor=pointer]:
+            - img [ref=e92] [cursor=pointer]
+            - text: Alerts, Frame & Windows
+          - img [ref=e97] [cursor=pointer]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104] [cursor=pointer]:
+            - img [ref=e106] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e111] [cursor=pointer]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118] [cursor=pointer]:
+            - img [ref=e120] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e125] [cursor=pointer]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132] [cursor=pointer]:
+            - img [ref=e134] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e139] [cursor=pointer]
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - heading "Buttons" [level=1] [ref=e145]
+          - button "Double Click Me" [ref=e147] [cursor=pointer]
+          - button "Right Click Me" [active] [ref=e149] [cursor=pointer]
+          - button "Click Me" [ref=e151] [cursor=pointer]
+          - paragraph [ref=e152]: You have done a double click
+          - paragraph [ref=e153]: You have done a right click
+        - iframe [ref=e157]:
+          - link "Loremmmmm delicious ipsum dolor sitamet sitLoremmmmm delicious ipsum dolor sitamet sitLoremmmmm delicious ipsum dolor sitamet sitLoremmmmm delicious i" [ref=f2e5] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e162]:
+        - img "Build PlayWright tests with AI" [ref=e164] [cursor=pointer]
+        - iframe [ref=e167]:
+          - generic [ref=f3e2]:
+            - link "Advertisement" [ref=f3e4] [cursor=pointer]:
+              - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsvBYzMzqNQ5o7U9nqP6_e9RbFUhMzYjHueHUQM-aHwgECavaRTpnm3pZdqUU5P5HEYt-SXJs4sAaOWm-m0r7f7TFYAB8wFEUNJ6IMHxmR-Q9oN3caDxdO2sgcdwHi6zRuPP3YHzmvw8GhY4620OdvJ64zoAdrXpuuOXCj9Tb4N7_X8xl6Ac2GmRQOJbBhqVqM9JtOkhJ8aaXSWNVNWDv7guleUKD92vQ1x2kF3pV52-GsGhkW_8UlmkVxH1B7GlDVXJMRLRHnT1Rr5FUrsAvodbfY-TZ8RXlH990Fo2PtNBMonr1XYV32NIsEJSiHBc0GotLBdGVEpp3nUnJ1EDJm2fqlrgkqNh4lOQkbqAt4KDTiRpqh4T_lQYd8l0GPSDa_4Y9PM1g3x2zUPOLXS5q4y6ICHjJo081ZvQNHg8zp9jn51B2ujsUO8tkfLMNAcXXSOKNyO9SaKB20IwW1H6xi9X8wsohB8US-JqbHgU0UGi877Wj3y2BvnfUY4niuNP9IhogRLmXfKI4ZIrnELe_eJoNS0pf_p7VdUeHVlE0t2mivLQHw_ORxQTLeHnKHirXcqg03GyeolyoibbLN2tfSxFOSKJLL8H4JRvhcblR_K_xu8jGgIFEwIeaPS4pt4_hZYYzvTZNkRAdwrIxIUeLL5_nfAFL3yMNY3F_-UNPXUyUv2URfKHWWTpcmfRCexuh5ir9emmn4u4Zq0KJRdKrdPIyQClGj-UsV91WxOLqz3_Wtp19ZZ2vJTy2e5n_Vym1iGLs_GUsYeKkrG73AKgRAlU0wjpSmg8H57jSYbgsERLiYuNzCPF_fQ9C2leRJMJ_1h7irI6UoWMvmT6dIXxs32cJ_n_7qZk0fhbcog8L_kFmdn9nbFrA2IijqkJNCKgViCZX6P6DWkgn6vsEPSIPq2EIbahIBqo9kIcZYjAYfiKquYca2fpIksnfefYyki6qISuoO5NRax_ax8tut1DMCci-CFFWYEyH0LDAaxMGUJcdLQXzG16U3VuD9Xb2fdPEK1ioORi_3692jO_7tGS9g6ZaxFzAUkR5tXFpcXEcUCtPqtI8ZudDe1zzmdIwDZnKxleyH4Mc4_TgSJVMm6N28qLBeX9miDLPUpLHv3XhLgdSh9rmzzp2dEn7sM2Md54mkI6tz3pSTCsSSn2MtStVWofmojlE7KwwtWQAnBGbX5IRH2-8xq0JcpPHfRB89RUDwqKOvatTuutKcTuFdk-h_oitkeFOKLyOwcXay6xahiCngpVNRmjRRIV6xuHAYlN0n7Rtg8oM6yIwr8mecIAgHhupfuyft67plKduixkHJ8_xWyr5PYDU0KNgYZppUPTxKkyr7qvCvFCqSkZtcUUkjuJ9FOONwsbKpqX02kcvEVEJL2MdxSQ7m6vI1VcpTxS1o_Z7_oaYO1aowMEWCPm-OW3zCO_pKPSFdgoGvXNWw8Vq0ZJzXo9CjF_wiJ3Q8G693sX-3RQ1yyS8a1lp1qZKMgi457vat_-WyhLspyT6bz5QMObk4-7DSvGlYwE3kexEjdZwavdmmMTlCS8SFgP8uBIyTkU9rqVDZ8hoJ9xfJoLbSoz9ajvDvsnV6SAZ88SH1GzZNFLCLQ6y0LignyvQlM3HMHHvcCZxkZD9qSzpVoHKEGZXDJeHMORHqE9MKJS-OSU4rHLMGPat5brSQZIkYcQXNKS403BoGnnojvp-MLHBcflXaqgiY67r7cB-917ytyHuQeVyVFj8N72COaQ86QfbMMbzgShrR9lKuB4lw2ybilW7K5dWPhMpXQd7eDCvsQQs41jlPkD1yxd6XxWFncP3xr4DnGoXtyqo38j1Owo5fkecG5XiWmiECfrlnwYAcIcHzygQcXgxo3JawRjoidBLIMF7SENTqYeYbTc68qdRwHEp8f0PiP8TFtAovhgX8-aifCLvc5SpctRJ4QvyZUS0VEDhX-PKDiLRSiOnkGXaPR6wvZCEFy2G3I4l9MMEpM2yyo8JmZJyPdhnQl95skb9h-N5X_mmtl_DZRFk1Xc0JmHc-6mvt3l-ATxgWARgWPBa2UyXv8s&sai=AMfl-YTyQqmpqCQd0yDCfZluQd_MHcbN16OT2OC0Zl_RJg7AO0AIAw2c0opG-f4_3RBP0fIXKfcTHBCHgl3Da8tXuCbubnZUFTOh0ypEL9ZzcWYl52pIbFJ2QfpRxyJttOAj4MDR3KrgKKJ3yakRVSRJhB8jcFhBzEwgmr6aZmxRT2wCskqctJ91AYKJcc6ubP7LbMoXwgl869p3JQMqHJFVDancB7-6zwfwi7AlgY6KZ9ZWGleUZhVuxGDuNs89U-L8xqzV5zNfRI7AduW3JyXv-tQevCbdSJaeCQdOvqPIy5n-GZQvwYJhtEo_-_gFSRLu4IJSMW_-5zNVBETci0O7-_HtxEJU5FFJ2wQucOdcmjAcXRR8ZXNCu0Pns1SSZabdc-6GNLnzHB_x968nhWoGhHURCu839o1ygAeOrnakKHtKzap7RQZxUp10YQTnvnHajcokaBqwNeq48BysEFnHROqCqClarTV9I4WbfjQCa1iJR7Nvj7QQzyMJEK__p-fTA8N1woB-AI0DBznUbiSvxOdpKXixJ3SQKfeuMK7ngkJk9ihHlVhkftuRPp5te6SPNex7v01TESBIQvvid5fIEzbp5-GLNVfsjCAAiixnHNW0sPvSW2e53d1LiEvx87_m6qsn3tUM_eLN&sig=Cg0ArKJSzEzlcNjzpvJc&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9teXZpLmlu&urlfix=1&adurl=https://www.myvi.in/content/vodafoneideadigital/in/en/vil-homepage/static-pages/non-stop-hero-page3.html%3Futm_medium%3DfixedNSH_Gaming%26utm_source%3DDV360%26utm_adtype%3Ddisplay%26utm_campaign%3DNSH_Aug%2725%26utm_adgroup%3DALL_digital_display_Haryana(Exchandigarh)%26utm_content%3DNSH_Gaming%26utm_term%3DEng_all%26dclid%3D%25edclid!%26gad_source%3D7
+              - img "Advertisement" [ref=f3e5] [cursor=pointer]
+            - generic [ref=f3e6]:
+              - generic:
+                - img [ref=f3e10] [cursor=pointer]
+                - button [ref=f3e12] [cursor=pointer]:
+                  - img [ref=f3e13] [cursor=pointer]
+        - iframe [ref=e170]:
+          
+    - contentinfo [ref=e171]:
+      - generic [ref=e172]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

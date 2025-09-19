@@ -1,0 +1,129 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - link "Advertisement" [ref=f1e4] [cursor=pointer]:
+          - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjssQsvmy5Gqs2tK72_hpGEjpH2DXVZzmaKuy8QLYNTkd2Uv0T6OBuEQay8ashK6ODsDLFmDx81nwA0OssstdSkf-a_MeIv2MCxEeETva7C0ybRQ1Ux9I32lG0qPuaiHDKgAXTqrlUF3ODoHfn194j0foDKa3iZUvdBhc0FJFlZCOYH8a8oKpEeKxgdb0Aew7coZuAnoK8FZYv0roljiVMVfm_kQOE9StDoIYWzpxqD-AxaXKlLdB9j5x57PjV6OoEHmlvL2JZPLVRUbuIqNBe_aRW13-hk5DDeDluVazbPxyoUn6k_EpwAC6TcqS2aUNek5o1N7qNhhKqtWL9by0tiCt3n3liFJAh3_Eo1JSqM7h6rl1W18G9gINLbX12FrH_7zO3X827a8cMJuhdbobUT8OqgeUVIy6Gkr-Ejlrv0yPJqIvhcw4LG6mpNNY_woCyTSgc8XOCcNV7dKj5dTfGMoQ2U-oZFSP5gcjgS-C0k1_NOgKdlXB0toWrJXz-SmwUJjpvubh99Jr3izay0yCzYlg9GNT_Z2pDVlgFvS0zdhtrViDVXoeRMCJmn0Mc2LZWXPmWChgJUACucZet0R9T9yySo5w6s-qBsYKpPxtB1sP4TQNhrWL_3JjUBFK--WTF4ip7Sri7iZxWcKXKfDkE3JfoOR0W26MQZ7vl2TLzZhtUKKKdL8G0tcyNJ3ohPPC8HJDo98pV1WQjAQXyULDIQXzNfGb33BMieKJpgn3gfAlBwsrbof_Tcn-m1rAzqPayUeSPj-UyIw82-0FC9xc9Ou1PlLsSD5rXuX2pe22vWK6X-PWIHLNkPGxejo-6G6KmglduO0iPBYQRlymVKCQye1WfjPdZnmW_cd21MMR5vz8c-U0nYXE6RnzrgyAVSJcHEWhhAK4CLZ_4LUgv1qt2U8lI9uo241IFRJj1oPH9xRmh_TGPnNlVximmrn05Poczj2MWFOEjddKURjCaZn8qHo9ePx4jsEEaajSP0JCcVRNIVTWq5mCJ2Kp6gEvI-YzTv9HlOY8TrBBJhNWXdAJGN1TLaPZWMEeVubGu3Ej8hQAbyHWJiRuSvM6rff60AoeAAKPB2hZJ_37RPmc0ZDQqPIJz8Bj5i-i79xzuK-nHBGMF-ZkMkOTELkZQf9XJRfzMGAs7Q5FEnfcb_ut-N8J-rtmsxda27hTGviT1V9kZu5rebAZOyJ4huoM4kmIJHgeWGhJ9oONpdjVkpc_WMtQabMvnE_U4GzAhCwWIh4ip-fk8suXSvt_va17Ka2aqri1KxhoFukUaa57nlpQjJq2T0wnevjZU9S0A9SFTZQ_AyYjjL4teUqp85qoEjoXYgAyegeUjFN4OOvhPF6TBEXIc9038uDnpuka2w63bcwLwhZ0ez1jOvlUfGygfKpxysC-mX-yP4PQ-P-wSvanhqs44_tgag3XU8xEBjrQ2m8ri1cABeIY5XTTiqEP-m1nLRpMfOA7D2NecpiZOU1ZhBQ9_1jYqVbsP4FcKKCkISwIZFBVtP46mpwKPvJKl6tPIsm7IzT0tjuNJRggdBnzieAwurdr&sai=AMfl-YS3TXLkhgQJvtSFGzS_zxtVX-mnOqgvduMCRIgFqT8Mlqd6iQCi1k0cHJYZX-1GRemo-fmkZN_NiZ1eXpDJN9jJsYKevJiThRGBBCpwvvc0OazSkLq8sdJ1a0dCCZm1UrpUCeQFxR_A-SnehPjtnpfauTKqFf2WlBA4EOZjwnpSqSALBqgh5GvV_mRc4fQnO0f2CXtAW0kGqijytmpTNEjXqeSk6xGBbC0JbIN95CX3Kb2CEp9Sk6aIjFQLpi3HgDq203rS1wVAmXvWt2gozZLkSO2Wr5iKNSzSlweUO3sfsz5AdP9WW3QqWUyuJTMcYsFV4eShUvfCHOwRllk-JlG8E7K6_SQldaCNTIs_tLRNBk_A2wv0Wge2bedLaULHNx-Cr20l5sBhurCmUU413IOc39z5WogxuUG2Mr_uNRg_lCGzYxPM7-KZKH6-KZDJygoWtA6zVSJzf1fRLOY4naOIyvLsmRmlqHnjcYlCHLVUUUJYUtocUg3eK9lsW1vSDDnKgl8527lYwpp1NaTry6nZsn-IPcF8rRDgRpc7zEEGoCTT0DfHp3E1buEB5URw1Vqe3OWeeTAQsS4zMGvyovau5zRxW4bgjlS5zJzXiMdpP5S4MNKyG92UE7LeReMJNVj7DveGP6PVG1WLMMzDL7LE9JUVN2loE-2TXOHVo-ooN8QoV7HijKyuRR8CDNsQtWz6&sig=Cg0ArKJSzJitja_mHd3u&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9iYWphamFsbGlhbnouY29t&urlfix=1&adurl=https://www.bajajallianz.com/health-insurance-online/product%3Futm_source%3DPaidDisplay%26utm_medium%3DCPM%26utm_campaign%3DBranding_HealthInsuranceIA_Sept25_DV_SheildTheirSmiles%26utm_term%3DStatic%26utm_content%3DSheildTheirSmiles%26dclid%3D%25edclid!%26gad_source%3D7
+          - img "Advertisement" [ref=f1e5] [cursor=pointer]
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13] [cursor=pointer]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23] [cursor=pointer]:
+            - img [ref=e25] [cursor=pointer]
+            - text: Elements
+          - img [ref=e30] [cursor=pointer]
+        - generic [ref=e36] [cursor=pointer]:
+          - generic [ref=e37] [cursor=pointer]:
+            - img [ref=e39] [cursor=pointer]
+            - text: Forms
+          - img [ref=e45] [cursor=pointer]
+        - generic [ref=e49]:
+          - generic [ref=e51] [cursor=pointer]:
+            - generic [ref=e52] [cursor=pointer]:
+              - img [ref=e54] [cursor=pointer]
+              - text: Alerts, Frame & Windows
+            - img [ref=e59] [cursor=pointer]
+          - list [ref=e64]:
+            - listitem [ref=e65] [cursor=pointer]:
+              - img [ref=e66] [cursor=pointer]
+              - generic [ref=e68] [cursor=pointer]: Browser Windows
+            - listitem [ref=e69] [cursor=pointer]:
+              - img [ref=e70] [cursor=pointer]
+              - generic [ref=e72] [cursor=pointer]: Alerts
+            - listitem [ref=e73] [cursor=pointer]:
+              - img [ref=e74] [cursor=pointer]
+              - generic [ref=e76] [cursor=pointer]: Frames
+            - listitem [ref=e77] [cursor=pointer]:
+              - img [ref=e78] [cursor=pointer]
+              - generic [ref=e80] [cursor=pointer]: Nested Frames
+            - listitem [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+              - generic [ref=e84] [cursor=pointer]: Modal Dialogs
+        - generic [ref=e87] [cursor=pointer]:
+          - generic [ref=e88] [cursor=pointer]:
+            - img [ref=e90] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e95] [cursor=pointer]
+        - generic [ref=e101] [cursor=pointer]:
+          - generic [ref=e102] [cursor=pointer]:
+            - img [ref=e104] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e109] [cursor=pointer]
+        - generic [ref=e115] [cursor=pointer]:
+          - generic [ref=e116] [cursor=pointer]:
+            - img [ref=e118] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e123] [cursor=pointer]
+      - generic [ref=e127]:
+        - iframe [ref=e130]:
+          - generic [ref=f2e2]:
+            - iframe [ref=f2e5]:
+              - generic [ref=f3e2] [cursor=pointer]:
+                - img [ref=f3e4] [cursor=pointer]
+                - button [ref=f3e96] [cursor=pointer]
+            - generic [ref=f2e6]:
+              - generic:
+                - img [ref=f2e10] [cursor=pointer]
+                - button [ref=f2e12] [cursor=pointer]:
+                  - img [ref=f2e13] [cursor=pointer]
+        - generic [ref=e131]:
+          - heading "Alerts" [level=1] [ref=e132]
+          - generic [ref=e133]:
+            - generic [ref=e135]: Click Button to see alert
+            - button "Click me" [ref=e137] [cursor=pointer]
+          - generic [ref=e138]:
+            - generic [ref=e140]: On button click, alert will appear after 5 seconds
+            - button "Click me" [ref=e142] [cursor=pointer]
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: On button click, confirm box will appear
+              - generic [ref=e146]: You selected Ok
+            - button "Click me" [active] [ref=e148] [cursor=pointer]
+          - generic [ref=e149]:
+            - generic [ref=e151]: On button click, prompt box will appear
+            - button "Click me" [ref=e153] [cursor=pointer]
+        - iframe [ref=e157]:
+          - generic [ref=f4e2]:
+            - iframe [ref=f4e5]:
+              - generic [ref=f5e2] [cursor=pointer]:
+                - img [ref=f5e4] [cursor=pointer]
+                - button [ref=f5e96] [cursor=pointer]
+            - generic [ref=f4e6]:
+              - generic:
+                - img [ref=f4e10] [cursor=pointer]
+                - button [ref=f4e12] [cursor=pointer]:
+                  - img [ref=f4e13] [cursor=pointer]
+      - generic [ref=e162]:
+        - img "Build PlayWright tests with AI" [ref=e164] [cursor=pointer]
+        - iframe [ref=e167]:
+          - generic [ref=f6e7] [cursor=pointer]:
+            - link [ref=f6e8] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/15?h=23ttqrAjZj1kuAwjBfZOfcRfCE_hi3gmTyFZ7TyYEz8HZY_OG41hBm5WqYinYMTA_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBreIKTH1o8lTlszgmeUtypum&rid=3fec4273-93ab-11f0-9985-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8hULzGBnmK2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS1rzEWQZezd-64DXb6fFOmv5-EvT-N76O972ozrJMYEA**
+            - generic [ref=f6e9] [cursor=pointer]:
+              - link [ref=f6e11] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/15?h=23ttqrAjZj1kuAwjBfZOfcRfCE_hi3gmTyFZ7TyYEz8HZY_OG41hBm5WqYinYMTA_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBreIKTH1o8lTlszgmeUtypum&rid=3fec4273-93ab-11f0-9985-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8hULzGBnmK2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS1rzEWQZezd-64DXb6fFOmv5-EvT-N76O972ozrJMYEA**
+              - generic [ref=f6e14] [cursor=pointer]:
+                - link "Himalaya Herbal Age Defying Hand Cream" [ref=f6e16] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/15?h=23ttqrAjZj1kuAwjBfZOfcRfCE_hi3gmTyFZ7TyYEz8HZY_OG41hBm5WqYinYMTA_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBreIKTH1o8lTlszgmeUtypum&rid=3fec4273-93ab-11f0-9985-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8hULzGBnmK2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS1rzEWQZezd-64DXb6fFOmv5-EvT-N76O972ozrJMYEA**
+                - link "Amazon" [ref=f6e18] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/15?h=23ttqrAjZj1kuAwjBfZOfcRfCE_hi3gmTyFZ7TyYEz8HZY_OG41hBm5WqYinYMTA_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBreIKTH1o8lTlszgmeUtypum&rid=3fec4273-93ab-11f0-9985-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8hULzGBnmK2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS1rzEWQZezd-64DXb6fFOmv5-EvT-N76O972ozrJMYEA**
+                - link [ref=f6e19] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24671911/i/58092113/0/pp/1/15?h=23ttqrAjZj1kuAwjBfZOfcRfCE_hi3gmTyFZ7TyYEz8HZY_OG41hBm5WqYinYMTA_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBreIKTH1o8lTlszgmeUtypum&rid=3fec4273-93ab-11f0-9985-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8hULzGBnmK2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS1rzEWQZezd-64DXb6fFOmv5-EvT-N76O972ozrJMYEA**
+                  - img [ref=f6e20] [cursor=pointer]
+    - contentinfo [ref=e168]:
+      - generic [ref=e169]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

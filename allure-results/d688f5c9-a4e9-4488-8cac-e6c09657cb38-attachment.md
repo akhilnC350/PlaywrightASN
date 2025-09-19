@@ -1,0 +1,191 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e6]:
+        - generic [ref=f1e8] [cursor=pointer]:
+          - link [ref=f1e10] [cursor=pointer]:
+            - /url: https://clck.mgid.com/ghits/24627648/i/58092114/0/pp/1/13?h=kMKL-UykN5zkOxMAVuESGnjT3Sh-6aAJhtnE2nU9CMGITFu30ASuCd31VmiT_nOl_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6JoCxU5QfQJjHzwtf4c6Fq&rid=712490c2-92e1-11f0-b357-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS1rzEWQZezd-64DXb6fFOmv5-EvT-N76O972ozrJMYEA**&k=1761662fc*f!fZlR93thfZlR95rWfNGExNGJiOWY0MjRkZGRhZTRmMjE0NGY4YzZhNmZjNTI%3DfMHwwf!ffff!ff%2C*f*ffQf!faHR0cHM6Ly9iM2UyMWQyYjBiMjU1M2EzN2QzYzA2NTEzYzBkZmNjZC5zYWZlZnJhbWUuZ29vZ2xlc3luZGljYXRpb24uY29tL3NhZmVmcmFtZ%248xLTAtNDUvaHRtbC9jb250YWluZXIuaHRtbA%3D%3DfaHR0cHM6Ly9kZW1vcWEuY29tLw%3D%3DfaHR0cHM6Ly9kZW1vcWEuY29tLw%3D%3Df*fMHww*DB8MA%3D%3DffKf%3BfcfMHww*DB8MA%3D%3DfUAfLQff!fTW96aWxsY%2481LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChL%24FRNTCwgbGlrZ%24BHZWNrbykgQ2hyb21lLzE0MC4wLjczMzkuMTYgU2FmYXJpLzUzNy4zNg%3D%3DfUERGVmlld2Vy*ENocm9tZVBERlZpZXdlcnxDaHJvbWl1bVBERlZpZXdlcnxNaWNyb3NvZnRFZGdlUERGVmlld2Vy*FdlYktpdGJ1aWx0LWluUERGf!fV2luMzI%3DfMzMwfMXw0Mw%3D%3DfMTI4MHw2ODA%3DfdW5rbm93bnw0Z3wwfKfKfQf*ff*(Vv1M%24&crst=1758015735&wrst=1758015733&muid=p8gerrisrHG2
+          - generic [ref=f1e13] [cursor=pointer]:
+            - link "मधुमेह पर विजय की वो सत्य कहानी, जिसे सब छुपाते हैं" [ref=f1e15] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24627648/i/58092114/0/pp/1/13?h=kMKL-UykN5zkOxMAVuESGnjT3Sh-6aAJhtnE2nU9CMGITFu30ASuCd31VmiT_nOl_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6JoCxU5QfQJjHzwtf4c6Fq&rid=712490c2-92e1-11f0-b357-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS1rzEWQZezd-64DXb6fFOmv5-EvT-N76O972ozrJMYEA**&k=1761662fc*f!fZlR93thfZlR95rWfNGExNGJiOWY0MjRkZGRhZTRmMjE0NGY4YzZhNmZjNTI%3DfMHwwf!ffff!ff%2C*f*ffQf!faHR0cHM6Ly9iM2UyMWQyYjBiMjU1M2EzN2QzYzA2NTEzYzBkZmNjZC5zYWZlZnJhbWUuZ29vZ2xlc3luZGljYXRpb24uY29tL3NhZmVmcmFtZ%248xLTAtNDUvaHRtbC9jb250YWluZXIuaHRtbA%3D%3DfaHR0cHM6Ly9kZW1vcWEuY29tLw%3D%3DfaHR0cHM6Ly9kZW1vcWEuY29tLw%3D%3Df*fMHww*DB8MA%3D%3DffKf%3BfcfMHww*DB8MA%3D%3DfUAfLQff!fTW96aWxsY%2481LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChL%24FRNTCwgbGlrZ%24BHZWNrbykgQ2hyb21lLzE0MC4wLjczMzkuMTYgU2FmYXJpLzUzNy4zNg%3D%3DfUERGVmlld2Vy*ENocm9tZVBERlZpZXdlcnxDaHJvbWl1bVBERlZpZXdlcnxNaWNyb3NvZnRFZGdlUERGVmlld2Vy*FdlYktpdGJ1aWx0LWluUERGf!fV2luMzI%3DfMzMwfMXw0Mw%3D%3DfMTI4MHw2ODA%3DfdW5rbm93bnw0Z3wwfKfKfQf*ff*(Vv1M%24&crst=1758015735&wrst=1758015733&muid=p8gerrisrHG2
+            - link "Sugar Shield" [ref=f1e17] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24627648/i/58092114/0/pp/1/13?h=kMKL-UykN5zkOxMAVuESGnjT3Sh-6aAJhtnE2nU9CMGITFu30ASuCd31VmiT_nOl_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6JoCxU5QfQJjHzwtf4c6Fq&rid=712490c2-92e1-11f0-b357-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS1rzEWQZezd-64DXb6fFOmv5-EvT-N76O972ozrJMYEA**&k=1761662fc*f!fZlR93thfZlR95rWfNGExNGJiOWY0MjRkZGRhZTRmMjE0NGY4YzZhNmZjNTI%3DfMHwwf!ffff!ff%2C*f*ffQf!faHR0cHM6Ly9iM2UyMWQyYjBiMjU1M2EzN2QzYzA2NTEzYzBkZmNjZC5zYWZlZnJhbWUuZ29vZ2xlc3luZGljYXRpb24uY29tL3NhZmVmcmFtZ%248xLTAtNDUvaHRtbC9jb250YWluZXIuaHRtbA%3D%3DfaHR0cHM6Ly9kZW1vcWEuY29tLw%3D%3DfaHR0cHM6Ly9kZW1vcWEuY29tLw%3D%3Df*fMHww*DB8MA%3D%3DffKf%3BfcfMHww*DB8MA%3D%3DfUAfLQff!fTW96aWxsY%2481LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChL%24FRNTCwgbGlrZ%24BHZWNrbykgQ2hyb21lLzE0MC4wLjczMzkuMTYgU2FmYXJpLzUzNy4zNg%3D%3DfUERGVmlld2Vy*ENocm9tZVBERlZpZXdlcnxDaHJvbWl1bVBERlZpZXdlcnxNaWNyb3NvZnRFZGdlUERGVmlld2Vy*FdlYktpdGJ1aWx0LWluUERGf!fV2luMzI%3DfMzMwfMXw0Mw%3D%3DfMTI4MHw2ODA%3DfdW5rbm93bnw0Z3wwfKfKfQf*ff*(Vv1M%24&crst=1758015735&wrst=1758015733&muid=p8gerrisrHG2
+        - generic [ref=f1e19] [cursor=pointer]:
+          - link [ref=f1e21] [cursor=pointer]:
+            - /url: https://clck.mgid.com/ghits/24627665/i/58092114/0/pp/2/13?h=9XsvJnjP_PvtpOccewC3-liAdKSixC3R58k6AYQ3eueMwqMW7zwnaOeIyqrFmLUj_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf7N3OA0-LTMY4Hd8aGTLTag&rid=6cf3be84-92e1-11f0-b355-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gerrisrHG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrITqUd95bTSEBwmXOMB8XK7TnJ1t78w981YF2lhoicEssw**
+          - generic [ref=f1e24] [cursor=pointer]:
+            - link "डायबिटीज से बचना चाहते हैं तो आज ही इसे अपने रूटीन में करें शामिल" [ref=f1e26] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24627665/i/58092114/0/pp/2/13?h=9XsvJnjP_PvtpOccewC3-liAdKSixC3R58k6AYQ3eueMwqMW7zwnaOeIyqrFmLUj_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf7N3OA0-LTMY4Hd8aGTLTag&rid=6cf3be84-92e1-11f0-b355-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gerrisrHG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrITqUd95bTSEBwmXOMB8XK7TnJ1t78w981YF2lhoicEssw**
+            - link "Sugar Shield" [ref=f1e28] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24627665/i/58092114/0/pp/2/13?h=9XsvJnjP_PvtpOccewC3-liAdKSixC3R58k6AYQ3eueMwqMW7zwnaOeIyqrFmLUj_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf7N3OA0-LTMY4Hd8aGTLTag&rid=6cf3be84-92e1-11f0-b355-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8gerrisrHG2&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrITqUd95bTSEBwmXOMB8XK7TnJ1t78w981YF2lhoicEssw**
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23] [cursor=pointer]:
+            - img [ref=e25] [cursor=pointer]
+            - text: Elements
+          - img [ref=e30] [cursor=pointer]
+        - generic [ref=e34]:
+          - generic [ref=e36] [cursor=pointer]:
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e39] [cursor=pointer]
+              - text: Forms
+            - img [ref=e45] [cursor=pointer]
+          - list [ref=e50]:
+            - listitem [ref=e51] [cursor=pointer]:
+              - img [ref=e52] [cursor=pointer]
+              - generic [ref=e54] [cursor=pointer]: Practice Form
+        - generic [ref=e57] [cursor=pointer]:
+          - generic [ref=e58] [cursor=pointer]:
+            - img [ref=e60] [cursor=pointer]
+            - text: Alerts, Frame & Windows
+          - img [ref=e65] [cursor=pointer]
+        - generic [ref=e71] [cursor=pointer]:
+          - generic [ref=e72] [cursor=pointer]:
+            - img [ref=e74] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e79] [cursor=pointer]
+        - generic [ref=e85] [cursor=pointer]:
+          - generic [ref=e86] [cursor=pointer]:
+            - img [ref=e88] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e93] [cursor=pointer]
+        - generic [ref=e99] [cursor=pointer]:
+          - generic [ref=e100] [cursor=pointer]:
+            - img [ref=e102] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e107] [cursor=pointer]
+      - generic [ref=e111]:
+        - iframe [ref=e114]:
+          - generic [ref=f2e8] [cursor=pointer]:
+            - link [ref=f2e10] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24627645/i/58092122/0/pp/1/1?h=kMKL-UykN5zkOxMAVuESGhz2Dj2-qr6BmHigjAsqkEsrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6ZUTJwmjbqeDtaHiHvVLJy&rid=714d5f19-92e1-11f0-b357-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa1rzEWQZezd-64DXb6fFOm1okvAjPXkfnreHqzPqQ4uQ**&muid=p8gerrisrHG2
+            - generic [ref=f2e13] [cursor=pointer]:
+              - link "Sugar Shield" [ref=f2e15] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627645/i/58092122/0/pp/1/1?h=kMKL-UykN5zkOxMAVuESGhz2Dj2-qr6BmHigjAsqkEsrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6ZUTJwmjbqeDtaHiHvVLJy&rid=714d5f19-92e1-11f0-b357-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa1rzEWQZezd-64DXb6fFOm1okvAjPXkfnreHqzPqQ4uQ**&muid=p8gerrisrHG2
+              - link "मधुमेह से पीड़ित व्यक्ति इसे हटाने से पहले तुरंत पढ़ें" [ref=f2e17] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627645/i/58092122/0/pp/1/1?h=kMKL-UykN5zkOxMAVuESGhz2Dj2-qr6BmHigjAsqkEsrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6ZUTJwmjbqeDtaHiHvVLJy&rid=714d5f19-92e1-11f0-b357-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa1rzEWQZezd-64DXb6fFOm1okvAjPXkfnreHqzPqQ4uQ**&muid=p8gerrisrHG2
+              - link "और जानें→" [ref=f2e19] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627645/i/58092122/0/pp/1/1?h=kMKL-UykN5zkOxMAVuESGhz2Dj2-qr6BmHigjAsqkEsrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf6ZUTJwmjbqeDtaHiHvVLJy&rid=714d5f19-92e1-11f0-b357-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqa1rzEWQZezd-64DXb6fFOm1okvAjPXkfnreHqzPqQ4uQ**&muid=p8gerrisrHG2
+                - text: और जानें
+                - generic [ref=f2e20] [cursor=pointer]: →
+        - generic [ref=e115]:
+          - heading "Practice Form" [level=1] [ref=e116]
+          - heading "Student Registration Form" [level=5] [ref=e117]
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e121]: Name
+              - textbox "First Name" [ref=e123]: Akhil
+              - textbox "Last Name" [ref=e126]: Negi
+            - generic [ref=e127]:
+              - generic [ref=e129]: Email
+              - textbox "name@example.com" [ref=e131]: akhil1809@gmail.com
+            - generic [ref=e132]:
+              - generic [ref=e133]: Gender
+              - generic [ref=e134]:
+                - generic [ref=e135]:
+                  - radio "Male" [ref=e136]
+                  - generic [ref=e137]: Male
+                - generic [ref=e138]:
+                  - radio "Female" [ref=e139]
+                  - generic [ref=e140]: Female
+                - generic [ref=e141]:
+                  - radio "Other" [ref=e142]
+                  - generic [ref=e143]: Other
+            - generic [ref=e144]:
+              - generic [ref=e146]:
+                - text: Mobile
+                - generic [ref=e147]: (10 Digits)
+              - textbox "Mobile Number" [ref=e149]: "9717530599"
+            - generic [ref=e150]:
+              - generic [ref=e152]: Date of Birth
+              - textbox [ref=e156]: 18 Sep 1988
+            - generic [ref=e157]:
+              - generic [ref=e159]: Subjects
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - paragraph [ref=e163]: option Maths, selected.
+                  - paragraph [ref=e164]: 0 results available. Select is focused ,type to refine list, press Down to open the menu, press left to focus selected values
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - generic [ref=e167]:
+                      - generic [ref=e168]: Maths
+                      - img [ref=e170]
+                    - textbox [active] [ref=e174]
+                  - img [ref=e177]
+            - generic [ref=e180]:
+              - generic [ref=e182]: Hobbies
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - checkbox "Sports" [ref=e185]
+                  - generic [ref=e186]: Sports
+                - generic [ref=e187]:
+                  - checkbox "Reading" [ref=e188]
+                  - generic [ref=e189]: Reading
+                - generic [ref=e190]:
+                  - checkbox "Music" [ref=e191]
+                  - generic [ref=e192]: Music
+            - generic [ref=e193]:
+              - generic [ref=e195]: Picture
+              - generic [ref=e197]:
+                - generic [ref=e198]: Select picture
+                - button "Select picture" [ref=e199]
+            - generic [ref=e200]:
+              - generic [ref=e202]: Current Address
+              - textbox "Current Address" [ref=e204]
+            - generic [ref=e205]:
+              - generic [ref=e207]: State and City
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - generic [ref=e212]: Select State
+                  - textbox [ref=e215]
+                - img [ref=e219]
+              - generic [ref=e221]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Select City
+                      - generic:
+                        - generic:
+                          - textbox [disabled]
+                    - generic:
+                      - generic:
+                        - img
+            - button "Submit" [ref=e224] [cursor=pointer]
+        - iframe [ref=e228]:
+          - generic [ref=f3e3]:
+            - button [ref=f3e4]:
+              - img [ref=f3e5]
+            - generic [ref=f3e7]:
+              - button "Replay" [ref=f3e15]:
+                - img [ref=f3e17] [cursor=pointer]
+              - button "Learn more" [ref=f3e24] [cursor=pointer]
+      - generic [ref=e233]:
+        - img "Build PlayWright tests with AI" [ref=e235] [cursor=pointer]
+        - iframe [ref=e238]:
+          - generic [ref=f4e7] [cursor=pointer]:
+            - link [ref=f4e8] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24627645/i/58092113/0/pp/1/1?h=kMKL-UykN5zkOxMAVuESGhdKsizMhgsP1TKZva6PR_IrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf7p4ERUheD1fYZxOHYz7abU&rid=714da51a-92e1-11f0-a230-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqbqUd95bTSEBwmXOMB8XK7TtD2_cdYSi0iw0l0QOs0-_w**&muid=p8gerrisrHG2
+            - generic [ref=f4e9] [cursor=pointer]:
+              - link [ref=f4e11] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24627645/i/58092113/0/pp/1/1?h=kMKL-UykN5zkOxMAVuESGhdKsizMhgsP1TKZva6PR_IrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf7p4ERUheD1fYZxOHYz7abU&rid=714da51a-92e1-11f0-a230-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqbqUd95bTSEBwmXOMB8XK7TtD2_cdYSi0iw0l0QOs0-_w**&muid=p8gerrisrHG2
+              - generic [ref=f4e14] [cursor=pointer]:
+                - link "मधुमेह से पीड़ित व्यक्ति इसे हटाने से पहले तुरंत पढ़ें" [ref=f4e16] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24627645/i/58092113/0/pp/1/1?h=kMKL-UykN5zkOxMAVuESGhdKsizMhgsP1TKZva6PR_IrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf7p4ERUheD1fYZxOHYz7abU&rid=714da51a-92e1-11f0-a230-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqbqUd95bTSEBwmXOMB8XK7TtD2_cdYSi0iw0l0QOs0-_w**&muid=p8gerrisrHG2
+                - link "Sugar Shield" [ref=f4e18] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24627645/i/58092113/0/pp/1/1?h=kMKL-UykN5zkOxMAVuESGhdKsizMhgsP1TKZva6PR_IrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf7p4ERUheD1fYZxOHYz7abU&rid=714da51a-92e1-11f0-a230-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqbqUd95bTSEBwmXOMB8XK7TtD2_cdYSi0iw0l0QOs0-_w**&muid=p8gerrisrHG2
+                - link [ref=f4e19] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24627645/i/58092113/0/pp/1/1?h=kMKL-UykN5zkOxMAVuESGhdKsizMhgsP1TKZva6PR_IrFteDooW6oSCjT_vTeP3a_tRHBEewYkjqVF4BjDrTjEDhvIfn_RaR5jjH-kYJwf7p4ERUheD1fYZxOHYz7abU&rid=714da51a-92e1-11f0-a230-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6oNLSG4UbKMGxZxPQBEUpqbqUd95bTSEBwmXOMB8XK7TtD2_cdYSi0iw0l0QOs0-_w**&muid=p8gerrisrHG2
+                  - img [ref=f4e20] [cursor=pointer]
+    - contentinfo [ref=e239]:
+      - generic [ref=e240]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

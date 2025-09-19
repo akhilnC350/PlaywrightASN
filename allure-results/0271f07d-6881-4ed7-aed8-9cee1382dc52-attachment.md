@@ -1,0 +1,270 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - link "Advertisement" [ref=f1e4] [cursor=pointer]:
+          - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsvQkNZgNoCsg_Dj3BvciB_j_tJVNnlePMe0E3DEyYFkdYSFP7_v-QNcDHYh3Zxf5EyXf6ChAQ9oVg9OYl1fUo1rnsIaYcq-OKJGiujyNFaUWWRAjO3uihqKHtbPSwV0IHb5qLC2bO2kU8TMsSc00GvJF2qJKXbQETG4pLp8cQAP9kiKigWBFAXFn7rgiOqoOPD_e_b1TZ9QOb91bGjEfUZvd69wNJkDbBkbw2JgP0aGWnKzGgaxyEHqw99HX2OrM41asmknsXm6y_l_mLEBw8eNrFoii1sn120XOrAdulry602Fc27wFQbkReYQUwEr16Tmgymf4JTMouiit2n-x2OQ6THQOefbsg_LByIEkssDuJCk8BWQV5PhU0OI5msd_mAiw7uQBTlGIgqwflJnLDKRDL6d6Hf5zmZZilzUj1bRDDlNc8EFU4j1N0SQpwwALnV01L3hykfBxjBM0-OZGO1XI-L62NCePq7GPEYBeBLrOFCJ43zsVeFVd2gQdb_16a1JGqv0vV4APUfVUDUwuNkZfPe-nUBcswY4qKjVqyIt6QjKVfVhWLwp8Kzw3XhlwswCNNxIihtqxqij23OvaL22ZN209ew1aIu03xXvWBfFnOgKJGoI9U4J15k9mrE4XqybncyO-O0xmCijwN1pWSJ4aeDk5WlpLgA3X3ns48m6NCeYqgZNrDfwRTT8BtdpyXYyIf_ZhNw51kl4UaDgecBkiIpw96FK2GCGCeLu66dscvlsE-knN1V3Th8zbgx_dM7SvmAz6ljjalNw3SJ_kfnlm19rhk7WMZopZFJoxpdKbr-8dTMARZZH8w0LlM2LJbbhGlY6SVHYwONI1Y4QwT0qTcjc_o3mtRrXNfJ96Wwd-A18WcM4MOdHyXx6NfV0Uli0sf5DSLrECNoyMgcbXY8FV3o_QBSFBNnW9QfIaB1blbxmiDzYhj0GAHBy9sIgB-_lMkHihUsfVsVRy-nSGD2uSC43nPgf2KwfDgNU6_n5KxDXS6y-T2AbTYkA7t1Hfp4BsX5zP_fQEeBMGk-tIbNrrz7G1WdG95R4KnFPSQZuNmMOcG1EfboScXhGfBJraR_-9-dLFoAnyZtTXi4nFWnTpzNVlNfPwo8OkOeA_AJui84aFTEpFIMbVfYHlJ5RCK_GNiVnQKaUQXfe9lAD_VnqqWmQec5n-MzWwxRbWgG-sXrNzqKHFp0q-Sd6gvgB8yKAPo58VxVUqJNb9uEf5u1RMZGYEHDuuvZUSOOCpNgdTUcr8rQ7BFoKmbE2jm9bASvlZC6DMXI_2TK8CeyA8ym-m0VylbyyD1QRdxjPlDIflL0rVqNlpWvjYm_FO-7OtlA5PW9b8bPbejA_oNHlDqzAHE0aX6Pa84rcaP5q2ydCUMDr45MXWNW9vIsfws_h1-LGUXzG1QGxz-yZ47enForIljEencptZg3O2Y3CY7KJkuBKsZ3eZXsruqx1r_012xDMmdQS-qkN8npTiGhupcjxRQp2lhck509YtEO3G0krmFeRMIpqKGLlfE2vvRNEUYjShIxJjFOa5tedGxtgDeLpsFOzqYnvaqdShVGBa4oJifA&sai=AMfl-YThlTgEfNVGYi_dy6VFYWyGe0J5TRPVK41DogY3Iq0AtKtyDnk9jfgqu61BfOLse3Oh6tddESQjGgL0ZnVuoNixBGfX4khIcOld0RQ2D3u_xHq5D5atikeNgxw3K2_IiLHhoLKk8TKbvFm8SPOhFScTEO_tJdleNcyh4YG7MKWNgUyiOEZyG8hoB9umcp9nk2NCS08n_1FZKHZV2OvhUJYcSgfQaqGkuOseDTKWRit01ApIGownwPXhokhbo0Af3Muxt4zcvuR0OZ-0OjZGoLoMFBHLwjJxV9141zN0btVeRrm4UkU2UC8BgJtsjAj30jnjAU_GHK-ktBUjY1Ybyj_L2tTZ4rkFC2nWEN1weJQlaEVTLt34q9T6mGhBbP5XP7pK3ELxWexJbgRhpAD9LRmBbOe0sn7eJxaH3uhHBTJ582k11Eb-phb7VKocRhxjZ7DYSr5W_KM0XPGMLB_GFLn4BUDObo4TG1PmYFsfr2786Iq3zMHvtUcjcXl35MingpoggD6k5oQwt2AWZ2PAnAIt99Vm7bXe1cSrfW6ycJ0-a1UV7Qd90lEb7alIC9bZXuJwP-O87vx45vtrkfDrw0Jbvcm0AywDecI5IEbTlsHInHMVRxfOareezgQWWMd0vuG3Bd1A3PMeKrllVoJPYMDaC9jHxIVe8SQEYSbSHihIXepwePxxbWzhuJuEUN0&sig=Cg0ArKJSzFn2UuXyeANe&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9teXZpLmlu&urlfix=1&adurl=https://www.myvi.in/content/vodafoneideadigital/in/en/vil-homepage/static-pages/non-stop-hero-page3.html%3Futm_medium%3DfixedNSH_Cricket%26utm_source%3DDV360%26utm_adtype%3Ddisplay%26utm_campaign%3DNSH_Aug%2725%26utm_adgroup%3DALL_digital_display_Haryana(Exchandigarh)%26utm_content%3DNSH_Cricket%26utm_term%3DEng_all%26dclid%3D%25edclid!%26gad_source%3D7
+          - img "Advertisement" [ref=f1e5] [cursor=pointer]
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13] [cursor=pointer]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e23] [cursor=pointer]:
+              - img [ref=e25] [cursor=pointer]
+              - text: Elements
+            - img [ref=e30] [cursor=pointer]
+          - list [ref=e35]:
+            - listitem [ref=e36] [cursor=pointer]:
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: Text Box
+            - listitem [ref=e40] [cursor=pointer]:
+              - img [ref=e41] [cursor=pointer]
+              - generic [ref=e43] [cursor=pointer]: Check Box
+            - listitem [ref=e44] [cursor=pointer]:
+              - img [ref=e45] [cursor=pointer]
+              - generic [ref=e47] [cursor=pointer]: Radio Button
+            - listitem [ref=e48] [cursor=pointer]:
+              - img [ref=e49] [cursor=pointer]
+              - generic [ref=e51] [cursor=pointer]: Web Tables
+            - listitem [ref=e52] [cursor=pointer]:
+              - img [ref=e53] [cursor=pointer]
+              - generic [ref=e55] [cursor=pointer]: Buttons
+            - listitem [ref=e56] [cursor=pointer]:
+              - img [ref=e57] [cursor=pointer]
+              - generic [ref=e59] [cursor=pointer]: Links
+            - listitem [ref=e60] [cursor=pointer]:
+              - img [ref=e61] [cursor=pointer]
+              - generic [ref=e63] [cursor=pointer]: Broken Links - Images
+            - listitem [ref=e64] [cursor=pointer]:
+              - img [ref=e65] [cursor=pointer]
+              - generic [ref=e67] [cursor=pointer]: Upload and Download
+            - listitem [ref=e68] [cursor=pointer]:
+              - img [ref=e69] [cursor=pointer]
+              - generic [ref=e71] [cursor=pointer]: Dynamic Properties
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75] [cursor=pointer]:
+            - img [ref=e77] [cursor=pointer]
+            - text: Forms
+          - img [ref=e83] [cursor=pointer]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90] [cursor=pointer]:
+            - img [ref=e92] [cursor=pointer]
+            - text: Alerts, Frame & Windows
+          - img [ref=e97] [cursor=pointer]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104] [cursor=pointer]:
+            - img [ref=e106] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e111] [cursor=pointer]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118] [cursor=pointer]:
+            - img [ref=e120] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e125] [cursor=pointer]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132] [cursor=pointer]:
+            - img [ref=e134] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e139] [cursor=pointer]
+      - generic [ref=e143]:
+        - iframe [ref=e146]:
+          - generic [ref=f2e3]:
+            - link [ref=f2e4] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CZkTNpyrDaNjtN7iy4t4P3vfgCfOpmeuBAfrYvvmOFKGm-PPQHRABIMb71nlg5arlg6wOoAH_95fDA8gBA6kCFsy4-SRISD7gAgCoAwHIAwiqBIICT9C0aww9Ljbtb-ghuFXOBZZM9aFoSmKfxSyqx9yPKgJR7hZPw-k5anEm0_-eHaDGHOEK_yTT2UpORTiOcXNKumPY1LdRSkTy-Y7CUgTalx3kMIOEX_Iqo70QnQQDxu22SY3E2XKec6ZHag606yT4N7rA8UAZrMA3aOPD3Te7532nvKTtPtq4f7JCu13zHegl1-TgHL94NrVHzURPw3fSgi0JCmJO1ajbTY-HM4k97j1r7OWMipJ27iFBmNKuH7Z_wWbFa_NfEK0vMPmOa6byxyOpq_er8R15d-wDYhiDhQHrkUBz5PW0LgEIkTfVNTir4854B1h8j32K9K360eGKmnuLwAScztWmxQXgBAGIBeno7NZVoAYDgAe_jegxqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAeYxbECqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggpCIBhEAEYnQEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpYgrmBjcDRjwPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKaCTZodHRwczovL3d3dy50YWpob3RlbHMuY29tL2VuLWluL29mZmVycy9kZWtoby1hcG5hLWRlc2ixCYz7hK114R14gAoDyAsB4AsBogwDkAEB2gwQCgoQsPy0557WluMIEgIBA6oNAklOyA0B4g0TCJbqgY3A0Y8DFTiZ2AUd3js4AeoNEwjhsYKNwNGPAxU4mdgFHd47OAGIDv___________wHYEw3QFQGYFgHKFgIKAPgWAYAXAbIXDhgBKgo2MTY4NTc2NTA1uhcCOAGqGBcJAAAAANBu_UASCjYxNjg1NzY1MDUYAbIYCRICkVQYAyIBANAYAcIZAggB&ase=2&gclid=EAIaIQobChMImN2CjcDRjwMVOJnYBR3eOzgBEAEYASAAEgLttvD_BwE&num=1&cid=CAQSrAEA2abssyN8Sabzm-it-p0L0u3sE0Rv32HYlzRpOa5lXSqmbkg4wHDqpbigXfQTKbWhO7wW620GSPlwhwtesuFVhGM7u5hfeTBK2hsfL77OpDmdJf_wSHc_kFMzqU_ifTPf7POc1qxli4tU5m_qGuensKdz1zk1wv6VJBckj-bSP0jRKiqvImmWip6QelCV3Ti-rgDO3TbzIntlM7s5eIktHvliQfFGo62ttBl4GAE&sig=AOD64_12PxDhGPP_0zdzn5F2ELKhpSZeXA&client=ca-pub-4573231550355221&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=http://clickserve.dartsearch.net/link/click%3F%26%26ds_e_adid%3D773334783336%26ds_e_matchtype%3Dcontent%26ds_e_device%3Dc%26ds_e_network%3Dd%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://www.tajhotels.com/en-in/offers/dekho-apna-desh%3Fgad_source%3D5%26gad_campaignid%3D22999151721
+            - generic [ref=f2e6]:
+              - link [ref=f2e8] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=ASp5-QCgKCUGPYFF_QvEdxgqzJQXDRTHEFnUXo7T-naonfLkVsRbT3uCl93c7_iA42SXhomBdiDwZwVKDpurEerzfYvcTY21RUxXkdBq3gwu1gfpTtu6kR4W5ufKMw0LQbIqjoO_zKdHk7Fp9dAqmUV0pxgsyihwQeR2eAPjYyZkJ2v0vK9dej7JQmbGv6GD8zDt-Xs9Nrd2hKB77CaAREFm2CpMFI4SekVeIPZnYXZ7RNp_Oxy1MOsTGJ5y1d9Z-N8iM2YVHM5e6BV7HH7kCxRdPAAN0B81h33OfGeljaHb_KgM7g4tZ_fBaOBXEH1FzTBtjErRHSuuCrmzNpdOfghAMwKSzHgT5VKQADuJDAIJzeHTqYWTCZNhyDE5Z-Ak02Xj1BAv7t3pLGJmzkaFjljdeAVR_zIqEcYeQXoeU6r_LVKr5GODnXDr76aD6cM0xKneEA0jPHnmVbDfxyKm7pu3iUW5Hy-EOePhBtZyOjk3s4LoFXeeRw_T3DdHoQHHlgFgPvYb4Gkbdp-93q0ddxMmMdiB-Is1ROSCEl0UpWDGdywD4tsDndZSSScJlQl6GIq3eXWZtWrq4ISJphupSROwQ4mDxt81HkZipConyww3cY7s9H6jzJwvIsu5wRMtOBNFbq2dXdIh-Hgjl6MDn-0i5s_CSuyTFxm_ZdLTP03ArP88Xqz6avAsP0C4i8El8Q5koncTl5CTBGhXpOGbTRmErc0zhDUhTLSghsJAFB9_LFomeZkgrqjqzRZuqCP6xiJ7fzY-v3WAoWYxeurB7DS3mFQnP_X4wpMsIQSS3gBYZbrkub-uF6P2oByNqQ9Z_wszTozZ4tVK0_eA_wo8EAMiWAaUnHwmdlherDcZVyc30mP8MTH4gbN_yf71PWA4ShV0MCNy6smDfZMfP_RFEj5C9nd0H1zXZ10ky3GTNJoMWqHQ90FEmJ0-ajzfxflBD5tBCYBmavhTAUN6fDhaabBWFC_mZnDqkxA8Tvicp4NI4lxLH-Xxctj6TqWBdqhUNSNzQYSziTGjIuC2oNBWaOYzyNgLuvUNmu4y9ZGwUXmeIwGz98u9OUR7ReDkylti-W67pA_-UfvdArCizC0gjxCVUXhEqDinesBU6q7axdUWS9cYM5P6CB5p6NW7f0LiZueV87sXZcXPUUF2vSLafXd8XtcDvCuy2TjOYlNGoWXeV7iRHilmZd7kV1g-EDByZfK6koJcAsyEwHjK3y_MoU1BF1SjrRcuKj1xSc2VpYqGGV3Sjle1aVBmE623GS_KhaY9CBkHn4IMETDlfqt6Gqb05Kua1a0gQHXuFyZ86gQ9EpNTRtzFgnHevConUdZDBWDXy3v9w30Qw5_na9ILZB64U3jZ0wBFXdEAK9sf6LxtectMxzWKoYWuDdtfhhFoc-oSyDKUvpDhAGATlhzmOjPvMaNy_ETbdo0UaUjhzKNQEu88jvykdcmCaJKAlBtRoBvgQNtUPMpYwYHfuvs4u5K4asHFFrT89wkr9ZrHS_7yunmQkZcidiPNlcbuosgk4oGj1KpFxJx8sjpnp6IQWWZuvcut42YGWN7uYf1ayNi0WH3rFaCwXK6OKyKuJ7QeneyIYbCLetq-Rv5NtSXdR7jKVVscTQKtChmij_c4s7yJVBSFt_XaDI6qjm8uy6p-I8BRlKvPKUSePu-qJ47mMdh3fxhw2lObatBnQAq41Yiaa2vZS4JrBIvW-sFuvgXxMFXnDxhbDRcDyH4WbSreHsUzmEzYADXCpuCCFafl0lsuSZ-sgsMp-T46KdD72mPHyyLke-Jg5VLh9cdtxURR6ScpHfILBlx_0bpNx3oY4vO7a2MXR1cWrH65iImQmP8Gwr79XWOoTeJPvEZP-2wHnkl2PBKCaU6ES6ORCbwJ8xfzHlRcL02lgk6McV9h2kFX1ueLU9XCGjdnTMdiBjUEFrOKR-5I7Ht-ogAz4fnzeScCSWcyic5u_gT81DEm6fn4KP3DQvQYEntVL3Tb5LqDtmFS_r7YUELFnN-Vzj8p1pzBX9_J7Y6N7VFohbeVaIroxbxZt32_fOC1vcq-8PKpu8_N3tVV8LuRXaEkIIhsjd4wRPYmpy_MqiKahhVq2FsjAgsB94HLugP0ed-EHF1HV0ax8QiYl3RFAh9cYDeeJBb4VCJ0qj8XPa1t2oX6XYQ2BbE8S0R-sfLfaQhqwQ_d7yG0bSEpR0Im6341OD5heWUWODNUi07DzK-f3CMhFXDBnWlunSUkNWpPKmZdMDUTFnHtpUlMabDaQ1hKo0sd5dE-D1Z7vYm8VT4GRhBC8meqePhPAweal1ay8g86VNmkIOvxwTtu-wYHkdRNEezGYunln8EYX9DLCPmwcfm0qdsXQW6xJurRz-MmraP3weXtZ0qLQlyZ4tXeylNr8XDnLll6rnRkknFti8PuHJIXYjFTK2pL69iE7ynGcrdoDMvJWse6R0LBf4sFeOdVXMcLNb6C7uF7fhxnrauEoGRLbykTpy-0tc2ef4vLE3HYBaa9Q23vMPI3o1IFL30pQtAJ30rB8gjX_hmSmz6ASZB73mRxC7WmO8qOb4wflTM&opi=122715837
+                - img [ref=f2e10] [cursor=pointer]
+              - link [ref=f2e12] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=ASp5-QCgKCUGPYFF_QvEdxgqzJQXDRTHEFnUXo7T-naonfLkVsRbT3uCl93c7_iA42SXhomBdiDwZwVKDpurEerzfYvcTY21RUxXkdBq3gwu1gfpTtu6kR4W5ufKMw0LQbIqjoO_zKdHk7Fp9dAqmUV0pxgsyihwQeR2eAPjYyZkJ2v0vK9dej7JQmbGv6GD8zDt-Xs9Nrd2hKB77CaAREFm2CpMFI4SekVeIPZnYXZ7RNp_Oxy1MOsTGJ5y1d9Z-N8iM2YVHM5e6BV7HH7kCxRdPAAN0B81h33OfGeljaHb_KgM7g4tZ_fBaOBXEH1FzTBtjErRHSuuCrmzNpdOfghAMwKSzHgT5VKQADuJDAIJzeHTqYWTCZNhyDE5Z-Ak02Xj1BAv7t3pLGJmzkaFjljdeAVR_zIqEcYeQXoeU6r_LVKr5GODnXDr76aD6cM0xKneEA0jPHnmVbDfxyKm7pu3iUW5Hy-EOePhBtZyOjk3s4LoFXeeRw_T3DdHoQHHlgFgPvYb4Gkbdp-93q0ddxMmMdiB-Is1ROSCEl0UpWDGdywD4tsDndZSSScJlQl6GIq3eXWZtWrq4ISJphupSROwQ4mDxt81HkZipConyww3cY7s9H6jzJwvIsu5wRMtOBNFbq2dXdIh-Hgjl6MDn-0i5s_CSuyTFxm_ZdLTP03ArP88Xqz6avAsP0C4i8El8Q5koncTl5CTBGhXpOGbTRmErc0zhDUhTLSghsJAFB9_LFomeZkgrqjqzRZuqCP6xiJ7fzY-v3WAoWYxeurB7DS3mFQnP_X4wpMsIQSS3gBYZbrkub-uF6P2oByNqQ9Z_wszTozZ4tVK0_eA_wo8EAMiWAaUnHwmdlherDcZVyc30mP8MTH4gbN_yf71PWA4ShV0MCNy6smDfZMfP_RFEj5C9nd0H1zXZ10ky3GTNJoMWqHQ90FEmJ0-ajzfxflBD5tBCYBmavhTAUN6fDhaabBWFC_mZnDqkxA8Tvicp4NI4lxLH-Xxctj6TqWBdqhUNSNzQYSziTGjIuC2oNBWaOYzyNgLuvUNmu4y9ZGwUXmeIwGz98u9OUR7ReDkylti-W67pA_-UfvdArCizC0gjxCVUXhEqDinesBU6q7axdUWS9cYM5P6CB5p6NW7f0LiZueV87sXZcXPUUF2vSLafXd8XtcDvCuy2TjOYlNGoWXeV7iRHilmZd7kV1g-EDByZfK6koJcAsyEwHjK3y_MoU1BF1SjrRcuKj1xSc2VpYqGGV3Sjle1aVBmE623GS_KhaY9CBkHn4IMETDlfqt6Gqb05Kua1a0gQHXuFyZ86gQ9EpNTRtzFgnHevConUdZDBWDXy3v9w30Qw5_na9ILZB64U3jZ0wBFXdEAK9sf6LxtectMxzWKoYWuDdtfhhFoc-oSyDKUvpDhAGATlhzmOjPvMaNy_ETbdo0UaUjhzKNQEu88jvykdcmCaJKAlBtRoBvgQNtUPMpYwYHfuvs4u5K4asHFFrT89wkr9ZrHS_7yunmQkZcidiPNlcbuosgk4oGj1KpFxJx8sjpnp6IQWWZuvcut42YGWN7uYf1ayNi0WH3rFaCwXK6OKyKuJ7QeneyIYbCLetq-Rv5NtSXdR7jKVVscTQKtChmij_c4s7yJVBSFt_XaDI6qjm8uy6p-I8BRlKvPKUSePu-qJ47mMdh3fxhw2lObatBnQAq41Yiaa2vZS4JrBIvW-sFuvgXxMFXnDxhbDRcDyH4WbSreHsUzmEzYADXCpuCCFafl0lsuSZ-sgsMp-T46KdD72mPHyyLke-Jg5VLh9cdtxURR6ScpHfILBlx_0bpNx3oY4vO7a2MXR1cWrH65iImQmP8Gwr79XWOoTeJPvEZP-2wHnkl2PBKCaU6ES6ORCbwJ8xfzHlRcL02lgk6McV9h2kFX1ueLU9XCGjdnTMdiBjUEFrOKR-5I7Ht-ogAz4fnzeScCSWcyic5u_gT81DEm6fn4KP3DQvQYEntVL3Tb5LqDtmFS_r7YUELFnN-Vzj8p1pzBX9_J7Y6N7VFohbeVaIroxbxZt32_fOC1vcq-8PKpu8_N3tVV8LuRXaEkIIhsjd4wRPYmpy_MqiKahhVq2FsjAgsB94HLugP0ed-EHF1HV0ax8QiYl3RFAh9cYDeeJBb4VCJ0qj8XPa1t2oX6XYQ2BbE8S0R-sfLfaQhqwQ_d7yG0bSEpR0Im6341OD5heWUWODNUi07DzK-f3CMhFXDBnWlunSUkNWpPKmZdMDUTFnHtpUlMabDaQ1hKo0sd5dE-D1Z7vYm8VT4GRhBC8meqePhPAweal1ay8g86VNmkIOvxwTtu-wYHkdRNEezGYunln8EYX9DLCPmwcfm0qdsXQW6xJurRz-MmraP3weXtZ0qLQlyZ4tXeylNr8XDnLll6rnRkknFti8PuHJIXYjFTK2pL69iE7ynGcrdoDMvJWse6R0LBf4sFeOdVXMcLNb6C7uF7fhxnrauEoGRLbykTpy-0tc2ef4vLE3HYBaa9Q23vMPI3o1IFL30pQtAJ30rB8gjX_hmSmz6ASZB73mRxC7WmO8qOb4wflTM&opi=122715837
+                - img [ref=f2e14] [cursor=pointer]
+            - img [ref=f2e17] [cursor=pointer]
+            - generic [ref=f2e28]:
+              - img [ref=f2e31]
+              - generic [ref=f2e34]:
+                - text: Ads by
+                - img [ref=f2e35]
+              - generic [ref=f2e38]:
+                - generic [ref=f2e41] [cursor=pointer]: Send feedback
+                - link [ref=f2e43] [cursor=pointer]:
+                  - /url: https://adssettings.google.com/whythisad?source=display&reasons=ASp5-QCgKCUGPYFF_QvEdxgqzJQXDRTHEFnUXo7T-naonfLkVsRbT3uCl93c7_iA42SXhomBdiDwZwVKDpurEerzfYvcTY21RUxXkdBq3gwu1gfpTtu6kR4W5ufKMw0LQbIqjoO_zKdHk7Fp9dAqmUV0pxgsyihwQeR2eAPjYyZkJ2v0vK9dej7JQmbGv6GD8zDt-Xs9Nrd2hKB77CaAREFm2CpMFI4SekVeIPZnYXZ7RNp_Oxy1MOsTGJ5y1d9Z-N8iM2YVHM5e6BV7HH7kCxRdPAAN0B81h33OfGeljaHb_KgM7g4tZ_fBaOBXEH1FzTBtjErRHSuuCrmzNpdOfghAMwKSzHgT5VKQADuJDAIJzeHTqYWTCZNhyDE5Z-Ak02Xj1BAv7t3pLGJmzkaFjljdeAVR_zIqEcYeQXoeU6r_LVKr5GODnXDr76aD6cM0xKneEA0jPHnmVbDfxyKm7pu3iUW5Hy-EOePhBtZyOjk3s4LoFXeeRw_T3DdHoQHHlgFgPvYb4Gkbdp-93q0ddxMmMdiB-Is1ROSCEl0UpWDGdywD4tsDndZSSScJlQl6GIq3eXWZtWrq4ISJphupSROwQ4mDxt81HkZipConyww3cY7s9H6jzJwvIsu5wRMtOBNFbq2dXdIh-Hgjl6MDn-0i5s_CSuyTFxm_ZdLTP03ArP88Xqz6avAsP0C4i8El8Q5koncTl5CTBGhXpOGbTRmErc0zhDUhTLSghsJAFB9_LFomeZkgrqjqzRZuqCP6xiJ7fzY-v3WAoWYxeurB7DS3mFQnP_X4wpMsIQSS3gBYZbrkub-uF6P2oByNqQ9Z_wszTozZ4tVK0_eA_wo8EAMiWAaUnHwmdlherDcZVyc30mP8MTH4gbN_yf71PWA4ShV0MCNy6smDfZMfP_RFEj5C9nd0H1zXZ10ky3GTNJoMWqHQ90FEmJ0-ajzfxflBD5tBCYBmavhTAUN6fDhaabBWFC_mZnDqkxA8Tvicp4NI4lxLH-Xxctj6TqWBdqhUNSNzQYSziTGjIuC2oNBWaOYzyNgLuvUNmu4y9ZGwUXmeIwGz98u9OUR7ReDkylti-W67pA_-UfvdArCizC0gjxCVUXhEqDinesBU6q7axdUWS9cYM5P6CB5p6NW7f0LiZueV87sXZcXPUUF2vSLafXd8XtcDvCuy2TjOYlNGoWXeV7iRHilmZd7kV1g-EDByZfK6koJcAsyEwHjK3y_MoU1BF1SjrRcuKj1xSc2VpYqGGV3Sjle1aVBmE623GS_KhaY9CBkHn4IMETDlfqt6Gqb05Kua1a0gQHXuFyZ86gQ9EpNTRtzFgnHevConUdZDBWDXy3v9w30Qw5_na9ILZB64U3jZ0wBFXdEAK9sf6LxtectMxzWKoYWuDdtfhhFoc-oSyDKUvpDhAGATlhzmOjPvMaNy_ETbdo0UaUjhzKNQEu88jvykdcmCaJKAlBtRoBvgQNtUPMpYwYHfuvs4u5K4asHFFrT89wkr9ZrHS_7yunmQkZcidiPNlcbuosgk4oGj1KpFxJx8sjpnp6IQWWZuvcut42YGWN7uYf1ayNi0WH3rFaCwXK6OKyKuJ7QeneyIYbCLetq-Rv5NtSXdR7jKVVscTQKtChmij_c4s7yJVBSFt_XaDI6qjm8uy6p-I8BRlKvPKUSePu-qJ47mMdh3fxhw2lObatBnQAq41Yiaa2vZS4JrBIvW-sFuvgXxMFXnDxhbDRcDyH4WbSreHsUzmEzYADXCpuCCFafl0lsuSZ-sgsMp-T46KdD72mPHyyLke-Jg5VLh9cdtxURR6ScpHfILBlx_0bpNx3oY4vO7a2MXR1cWrH65iImQmP8Gwr79XWOoTeJPvEZP-2wHnkl2PBKCaU6ES6ORCbwJ8xfzHlRcL02lgk6McV9h2kFX1ueLU9XCGjdnTMdiBjUEFrOKR-5I7Ht-ogAz4fnzeScCSWcyic5u_gT81DEm6fn4KP3DQvQYEntVL3Tb5LqDtmFS_r7YUELFnN-Vzj8p1pzBX9_J7Y6N7VFohbeVaIroxbxZt32_fOC1vcq-8PKpu8_N3tVV8LuRXaEkIIhsjd4wRPYmpy_MqiKahhVq2FsjAgsB94HLugP0ed-EHF1HV0ax8QiYl3RFAh9cYDeeJBb4VCJ0qj8XPa1t2oX6XYQ2BbE8S0R-sfLfaQhqwQ_d7yG0bSEpR0Im6341OD5heWUWODNUi07DzK-f3CMhFXDBnWlunSUkNWpPKmZdMDUTFnHtpUlMabDaQ1hKo0sd5dE-D1Z7vYm8VT4GRhBC8meqePhPAweal1ay8g86VNmkIOvxwTtu-wYHkdRNEezGYunln8EYX9DLCPmwcfm0qdsXQW6xJurRz-MmraP3weXtZ0qLQlyZ4tXeylNr8XDnLll6rnRkknFti8PuHJIXYjFTK2pL69iE7ynGcrdoDMvJWse6R0LBf4sFeOdVXMcLNb6C7uF7fhxnrauEoGRLbykTpy-0tc2ef4vLE3HYBaa9Q23vMPI3o1IFL30pQtAJ30rB8gjX_hmSmz6ASZB73mRxC7WmO8qOb4wflTM&opi=122715837
+                  - generic [ref=f2e44] [cursor=pointer]:
+                    - text: Why this ad?
+                    - img [ref=f2e45] [cursor=pointer]
+            - generic [ref=f2e47]:
+              - generic [ref=f2e50] [cursor=pointer]: Ad covered content
+              - generic [ref=f2e53] [cursor=pointer]: Not interested in this ad
+              - generic [ref=f2e56] [cursor=pointer]: Ad was inappropriate
+              - generic [ref=f2e59] [cursor=pointer]: Seen this ad multiple times
+            - generic [ref=f2e65]: Thanks. Feedback improves Google ads
+            - generic [ref=f2e71]:
+              - text: Ad closed by
+              - img [ref=f2e72]
+        - heading "Web Tables" [level=1] [ref=e147]
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - button "Add" [active] [ref=e151] [cursor=pointer]
+            - generic [ref=e153]:
+              - textbox "Type to search" [ref=e154]
+              - img [ref=e158]
+          - generic [ref=e161]:
+            - grid [ref=e162]:
+              - row "First Name Last Name Age Email Salary Department Action" [ref=e164]:
+                - columnheader "First Name" [ref=e165] [cursor=pointer]:
+                  - generic [ref=e166] [cursor=pointer]: First Name
+                - columnheader "Last Name" [ref=e168] [cursor=pointer]:
+                  - generic [ref=e169] [cursor=pointer]: Last Name
+                - columnheader "Age" [ref=e171] [cursor=pointer]:
+                  - generic [ref=e172] [cursor=pointer]: Age
+                - columnheader "Email" [ref=e174] [cursor=pointer]:
+                  - generic [ref=e175] [cursor=pointer]: Email
+                - columnheader "Salary" [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178] [cursor=pointer]: Salary
+                - columnheader "Department" [ref=e180] [cursor=pointer]:
+                  - generic [ref=e181] [cursor=pointer]: Department
+                - columnheader "Action" [ref=e183] [cursor=pointer]:
+                  - generic [ref=e184] [cursor=pointer]: Action
+              - generic [ref=e186]:
+                - rowgroup [ref=e187]:
+                  - row "Cierra Vega 39 cierra@example.com 10000 Insurance Edit Delete" [ref=e188]:
+                    - gridcell "Cierra" [ref=e189]
+                    - gridcell "Vega" [ref=e190]
+                    - gridcell "39" [ref=e191]
+                    - gridcell "cierra@example.com" [ref=e192]
+                    - gridcell "10000" [ref=e193]
+                    - gridcell "Insurance" [ref=e194]
+                    - gridcell "Edit Delete" [ref=e195]:
+                      - generic [ref=e196]:
+                        - img [ref=e198] [cursor=pointer]
+                        - img [ref=e201] [cursor=pointer]
+                - rowgroup [ref=e203]:
+                  - row "Alden Cantrell 45 alden@example.com 12000 Compliance Edit Delete" [ref=e204]:
+                    - gridcell "Alden" [ref=e205]
+                    - gridcell "Cantrell" [ref=e206]
+                    - gridcell "45" [ref=e207]
+                    - gridcell "alden@example.com" [ref=e208]
+                    - gridcell "12000" [ref=e209]
+                    - gridcell "Compliance" [ref=e210]
+                    - gridcell "Edit Delete" [ref=e211]:
+                      - generic [ref=e212]:
+                        - img [ref=e214] [cursor=pointer]
+                        - img [ref=e217] [cursor=pointer]
+                - rowgroup [ref=e219]:
+                  - row "Kierra Gentry 29 kierra@example.com 2000 Legal Edit Delete" [ref=e220]:
+                    - gridcell "Kierra" [ref=e221]
+                    - gridcell "Gentry" [ref=e222]
+                    - gridcell "29" [ref=e223]
+                    - gridcell "kierra@example.com" [ref=e224]
+                    - gridcell "2000" [ref=e225]
+                    - gridcell "Legal" [ref=e226]
+                    - gridcell "Edit Delete" [ref=e227]:
+                      - generic [ref=e228]:
+                        - img [ref=e230] [cursor=pointer]
+                        - img [ref=e233] [cursor=pointer]
+                - rowgroup [ref=e235]:
+                  - row "Akhil Negi 37 akhil1809@gmail.com 160000 IT services Edit Delete" [ref=e236]:
+                    - gridcell "Akhil" [ref=e237]
+                    - gridcell "Negi" [ref=e238]
+                    - gridcell "37" [ref=e239]
+                    - gridcell "akhil1809@gmail.com" [ref=e240]
+                    - gridcell "160000" [ref=e241]
+                    - gridcell "IT services" [ref=e242]
+                    - gridcell "Edit Delete" [ref=e243]:
+                      - generic [ref=e244]:
+                        - img [ref=e246] [cursor=pointer]
+                        - img [ref=e249] [cursor=pointer]
+                - rowgroup [ref=e251]:
+                  - row [ref=e252]:
+                    - gridcell [ref=e253]
+                    - gridcell [ref=e255]
+                    - gridcell [ref=e257]
+                    - gridcell [ref=e259]
+                    - gridcell [ref=e261]
+                    - gridcell [ref=e263]
+                    - gridcell [ref=e265]
+                - rowgroup [ref=e267]:
+                  - row [ref=e268]:
+                    - gridcell [ref=e269]
+                    - gridcell [ref=e271]
+                    - gridcell [ref=e273]
+                    - gridcell [ref=e275]
+                    - gridcell [ref=e277]
+                    - gridcell [ref=e279]
+                    - gridcell [ref=e281]
+                - rowgroup [ref=e283]:
+                  - row [ref=e284]:
+                    - gridcell [ref=e285]
+                    - gridcell [ref=e287]
+                    - gridcell [ref=e289]
+                    - gridcell [ref=e291]
+                    - gridcell [ref=e293]
+                    - gridcell [ref=e295]
+                    - gridcell [ref=e297]
+                - rowgroup [ref=e299]:
+                  - row [ref=e300]:
+                    - gridcell [ref=e301]
+                    - gridcell [ref=e303]
+                    - gridcell [ref=e305]
+                    - gridcell [ref=e307]
+                    - gridcell [ref=e309]
+                    - gridcell [ref=e311]
+                    - gridcell [ref=e313]
+                - rowgroup [ref=e315]:
+                  - row [ref=e316]:
+                    - gridcell [ref=e317]
+                    - gridcell [ref=e319]
+                    - gridcell [ref=e321]
+                    - gridcell [ref=e323]
+                    - gridcell [ref=e325]
+                    - gridcell [ref=e327]
+                    - gridcell [ref=e329]
+                - rowgroup [ref=e331]:
+                  - row [ref=e332]:
+                    - gridcell [ref=e333]
+                    - gridcell [ref=e335]
+                    - gridcell [ref=e337]
+                    - gridcell [ref=e339]
+                    - gridcell [ref=e341]
+                    - gridcell [ref=e343]
+                    - gridcell [ref=e345]
+            - generic [ref=e348]:
+              - button "Previous" [disabled] [ref=e350]
+              - generic [ref=e351]:
+                - generic [ref=e352]:
+                  - text: Page
+                  - spinbutton "jump to page" [ref=e354]: "1"
+                  - text: of
+                  - generic [ref=e355]: "1"
+                - combobox "rows per page" [ref=e357]:
+                  - option "5 rows"
+                  - option "10 rows" [selected]
+                  - option "20 rows"
+                  - option "25 rows"
+                  - option "50 rows"
+                  - option "100 rows"
+              - button "Next" [disabled] [ref=e359]
+            - generic:
+              - generic: Loading...
+        - iframe [ref=e363]:
+          
+      - generic [ref=e368]:
+        - img "Build PlayWright tests with AI" [ref=e370] [cursor=pointer]
+        - iframe [ref=e373]:
+          
+    - contentinfo [ref=e374]:
+      - generic [ref=e375]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

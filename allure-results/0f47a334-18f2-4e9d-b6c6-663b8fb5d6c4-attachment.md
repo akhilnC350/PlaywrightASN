@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - link "Advertisement" [ref=f1e4] [cursor=pointer]:
+          - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjssZKJTRcpkHrQB6b5VgLzxMEsXHN5cLotsjQMY1Fwqc0MX8BDe8HPlcnK7W9ZsHXgtwbyplgD8EP8KHRUUYJf0UsY0-a4QKOQyOOPemvz7D9UDUKul4hcTOMGPrePDmLHI1Kpa5g3SRG4wNsI1vLMFJ-ZeT5SlrmLui7gBXsS2-_20Rgv1KUVFvo5Hw3wccHqx7-vJfRRrG1VPxGuRTXStrmaHXjKvsiuohVlkM9is5oMcwv4nuh1Zsr7b9J9TYMGfsHYevGtPROYU6H9BHou8SeTlES_O8DjGnqyJbcAF45GlOAUK0m0wdeuNPReoPiQ3vT40UhUG12RZk_lwrqYQNY8Lhz7siv4eKSt8kY4aO_dHiKzZjkxAfFHx1y-_v-sj7-X9dxEIbxta741oDwqfG8c4UIUsJN9I_DoC5Oun-33yulW9ZSDzKRDr78cvjUxVlyiwceLPbcVI-AIIeHelQNWzIhD5I71EgDShOA9G7BIQg2hTtSm0rBH4nvTOHk7KOSowYRDNsVXYZ3ge_WBEgPJPyfGlfsoTdsWd7w5SUK24wW1EWLVVMOwv6bCTxJ8BvvGZ8a1vvpAJoiDD0MVTOZFT1a6_SuVU_C1QCy6SmDOmywWXks270gZpbclY4AuE4LmIcrojO6o8JCEi-k0La5jvnAq4eKV60vfospjrmcupAmAEhLdUDTbbZ6NVVPzs9n_Ymw0EZ0XbfaO2mrBsgNcNmZf9oRngkmazUxbyFLFJdZNhqUnWs926Z72gPcrfTNSBvq7NKdwhWh37IzyGwzqsr0s0h_xdnjDeDR1Wb9xSrNgv5JePr8zZ0qPc-6cf4HRYad1GZQ4PSXRF7t3ITJ0iGMC63MouH_jJVvJXUSOE7TTkhnj06xatY0XO6et_LZ9Y7UP3UTmf1bsybT1_xEJM5a5j_ujGGQDLK5iZ6AeNeieCkF0V-3x9wSNvDZJZlQdwr2uvtEvBzX-sghYPYzdo3ncAL9Ojr9fM36Y4dc1g0Y5GLrq2EedS_8Og-BVhI07EveAWFGigDvQF11LQGI4xWviQ_z5WJ0xHFTDinKqH-U9uKgNSgX7JQle1Eim8xbqUojqQzDlo2wroCR8TAKyRU0tfwuERznQENnANXtXfljGEE6z2_m83Es0QmXCWfuS1SDNRKigS0qpI38UqY0UbB6EHisDN-9RkiUWvEz9p2iiVJGPz_f3Wa-p4QMn_ZLmfc2HJjfcM6v-rRk2uAz0tM_xmzD41nxlM588t7uYVcyCyJAJuT99C0kioGIxqlhRhBozogQj4-4p3fpuIIJGfOrduWy6GBFEiJWOm3szjg2LS6-irdN7idPAfcuRzw6w6-E0jqliLQiluOqLA35ZjWRvE-ddFZYZQJ4xOl1S-kcz_XZy4cNK-7fyfldI-wshLuPgBoi9vr3EyIxRZlGyQ3u4AtVUXcpzA3jUEHq35R-O0LIXq1RxR61GqLHhlG2jd_7KdHJr9HdURYmT4MFh54fN7NOlhKqWZ0vZDbAfdpicYcFZD-Fw7gfl5kNYwr26QVc0xdH2kODoyAwirFX3B5WtadYZzdElnmvnyzwIA&sai=AMfl-YToa4MpsDspqipwdDBEKKq-BPEX8mvzParme3QKjylP6Sxs35rdSvZnqCieVY4sCEOj0zjpKQvWYgMA95HkMkR9uWevVOBtOYij11kbSb8QlJ8sLTc3VMZ_sOfC5VxYoX4697OKOLCCFQawdmgwiyqYL2HeNOWulPD0CUwZ4YBh35BxFgfSJdDtdlB9XV_sfvhhJdqm4BJL9PpcI-xSRI9o6VJwZCFynDsGJ9PT7i4YCCQgklyk54N-sBcHDUCdA9v4C9EXKT67UNp568GBc2SVwrYmLU9sq1fcjAWQ-IDWJN4auZe0Br4LmUWZ4sq6ASsqvYly91EsPTiZ00QTsYWO5C15iN4GTSTQ5ILdiYpUzas05dJ4aqpZDmEmvcrZRHd4awVwLU80RQ3LeQgNOvx6RA_bckclkP2eBCColR0bNuhv6oIiHq7XIPG4JVvuQA0WqLPmYf5pb1AyYD1lb_4sesPYK5mx-1JOTBgdSyvZlqu_3g3aZBhNDEGN0-Jz17xHL8YJQcdDiGid3YzHqSlZ-k8ksNAPco0FvwkblWN_8opMX2LeXxcLS-5I2bflIESHFyh3h2taV9dpyrAuxTZXw1iw8gcEVM275IEQl99BH_FZlFk_1aH19Tejbg2wc1-ksHnD3se4RLVEMMhS2l_JjOXxRX0NZY1FGflpw1-Ucsb8Y4uDDDH_LDP-Flc&sig=Cg0ArKJSzJN4sm7huZIQ&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9teXZpLmlu&urlfix=1&adurl=https://www.myvi.in/content/vodafoneideadigital/in/en/vil-homepage/static-pages/non-stop-hero-page3.html%3Futm_medium%3DfixedNSH_Football%26utm_source%3DDV360%26utm_adtype%3Ddisplay%26utm_campaign%3DNSH_Aug%2725%26utm_adgroup%3DALL_digital_display_Haryana(Exchandigarh)%26utm_content%3DNSH_Football%26utm_term%3DEng_all%26dclid%3D%25edclid!%26gad_source%3D7
+          - img "Advertisement" [ref=f1e5] [cursor=pointer]
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13] [cursor=pointer]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e15]:
+      - link "Selenium Online Training" [ref=e17] [cursor=pointer]:
+        - /url: https://www.toolsqa.com/selenium-training/
+        - img "Selenium Online Training" [ref=e18] [cursor=pointer]
+      - generic [ref=e20]:
+        - generic [ref=e22] [cursor=pointer]:
+          - img [ref=e25] [cursor=pointer]
+          - heading "Elements" [level=5] [ref=e28] [cursor=pointer]
+        - generic [ref=e30] [cursor=pointer]:
+          - img [ref=e33] [cursor=pointer]
+          - heading "Forms" [level=5] [ref=e37] [cursor=pointer]
+        - generic [ref=e39] [cursor=pointer]:
+          - img [ref=e42] [cursor=pointer]
+          - heading "Alerts, Frame & Windows" [level=5] [ref=e45] [cursor=pointer]
+        - generic [ref=e47] [cursor=pointer]:
+          - img [ref=e50] [cursor=pointer]
+          - heading "Widgets" [level=5] [ref=e53] [cursor=pointer]
+        - generic [ref=e55] [cursor=pointer]:
+          - img [ref=e58] [cursor=pointer]
+          - heading "Interactions" [level=5] [ref=e61] [cursor=pointer]
+        - generic [ref=e63] [cursor=pointer]:
+          - img [ref=e66] [cursor=pointer]
+          - heading "Book Store Application" [level=5] [ref=e69] [cursor=pointer]
+    - contentinfo [ref=e70]:
+      - generic [ref=e71]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

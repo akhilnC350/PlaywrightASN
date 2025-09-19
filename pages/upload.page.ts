@@ -15,7 +15,7 @@ export class UploadPage {
    */
   async uploadFile(fileName: string) {
     const filePath = path.join(__dirname, `../test-files/fixtures/${fileName}`);
-    await this.page.setInputFiles('#picturecontainer', filePath);
+    await this.page.setInputFiles('#uploadFile', filePath);
   }
 
   /**
@@ -30,7 +30,7 @@ export class UploadPage {
    */
   async uploadAdditionalFile(fileName: string) {
     const filePath = path.join(__dirname, `../test-files/fixtures/${fileName}`);
-    await this.page.setInputFiles('#picturecontainer', filePath);
+    await this.page.setInputFiles('#uploadFile', filePath);
   }
 
   /**
