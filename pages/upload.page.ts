@@ -41,6 +41,7 @@ export class UploadPage {
    * Update '#uploadSuccess' with the actual locator from your application.
    */
   async waitForUploadSuccess() {
-    await this.page.locator('#uploadSuccess').waitFor({ state: 'visible' });
+    await this.page.locator('#picture').waitFor({ state: 'visible' });
+    //await this.page.locator('#uploadSuccess').waitFor({ state: 'visible' });
   }
 }

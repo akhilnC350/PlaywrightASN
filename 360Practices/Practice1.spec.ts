@@ -2,10 +2,17 @@ import {test, expect} from '@playwright/test';
 import path from 'path'; // Node.js module to handle file paths
 import fs from 'fs';     // Node.js module to check if file exists
 
+//consider this as a before each fixture
+
+// import { UploadPage } from '../pages/uploadfilepage'; // Import the UploadPage class
+
+// import { element } from 'prop-types';
+// import { ConsoleMessage } from 'playwright-core';
+
 
 test('text view practices', async({page, context})=>{
 
-    await page.goto('https://demoqa.com/');
+    // await page.goto('https://demoqa.com/');
     
    // await page.locator('h5:has-text("Forms")').click(); //heading locator
     // await page.locator('div.header-text:has-text("Elements")').click(); //header locator
@@ -311,39 +318,99 @@ test('text view practices', async({page, context})=>{
 
 
   //Case 12: Alerts
-  await page.locator('.card-body:has-text("Alerts, Frame & Windows")').click();
-await page.locator('li.btn.btn-light:has-text("Alerts")').click();
+//   await page.locator('.card-body:has-text("Alerts, Frame & Windows")').click();
+// await page.locator('li.btn.btn-light:has-text("Alerts")').click();
 
-// Simple Alert
-page.once('dialog', async dialog => {
-  console.log(`Dialog message: ${dialog.message()}`);
-  await dialog.accept();
-});
-await page.locator('#alertButton').click();
+// // Simple Alert
+// page.once('dialog', async dialog => {
+//   console.log(`Dialog message: ${dialog.message()}`);
+//   await dialog.accept();
+// });
+// await page.locator('#alertButton').click();
 
-// Timer Alert
-page.once('dialog', async dialog => {
-  console.log(`Dialog message: ${dialog.message()}`);
-  await dialog.accept();
-});
-await page.locator('#timerAlertButton').click();
-await page.waitForEvent('dialog'); // instead of timeout
+// // Timer Alert
+// page.once('dialog', async dialog => {
+//   console.log(`Dialog message: ${dialog.message()}`);
+//   await dialog.accept();
+// });
+// await page.locator('#timerAlertButton').click();
+// await page.waitForEvent('dialog'); // instead of timeout
 
-// Confirm Alert
-page.once('dialog', async dialog => {
-  console.log(`Dialog message: ${dialog.message()}`);
-  await dialog.dismiss();
-});
-await page.locator('#confirmButton').click();
-await expect(page.locator('#confirmResult')).toHaveText('You selected Cancel');
+// // Confirm Alert
+// page.once('dialog', async dialog => {
+//   console.log(`Dialog message: ${dialog.message()}`);
+//   await dialog.dismiss();
+// });
+// await page.locator('#confirmButton').click();
+// await expect(page.locator('#confirmResult')).toHaveText('You selected Cancel');
 
-// Prompt Alert
-page.once('dialog', async dialog => {
-  console.log(`Dialog message: ${dialog.message()}`);
-  await dialog.accept('Akhil'); // provide input to prompt
-});
-await page.locator('#promtButton').click();
-await expect(page.locator('#promptResult')).toHaveText('You entered Akhil');
+// // Prompt Alert
+// page.once('dialog', async dialog => {
+//   console.log(`Dialog message: ${dialog.message()}`);
+//   await dialog.accept('Akhil'); // provide input to prompt
+// });
+// await page.locator('#promtButton').click();
+// await expect(page.locator('#promptResult')).toHaveText('You entered Akhil');
+
+
+// //Case 13: Frames - only frames handled here
+//   await page.goto('https://demoqa.com/');
+
+//   // 1️⃣ Wait for the "Elements" card to be visible and click it
+//   const elementsCard = page.locator('div.card.mt-4.top-card:has-text("Elements")');
+//   await expect(elementsCard).toBeVisible();
+//   await elementsCard.click();
+//  // 2️⃣ Scroll to and click the "Alerts, Frame & Windows" card
+//   await page.locator('div.card.mt-4.top-card:has-text("Alerts, Frame & Windows")').click();
+
+//   // 3️⃣ Wait for the sidebar menu to appear
+//   const sidebar = page.locator('div.element-list.collapse.show'); // expanded menu
+//   await expect(sidebar).toBeVisible();
+
+//   // 4️⃣ Click on "Frames" in the sidebar
+//   // Note: Currently Frames li has id="item-2" and text inside span
+//   await page.locator('li#item-2:has-text("Frames")').click();
+
+//   // 5️⃣ Access frame by id and assert text
+//   const frame1 = page.frameLocator('#frame1');
+//   await expect(frame1.locator('#sampleHeading')).toHaveText('This is a sample page');
+
+//   const frame2 = page.frameLocator('#frame2');
+//   await expect(frame2.locator('#sampleHeading')).toHaveText('This is a sample page');
+
+
+
+
+  //nested frames implementtaion 
+
+  
+//  //wait for the "Elements" card to be visible and click it
+//   const elementsCard = page.locator('div.card.mt-4.top-card:has-text("Elements")');
+//   await expect(elementsCard).toBeVisible();
+//   const parentFrame = page.frameLocator('#frame1');//locate parent frame
+//   await expect(parentFrame.locator('body')).toHaveText('Parent frame');//assertion for parent frame
+//   const childFrame = parentFrame.frameLocator('iframe');//locate child frame inside parent frame
+//   await expect(childFrame.locator('body')).toHaveText('Child Iframe');//assertion for child frame
+//   await page.waitForTimeout(5000);//static wait to see the result
+
+/////Modal Dialogs
+
+await page.goto('https://demoqa.com/modal-dialogs');
+await page.locator('#showSmallModal').click();
+const modalTitle = page.locator('#example-modal-sizes-title-sm');
+await expect(modalTitle).toHaveText('Small Modal');
+const modalBody = page.locator('.modal-body');
+await expect(modalBody).toHaveText('This is a small modal. It has very less content');
+await page.locator('#closeSmallModal').click();
+await page.waitForTimeout(2000);
+await page.locator('#showLargeModal').click();
+const largeModalTitle = page.locator('#example-modal-sizes-title-lg');
+await expect(largeModalTitle).toHaveText('Large Modal');
+const largeModalBody = page.locator('.modal-body');
+await expect(largeModalBody).toContainText('Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.');
+await page.locator('#closeLargeModal').click();
+await page.waitForTimeout(2000);
+
 });
 
 

@@ -1,0 +1,113 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - iframe [ref=f1e5]:
+          - generic [ref=f2e2] [cursor=pointer]:
+            - img [ref=f2e4] [cursor=pointer]
+            - button [ref=f2e793] [cursor=pointer]
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13] [cursor=pointer]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23] [cursor=pointer]:
+            - img [ref=e25] [cursor=pointer]
+            - text: Elements
+          - img [ref=e30] [cursor=pointer]
+        - generic [ref=e36] [cursor=pointer]:
+          - generic [ref=e37] [cursor=pointer]:
+            - img [ref=e39] [cursor=pointer]
+            - text: Forms
+          - img [ref=e45] [cursor=pointer]
+        - generic [ref=e49]:
+          - generic [ref=e51] [cursor=pointer]:
+            - generic [ref=e52] [cursor=pointer]:
+              - img [ref=e54] [cursor=pointer]
+              - text: Alerts, Frame & Windows
+            - img [ref=e59] [cursor=pointer]
+          - list [ref=e64]:
+            - listitem [ref=e65] [cursor=pointer]:
+              - img [ref=e66] [cursor=pointer]
+              - generic [ref=e68] [cursor=pointer]: Browser Windows
+            - listitem [ref=e69] [cursor=pointer]:
+              - img [ref=e70] [cursor=pointer]
+              - generic [ref=e72] [cursor=pointer]: Alerts
+            - listitem [ref=e73] [cursor=pointer]:
+              - img [ref=e74] [cursor=pointer]
+              - generic [ref=e76] [cursor=pointer]: Frames
+            - listitem [ref=e77] [cursor=pointer]:
+              - img [ref=e78] [cursor=pointer]
+              - generic [ref=e80] [cursor=pointer]: Nested Frames
+            - listitem [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+              - generic [ref=e84] [cursor=pointer]: Modal Dialogs
+        - generic [ref=e87] [cursor=pointer]:
+          - generic [ref=e88] [cursor=pointer]:
+            - img [ref=e90] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e95] [cursor=pointer]
+        - generic [ref=e101] [cursor=pointer]:
+          - generic [ref=e102] [cursor=pointer]:
+            - img [ref=e104] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e109] [cursor=pointer]
+        - generic [ref=e115] [cursor=pointer]:
+          - generic [ref=e116] [cursor=pointer]:
+            - img [ref=e118] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e123] [cursor=pointer]
+      - generic [ref=e127]:
+        - iframe [ref=e130]:
+          - generic [ref=f3e2]:
+            - iframe [ref=f3e5]:
+              - generic [ref=f4e2] [cursor=pointer]:
+                - img [ref=f4e4] [cursor=pointer]
+                - button [ref=f4e793] [cursor=pointer]
+            - generic [ref=f3e6]:
+              - generic:
+                - img [ref=f3e10] [cursor=pointer]
+                - button [ref=f3e12] [cursor=pointer]:
+                  - img [ref=f3e13] [cursor=pointer]
+        - text: Please select an item from left to start practice.
+        - iframe [ref=e134]:
+          - generic [ref=f5e2]:
+            - iframe [ref=f5e5]:
+              - generic [ref=f6e2] [cursor=pointer]:
+                - img [ref=f6e4] [cursor=pointer]
+                - button [ref=f6e793] [cursor=pointer]
+            - generic [ref=f5e6]:
+              - generic:
+                - img [ref=f5e10] [cursor=pointer]
+                - button [ref=f5e12] [cursor=pointer]:
+                  - img [ref=f5e13] [cursor=pointer]
+      - generic [ref=e139]:
+        - img "Build PlayWright tests with AI" [ref=e141] [cursor=pointer]
+        - iframe [ref=e144]:
+          - generic [ref=f7e1]:
+            - generic [ref=f7e2]:
+              - generic:
+                - img [ref=f7e6] [cursor=pointer]
+                - button [ref=f7e8] [cursor=pointer]:
+                  - img [ref=f7e9] [cursor=pointer]
+            - insertion [ref=f7e16]:
+              - link "Advertisement" [ref=f7e19] [cursor=pointer]:
+                - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjstxSldQm85ah5Ps_XDrCozgRUQ3SfAyAe9sOID5t2l1LHCptM07gcJqdNqMk_HmRZFesh6lCRv4SOBfwkvpYwjsB8w-czgGHRxYcPGuY53NiTrexuZWDa2oBQPzhv4pR8T-egxzHeE3jyTX7rrqxsuBOZWxIxoZvBHdp1XAoekk9VmohSE7h8GIUu3hwQOX3LUqXVuPyRc_E-fz7ES7NFP6KkHwTZMQUKN9_cWf9LbClSYGOjmHxKGjikb7s0jlWE5JLfrzbNkyN2sYHU5U5tfUcreJuewtPXv85WN-cdcGcGzzbTfCBRiJXH0UyQYH2WvS2TU6ogA-rxtHM_469TQ6qPX1_reb59kkTQHlAiQr1L0TvWAqo7wl72Grq-ZoDrHUjxYuWTrzy5jdIdHPCtxMqhXOFGM1ytTmm7l6uhfDk6x53LgjDTxOlZl6ZowMAGngYRUf69QNtCAGVYMrx26SLZZ5I1A0xrj5NQ0UkHCgoW6coU8UqFTGOfkJBlE-TRHTDca7j57_2rw8d7G82iuH5mTj&sai=AMfl-YRcNF6s2U0yXsBBSVt5NwhdQsQdzWKuEQDszRLvDdrlBXjB4f6ziLK5RJd5eGLo1aMt8MP0eQCS64_kegYJF9X4-x-3ISipPzh4erHWNYET-K3vJC_mwq-ckmWK4hBws9mC8Cm4qYJLNcUXHek54FxFCBKLf5jASCaytYtLxF0hsbuTy8SV35vwr4XVxRtZ7wTnHy7tpH2M2BiczmjTslu66dQ8GO6OCTeyqCvgquey2g&sig=Cg0ArKJSzDnVtFrCwZzZ&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly91bml0ZWRoZWFsdGhncm91cC5jb20&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DCZvxQNKHPaP7rOoa44t4PwJTs6A_7mMCGgQHMje_z6RTwLhABIMb71nlg5arlg6wOoAHu5d7iAcgBCakCZ74jVCJgSD6oAwHIA5sEqgT7AU_QFjfEdkN6k58fWnY_G6-00D74-vm0STM81sVpR-pp9IHIlDrlYEGlAl-0XTTVeyIfiuJ6MFUHfKdLrAhzCkmJQzn842HBLVYLBwZTNX2vTiZ0Q_CBXzxpsSXh5v2eqmMX71GUGNOg0jtITuygH0mKrJs6Zol0He12szU1bb3grrfQ6cV7B4nfl4f44gKsNux0c7ryn2zHV9wWh7XFOOw4qvB6DxUzGpXyhnRnMjPLtSpk89niZBuU8qxsTQvmFTKtEiCpieGVvxarkgUnn3mLDSyL1mJOoiHhXoUjvmZ8hdlXl9BMihSk8qLX0sesflvWe6UhFWUrhojkwAS7-cfrkwXgBAOIBeqg8KpTkAYBoAZNgAf6maGdAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgH59exAtgHANIIKQiAYRABGJ0BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WMztr-yi6Y8D8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkygAoDmAsByAsBgAwBqg0CSU7iDRMI5L6w7KLpjwMVBpzYBR1AChv96g0TCPamseyi6Y8DFQac2AUdQAob_fANAYgO____________AbATzdq0HtgTDYgUAdgUAdAVAcoWAgoA-BYBgBcBshcOGAIqCjYxNjg1NzY1MDWqGBcJAAAAAGCX8kASCjYxNjg1NzY1MDUYAbIYCRIC-lMYTSIBAA%26ae%3D1%26num%3D1%26cid%3DCAQSrAEA2abss1CT2CvfQJHflrt2oA5ZCNAT3qBKbYWadOzY3nuPOJM3XizXzIvMOrlNaMHcvUCqvU3PlZTYMBbwrGlnsfxpr8lhD-lEfz_vqPpmsyPvMpUwvzi6yrH1nE3Y2ibR015z2OATXYq5kj_gyxYFjTpBIDkMh3_i9zE-PxhJQ-LI361L-S0aUMIHB1aJhircdTodnlUEZ4FmxbRqo6B9oxMVWrQSDZ1NFz3TGAE%26sig%3DAOD64_18ChzCYAPk7ukJpPYEArTFA-RbMA%26client%3Dca-pub-4573231550355221%26dbm_c%3DAKAmf-ATzC1ieJzBaFy20EGRtwd2INZ1GGIj2mPNQY10CI7d7ML8hhT9xzB91bf3btE5Ab9qQ5cuYPATBbLzv6AxUpo7XaadfYHQ20BSIERKolTEvNPVH6ld6dXAiPhm3Nn-tHjvvmMn2Koe1WUvXPu6HCVDMi8lfgVSk2G0JX-bN82z9yLeAst3gP-Du_TMY7_UlpvXSQw0ahWoATRfTpZHPKgKJGAHfwfK2lVNjlHpKKJxlXr5IOy9TOykxbk_TIXBSQ8nhwONGTWO0oU6ZoZoOdeU6eycdPfBWNuFm4Usy6L8dj-B95Y%26cry%3D1%26dbm_d%3DAKAmf-B02Z8oOS_bdgkG70jVRm6MIBaeOEO9ZWFT0ubjxRu4MDCVQLinLPJrube2ZHUjxpZ7Y0GWAAzE0A15_1N56nMfZnXESbWLiFuEBSO0RWGCbLptOMhIyUclzzQZUVLew9qp3teflVxnkpBt9MXKvumYSxjEY1k0URJ-j2DY_ycfas525aYxlUBH1LwWr9-GBKeE6_L7hmDxmPYvpeO06dylouomaG5rNRmhW-Id7-M62N75ddPA1QVpzPmalyPcO8W3eBC7nEFp53so8PjwFJc6R8FDuZ-rNwCI26RzJv8CLXjzCMx6MjS0Xl6Oo6IAlZHfVcxeBZnfqoP1SGb5Olms1-_yAUA8owCigDnZx7-R3-SkeZs0VW62hnL7xDfKGdGg1k_naNKT889SWLA02ooJ8Jr85MDQAvidy4ls-c8v5IUGTJp58WgKNs2xq7YzOIJyvwjFDwjsACr2yrrFEiPJmBIDLx0zqeAb4mkTwSX5nwnXtFdLFj-RSIznUVlvnYO3KSCG6lRdHcYHIgO0vZtYgHwMBzfNqNwamOdaJahmG_0e4srtPguqDeR_bZedegXe_TVsCThyZc8-t5CCX6ODlzsaVUx66BMavIap2qqjP09D8MIbuMMleFyRA2Pn2KxuuaVQvTk5baJMccc6fuydwf2VIBSBt6fuR2cDCfsYGwScwsSUrptljbmD9fs_Vg2tW8Jq%26adurl%3Dhttps://careers.unitedhealthgroup.com/job-search-results/%253Fkeyword%253D%252523gen%2526location%253DIndia%2526country%253DIN%2526radius%253D25%2526src%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D419582244%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7
+                - img "Advertisement" [ref=f7e20] [cursor=pointer]
+        - iframe [ref=e147]:
+          
+    - contentinfo [ref=e148]:
+      - generic [ref=e149]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

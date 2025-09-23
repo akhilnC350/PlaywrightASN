@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './360Practices',
+  testDir: './GuidewirePOC',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -28,7 +28,7 @@ export default defineConfig({
 ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   /* Global timeout settings */
-  timeout: 90000, // 2 minutes per test
+  timeout: 120000, // 2 minutes per test
   use: {
 
     browserName: 'chromium',

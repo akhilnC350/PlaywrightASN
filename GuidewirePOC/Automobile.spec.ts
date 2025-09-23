@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { UploadPage } from '../pages/upload.page';
-
+import path from 'path';
+import { Page } from '@playwright/test';
+import fs from 'fs';
 
 test('Sparkstone Insurance Quote Flow', async ({ page }) => {
   await page.goto('https://www.sparkstone.co.nz/sampleapp/101/?utm_source=chatgpt.com#');
@@ -31,7 +33,7 @@ test('Sparkstone Insurance Quote Flow', async ({ page }) => {
 
   // // --- Step 3: Next button ---
     await page.getByRole('button', { name: 'Next »' }).click();
-    await page.waitForTimeout(15000); 
+    await page.waitForTimeout(5000); 
     await page.locator('#firstname').fill('Akhil');
     await page.waitForTimeout(1000);
     await page.locator('#lastname').fill('Negi');
@@ -54,10 +56,20 @@ test('Sparkstone Insurance Quote Flow', async ({ page }) => {
     await page.locator('#website').fill('https://www.sparkstone.co.nz/sampleapp/101/app.php');
     await page.waitForTimeout(1000);
     
-    
-    const upload = new UploadPage(page); // upload file using upload Pom reference 
-    await upload.uploadFile('dice.jpg'); // upload file using upload Pom reference
-   // await upload.waitForUploadSuccess(); // upload file using upload Pom reference
+   const filePath = path.join(__dirname, '../test-files/fixtures/dice.jpg');
+if (!fs.existsSync(filePath)) {
+  throw new Error(`File not found at path: ${filePath}`);
+}
+
+const [fileChooser] = await Promise.all([
+  page.waitForEvent('filechooser'),
+  page.locator('#open').click()   // click triggers file dialog
+]);
+
+await fileChooser.setFiles(filePath);
+  //   const upload = new UploadPage(page); //upload file using upload Pom reference 
+  //   await upload.uploadFile('dice.jpg'); //upload file using upload Pom reference
+  //  // await upload.waitForUploadSuccess(); //upload file using upload Pom reference
     await page.click('#nextenterproductdata');
     await page.waitForTimeout(1000);
     await page.locator('#startdate').fill('11/01/2025');
@@ -88,6 +100,7 @@ test('Sparkstone Insurance Quote Flow', async ({ page }) => {
     await page.waitForTimeout(1000);
     await page.locator('#username').fill('akhil');
     await page.waitForTimeout(1000);
+
     await page.locator('#password').fill('Akhil@1234!')
     await page.waitForTimeout(1000);
     await page.locator('#confirmpassword').fill('Akhil@1234!');

@@ -1,0 +1,437 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - link "Advertisement" [ref=f1e4] [cursor=pointer]:
+          - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsuwLy5QtuX_AUzAeMp1FVRoIohfImc3Bta680HWw9h6_2LFgFvv0wdRturnIuYmshLXm1MjsF9X6CI5MxPWwh0AAcpVDtpBKbA0RgPZbjVVPrWHPSxDtubZSmGf7WBzJpiq9IEd5A5rDRTqZra3-a7pgt2QaTQR82RHet09WKaRDJwKOGM3Orneea2MK4T315b7J7tPJiFF94jfSEO_sw_CtJUlCM67QtFgqJ9IBj7t7BjHvaB_zqgvCFj1YuLU27pytw70mi02C3fzaEBpT52yREuA_XAUmSOIp0m7CMO79i7KGgPZ2rMAso4NgSBj9xjch_TMdjZv-IkdMSgakSvVVHI9fU-zTFS2uAPgsiatElCD9vmmTFjxsVZFL1CReHY4CzUFFcQQKJQMWgLxFMtMiF8-4-ICkaZis82tepLyEY9LrZ_s42NhBlZiEL-1VS3oy0DdqQwIzjGqKfI_Xi-PUeCov1SzeAiejBOwnmBM-tOBGkIJ2EJaIWzIi09GFPHL2dRhg91uRiQo2pxoDZCYO5jgPhxxI9O8OEbXzAW9nJX9VkXKSv_HF09OQb5XLM0fPx7ALP-f0uZbmpzNSTBQX3JUMRHc6JaHGLYjvO2vXgkixXz0ZsRCsYAVl6mNx4QXbFFXBkb2XjEO4XyjVGV1OjUtiYWWaZyaY8g9rS18kLgbiaRqh0ksN9-LpWccv2EwApjXG5CPuyJbF0nGAkmKMagGVfohp74mXYzaEiXV3NwOIMOFArpgDX0LlQ9CwItq4YcKeL-7Xz2B50kd_Cuu_PX3bSEqeZwqpIV-aMlMbBx6jgX92UzDmFBnFs1FHwmysPtgaIKfDHsC4vSKuIzODvddS6hAu9pI86k5mQOu1EDlVDhgdxPQPp5cjjNz4FW4M6QfjLz-99-NmEiHh0SBv0wVOAr7qwHlHopHaMMgeh3W9IojCmgBq8WaysBT06oo6OWfZk4Q0OsfWB2XdzR8Y_fTt_zY6f_QgROLla4veH3GM6zIKcjNss5FuEhIXbX66Mw2Hg6ReCD4HJeViDAezBHkd214uHzFMktcx_mnZIBXA4uP2dl88YiMQJrWG43D9kqK2-KHLMBr2iEAb2P4XB-QV3gmq9E8s8uoFYMd0HMWR6reAUgC4gk4BiW6o3CL_hJeMXt0CvsHDjC0jcT-5UVgPjBkMfsqvhlo6cpPFO3FS0AoSR-JOgHVw3ilgrJ9lGoYsxgTeQkTinjI5SC3jKZLSVEnFP5otTwqOvvmJ4YumXt-jmvK45mN_EjhzIcR3a8bA7P6lDVym8v61TaEfOJk3G1jhuxTtMsvxjEinGCUMnASAYNEimIzPSDkev-EcYWs1uMUhfLfTEnZf920PxaxgzjpkUyFyMqTnSnluvX62h7upX76zaWpQfI_rlC2R_ng2Z2KQFRY8svyh3sRiwzjc4h8b6NV5UHAqq3409_nglQeSKb0KbivzcHrc4NlvnDRKHbqC1_V4uX0rCCL9QmaGunSDL7vK8Il9UzsMryRmoMSYp-L1savamy7e4SHd_5IBxwtNqgxakkQ6mzzGpSb2LefNetl_mWzH1SQ1nKPKtg97T_WxIVdN9wVeOs&sai=AMfl-YSeMD7YxHQOVbyFgQb_CRHQaagzvg6aN85dw4L3dnnlUbRgc-0RTPHoMB9wQB4fmYM1x-9SwBdlZSFqNAN22i4KJ9bXRYjSyFb8cho4mbyPRZ_AdmRwS4I5kfDwXzgQZQDJSdignyxPivFXZQCFQr3ubL1dq9BI1wo61xCIHrw3LHp_IiaPB4JLjRM0AE0ezqhtzLtsl40aJhzUOtknP08C_56LUi-pXRtUi1I4ma8syFNYis28A9Ij8eZLq3J1PZzVAtRGXOkUs0doN84gjoZtdvRhCJvCgKB8OBw_fj1PmqUrU-kF5t9Im_pwzU3W3QKJoL3XRNq7ey_v3EH1kI1vjJsrZBRvwb0ekQ1tAfjpBbrNW0i-BodwQkRXpZEPbMtHE4rwtfWINEqi_0kJnxcRh8LFeY0lVUr4ZSdxQOhKDxryUM2QqtVdS2U4GPa3i7SJTVte3spdRmSlIw4KdHfWm6RYkOSwRNdkZ96VLJSuME6ydwTvxjKOMmGXUcM-EXH_kaF2HG-9OpDVqLPy8ArjXWBIvXTLalg12wbpMW9K_6-ioSIeRQIP0w9mx9s8sKEvwISRxSG7CRfdq3FVqak3KglNpb_PTTp3G6KSe4B2jWij3OIThPLzszP027pee6gQFzz8OgnnUcNxoX5RsPBsDbIMRvDRPcZ0_bOl1HFi4sjOHsDkrF-GAIGce60&sig=Cg0ArKJSzCVWBxDW201U&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9teXZpLmlu&urlfix=1&adurl=https://www.myvi.in/content/vodafoneideadigital/in/en/vil-homepage/static-pages/non-stop-hero-page3.html%3Futm_medium%3DfixedNSH_Cricket%26utm_source%3DDV360%26utm_adtype%3Ddisplay%26utm_campaign%3DNSH_Aug%2725%26utm_adgroup%3DALL_digital_display_Haryana(Exchandigarh)%26utm_content%3DNSH_Cricket%26utm_term%3DEng_all%26dclid%3D%25edclid!%26gad_source%3D7
+          - img "Advertisement" [ref=f1e5] [cursor=pointer]
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13] [cursor=pointer]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23] [cursor=pointer]:
+            - img [ref=e25] [cursor=pointer]
+            - text: Elements
+          - img [ref=e30] [cursor=pointer]
+        - generic [ref=e36] [cursor=pointer]:
+          - generic [ref=e37] [cursor=pointer]:
+            - img [ref=e39] [cursor=pointer]
+            - text: Forms
+          - img [ref=e45] [cursor=pointer]
+        - generic [ref=e51] [cursor=pointer]:
+          - generic [ref=e52] [cursor=pointer]:
+            - img [ref=e54] [cursor=pointer]
+            - text: Alerts, Frame & Windows
+          - img [ref=e59] [cursor=pointer]
+        - generic [ref=e63]:
+          - generic [ref=e65] [cursor=pointer]:
+            - generic [ref=e66] [cursor=pointer]:
+              - img [ref=e68] [cursor=pointer]
+              - text: Widgets
+            - img [ref=e73] [cursor=pointer]
+          - list [ref=e78]:
+            - listitem [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+              - generic [ref=e82] [cursor=pointer]: Accordian
+            - listitem [ref=e83] [cursor=pointer]:
+              - img [ref=e84] [cursor=pointer]
+              - generic [ref=e86] [cursor=pointer]: Auto Complete
+            - listitem [ref=e87] [cursor=pointer]:
+              - img [ref=e88] [cursor=pointer]
+              - generic [ref=e90] [cursor=pointer]: Date Picker
+            - listitem [ref=e91] [cursor=pointer]:
+              - img [ref=e92] [cursor=pointer]
+              - generic [ref=e94] [cursor=pointer]: Slider
+            - listitem [ref=e95] [cursor=pointer]:
+              - img [ref=e96] [cursor=pointer]
+              - generic [ref=e98] [cursor=pointer]: Progress Bar
+            - listitem [ref=e99] [cursor=pointer]:
+              - img [ref=e100] [cursor=pointer]
+              - generic [ref=e102] [cursor=pointer]: Tabs
+            - listitem [ref=e103] [cursor=pointer]:
+              - img [ref=e104] [cursor=pointer]
+              - generic [ref=e106] [cursor=pointer]: Tool Tips
+            - listitem [ref=e107] [cursor=pointer]:
+              - img [ref=e108] [cursor=pointer]
+              - generic [ref=e110] [cursor=pointer]: Menu
+            - listitem [ref=e111] [cursor=pointer]:
+              - img [ref=e112] [cursor=pointer]
+              - generic [ref=e114] [cursor=pointer]: Select Menu
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118] [cursor=pointer]:
+            - img [ref=e120] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e125] [cursor=pointer]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132] [cursor=pointer]:
+            - img [ref=e134] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e139] [cursor=pointer]
+      - generic [ref=e143]:
+        - iframe [ref=e146]:
+          - generic [ref=f2e3]:
+            - button [ref=f2e4]:
+              - img
+            - generic [ref=f2e6]:
+              - generic [ref=f2e8]:
+                - generic [ref=f2e12]:
+                  - button "Play video" [ref=f2e16] [cursor=pointer]:
+                    - img [ref=f2e17] [cursor=pointer]
+                  - button "Unmute video" [ref=f2e22] [cursor=pointer]
+                - button "Replay" [ref=f2e29]:
+                  - img [ref=f2e31] [cursor=pointer]
+                - img [ref=f2e36]
+              - button "Learn more" [ref=f2e43] [cursor=pointer]
+        - generic [ref=e147]:
+          - heading "Date Picker" [level=1] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e150]: Select Date
+            - generic [ref=e151]:
+              - textbox [active] [ref=e154]: 09/22/2025
+              - generic [ref=e157]:
+                - button "Previous Month" [ref=e159] [cursor=pointer]
+                - button "Next Month" [ref=e160] [cursor=pointer]
+                - generic [ref=e161]:
+                  - generic [ref=e162]:
+                    - generic [ref=e163]: July 1995
+                    - generic [ref=e164]:
+                      - combobox [ref=e166]:
+                        - option "January"
+                        - option "February"
+                        - option "March"
+                        - option "April"
+                        - option "May"
+                        - option "June"
+                        - option "July" [selected]
+                        - option "August"
+                        - option "September"
+                        - option "October"
+                        - option "November"
+                        - option "December"
+                      - combobox [ref=e168]:
+                        - option "1900"
+                        - option "1901"
+                        - option "1902"
+                        - option "1903"
+                        - option "1904"
+                        - option "1905"
+                        - option "1906"
+                        - option "1907"
+                        - option "1908"
+                        - option "1909"
+                        - option "1910"
+                        - option "1911"
+                        - option "1912"
+                        - option "1913"
+                        - option "1914"
+                        - option "1915"
+                        - option "1916"
+                        - option "1917"
+                        - option "1918"
+                        - option "1919"
+                        - option "1920"
+                        - option "1921"
+                        - option "1922"
+                        - option "1923"
+                        - option "1924"
+                        - option "1925"
+                        - option "1926"
+                        - option "1927"
+                        - option "1928"
+                        - option "1929"
+                        - option "1930"
+                        - option "1931"
+                        - option "1932"
+                        - option "1933"
+                        - option "1934"
+                        - option "1935"
+                        - option "1936"
+                        - option "1937"
+                        - option "1938"
+                        - option "1939"
+                        - option "1940"
+                        - option "1941"
+                        - option "1942"
+                        - option "1943"
+                        - option "1944"
+                        - option "1945"
+                        - option "1946"
+                        - option "1947"
+                        - option "1948"
+                        - option "1949"
+                        - option "1950"
+                        - option "1951"
+                        - option "1952"
+                        - option "1953"
+                        - option "1954"
+                        - option "1955"
+                        - option "1956"
+                        - option "1957"
+                        - option "1958"
+                        - option "1959"
+                        - option "1960"
+                        - option "1961"
+                        - option "1962"
+                        - option "1963"
+                        - option "1964"
+                        - option "1965"
+                        - option "1966"
+                        - option "1967"
+                        - option "1968"
+                        - option "1969"
+                        - option "1970"
+                        - option "1971"
+                        - option "1972"
+                        - option "1973"
+                        - option "1974"
+                        - option "1975"
+                        - option "1976"
+                        - option "1977"
+                        - option "1978"
+                        - option "1979"
+                        - option "1980"
+                        - option "1981"
+                        - option "1982"
+                        - option "1983"
+                        - option "1984"
+                        - option "1985"
+                        - option "1986"
+                        - option "1987"
+                        - option "1988"
+                        - option "1989"
+                        - option "1990"
+                        - option "1991"
+                        - option "1992"
+                        - option "1993"
+                        - option "1994"
+                        - option "1995" [selected]
+                        - option "1996"
+                        - option "1997"
+                        - option "1998"
+                        - option "1999"
+                        - option "2000"
+                        - option "2001"
+                        - option "2002"
+                        - option "2003"
+                        - option "2004"
+                        - option "2005"
+                        - option "2006"
+                        - option "2007"
+                        - option "2008"
+                        - option "2009"
+                        - option "2010"
+                        - option "2011"
+                        - option "2012"
+                        - option "2013"
+                        - option "2014"
+                        - option "2015"
+                        - option "2016"
+                        - option "2017"
+                        - option "2018"
+                        - option "2019"
+                        - option "2020"
+                        - option "2021"
+                        - option "2022"
+                        - option "2023"
+                        - option "2024"
+                        - option "2025"
+                        - option "2026"
+                        - option "2027"
+                        - option "2028"
+                        - option "2029"
+                        - option "2030"
+                        - option "2031"
+                        - option "2032"
+                        - option "2033"
+                        - option "2034"
+                        - option "2035"
+                        - option "2036"
+                        - option "2037"
+                        - option "2038"
+                        - option "2039"
+                        - option "2040"
+                        - option "2041"
+                        - option "2042"
+                        - option "2043"
+                        - option "2044"
+                        - option "2045"
+                        - option "2046"
+                        - option "2047"
+                        - option "2048"
+                        - option "2049"
+                        - option "2050"
+                        - option "2051"
+                        - option "2052"
+                        - option "2053"
+                        - option "2054"
+                        - option "2055"
+                        - option "2056"
+                        - option "2057"
+                        - option "2058"
+                        - option "2059"
+                        - option "2060"
+                        - option "2061"
+                        - option "2062"
+                        - option "2063"
+                        - option "2064"
+                        - option "2065"
+                        - option "2066"
+                        - option "2067"
+                        - option "2068"
+                        - option "2069"
+                        - option "2070"
+                        - option "2071"
+                        - option "2072"
+                        - option "2073"
+                        - option "2074"
+                        - option "2075"
+                        - option "2076"
+                        - option "2077"
+                        - option "2078"
+                        - option "2079"
+                        - option "2080"
+                        - option "2081"
+                        - option "2082"
+                        - option "2083"
+                        - option "2084"
+                        - option "2085"
+                        - option "2086"
+                        - option "2087"
+                        - option "2088"
+                        - option "2089"
+                        - option "2090"
+                        - option "2091"
+                        - option "2092"
+                        - option "2093"
+                        - option "2094"
+                        - option "2095"
+                        - option "2096"
+                        - option "2097"
+                        - option "2098"
+                        - option "2099"
+                        - option "2100"
+                    - generic [ref=e169]:
+                      - generic [ref=e170]: Su
+                      - generic [ref=e171]: Mo
+                      - generic [ref=e172]: Tu
+                      - generic [ref=e173]: We
+                      - generic [ref=e174]: Th
+                      - generic [ref=e175]: Fr
+                      - generic [ref=e176]: Sa
+                  - listbox "month 1995-07" [ref=e177]:
+                    - generic [ref=e178]:
+                      - option "Choose Sunday, June 25th, 1995" [ref=e179] [cursor=pointer]: "25"
+                      - option "Choose Monday, June 26th, 1995" [ref=e180] [cursor=pointer]: "26"
+                      - option "Choose Tuesday, June 27th, 1995" [ref=e181] [cursor=pointer]: "27"
+                      - option "Choose Wednesday, June 28th, 1995" [ref=e182] [cursor=pointer]: "28"
+                      - option "Choose Thursday, June 29th, 1995" [ref=e183] [cursor=pointer]: "29"
+                      - option "Choose Friday, June 30th, 1995" [ref=e184] [cursor=pointer]: "30"
+                      - option "Choose Saturday, July 1st, 1995" [ref=e185] [cursor=pointer]: "1"
+                    - generic [ref=e186]:
+                      - option "Choose Sunday, July 2nd, 1995" [ref=e187] [cursor=pointer]: "2"
+                      - option "Choose Monday, July 3rd, 1995" [ref=e188] [cursor=pointer]: "3"
+                      - option "Choose Tuesday, July 4th, 1995" [ref=e189] [cursor=pointer]: "4"
+                      - option "Choose Wednesday, July 5th, 1995" [ref=e190] [cursor=pointer]: "5"
+                      - option "Choose Thursday, July 6th, 1995" [ref=e191] [cursor=pointer]: "6"
+                      - option "Choose Friday, July 7th, 1995" [ref=e192] [cursor=pointer]: "7"
+                      - option "Choose Saturday, July 8th, 1995" [ref=e193] [cursor=pointer]: "8"
+                    - generic [ref=e194]:
+                      - option "Choose Sunday, July 9th, 1995" [ref=e195] [cursor=pointer]: "9"
+                      - option "Choose Monday, July 10th, 1995" [ref=e196] [cursor=pointer]: "10"
+                      - option "Choose Tuesday, July 11th, 1995" [ref=e197] [cursor=pointer]: "11"
+                      - option "Choose Wednesday, July 12th, 1995" [ref=e198] [cursor=pointer]: "12"
+                      - option "Choose Thursday, July 13th, 1995" [ref=e199] [cursor=pointer]: "13"
+                      - option "Choose Friday, July 14th, 1995" [ref=e200] [cursor=pointer]: "14"
+                      - option "Choose Saturday, July 15th, 1995" [ref=e201] [cursor=pointer]: "15"
+                    - generic [ref=e202]:
+                      - option "Choose Sunday, July 16th, 1995" [ref=e203] [cursor=pointer]: "16"
+                      - option "Choose Monday, July 17th, 1995" [ref=e204] [cursor=pointer]: "17"
+                      - option "Choose Tuesday, July 18th, 1995" [ref=e205] [cursor=pointer]: "18"
+                      - option "Choose Wednesday, July 19th, 1995" [ref=e206] [cursor=pointer]: "19"
+                      - option "Choose Thursday, July 20th, 1995" [ref=e207] [cursor=pointer]: "20"
+                      - option "Choose Friday, July 21st, 1995" [ref=e208] [cursor=pointer]: "21"
+                      - option "Choose Saturday, July 22nd, 1995" [ref=e209] [cursor=pointer]: "22"
+                    - generic [ref=e210]:
+                      - option "Choose Sunday, July 23rd, 1995" [ref=e211] [cursor=pointer]: "23"
+                      - option "Choose Monday, July 24th, 1995" [ref=e212] [cursor=pointer]: "24"
+                      - option "Choose Tuesday, July 25th, 1995" [ref=e213] [cursor=pointer]: "25"
+                      - option "Choose Wednesday, July 26th, 1995" [ref=e214] [cursor=pointer]: "26"
+                      - option "Choose Thursday, July 27th, 1995" [ref=e215] [cursor=pointer]: "27"
+                      - option "Choose Friday, July 28th, 1995" [ref=e216] [cursor=pointer]: "28"
+                      - option "Choose Saturday, July 29th, 1995" [ref=e217] [cursor=pointer]: "29"
+                    - generic [ref=e218]:
+                      - option "Choose Sunday, July 30th, 1995" [ref=e219] [cursor=pointer]: "30"
+                      - option "Choose Monday, July 31st, 1995" [ref=e220] [cursor=pointer]: "31"
+                      - option "Choose Tuesday, August 1st, 1995" [ref=e221] [cursor=pointer]: "1"
+                      - option "Choose Wednesday, August 2nd, 1995" [ref=e222] [cursor=pointer]: "2"
+                      - option "Choose Thursday, August 3rd, 1995" [ref=e223] [cursor=pointer]: "3"
+                      - option "Choose Friday, August 4th, 1995" [ref=e224] [cursor=pointer]: "4"
+                      - option "Choose Saturday, August 5th, 1995" [ref=e225] [cursor=pointer]: "5"
+                    - generic [ref=e226]:
+                      - option "Choose Sunday, August 6th, 1995" [ref=e227] [cursor=pointer]: "6"
+                      - option "Choose Monday, August 7th, 1995" [ref=e228] [cursor=pointer]: "7"
+                      - option "Choose Tuesday, August 8th, 1995" [ref=e229] [cursor=pointer]: "8"
+                      - option "Choose Wednesday, August 9th, 1995" [ref=e230] [cursor=pointer]: "9"
+                      - option "Choose Thursday, August 10th, 1995" [ref=e231] [cursor=pointer]: "10"
+                      - option "Choose Friday, August 11th, 1995" [ref=e232] [cursor=pointer]: "11"
+                      - option "Choose Saturday, August 12th, 1995" [ref=e233] [cursor=pointer]: "12"
+          - generic [ref=e234]:
+            - generic [ref=e235]: Date And Time
+            - textbox [ref=e239]: September 22, 2025 5:17 PM
+        - iframe [ref=e243]:
+          - generic [ref=f3e3]:
+            - button [ref=f3e4]:
+              - img [ref=f3e5]
+            - generic [ref=f3e7]:
+              - generic [ref=f3e9]:
+                - generic [ref=f3e13]:
+                  - button "Play video" [ref=f3e17] [cursor=pointer]:
+                    - img [ref=f3e18] [cursor=pointer]
+                  - button "Unmute video" [ref=f3e23] [cursor=pointer]
+                - button "Replay" [ref=f3e30]:
+                  - img [ref=f3e32] [cursor=pointer]
+                - img [ref=f3e37]
+              - button "Learn more" [ref=f3e44] [cursor=pointer]
+      - generic [ref=e248]:
+        - img "Build PlayWright tests with AI" [ref=e250] [cursor=pointer]
+        - iframe [ref=e253]:
+          - generic [ref=f4e2]:
+            - link "Advertisement" [ref=f4e4] [cursor=pointer]:
+              - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsu1Ixzo3fj6ObX8cam8zHAiUPaFXUF92U3F_0GrkQJ3BiRjpIe_KoCwY9xubywSMDlpeg6oqF4mOOFZ4m0z1g7fT2jW0y4Y1FSE74bvS5ScVP0syFdRHexTfArhkotngUhIKkVlYYjPs1GQYRDUX0h2q6HG_aFl1q1GBGVTmdASnIKTjWOhCHhS3d4FBk7MJf-cTvLdO5V43eYwVYUjfM1Zto02LvbcvPMuPvK570NohkKzwZ44RLNgoxKULoXhz8kN2KdqzXGp76jO_t2rU8GOiqiLIE8XP30lx9CFvB5RTer0xBLUXLxRf9xtfqOTFTYYWCN-XtYObEs3o9TXfNZsLisGG_OTa3RDltbzr-7XFt2NKfmc0y-DKfmkKruUw3QeHPA_u2-OlkcH-3-mI-0QOWfZ8ZPONhBZg7IUIE6pZWTLiTBaUk3ddszMUc5ikq_ZKClELej6wFGDdRtEEb8s_2FLxRxVissVWFjRfb5LWsXl-XhG8yVO_hy9WvnSWTYkWBHi6dHuDB8RnmcOA3eVIcbaa5CapBzOuUq7CVbC__2h8mrTdJ-YtTPIw8EpXuYlqUBHJLvzQv-cM_SvOIVOOH2FGOrZUK19kPCVweLJ26ZVntfbN90ZYJ275hvaSX-et6mxf_F4OSqf7PN8tlZF_HdINZhcgZ4hnsxluC9Wn_BMT89r9I_Jyom0onI4WBwWVLjxZPmPCXTuUAbu7GQ7cG77FV2TyR0JRB1gZaUbEAtuPrD-t6ycStDbB8wSJrKYqL2Up4V4M1MCUFCIhxpaaBJtBeoRu1iPbjWfAPSnjhg2grF5PUCVG4rkYaP4IXqLd_T_wYaKvaS2dkzKLM0JH9c3U1lqzQrMmo8-X79kx4dzzgOsFh9VWXwXDwNW7lUqu76llRD6xmYzFb9RONgNYOR2VywE7bMH7oiEq8bqtXb1JpXIQPXyl9QK6VSkZp7yN8djLFV5HJ7P_iBNWPwo-VnlaDC0gRfS1zSuuQ_R-u4e43E6RRMfsXGdyvg27HsRc17WnKw6Aq4srgzfpmptdIK_Db3HCX3sYwbdVZ9YnQrXbx03WLr4dC_TGy8u36VQ8VxDRiYlmbmLXLEyIdn0Vc5QnW_b53NtP9Y7r0tdkllE6cZ0kbDud6_ab7UHwSQCJ2VWKRkAOeETuMqs6fje1J2_2P1ck3nB6yWmd30qnALBUj4SxVJIU0kk6Dd35gcHGnzAQFPXXsjpPtFZRqLhfMsOgJhm6eo5KIAM0Y3O38pmfaiWV5aPm3GJFNlDpPzJGHn8i_H9JhNgtNti6gJiAM-gnDMqHsVkYVnN7i-nId2Xq1B53vpHP2XG1T7t0J6QM4JfzwgHrY0H29Bl0DGLAmWjN816VJavhikl_2h7aUNw8j4fJIquQaftHoVC5zwMfqAYR-wGcDY1PKFe3vJLut41DMMzX_7Q0-Gb5oE1SiA3R8nLbb-kY4Dn7-RnMV0jPhyETNQyqWHXfdNkihZ5Aera7xKpC3WvDQ9-bz_oo7XKFFJXMiqrin6biUb58kqlLNmfIM4sUMaoDqnWbhujcAfD4Jinmdg2Pr3BXkb_IZbUWdCfBel6RXi_wjPbtFmNjXgvAAP6FrkuvVgPraN6iB-QXG4hgNM7mhFwc15xjoOX_1eoQXhXtGVnjIbA2Vk6XG2GXqSTzVuHxt7vuQmRbGNlzRGHXRFCvGHXJz6yLwOhCTRJg7is3ljA5zxcCJ24vVc111mVUL7wmBq_TFZLg5wqFXPBG2q5WmMAwK842FazGs56HuY5ihPhbyuBgR1kuiPYf1VvCR1P5eAVItxTK-T5KlBIx_SjNbVLBoEzxH-GCnDGMTtwOMU8Efh2etbJ0X6QEh1lGc8EGoQX8jLSDIMG7MxrOy01vYgHMoNc1KUa6SGv1G_Dbd_9t-j7RDeB7MAUKibrZbFOrgcI9MHx-cm7rjD36YryZ1wza-qpH-FxlnGYKLuU7sbORIWCNEQBRAVLJ39IBpVEGacax3MrrRZiyMOWZfDqyUTxhn98diSifymFLK7pDv76Wvft5naRSiRu0n_xPtv0_Q&sai=AMfl-YQCckuskHztIZnXg2HbHnR8Ox6KTCizSksRmEnXVJaJIXTMrkZarnK0NsNVFkeP-sQanYLyEJrgpc508m43BK6OFZ7c0babSQAR1DmUEPEMbfhbe0l286Kj7kciMihK66QcS8N0C8W4rKCRsmniltpyfptbuMVQJ-oSJ6qbM1PdmR5FBizwEEtrSXW2okieDu6o_ps2pwxc3KTWWuwKGCs4dLR0eSYtYSCUeVJOv0kr2_5rVPkesKk72o5DSsdBOdJz_ZS200HYNL3mf82e4YloQjh04PAkAOH3W2LtVEg29Ap4G9tf9UYD3QWkflKR_2lLPHQ-eUE64levYJrYrbUsYH2F58KpmAkLuk5inTtkE0e76O4JT2GE0tl_nAF3J_kqjpkc5ADaYTqTVBL3j2E6e98xtm2rpbhx09Vaw856A5tYizpdYZrh6McoLf4bUVV9SwRHrf1m6nNtlhK6dwtnbFj-7dsONOuMa9ZJjcsPfYT-NIl7UZFc5BxInGRg6WLrhFYlYP978hbonVD57-P_ID0b1tXhdS8E83ePlqoROH424njxDqDaSSm3tgw3on-PJN8XIFXWYUEWJu-czZM7m4cgFVaPbsqh-8c0t8N7g-_XyU7AHvaf_mtK23e8pcQC52U-DwZNTT4&sig=Cg0ArKJSzBIhltN-Aep6&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9teXZpLmlu&urlfix=1&adurl=https://www.myvi.in/content/vodafoneideadigital/in/en/vil-homepage/static-pages/non-stop-hero-page3.html%3Futm_medium%3DfixedNSH_Cricket%26utm_source%3DDV360%26utm_adtype%3Ddisplay%26utm_campaign%3DNSH_Aug%2725%26utm_adgroup%3DALL_digital_display_Haryana(Exchandigarh)%26utm_content%3DNSH_Cricket%26utm_term%3DHindi_all%26dclid%3D%25edclid!%26gad_source%3D7
+              - img "Advertisement" [ref=f4e5] [cursor=pointer]
+            - generic [ref=f4e6]:
+              - generic:
+                - img [ref=f4e10] [cursor=pointer]
+                - button [ref=f4e12] [cursor=pointer]:
+                  - img [ref=f4e13] [cursor=pointer]
+        - iframe [ref=e256]:
+          - generic [ref=f5e7] [cursor=pointer]:
+            - link [ref=f5e8] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24775032/i/58092113/0/pp/1/17?h=fqpVmaY-45iLa1w_Y-7HZXJ_H2uHmvzr9nzJJ8us2mHWQEeXaTyTUGccHKJamrB0_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrfF2YeDCcRFwC7jOi-VEe3V&rid=eff46aac-97a9-11f0-aaba-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8mBzPjME9L4&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+            - generic [ref=f5e9] [cursor=pointer]:
+              - link [ref=f5e11] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24775032/i/58092113/0/pp/1/17?h=fqpVmaY-45iLa1w_Y-7HZXJ_H2uHmvzr9nzJJ8us2mHWQEeXaTyTUGccHKJamrB0_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrfF2YeDCcRFwC7jOi-VEe3V&rid=eff46aac-97a9-11f0-aaba-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8mBzPjME9L4&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+              - generic [ref=f5e14] [cursor=pointer]:
+                - link "Tone & Tint Golden Bloom Brightening Face Serum" [ref=f5e16] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24775032/i/58092113/0/pp/1/17?h=fqpVmaY-45iLa1w_Y-7HZXJ_H2uHmvzr9nzJJ8us2mHWQEeXaTyTUGccHKJamrB0_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrfF2YeDCcRFwC7jOi-VEe3V&rid=eff46aac-97a9-11f0-aaba-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8mBzPjME9L4&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+                - link "Amazon" [ref=f5e18] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24775032/i/58092113/0/pp/1/17?h=fqpVmaY-45iLa1w_Y-7HZXJ_H2uHmvzr9nzJJ8us2mHWQEeXaTyTUGccHKJamrB0_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrfF2YeDCcRFwC7jOi-VEe3V&rid=eff46aac-97a9-11f0-aaba-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8mBzPjME9L4&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+                - link [ref=f5e19] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24775032/i/58092113/0/pp/1/17?h=fqpVmaY-45iLa1w_Y-7HZXJ_H2uHmvzr9nzJJ8us2mHWQEeXaTyTUGccHKJamrB0_tRHBEewYkjqVF4BjDrTjFauIqe7tdHzi2DN_yguBrfF2YeDCcRFwC7jOi-VEe3V&rid=eff46aac-97a9-11f0-aaba-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&muid=p8mBzPjME9L4&st=330&mp4=1&h2=3kAuidoX9FzL062vp-Sm6jotcHMnYqNGVwm8XjpUrIS0S7QsOb4TyE5H_wq1CwLYbCr6FHCQJVR0T_7bflZhUw**
+                  - img [ref=f5e20] [cursor=pointer]
+    - contentinfo [ref=e257]:
+      - generic [ref=e258]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
