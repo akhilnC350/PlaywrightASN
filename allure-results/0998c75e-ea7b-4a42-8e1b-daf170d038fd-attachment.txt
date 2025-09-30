@@ -1,2 +1,0 @@
-Looking for: C:\PlaywrightASN\testfile\fixture\device.jpg
-File exists? false

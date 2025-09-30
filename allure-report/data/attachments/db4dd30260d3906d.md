@@ -1,0 +1,182 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "ACME" [ref=e5] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e7] [cursor=pointer]: ACME
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - text: 
+        - textbox "Start typing to search..." [ref=e10]
+      - generic [ref=e11] [cursor=pointer]:
+        - generic [ref=e12] [cursor=pointer]: 
+        - generic [ref=e13] [cursor=pointer]: "7"
+      - generic [ref=e15] [cursor=pointer]: 
+  - text:          
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Jack Gomez
+          - generic [ref=e26]: Customer
+        - generic [ref=e28]: 
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - generic [ref=e31]: Card types
+        - listitem [ref=e32]:
+          - link "  Credit cards" [ref=e33] [cursor=pointer]:
+            - /url: ""
+            - text: 
+            - generic [ref=e35] [cursor=pointer]: 
+            - generic [ref=e36] [cursor=pointer]: Credit cards
+        - listitem [ref=e37]:
+          - link "  Debit cards" [ref=e38] [cursor=pointer]:
+            - /url: ""
+            - text: 
+            - generic [ref=e40] [cursor=pointer]: 
+            - generic [ref=e41] [cursor=pointer]: Debit cards
+        - listitem [ref=e42]:
+          - generic [ref=e43]: Lending
+        - listitem [ref=e44]:
+          - link "  Loans" [ref=e45] [cursor=pointer]:
+            - /url: ""
+            - text: 
+            - generic [ref=e47] [cursor=pointer]: 
+            - generic [ref=e48] [cursor=pointer]: Loans
+        - listitem [ref=e49]:
+          - link "  Mortgages" [ref=e50] [cursor=pointer]:
+            - /url: ""
+            - text: 
+            - generic [ref=e52] [cursor=pointer]: 
+            - generic [ref=e53] [cursor=pointer]: Mortgages
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - link " Add Account" [ref=e59] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e60] [cursor=pointer]: 
+            - generic [ref=e61] [cursor=pointer]: Add Account
+          - link " Make Payment" [ref=e62] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e63] [cursor=pointer]: 
+            - generic [ref=e64] [cursor=pointer]: Make Payment
+        - 'heading "Your nearest branch closes in: 30m 5s" [level=6] [ref=e65]'
+        - heading "Financial Overview" [level=6] [ref=e66]
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: Total Balance
+            - generic [ref=e73]:
+              - generic [ref=e74]: $350
+              - generic [ref=e75]:
+                - generic [ref=e76]: "%7"
+                - generic [ref=e77]: 
+            - link "View Statement " [ref=e79] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e80] [cursor=pointer]: View Statement
+              - generic [ref=e81] [cursor=pointer]: 
+          - generic [ref=e82]:
+            - generic [ref=e83]: Credit Available
+            - generic [ref=e84]: $17,800
+            - link "Request Increase " [ref=e86] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e87] [cursor=pointer]: Request Increase
+              - generic [ref=e88] [cursor=pointer]: 
+          - generic [ref=e89]:
+            - generic [ref=e90]: Due Today
+            - generic [ref=e91]: $180
+            - link "Pay Now " [ref=e93] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e94] [cursor=pointer]: Pay Now
+              - generic [ref=e95] [cursor=pointer]: 
+      - generic [ref=e96]:
+        - heading "Recent Transactions" [level=6] [ref=e97]
+        - table [ref=e100]:
+          - rowgroup [ref=e101]:
+            - row "Status Date Description Category Amount" [ref=e102]:
+              - cell "Status" [ref=e103]
+              - cell "Date" [ref=e104]
+              - cell "Description" [ref=e105]
+              - cell "Category" [ref=e106]
+              - cell "Amount" [ref=e107]
+          - rowgroup [ref=e108]:
+            - row "Complete Today1:52am Starbucks coffee Restaurant / Cafe + 1,250 USD" [ref=e109]:
+              - cell "Complete" [ref=e110]:
+                - generic [ref=e112]: Complete
+              - cell "Today1:52am" [ref=e113]:
+                - generic [ref=e114]: Today
+                - generic [ref=e115]: 1:52am
+              - cell "Starbucks coffee" [ref=e116]:
+                - generic [ref=e117]: Starbucks coffee
+              - cell "Restaurant / Cafe" [ref=e118]:
+                - link "Restaurant / Cafe" [ref=e119] [cursor=pointer]:
+                  - /url: ""
+              - cell "+ 1,250 USD" [ref=e120]:
+                - generic [ref=e121]: + 1,250 USD
+            - row "Declined Jan 19th3:22pm Stripe Payment Processing Finance + 952.23 USD" [ref=e122]:
+              - cell "Declined" [ref=e123]:
+                - generic [ref=e125]: Declined
+              - cell "Jan 19th3:22pm" [ref=e126]:
+                - generic [ref=e127]: Jan 19th
+                - generic [ref=e128]: 3:22pm
+              - cell "Stripe Payment Processing" [ref=e129]:
+                - generic [ref=e130]: Stripe Payment Processing
+              - cell "Finance" [ref=e131]:
+                - link "Finance" [ref=e132] [cursor=pointer]:
+                  - /url: ""
+              - cell "+ 952.23 USD" [ref=e133]:
+                - generic [ref=e134]: + 952.23 USD
+            - row "Pending Yesterday7:45am MailChimp Services Software - 320 USD" [ref=e135]:
+              - cell "Pending" [ref=e136]:
+                - generic [ref=e138]: Pending
+              - cell "Yesterday7:45am" [ref=e139]:
+                - generic [ref=e140]: Yesterday
+                - generic [ref=e141]: 7:45am
+              - cell "MailChimp Services" [ref=e142]:
+                - generic [ref=e143]: MailChimp Services
+              - cell "Software" [ref=e144]:
+                - link "Software" [ref=e145] [cursor=pointer]:
+                  - /url: ""
+              - cell "- 320 USD" [ref=e146]:
+                - generic [ref=e147]: "- 320 USD"
+            - row "Pending Jan 23rd2:7pm Shopify product Shopping + 17.99 USD" [ref=e148]:
+              - cell "Pending" [ref=e149]:
+                - generic [ref=e151]: Pending
+              - cell "Jan 23rd2:7pm" [ref=e152]:
+                - generic [ref=e153]: Jan 23rd
+                - generic [ref=e154]: 2:7pm
+              - cell "Shopify product" [ref=e155]:
+                - generic [ref=e156]: Shopify product
+              - cell "Shopping" [ref=e157]:
+                - link "Shopping" [ref=e158] [cursor=pointer]:
+                  - /url: ""
+              - cell "+ 17.99 USD" [ref=e159]:
+                - generic [ref=e160]: + 17.99 USD
+            - row "Complete Jan 7th9:51am Ebay Marketplace Ecommerce - 244 USD" [ref=e161]:
+              - cell "Complete" [ref=e162]:
+                - generic [ref=e164]: Complete
+              - cell "Jan 7th9:51am" [ref=e165]:
+                - generic [ref=e166]: Jan 7th
+                - generic [ref=e167]: 9:51am
+              - cell "Ebay Marketplace" [ref=e168]:
+                - generic [ref=e169]: Ebay Marketplace
+              - cell "Ecommerce" [ref=e170]:
+                - link "Ecommerce" [ref=e171] [cursor=pointer]:
+                  - /url: ""
+              - cell "- 244 USD" [ref=e172]:
+                - generic [ref=e173]: "- 244 USD"
+            - row "Pending Jan 9th7:45pm Templates Inc Business + 340 USD" [ref=e174]:
+              - cell "Pending" [ref=e175]:
+                - generic [ref=e177]: Pending
+              - cell "Jan 9th7:45pm" [ref=e178]:
+                - generic [ref=e179]: Jan 9th
+                - generic [ref=e180]: 7:45pm
+              - cell "Templates Inc" [ref=e181]:
+                - generic [ref=e182]: Templates Inc
+              - cell "Business" [ref=e183]:
+                - link "Business" [ref=e184] [cursor=pointer]:
+                  - /url: ""
+              - cell "+ 340 USD" [ref=e185]:
+                - generic [ref=e186]: + 340 USD
+```

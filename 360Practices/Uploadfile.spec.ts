@@ -33,3 +33,4 @@ test('Upload file using built-in locator', async ({ page }) => {
   await expect(page.locator('#uploadedFilePath')).toContainText('dice.jpg');
 
 });
+

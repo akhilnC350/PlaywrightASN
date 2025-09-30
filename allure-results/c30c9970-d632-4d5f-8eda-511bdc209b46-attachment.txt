@@ -1,2 +1,0 @@
-Looking for: C:\PlaywrightASN\test-files\fixtures\dice.jpg
-File exists? true
