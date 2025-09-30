@@ -56,15 +56,15 @@ test("create post request using static body", async ({ request }) => {
 
   // validate entire object
   expect(booking).toMatchObject({
-    firstname: "Akhil",
-    lastname: "Negi",
-    totalprice: 1000,
-    depositpaid: true,
+    firstname: requestBody.firstname,
+    lastname: requestBody.lastname,
+    totalprice: requestBody.totalprice,
+    depositpaid: requestBody.depositpaid,
     bookingdates: {
-      checkin: "2025-10-01",
-      checkout: "2025-10-02",
+      checkin: requestBody.bookingdates.checkin,
+      checkout: requestBody.bookingdates.checkout,
     },
-    additionalneeds: "Breakfast"
+    additionalneeds: requestBody.additionalneeds
   });
 });
 
