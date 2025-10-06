@@ -1,0 +1,11 @@
+{
+  bookingid: 2413,
+  booking: {
+    firstname: 'Crystal',
+    lastname: 'Baumbach',
+    totalprice: 3898,
+    depositpaid: true,
+    bookingdates: { checkin: '2025-10-06', checkout: '2025-10-11' },
+    additionalneeds: 'Breakfast'
+  }
+}

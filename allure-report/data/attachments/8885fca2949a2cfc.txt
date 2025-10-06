@@ -1,0 +1,11 @@
+{
+  bookingid: 3363,
+  booking: {
+    firstname: 'Leora',
+    lastname: 'Volkman',
+    totalprice: 2386,
+    depositpaid: false,
+    bookingdates: { checkin: '2025-09-30', checkout: '2025-10-05' },
+    additionalneeds: 'Breakfast'
+  }
+}

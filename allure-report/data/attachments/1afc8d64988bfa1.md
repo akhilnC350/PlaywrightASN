@@ -1,0 +1,65 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - img "Logo" [ref=e6]
+    - paragraph [ref=e7]:
+      - text: Making chat bots
+      - generic [ref=e8]: easier
+      - text: to create
+      - generic [ref=e9]: without
+      - text: writing a single line of
+      - generic [ref=e10]: code!
+  - generic [ref=e11]:
+    - img "Chat360" [ref=e12]
+    - generic [ref=e13]:
+      - heading "Let's get started" [level=2] [ref=e14]
+      - heading "Please login to launch your bot" [level=2] [ref=e15]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - textbox [ref=e21]
+          - generic: Email address
+        - img "Email address" [ref=e23]
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - textbox [ref=e28]
+          - generic: Password
+        - img "Password" [ref=e30] [cursor=pointer]
+      - paragraph [ref=e32]:
+        - link "Forgot password?" [ref=e33] [cursor=pointer]:
+          - /url: /forgot-password
+      - button "Login button icon" [ref=e34] [cursor=pointer]:
+        - text: Login
+        - img "button icon" [ref=e35] [cursor=pointer]
+      - generic [ref=e36]:
+        - text: This site is protected by reCAPTCHA and the Google
+        - link "Privacy Policy" [ref=e37] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy
+        - text: and
+        - link "Terms of Service" [ref=e38] [cursor=pointer]:
+          - /url: https://policies.google.com/terms
+        - text: apply.
+      - separator [ref=e39]:
+        - generic [ref=e40]: OR
+      - generic [ref=e41]:
+        - link [ref=e42] [cursor=pointer]:
+          - /url: https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email&access_type=offline&include_granted_scopes=true&response_type=code&state=state_parameter_passthrough_value&redirect_uri=https://staging.chat360.io/api/account/social-gmail-authorize&client_id=871075929275-bt5d56l8gj77pe6a4anbdr0e5h2mus17.apps.googleusercontent.com
+          - figure [ref=e46] [cursor=pointer]:
+            - img [ref=e48] [cursor=pointer]
+        - link [ref=e49] [cursor=pointer]:
+          - /url: https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=9ed2be83-f863-46f6-8302-d24c6d946aac&response_type=code&redirect_uri=https://staging.chat360.io/api/account/social-microsoft-authorize&response_mode=query&scope=https://graph.microsoft.com/User.Read&state=214587914239
+          - figure [ref=e53] [cursor=pointer]:
+            - img [ref=e55] [cursor=pointer]
+        - link [ref=e56] [cursor=pointer]:
+          - /url: https://accounts.zoho.com/oauth/v2/auth?response_type=code&client_id=1000.4OKTFMCYL650QGHD33MAJCGEJFCK6T&scope=email,profile,openid&redirect_uri=https://staging.chat360.io/api/auth/zoho&prompt=consent
+          - figure [ref=e60] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: Don't have an account?
+        - link "Create New" [ref=e66] [cursor=pointer]:
+          - /url: /signup
+          - generic [ref=e67] [cursor=pointer]: Create New
+          - img [ref=e68] [cursor=pointer]
+```

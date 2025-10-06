@@ -27,7 +27,7 @@ test("create post request using Json file", async ({ request }) => {
   const checkindate=DateTime.now().toFormat("yyyy-MM-dd");
   const checkoutdate=DateTime.now().plus({day:5}).toFormat("yyyy-MM-dd");
 
-  const additionalneeds="Breakfast";
+  const additionalneeds="Breakfast";//
   
   // request body (faker)
   const requestBody = {

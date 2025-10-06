@@ -10,7 +10,7 @@ const responseBody = await response.json();//
 console.log(responseBody);
 
 //add assertions
-expect(response.ok()).toBeTruthy(); //
+expect(response.ok()).toBeTruthy(); 
 expect(response.status()).toBe(200); //
 
 
@@ -38,7 +38,7 @@ expect(responseBody.length).toBeGreaterThan(0);
 
 for(const item of responseBody)
 {
-    expect(item).toHaveProperty('boookingid');
+     expect(item).toHaveProperty('bookingid');
      expect(typeof item.bookingid).toBe("number") // type of operatior 
      expect(item.bookingid).toBeGreaterThan(0);
 }
