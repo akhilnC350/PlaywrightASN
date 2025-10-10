@@ -11,7 +11,7 @@ console.log(responseBody);
 
 //add assertions
 expect(response.ok()).toBeTruthy(); 
-expect(response.status()).toBe(200); //
+expect(response.status()).toBe(200); 
 
 
 });

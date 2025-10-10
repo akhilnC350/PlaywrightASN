@@ -1,0 +1,11 @@
+{
+  bookingid: 1830,
+  booking: {
+    firstname: 'Jessyca',
+    lastname: 'Hessel',
+    totalprice: 3313,
+    depositpaid: true,
+    bookingdates: { checkin: '2025-10-08', checkout: '2025-10-13' },
+    additionalneeds: 'Breakfast'
+  }
+}
