@@ -1,16 +1,14 @@
 import { test, expect } from '@playwright/test';
-import { UploadPage } from '../pages/upload.page';
 import path from 'path';
-import { Page } from '@playwright/test';
 import fs from 'fs';
 
 test('Sparkstone Insurance Quote Flow', async ({ page }) => {
-  await page.goto('https://www.sparkstone.co.nz/sampleapp/101/?utm_source=chatgpt.com#');
+  await page.goto('https://sampleapp.tricentis.com/101/');
 
   // --- Step 1: Select Vehicle Type ---
   //await page.getByTitle('Get Quote Automobile').click();
   //await page.waitForTimeout(6000);
-  await page.click('#nav_automobile');
+    await page.click('#nav_automobile');
     
   //await page.getByRole('button', {name:'Navigation Automobile'});
 
@@ -56,23 +54,29 @@ test('Sparkstone Insurance Quote Flow', async ({ page }) => {
     await page.locator('#website').fill('https://www.sparkstone.co.nz/sampleapp/101/app.php');
     await page.waitForTimeout(1000);
     
-   const filePath = path.join(__dirname, '../test-files/fixtures/dice.jpg');
-if (!fs.existsSync(filePath)) {
-  throw new Error(`File not found at path: ${filePath}`);
-}
+    const filePath = path.resolve(process.cwd(), 'test-files/fixtures/dice.jpg');
+    if (!fs.existsSync(filePath)) {
+      throw new Error(`File not found at path: ${filePath}`);
+    }
 
-const [fileChooser] = await Promise.all([
-  page.waitForEvent('filechooser'),
-  page.locator('#open').click()   // click triggers file dialog
-]);
-
-await fileChooser.setFiles(filePath);
+    // Prefer setInputFiles on the file input element to avoid filechooser flakiness
+    const fileInput = page.locator('input[type="file"]');
+    if (await fileInput.count() === 0) {
+      // fallback: click the open button and use filechooser
+      const [fileChooser] = await Promise.all([
+        page.waitForEvent('filechooser'),
+        page.locator('#open').click()
+      ]);
+      await fileChooser.setFiles(filePath);
+    } else {
+      await fileInput.setInputFiles(filePath);
+    }
   //   const upload = new UploadPage(page); //upload file using upload Pom reference 
   //   await upload.uploadFile('dice.jpg'); //upload file using upload Pom reference
   //  // await upload.waitForUploadSuccess(); //upload file using upload Pom reference
     await page.click('#nextenterproductdata');
     await page.waitForTimeout(1000);
-    await page.locator('#startdate').fill('11/01/2025');
+    await page.locator('#startdate').fill('11/07/2026');
     await page.waitForTimeout(1000);
     await page.locator('#insurancesum').selectOption('3.000.000,00');
     await page.waitForTimeout(1000);
@@ -86,8 +90,9 @@ await fileChooser.setFiles(filePath);
     await page.waitForTimeout(1000);
     await page.click('#nextselectpriceoption');
     
-    await page.waitForTimeout(1000);
-    await page.locator('#selectgold').check({force:true});
+    await expect(page.locator('#priceTable')).toBeVisible();
+
+    await page.locator('#selectgold').check({ force: true });
     await page.waitForTimeout(1000);
     await page.click('#nextsendquote');
 

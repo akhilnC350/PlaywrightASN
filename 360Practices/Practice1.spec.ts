@@ -12,27 +12,27 @@ import fs from 'fs';     // Node.js module to check if file exists
 
 test('text view practices', async({page, context})=>{
 
-    // await page.goto('https://demoqa.com/');
+    await page.goto('https://demoqa.com/');
     
-   // await page.locator('h5:has-text("Forms")').click(); //heading locator
-    // await page.locator('div.header-text:has-text("Elements")').click(); //header locator
+   await page.locator('h5:has-text("Forms")').click(); //heading locator
+   await page.locator('div.header-text:has-text("Elements")').click(); //header locator
     
-// // Case1: Text box 
+// Case1: Text box 
 
-//     await page.locator('li.btn.btn-light:has-text("Text Box")').click(); //hirarche text
-//     await page.locator('[placeholder="Full Name"]').fill('akhil') // placeholder
-//     await page.locator('.mr-sm-2.form-control').nth(1).fill('akhil1809@gmail.com'); //using class
-//     await page.locator('#currentAddress').fill('test test test test');
-//     await page.locator('#permanentAddress').fill('test test test tets');
-//     await page.locator('#submit').click();
-//     await page.waitForTimeout(5000);
+    await page.locator('li.btn.btn-light:has-text("Text Box")').click(); //hirarche text
+    await page.locator('[placeholder="Full Name"]').fill('akhil'); // placeholder
+    await page.locator('.mr-sm-2.form-control').nth(1).fill('akhil1809@gmail.com'); //using class
+    await page.locator('#currentAddress').fill('test test test test');
+    await page.locator('#permanentAddress').fill('test test test tets');
+    await page.locator('#submit').click();  
+    await page.waitForTimeout(5000);
 
 // // // // Case2: check box using class element in its hierarchy endnode
 
 //        await page.locator('li:has-text("Check Box")').click();
 //        await page.locator('svg.rct-icon.rct-icon-expand-close').click();
 //        await page.locator('svg.rct-icon.rct-icon-expand-close').nth(2).click();
-//      await page.waitForTimeout(1000);
+//        await page.waitForTimeout(1000);
 
 // // // //Case3: Radio Button with different way of declaring and with assertions 
 
@@ -395,21 +395,21 @@ test('text view practices', async({page, context})=>{
 
 /////Modal Dialogs
 
-await page.goto('https://demoqa.com/modal-dialogs');
-await page.locator('#showSmallModal').click();
-const modalTitle = page.locator('#example-modal-sizes-title-sm');
-await expect(modalTitle).toHaveText('Small Modal');
-const modalBody = page.locator('.modal-body');
-await expect(modalBody).toHaveText('This is a small modal. It has very less content');
-await page.locator('#closeSmallModal').click();
-await page.waitForTimeout(2000);
-await page.locator('#showLargeModal').click();
-const largeModalTitle = page.locator('#example-modal-sizes-title-lg');
-await expect(largeModalTitle).toHaveText('Large Modal');
-const largeModalBody = page.locator('.modal-body');
-await expect(largeModalBody).toContainText('Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.');
-await page.locator('#closeLargeModal').click();
-await page.waitForTimeout(2000);
+// await page.goto('https://demoqa.com/modal-dialogs');
+// await page.locator('#showSmallModal').click();
+// const modalTitle = page.locator('#example-modal-sizes-title-sm');
+// await expect(modalTitle).toHaveText('Small Modal');
+// const modalBody = page.locator('.modal-body');
+// await expect(modalBody).toHaveText('This is a small modal. It has very less content');
+// await page.locator('#closeSmallModal').click();
+// await page.waitForTimeout(2000);
+// await page.locator('#showLargeModal').click();
+// const largeModalTitle = page.locator('#example-modal-sizes-title-lg');
+// await expect(largeModalTitle).toHaveText('Large Modal');
+// const largeModalBody = page.locator('.modal-body');
+// await expect(largeModalBody).toContainText('Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.');
+// await page.locator('#closeLargeModal').click();
+// await page.waitForTimeout(2000);
 
 });
 

@@ -34,7 +34,7 @@ test("create post request using static body", async ({ request }) => {
   expect(response.headers()['content-length']).toBeDefined(); //
 
   // parse JSON response
-  const responseBody = await response.json();
+  const responseBody = await response.json(); 
   console.log(responseBody);
 
   // short alias for convenience

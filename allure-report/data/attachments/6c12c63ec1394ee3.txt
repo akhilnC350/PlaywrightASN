@@ -1,0 +1,150 @@
+❌ Error for user akhil1809+1760085563731_3@gmail.com: page.click: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('text=Address Book')
+
+    at E2EPage.addNewAddress (C:\PlaywrightASN\pages\E2EPage.ts:36:21)
+    at runUserFlow (C:\PlaywrightASN\PerformenceTesting\Script1.spec.ts:41:3)
+    at C:\PlaywrightASN\PerformenceTesting\Script1.spec.ts:95:3 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\PlaywrightASN\\pages\\E2EPage.ts',
+      line: 36,
+      column: 21,
+      function: 'E2EPage.addNewAddress'
+    },
+    category: 'pw:api',
+    title: "Click locator('text=Address Book')",
+    apiName: 'page.click',
+    params: { selector: 'text=Address Book', timeout: 60000 },
+    group: undefined,
+    stepId: 'pw:api@112',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@112',
+      _title: "Click locator('text=Address Book')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    recoverFromStepError: [AsyncFunction: recoverFromStepError],
+    complete: [Function: complete],
+    endWallTime: 1760085650316,
+    error: {
+      message: 'TimeoutError: page.click: Timeout 60000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('text=Address Book')\x1B[22m\n",
+      stack: 'TimeoutError: page.click: Timeout 60000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('text=Address Book')\x1B[22m\n" +
+        '\n' +
+        '    at E2EPage.addNewAddress (C:\\PlaywrightASN\\pages\\E2EPage.ts:36:21)\n' +
+        '    at runUserFlow (C:\\PlaywrightASN\\PerformenceTesting\\Script1.spec.ts:41:3)\n' +
+        '    at C:\\PlaywrightASN\\PerformenceTesting\\Script1.spec.ts:95:3',
+      cause: undefined
+    }
+  }
+}
+❌ Error for user akhil1809+1760085562744_2@gmail.com: page.click: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('text=Address Book')
+
+    at E2EPage.addNewAddress (C:\PlaywrightASN\pages\E2EPage.ts:36:21)
+    at runUserFlow (C:\PlaywrightASN\PerformenceTesting\Script1.spec.ts:41:3)
+    at C:\PlaywrightASN\PerformenceTesting\Script1.spec.ts:95:3 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\PlaywrightASN\\pages\\E2EPage.ts',
+      line: 36,
+      column: 21,
+      function: 'E2EPage.addNewAddress'
+    },
+    category: 'pw:api',
+    title: "Click locator('text=Address Book')",
+    apiName: 'page.click',
+    params: { selector: 'text=Address Book', timeout: 60000 },
+    group: undefined,
+    stepId: 'pw:api@114',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@114',
+      _title: "Click locator('text=Address Book')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    recoverFromStepError: [AsyncFunction: recoverFromStepError],
+    complete: [Function: complete],
+    endWallTime: 1760085650337,
+    error: {
+      message: 'TimeoutError: page.click: Timeout 60000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('text=Address Book')\x1B[22m\n",
+      stack: 'TimeoutError: page.click: Timeout 60000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('text=Address Book')\x1B[22m\n" +
+        '\n' +
+        '    at E2EPage.addNewAddress (C:\\PlaywrightASN\\pages\\E2EPage.ts:36:21)\n' +
+        '    at runUserFlow (C:\\PlaywrightASN\\PerformenceTesting\\Script1.spec.ts:41:3)\n' +
+        '    at C:\\PlaywrightASN\\PerformenceTesting\\Script1.spec.ts:95:3',
+      cause: undefined
+    }
+  }
+}
+❌ Error for user akhil1809+1760085561125_0@gmail.com: page.click: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('text=Address Book')
+
+    at E2EPage.addNewAddress (C:\PlaywrightASN\pages\E2EPage.ts:36:21)
+    at runUserFlow (C:\PlaywrightASN\PerformenceTesting\Script1.spec.ts:41:3)
+    at C:\PlaywrightASN\PerformenceTesting\Script1.spec.ts:95:3 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\PlaywrightASN\\pages\\E2EPage.ts',
+      line: 36,
+      column: 21,
+      function: 'E2EPage.addNewAddress'
+    },
+    category: 'pw:api',
+    title: "Click locator('text=Address Book')",
+    apiName: 'page.click',
+    params: { selector: 'text=Address Book', timeout: 60000 },
+    group: undefined,
+    stepId: 'pw:api@115',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@115',
+      _title: "Click locator('text=Address Book')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    recoverFromStepError: [AsyncFunction: recoverFromStepError],
+    complete: [Function: complete],
+    endWallTime: 1760085651158,
+    error: {
+      message: 'TimeoutError: page.click: Timeout 60000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('text=Address Book')\x1B[22m\n",
+      stack: 'TimeoutError: page.click: Timeout 60000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('text=Address Book')\x1B[22m\n" +
+        '\n' +
+        '    at E2EPage.addNewAddress (C:\\PlaywrightASN\\pages\\E2EPage.ts:36:21)\n' +
+        '    at runUserFlow (C:\\PlaywrightASN\\PerformenceTesting\\Script1.spec.ts:41:3)\n' +
+        '    at C:\\PlaywrightASN\\PerformenceTesting\\Script1.spec.ts:95:3',
+      cause: undefined
+    }
+  }
+}

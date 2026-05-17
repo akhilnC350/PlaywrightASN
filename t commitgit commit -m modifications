@@ -1,0 +1,77 @@
+[33mcommit fc130c54bbc1442509ea61678381842e1fd929bb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Fri Oct 10 14:46:36 2025 +0530
+
+    add parallel execution
+
+[33mcommit 01bd68201ba65311ce87a0db3de4aedea21a6543[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Tue Oct 7 11:20:03 2025 +0530
+
+    API POC addons
+
+[33mcommit bdc28794b6a754f3f318a734f38389dfd76ea449[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Mon Oct 6 15:26:11 2025 +0530
+
+    api post extend practice with get introduction
+
+[33mcommit 511329e698acfe351bd22e17b72c360c691c3840[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Thu Oct 2 03:11:54 2025 +0530
+
+    overide
+
+[33mcommit 0e297ce0fbf9313f20e56875301565366408ee13[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Wed Oct 1 01:11:09 2025 +0530
+
+    added api stuff
+
+[33mcommit 344fdc7df812b9dc3c6f2eece5a5706416bac470[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Tue Sep 30 14:37:24 2025 +0530
+
+    API_TEST_POC
+
+[33mcommit 5d07457ef31cc10fd23099ca71bad7d68cca4b1e[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Tue Sep 23 16:34:13 2025 +0530
+
+    minor modifications in GUidewirePOC and added Practice2 for learning purpose
+
+[33mcommit 46690d88bf6d3281ccb6643f45279bf6c1cd502b[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Sat Sep 20 00:35:19 2025 +0530
+
+    addon code under 360 Practices
+
+[33mcommit f315fa2c86317ba9e571f58c3affc7ec49c8d727[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Thu Sep 11 15:36:00 2025 +0530
+
+    360 basic practices different way of implemented components
+
+[33mcommit 56e5b3ab86e4d931016558b2f3ed3c3e3ef72911[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Wed Sep 10 00:13:52 2025 +0530
+
+    new quote using different locator
+
+[33mcommit b7cf029f1292a2780a2e7063df9c7272c7be8e75[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Mon Sep 8 15:53:35 2025 +0530
+
+    added Insurance POC
+
+[33mcommit b232cd5da7402f9de73497af6ba2cd5a1cfeb72a[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Wed Sep 3 00:07:42 2025 +0530
+
+    saucedemo end2End test
+
+[33mcommit 80ee96e87c1724b1af8706c8d0c4f48fdffa9c35[m
+Author: akhilsinghnegi <akhil1809@gmail.com>
+Date:   Mon Sep 1 22:35:51 2025 +0530
+
+    small login, registration and add address poc

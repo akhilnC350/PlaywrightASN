@@ -5,7 +5,7 @@ import { Page } from '@playwright/test';
 import fs from 'fs';
 test('implemeting Truck quotation e2e test',async ({page})=>{
 
-    await page.goto('https://www.sparkstone.co.nz/sampleapp/101/?utm_source=chatgpt.com#');
+    await page.goto('https://sampleapp.tricentis.com/101/');
     await page.click('#nav_truck');
     await page.waitForTimeout(5000);
     await page.locator('#make').selectOption('Audi');
@@ -55,7 +55,7 @@ test('implemeting Truck quotation e2e test',async ({page})=>{
 
     //Enter product data 
 
-    await page.locator('[name="Start Date"]').fill('12/01/2025');
+    await page.locator('[name="Start Date"]').fill('12/07/2026');
     await page.locator('[name="Insurance Sum"]').selectOption('3000000');
     await page.locator('[name="Damage Insurance"]').selectOption('Full Coverage');
     await page.locator('label.ideal-radiocheck-label', { hasText: 'Euro Protection' }).click();

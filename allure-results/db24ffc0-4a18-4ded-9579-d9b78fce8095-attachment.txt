@@ -1,0 +1,10 @@
+Booking id=====> 1546
+token ====> 1546
+Patch booking=====> {
+  firstname: 'Atharvi',
+  lastname: 'Negi',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2025-10-11', checkout: '2025-10-30' },
+  additionalneeds: 'Breakfast'
+}
