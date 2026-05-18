@@ -54,6 +54,11 @@ test('Sparkstone Insurance Quote Flow', async ({ page }) => {
     await page.locator('#website').fill('https://www.sparkstone.co.nz/sampleapp/101/app.php');
     await page.waitForTimeout(1000);
     
+    //Get 1.current project folder
+    //    2. Build complete file path
+    //    3. Check if image/file exists
+    //    4. If file missing → stop test with clear error
+
     const filePath = path.resolve(process.cwd(), 'test-files/fixtures/dice.jpg');
     if (!fs.existsSync(filePath)) {
       throw new Error(`File not found at path: ${filePath}`);
@@ -64,10 +69,10 @@ test('Sparkstone Insurance Quote Flow', async ({ page }) => {
     if (await fileInput.count() === 0) {
       // fallback: click the open button and use filechooser
       const [fileChooser] = await Promise.all([
-        page.waitForEvent('filechooser'),
+        page.waitForEvent('filechooser'), ]
         page.locator('#open').click()
       ]);
-      await fileChooser.setFiles(filePath);
+      await fileChooser.setFiles(filePath);\\\\\
     } else {
       await fileInput.setInputFiles(filePath);
     }

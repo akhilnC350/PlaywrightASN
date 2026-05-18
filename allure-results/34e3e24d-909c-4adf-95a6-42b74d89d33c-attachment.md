@@ -1,0 +1,1009 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "QA PlayGround - Automation Testing Practice Platform QA PlayGround" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6] [cursor=pointer]:
+          - img "QA PlayGround - Automation Testing Practice Platform" [ref=e7] [cursor=pointer]
+          - generic [ref=e8] [cursor=pointer]: QA PlayGround
+      - navigation "Main navigation" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "Study Tracker (New feature)" [ref=e11] [cursor=pointer]:
+          - /url: /study-tracker/dashboard
+          - text: Study Tracker
+          - generic "(New feature)" [ref=e12] [cursor=pointer]: New
+        - link "Bank Demo" [ref=e13] [cursor=pointer]:
+          - /url: /bank
+        - link "Practice" [ref=e14] [cursor=pointer]:
+          - /url: /practice
+        - link "QA Tools" [ref=e15] [cursor=pointer]:
+          - /url: /qa-tools
+        - link "Blog" [ref=e16] [cursor=pointer]:
+          - /url: /blog
+        - generic [ref=e17]:
+          - button "Toggle theme" [ref=e18] [cursor=pointer]:
+            - img
+            - generic [ref=e19] [cursor=pointer]: Toggle theme
+          - link "Login" [ref=e20] [cursor=pointer]:
+            - /url: /login
+  - main [ref=e21]:
+    - generic [ref=e25]:
+      - navigation "Breadcrumb" [ref=e26]:
+        - link "Home" [ref=e27] [cursor=pointer]:
+          - /url: /
+        - img [ref=e28]
+        - link "Practice" [ref=e30] [cursor=pointer]:
+          - /url: /practice
+        - img [ref=e31]
+        - generic [ref=e33]: How to Automate Tables in Selenium and Playwright
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - img [ref=e39]
+              - text: Intermediate
+            - generic [ref=e42]:
+              - img [ref=e43]
+              - text: 20 min
+            - generic [ref=e46]:
+              - img [ref=e47]
+              - text: 6 scenarios
+          - heading "Data Table Automation Practice" [level=1] [ref=e50]
+          - paragraph [ref=e51]: Practice reading, counting, and locating rows and cells in a dynamically loaded HTML table — essential skills for Selenium & Playwright table automation.
+        - generic [ref=e52]:
+          - region "Data table practice exercises" [ref=e53]:
+            - generic [ref=e56]:
+              - generic [ref=e57]: "Scenario 1: Verify All Column Headers"
+              - table "Books data loaded from fakerapi — 10 rows" [ref=e60]:
+                - caption [ref=e61]: Books data loaded from fakerapi — 10 rows
+                - rowgroup [ref=e62]:
+                  - row "Sr No. Book Name Book Genre Book Author Book ISBN Book Published" [ref=e63]:
+                    - cell "Sr No." [ref=e64]
+                    - cell "Book Name" [ref=e65]
+                    - cell "Book Genre" [ref=e66]
+                    - cell "Book Author" [ref=e67]
+                    - cell "Book ISBN" [ref=e68]
+                    - cell "Book Published" [ref=e69]
+                - rowgroup [ref=e70]:
+                  - row "1 Queen in a sulky. Assumenda Sweta Cherian 9788066312855 2017-06-25" [ref=e71]:
+                    - cell "1" [ref=e72]
+                    - cell "Queen in a sulky." [ref=e73]
+                    - cell "Assumenda" [ref=e74]
+                    - cell "Sweta Cherian" [ref=e75]
+                    - cell "9788066312855" [ref=e76]
+                    - cell "2017-06-25" [ref=e77]
+                  - row "2 When the pie was. Explicabo Dhanush Mohanty 9784667539417 1981-07-18" [ref=e78]:
+                    - cell "2" [ref=e79]
+                    - cell "When the pie was." [ref=e80]
+                    - cell "Explicabo" [ref=e81]
+                    - cell "Dhanush Mohanty" [ref=e82]
+                    - cell "9784667539417" [ref=e83]
+                    - cell "1981-07-18" [ref=e84]
+                  - row "3 Duchess was VERY. Voluptatem Anjana Banik 9786398512332 2014-08-29" [ref=e85]:
+                    - cell "3" [ref=e86]
+                    - cell "Duchess was VERY." [ref=e87]
+                    - cell "Voluptatem" [ref=e88]
+                    - cell "Anjana Banik" [ref=e89]
+                    - cell "9786398512332" [ref=e90]
+                    - cell "2014-08-29" [ref=e91]
+                  - row "4 No, it'll never do. Placeat Esha Goswami 9791584189731 1997-07-11" [ref=e92]:
+                    - cell "4" [ref=e93]
+                    - cell "No, it'll never do." [ref=e94]
+                    - cell "Placeat" [ref=e95]
+                    - cell "Esha Goswami" [ref=e96]
+                    - cell "9791584189731" [ref=e97]
+                    - cell "1997-07-11" [ref=e98]
+                  - row "5 Queen shouted at. Id Himesh Gour 9787182653262 2007-08-13" [ref=e99]:
+                    - cell "5" [ref=e100]
+                    - cell "Queen shouted at." [ref=e101]
+                    - cell "Id" [ref=e102]
+                    - cell "Himesh Gour" [ref=e103]
+                    - cell "9787182653262" [ref=e104]
+                    - cell "2007-08-13" [ref=e105]
+                  - row "6 WOULD twist itself. Hic Kalyani Tank 9788234053887 1980-10-18" [ref=e106]:
+                    - cell "6" [ref=e107]
+                    - cell "WOULD twist itself." [ref=e108]
+                    - cell "Hic" [ref=e109]
+                    - cell "Kalyani Tank" [ref=e110]
+                    - cell "9788234053887" [ref=e111]
+                    - cell "1980-10-18" [ref=e112]
+                  - row "7 Alice, as the door. Rerum Chirag Garde 9782712340353 1983-08-14" [ref=e113]:
+                    - cell "7" [ref=e114]
+                    - cell "Alice, as the door." [ref=e115]
+                    - cell "Rerum" [ref=e116]
+                    - cell "Chirag Garde" [ref=e117]
+                    - cell "9782712340353" [ref=e118]
+                    - cell "1983-08-14" [ref=e119]
+                  - row "8 I'll tell him--it. Laborum Chhaya Bajaj 9786298653913 1972-12-16" [ref=e120]:
+                    - cell "8" [ref=e121]
+                    - cell "I'll tell him--it." [ref=e122]
+                    - cell "Laborum" [ref=e123]
+                    - cell "Chhaya Bajaj" [ref=e124]
+                    - cell "9786298653913" [ref=e125]
+                    - cell "1972-12-16" [ref=e126]
+                  - row "9 Between yourself. Vitae Naval Madan 9791129348807 1989-01-01" [ref=e127]:
+                    - cell "9" [ref=e128]
+                    - cell "Between yourself." [ref=e129]
+                    - cell "Vitae" [ref=e130]
+                    - cell "Naval Madan" [ref=e131]
+                    - cell "9791129348807" [ref=e132]
+                    - cell "1989-01-01" [ref=e133]
+                  - row "10 Alice heard it say. Voluptatem Nishi Char 9782248701895 1976-12-30" [ref=e134]:
+                    - cell "10" [ref=e135]
+                    - cell "Alice heard it say." [ref=e136]
+                    - cell "Voluptatem" [ref=e137]
+                    - cell "Nishi Char" [ref=e138]
+                    - cell "9782248701895" [ref=e139]
+                    - cell "1976-12-30" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143]:
+                - paragraph [ref=e144]: What You'll Learn
+                - img [ref=e145]
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - button "Selenium (Java)" [ref=e150] [cursor=pointer]
+                  - button "Playwright (JS/PY)" [ref=e151] [cursor=pointer]
+                - generic [ref=e152]:
+                  - paragraph [ref=e153]: Selenium (Java)
+                  - list [ref=e154]:
+                    - listitem [ref=e155]:
+                      - generic [ref=e157]: findElements(By.tagName('tr'))
+                    - listitem [ref=e158]:
+                      - generic [ref=e160]: findElement(By.xpath(...))
+                    - listitem [ref=e161]:
+                      - generic [ref=e163]: getText()
+                    - listitem [ref=e164]:
+                      - generic [ref=e166]: getAttribute()
+                    - listitem [ref=e167]:
+                      - generic [ref=e169]: Actions.moveToElement()
+              - generic [ref=e170]:
+                - img [ref=e171]
+                - generic [ref=e174]: Tutorial video coming soon
+            - generic [ref=e175]:
+              - paragraph [ref=e176]: Up Next
+              - link "Practice Alerts & Dialogs automation — next element" [ref=e177] [cursor=pointer]:
+                - /url: /practice/alerts-dialogs
+                - img [ref=e179] [cursor=pointer]
+                - generic [ref=e180] [cursor=pointer]:
+                  - paragraph [ref=e181] [cursor=pointer]: Alerts & Dialogs
+                  - paragraph [ref=e182] [cursor=pointer]: Handle browser alerts, confirms, and prompt dialogs
+                - img [ref=e183] [cursor=pointer]
+        - generic [ref=e185]:
+          - heading "Test Cases" [level=2] [ref=e186]
+          - generic [ref=e187]:
+            - 'heading "TC01: Verify all table column headers are present" [level=3] [ref=e189]':
+              - 'button "TC01: Verify all table column headers are present" [ref=e190] [cursor=pointer]':
+                - generic [ref=e191] [cursor=pointer]: "TC01: Verify all table column headers are present"
+                - img [ref=e192] [cursor=pointer]
+            - 'heading "TC02: Count the total number of rows in the data table" [level=3] [ref=e195]':
+              - 'button "TC02: Count the total number of rows in the data table" [ref=e196] [cursor=pointer]':
+                - generic [ref=e197] [cursor=pointer]: "TC02: Count the total number of rows in the data table"
+                - img [ref=e198] [cursor=pointer]
+            - 'heading "TC03: Read a cell value from a specific row and column" [level=3] [ref=e201]':
+              - 'button "TC03: Read a cell value from a specific row and column" [ref=e202] [cursor=pointer]':
+                - generic [ref=e203] [cursor=pointer]: "TC03: Read a cell value from a specific row and column"
+                - img [ref=e204] [cursor=pointer]
+            - 'heading "TC04: Find a book row by author name using XPath or filter" [level=3] [ref=e207]':
+              - 'button "TC04: Find a book row by author name using XPath or filter" [ref=e208] [cursor=pointer]':
+                - generic [ref=e209] [cursor=pointer]: "TC04: Find a book row by author name using XPath or filter"
+                - img [ref=e210] [cursor=pointer]
+            - 'heading "TC05: Verify the table is not empty after page load" [level=3] [ref=e213]':
+              - 'button "TC05: Verify the table is not empty after page load" [ref=e214] [cursor=pointer]':
+                - generic [ref=e215] [cursor=pointer]: "TC05: Verify the table is not empty after page load"
+                - img [ref=e216] [cursor=pointer]
+            - 'heading "TC06: Assert the ISBN column contains only string values" [level=3] [ref=e219]':
+              - 'button "TC06: Assert the ISBN column contains only string values" [ref=e220] [cursor=pointer]':
+                - generic [ref=e221] [cursor=pointer]: "TC06: Assert the ISBN column contains only string values"
+                - img [ref=e222] [cursor=pointer]
+      - article [ref=e224]:
+        - generic [ref=e225]:
+          - heading "Introduction" [level=2] [ref=e226]
+          - paragraph [ref=e227]: "HTML tables are everywhere — dashboards, reports, transaction lists. Automating them requires:"
+          - list [ref=e228]:
+            - listitem [ref=e229]:
+              - strong [ref=e230]: Count rows and columns
+              - text: — verify table size
+            - listitem [ref=e231]:
+              - strong [ref=e232]: Read a specific cell
+              - text: — by row and column index
+            - listitem [ref=e233]:
+              - strong [ref=e234]: Find a row by content
+              - text: — search for specific data
+            - listitem [ref=e235]:
+              - strong [ref=e236]: Verify table headers
+              - text: — assert column names
+            - listitem [ref=e237]:
+              - strong [ref=e238]: Verify all rows
+              - text: — loop through and check values
+          - heading "Key Methods Summary" [level=2] [ref=e239]
+          - table [ref=e240]:
+            - rowgroup [ref=e241]:
+              - row "Action Selenium (Java) Playwright (JS) Playwright (Python)" [ref=e242]:
+                - cell "Action" [ref=e243]
+                - cell "Selenium (Java)" [ref=e244]
+                - cell "Playwright (JS)" [ref=e245]
+                - cell "Playwright (Python)" [ref=e246]
+            - rowgroup [ref=e247]:
+              - 'row "Count rows `findElements(By.cssSelector(\"tbody tr\")).size()` `locator(\"tbody tr\").count()` `locator(\"tbody tr\").count()`" [ref=e248]':
+                - cell "Count rows" [ref=e249]
+                - 'cell "`findElements(By.cssSelector(\"tbody tr\")).size()`" [ref=e250]':
+                  - code [ref=e251]: "`findElements(By.cssSelector(\"tbody tr\")).size()`"
+                - 'cell "`locator(\"tbody tr\").count()`" [ref=e252]':
+                  - code [ref=e253]: "`locator(\"tbody tr\").count()`"
+                - 'cell "`locator(\"tbody tr\").count()`" [ref=e254]':
+                  - code [ref=e255]: "`locator(\"tbody tr\").count()`"
+              - 'row "Count cols `findElements(By.cssSelector(\"thead th\")).size()` `locator(\"thead th\").count()` `locator(\"thead th\").count()`" [ref=e256]':
+                - cell "Count cols" [ref=e257]
+                - 'cell "`findElements(By.cssSelector(\"thead th\")).size()`" [ref=e258]':
+                  - code [ref=e259]: "`findElements(By.cssSelector(\"thead th\")).size()`"
+                - 'cell "`locator(\"thead th\").count()`" [ref=e260]':
+                  - code [ref=e261]: "`locator(\"thead th\").count()`"
+                - 'cell "`locator(\"thead th\").count()`" [ref=e262]':
+                  - code [ref=e263]: "`locator(\"thead th\").count()`"
+              - 'row "Get cell text `findElement(By.cssSelector(\"tr:nth-child(2) td:nth-child(1)\")).getText()` `locator(\"tr:nth-child(2) td:nth-child(1)\").textContent()` `text_content()`" [ref=e264]':
+                - cell "Get cell text" [ref=e265]
+                - 'cell "`findElement(By.cssSelector(\"tr:nth-child(2) td:nth-child(1)\")).getText()`" [ref=e266]':
+                  - code [ref=e267]: "`findElement(By.cssSelector(\"tr:nth-child(2) td:nth-child(1)\")).getText()`"
+                - 'cell "`locator(\"tr:nth-child(2) td:nth-child(1)\").textContent()`" [ref=e268]':
+                  - code [ref=e269]: "`locator(\"tr:nth-child(2) td:nth-child(1)\").textContent()`"
+                - 'cell "`text_content()`" [ref=e270]':
+                  - code [ref=e271]: "`text_content()`"
+              - 'row "Get headers `findElements(By.tagName(\"th\"))` `locator(\"th\").allTextContents()` `all_text_contents()`" [ref=e272]':
+                - cell "Get headers" [ref=e273]
+                - 'cell "`findElements(By.tagName(\"th\"))`" [ref=e274]':
+                  - code [ref=e275]: "`findElements(By.tagName(\"th\"))`"
+                - 'cell "`locator(\"th\").allTextContents()`" [ref=e276]':
+                  - code [ref=e277]: "`locator(\"th\").allTextContents()`"
+                - 'cell "`all_text_contents()`" [ref=e278]':
+                  - code [ref=e279]: "`all_text_contents()`"
+          - separator [ref=e280]
+          - heading "1. Count rows and columns" [level=2] [ref=e281]
+          - heading "Selenium (Java)" [level=3] [ref=e282]
+          - figure [ref=e283]:
+            - code [ref=e285]:
+              - generic [ref=e286]:
+                - generic [ref=e287]: List<
+                - generic [ref=e288]: WebElement
+                - generic [ref=e289]: "> rows"
+                - generic [ref=e290]: =
+                - generic [ref=e291]: driver.
+                - generic [ref=e292]: findElements
+                - generic [ref=e293]: (By.
+                - generic [ref=e294]: cssSelector
+                - generic [ref=e295]: (
+                - generic [ref=e296]: "\"#dataTable tbody tr\""
+                - generic [ref=e297]: ));
+              - generic [ref=e298]:
+                - generic [ref=e299]: System.out.
+                - generic [ref=e300]: println
+                - generic [ref=e301]: (
+                - generic [ref=e302]: "\"Row count: \""
+                - generic [ref=e303]: +
+                - generic [ref=e304]: rows.
+                - generic [ref=e305]: size
+                - generic [ref=e306]: ());
+              - generic [ref=e308]:
+                - generic [ref=e309]: List<
+                - generic [ref=e310]: WebElement
+                - generic [ref=e311]: "> cols"
+                - generic [ref=e312]: =
+                - generic [ref=e313]: driver.
+                - generic [ref=e314]: findElements
+                - generic [ref=e315]: (By.
+                - generic [ref=e316]: cssSelector
+                - generic [ref=e317]: (
+                - generic [ref=e318]: "\"#dataTable thead th\""
+                - generic [ref=e319]: ));
+              - generic [ref=e320]:
+                - generic [ref=e321]: System.out.
+                - generic [ref=e322]: println
+                - generic [ref=e323]: (
+                - generic [ref=e324]: "\"Column count: \""
+                - generic [ref=e325]: +
+                - generic [ref=e326]: cols.
+                - generic [ref=e327]: size
+                - generic [ref=e328]: ());
+              - button "Copy code" [ref=e329] [cursor=pointer]
+          - heading "Playwright (JS)" [level=3] [ref=e331]
+          - figure [ref=e332]:
+            - code [ref=e334]:
+              - generic [ref=e335]:
+                - generic [ref=e336]: const
+                - generic [ref=e337]: rowCount
+                - generic [ref=e338]: =
+                - generic [ref=e339]: await
+                - generic [ref=e340]: page.
+                - generic [ref=e341]: locator
+                - generic [ref=e342]: (
+                - generic [ref=e343]: "\"#dataTable tbody tr\""
+                - generic [ref=e344]: ).
+                - generic [ref=e345]: count
+                - generic [ref=e346]: ();
+              - generic [ref=e347]:
+                - generic [ref=e348]: const
+                - generic [ref=e349]: colCount
+                - generic [ref=e350]: =
+                - generic [ref=e351]: await
+                - generic [ref=e352]: page.
+                - generic [ref=e353]: locator
+                - generic [ref=e354]: (
+                - generic [ref=e355]: "\"#dataTable thead th\""
+                - generic [ref=e356]: ).
+                - generic [ref=e357]: count
+                - generic [ref=e358]: ();
+              - generic [ref=e359]:
+                - generic [ref=e360]: console.
+                - generic [ref=e361]: log
+                - generic [ref=e362]: (
+                - generic [ref=e363]: "\"Rows:\""
+                - generic [ref=e364]: ", rowCount,"
+                - generic [ref=e365]: "\"Cols:\""
+                - generic [ref=e366]: ", colCount);"
+              - button "Copy code" [ref=e367] [cursor=pointer]
+          - heading "Playwright (Python)" [level=3] [ref=e369]
+          - figure [ref=e370]:
+            - code [ref=e372]:
+              - generic [ref=e373]:
+                - generic [ref=e374]: row_count
+                - generic [ref=e375]: =
+                - generic [ref=e376]: page.locator(
+                - generic [ref=e377]: "\"#dataTable tbody tr\""
+                - generic [ref=e378]: ).count()
+              - generic [ref=e379]:
+                - generic [ref=e380]: col_count
+                - generic [ref=e381]: =
+                - generic [ref=e382]: page.locator(
+                - generic [ref=e383]: "\"#dataTable thead th\""
+                - generic [ref=e384]: ).count()
+              - generic [ref=e385]:
+                - generic [ref=e386]: print
+                - generic [ref=e387]: (
+                - generic [ref=e388]: f
+                - generic [ref=e389]: "\"Rows:"
+                - generic [ref=e390]: "{"
+                - generic [ref=e391]: row_count
+                - generic [ref=e392]: "}"
+                - generic [ref=e393]: ", Cols:"
+                - generic [ref=e394]: "{"
+                - generic [ref=e395]: col_count
+                - generic [ref=e396]: "}"
+                - generic [ref=e397]: "\""
+                - generic [ref=e398]: )
+              - button "Copy code" [ref=e399] [cursor=pointer]
+          - separator [ref=e401]
+          - heading "2. Read a specific cell by row and column" [level=2] [ref=e402]
+          - heading "Selenium (Java)" [level=3] [ref=e403]
+          - figure [ref=e404]:
+            - code [ref=e406]:
+              - generic [ref=e408]: // Row 1, Column 1 (1-based in CSS)
+              - generic [ref=e409]:
+                - generic [ref=e410]: String cellText
+                - generic [ref=e411]: =
+                - generic [ref=e412]: driver.
+                - generic [ref=e413]: findElement
+                - generic [ref=e414]: (
+              - generic [ref=e415]:
+                - generic [ref=e416]: By.
+                - generic [ref=e417]: cssSelector
+                - generic [ref=e418]: (
+                - generic [ref=e419]: "\"#dataTable tbody tr:nth-child(1) td:nth-child(1)\""
+                - generic [ref=e420]: )
+              - generic [ref=e421]:
+                - generic [ref=e422]: ).
+                - generic [ref=e423]: getText
+                - generic [ref=e424]: ();
+              - generic [ref=e425]:
+                - generic [ref=e426]: System.out.
+                - generic [ref=e427]: println
+                - generic [ref=e428]: (
+                - generic [ref=e429]: "\"Cell value: \""
+                - generic [ref=e430]: +
+                - generic [ref=e431]: cellText);
+              - button "Copy code" [ref=e432] [cursor=pointer]
+          - heading "Playwright (JS)" [level=3] [ref=e434]
+          - figure [ref=e435]:
+            - code [ref=e437]:
+              - generic [ref=e438]:
+                - generic [ref=e439]: const
+                - generic [ref=e440]: cellText
+                - generic [ref=e441]: =
+                - generic [ref=e442]: await
+                - generic [ref=e443]: page
+              - generic [ref=e444]:
+                - generic [ref=e445]: .
+                - generic [ref=e446]: locator
+                - generic [ref=e447]: (
+                - generic [ref=e448]: "\"#dataTable tbody tr:nth-child(1) td:nth-child(1)\""
+                - generic [ref=e449]: )
+              - generic [ref=e450]:
+                - generic [ref=e451]: .
+                - generic [ref=e452]: textContent
+                - generic [ref=e453]: ();
+              - generic [ref=e454]:
+                - generic [ref=e455]: console.
+                - generic [ref=e456]: log
+                - generic [ref=e457]: (
+                - generic [ref=e458]: "\"Cell value:\""
+                - generic [ref=e459]: ", cellText);"
+              - button "Copy code" [ref=e460] [cursor=pointer]
+          - heading "Playwright (Python)" [level=3] [ref=e462]
+          - figure [ref=e463]:
+            - code [ref=e465]:
+              - generic [ref=e466]:
+                - generic [ref=e467]: cell_text
+                - generic [ref=e468]: =
+                - generic [ref=e469]: page.locator(
+              - generic [ref=e471]: "\"#dataTable tbody tr:nth-child(1) td:nth-child(1)\""
+              - generic [ref=e473]: ).text_content()
+              - generic [ref=e474]:
+                - generic [ref=e475]: print
+                - generic [ref=e476]: (
+                - generic [ref=e477]: "\"Cell value:\""
+                - generic [ref=e478]: ", cell_text)"
+              - button "Copy code" [ref=e479] [cursor=pointer]
+          - separator [ref=e481]
+          - heading "3. Read all header names" [level=2] [ref=e482]
+          - heading "Selenium (Java)" [level=3] [ref=e483]
+          - figure [ref=e484]:
+            - code [ref=e486]:
+              - generic [ref=e487]:
+                - generic [ref=e488]: List<
+                - generic [ref=e489]: WebElement
+                - generic [ref=e490]: "> headers"
+                - generic [ref=e491]: =
+                - generic [ref=e492]: driver.
+                - generic [ref=e493]: findElements
+                - generic [ref=e494]: (By.
+                - generic [ref=e495]: cssSelector
+                - generic [ref=e496]: (
+                - generic [ref=e497]: "\"#dataTable thead th\""
+                - generic [ref=e498]: ));
+              - generic [ref=e499]:
+                - generic [ref=e500]: for
+                - generic [ref=e501]: (WebElement header
+                - generic [ref=e502]: ":"
+                - generic [ref=e503]: "headers) {"
+              - generic [ref=e504]:
+                - generic [ref=e505]: System.out.
+                - generic [ref=e506]: println
+                - generic [ref=e507]: (header.
+                - generic [ref=e508]: getText
+                - generic [ref=e509]: ());
+              - generic [ref=e511]: "}"
+              - button "Copy code" [ref=e512] [cursor=pointer]
+          - heading "Playwright (JS)" [level=3] [ref=e514]
+          - figure [ref=e515]:
+            - code [ref=e517]:
+              - generic [ref=e518]:
+                - generic [ref=e519]: const
+                - generic [ref=e520]: headers
+                - generic [ref=e521]: =
+                - generic [ref=e522]: await
+                - generic [ref=e523]: page.
+                - generic [ref=e524]: locator
+                - generic [ref=e525]: (
+                - generic [ref=e526]: "\"#dataTable thead th\""
+                - generic [ref=e527]: ).
+                - generic [ref=e528]: allTextContents
+                - generic [ref=e529]: ();
+              - generic [ref=e530]:
+                - generic [ref=e531]: console.
+                - generic [ref=e532]: log
+                - generic [ref=e533]: (headers);
+                - generic [ref=e534]: // ["Name", "Age", "City", "Action"]
+              - button "Copy code" [ref=e535] [cursor=pointer]
+          - heading "Playwright (Python)" [level=3] [ref=e537]
+          - figure [ref=e538]:
+            - code [ref=e540]:
+              - generic [ref=e541]:
+                - generic [ref=e542]: headers
+                - generic [ref=e543]: =
+                - generic [ref=e544]: page.locator(
+                - generic [ref=e545]: "\"#dataTable thead th\""
+                - generic [ref=e546]: ).all_text_contents()
+              - generic [ref=e547]:
+                - generic [ref=e548]: print
+                - generic [ref=e549]: (headers)
+              - button "Copy code" [ref=e550] [cursor=pointer]
+          - separator [ref=e552]
+          - heading "4. Find a row containing specific text" [level=2] [ref=e553]
+          - heading "Selenium (Java)" [level=3] [ref=e554]
+          - figure [ref=e555]:
+            - code [ref=e557]:
+              - generic [ref=e558]:
+                - generic [ref=e559]: List<
+                - generic [ref=e560]: WebElement
+                - generic [ref=e561]: "> rows"
+                - generic [ref=e562]: =
+                - generic [ref=e563]: driver.
+                - generic [ref=e564]: findElements
+                - generic [ref=e565]: (By.
+                - generic [ref=e566]: cssSelector
+                - generic [ref=e567]: (
+                - generic [ref=e568]: "\"#dataTable tbody tr\""
+                - generic [ref=e569]: ));
+              - generic [ref=e570]:
+                - generic [ref=e571]: for
+                - generic [ref=e572]: (WebElement row
+                - generic [ref=e573]: ":"
+                - generic [ref=e574]: "rows) {"
+              - generic [ref=e575]:
+                - generic [ref=e576]: if
+                - generic [ref=e577]: (row.
+                - generic [ref=e578]: getText
+                - generic [ref=e579]: ().
+                - generic [ref=e580]: contains
+                - generic [ref=e581]: (
+                - generic [ref=e582]: "\"Alice\""
+                - generic [ref=e583]: ")) {"
+              - generic [ref=e584]:
+                - generic [ref=e585]: System.out.
+                - generic [ref=e586]: println
+                - generic [ref=e587]: (
+                - generic [ref=e588]: "\"Found row: \""
+                - generic [ref=e589]: +
+                - generic [ref=e590]: row.
+                - generic [ref=e591]: getText
+                - generic [ref=e592]: ());
+              - generic [ref=e594]: // click edit button in this row
+              - generic [ref=e595]:
+                - generic [ref=e596]: row.
+                - generic [ref=e597]: findElement
+                - generic [ref=e598]: (By.
+                - generic [ref=e599]: cssSelector
+                - generic [ref=e600]: (
+                - generic [ref=e601]: "\"button[data-action='edit']\""
+                - generic [ref=e602]: )).
+                - generic [ref=e603]: click
+                - generic [ref=e604]: ();
+              - generic [ref=e605]:
+                - generic [ref=e606]: break
+                - generic [ref=e607]: ;
+              - generic [ref=e609]: "}"
+              - generic [ref=e611]: "}"
+              - button "Copy code" [ref=e612] [cursor=pointer]
+          - heading "Playwright (JS)" [level=3] [ref=e614]
+          - figure [ref=e615]:
+            - code [ref=e617]:
+              - generic [ref=e618]:
+                - generic [ref=e619]: const
+                - generic [ref=e620]: row
+                - generic [ref=e621]: =
+                - generic [ref=e622]: page.
+                - generic [ref=e623]: locator
+                - generic [ref=e624]: (
+                - generic [ref=e625]: "\"#dataTable tbody tr\""
+                - generic [ref=e626]: ).
+                - generic [ref=e627]: filter
+                - generic [ref=e628]: "({ hasText:"
+                - generic [ref=e629]: "\"Alice\""
+                - generic [ref=e630]: "});"
+              - generic [ref=e631]:
+                - generic [ref=e632]: await
+                - generic [ref=e633]: expect
+                - generic [ref=e634]: (row).
+                - generic [ref=e635]: toBeVisible
+                - generic [ref=e636]: ();
+              - generic [ref=e637]:
+                - generic [ref=e638]: await
+                - generic [ref=e639]: row.
+                - generic [ref=e640]: locator
+                - generic [ref=e641]: (
+                - generic [ref=e642]: "\"button[data-action='edit']\""
+                - generic [ref=e643]: ).
+                - generic [ref=e644]: click
+                - generic [ref=e645]: ();
+              - button "Copy code" [ref=e646] [cursor=pointer]
+          - heading "Playwright (Python)" [level=3] [ref=e648]
+          - figure [ref=e649]:
+            - code [ref=e651]:
+              - generic [ref=e652]:
+                - generic [ref=e653]: row
+                - generic [ref=e654]: =
+                - generic [ref=e655]: page.locator(
+                - generic [ref=e656]: "\"#dataTable tbody tr\""
+                - generic [ref=e657]: ).filter(
+                - generic [ref=e658]: has_text
+                - generic [ref=e659]: =
+                - generic [ref=e660]: "\"Alice\""
+                - generic [ref=e661]: )
+              - generic [ref=e663]: expect(row).to_be_visible()
+              - generic [ref=e664]:
+                - generic [ref=e665]: row.locator(
+                - generic [ref=e666]: "\"button[data-action='edit']\""
+                - generic [ref=e667]: ).click()
+              - button "Copy code" [ref=e668] [cursor=pointer]
+          - separator [ref=e670]
+          - heading "5. Read all rows and build a list" [level=2] [ref=e671]
+          - heading "Selenium (Java)" [level=3] [ref=e672]
+          - figure [ref=e673]:
+            - code [ref=e675]:
+              - generic [ref=e676]:
+                - generic [ref=e677]: List<
+                - generic [ref=e678]: WebElement
+                - generic [ref=e679]: "> rows"
+                - generic [ref=e680]: =
+                - generic [ref=e681]: driver.
+                - generic [ref=e682]: findElements
+                - generic [ref=e683]: (By.
+                - generic [ref=e684]: cssSelector
+                - generic [ref=e685]: (
+                - generic [ref=e686]: "\"#dataTable tbody tr\""
+                - generic [ref=e687]: ));
+              - generic [ref=e688]:
+                - generic [ref=e689]: List<
+                - generic [ref=e690]: String
+                - generic [ref=e691]: "> names"
+                - generic [ref=e692]: =
+                - generic [ref=e693]: new
+                - generic [ref=e694]: ArrayList<>();
+              - generic [ref=e695]:
+                - generic [ref=e696]: for
+                - generic [ref=e697]: (WebElement row
+                - generic [ref=e698]: ":"
+                - generic [ref=e699]: "rows) {"
+              - generic [ref=e700]:
+                - generic [ref=e701]: String name
+                - generic [ref=e702]: =
+                - generic [ref=e703]: row.
+                - generic [ref=e704]: findElement
+                - generic [ref=e705]: (By.
+                - generic [ref=e706]: cssSelector
+                - generic [ref=e707]: (
+                - generic [ref=e708]: "\"td:nth-child(1)\""
+                - generic [ref=e709]: )).
+                - generic [ref=e710]: getText
+                - generic [ref=e711]: ();
+              - generic [ref=e712]:
+                - generic [ref=e713]: names.
+                - generic [ref=e714]: add
+                - generic [ref=e715]: (name);
+              - generic [ref=e717]: "}"
+              - generic [ref=e718]:
+                - generic [ref=e719]: System.out.
+                - generic [ref=e720]: println
+                - generic [ref=e721]: (names);
+              - button "Copy code" [ref=e722] [cursor=pointer]
+          - heading "Playwright (JS)" [level=3] [ref=e724]
+          - figure [ref=e725]:
+            - code [ref=e727]:
+              - generic [ref=e728]:
+                - generic [ref=e729]: const
+                - generic [ref=e730]: rows
+                - generic [ref=e731]: =
+                - generic [ref=e732]: page.
+                - generic [ref=e733]: locator
+                - generic [ref=e734]: (
+                - generic [ref=e735]: "\"#dataTable tbody tr\""
+                - generic [ref=e736]: );
+              - generic [ref=e737]:
+                - generic [ref=e738]: const
+                - generic [ref=e739]: count
+                - generic [ref=e740]: =
+                - generic [ref=e741]: await
+                - generic [ref=e742]: rows.
+                - generic [ref=e743]: count
+                - generic [ref=e744]: ();
+              - generic [ref=e745]:
+                - generic [ref=e746]: const
+                - generic [ref=e747]: names
+                - generic [ref=e748]: =
+                - generic [ref=e749]: "[];"
+              - generic [ref=e750]:
+                - generic [ref=e751]: for
+                - generic [ref=e752]: (
+                - generic [ref=e753]: let
+                - generic [ref=e754]: i
+                - generic [ref=e755]: =
+                - generic [ref=e756]: "0"
+                - generic [ref=e757]: ; i
+                - generic [ref=e758]: <
+                - generic [ref=e759]: count; i
+                - generic [ref=e760]: ++
+                - generic [ref=e761]: ") {"
+              - generic [ref=e762]:
+                - generic [ref=e763]: const
+                - generic [ref=e764]: name
+                - generic [ref=e765]: =
+                - generic [ref=e766]: await
+                - generic [ref=e767]: rows.
+                - generic [ref=e768]: nth
+                - generic [ref=e769]: (i).
+                - generic [ref=e770]: locator
+                - generic [ref=e771]: (
+                - generic [ref=e772]: "\"td:nth-child(1)\""
+                - generic [ref=e773]: ).
+                - generic [ref=e774]: textContent
+                - generic [ref=e775]: ();
+              - generic [ref=e776]:
+                - generic [ref=e777]: names.
+                - generic [ref=e778]: push
+                - generic [ref=e779]: (name.
+                - generic [ref=e780]: trim
+                - generic [ref=e781]: ());
+              - generic [ref=e783]: "}"
+              - generic [ref=e784]:
+                - generic [ref=e785]: console.
+                - generic [ref=e786]: log
+                - generic [ref=e787]: (names);
+              - button "Copy code" [ref=e788] [cursor=pointer]
+          - heading "Playwright (Python)" [level=3] [ref=e790]
+          - figure [ref=e791]:
+            - code [ref=e793]:
+              - generic [ref=e794]:
+                - generic [ref=e795]: rows
+                - generic [ref=e796]: =
+                - generic [ref=e797]: page.locator(
+                - generic [ref=e798]: "\"#dataTable tbody tr\""
+                - generic [ref=e799]: )
+              - generic [ref=e800]:
+                - generic [ref=e801]: count
+                - generic [ref=e802]: =
+                - generic [ref=e803]: rows.count()
+              - generic [ref=e804]:
+                - generic [ref=e805]: names
+                - generic [ref=e806]: =
+                - generic [ref=e807]: "[]"
+              - generic [ref=e808]:
+                - generic [ref=e809]: for
+                - generic [ref=e810]: i
+                - generic [ref=e811]: in
+                - generic [ref=e812]: range
+                - generic [ref=e813]: "(count):"
+              - generic [ref=e814]:
+                - generic [ref=e815]: name
+                - generic [ref=e816]: =
+                - generic [ref=e817]: rows.nth(i).locator(
+                - generic [ref=e818]: "\"td:nth-child(1)\""
+                - generic [ref=e819]: ).text_content()
+              - generic [ref=e821]: names.append(name.strip())
+              - generic [ref=e822]:
+                - generic [ref=e823]: print
+                - generic [ref=e824]: (names)
+              - button "Copy code" [ref=e825] [cursor=pointer]
+          - separator [ref=e827]
+          - heading "6. Verify table has no data (empty state)" [level=2] [ref=e828]
+          - heading "Selenium (Java)" [level=3] [ref=e829]
+          - figure [ref=e830]:
+            - code [ref=e832]:
+              - generic [ref=e833]:
+                - generic [ref=e834]: List<
+                - generic [ref=e835]: WebElement
+                - generic [ref=e836]: "> rows"
+                - generic [ref=e837]: =
+                - generic [ref=e838]: driver.
+                - generic [ref=e839]: findElements
+                - generic [ref=e840]: (By.
+                - generic [ref=e841]: cssSelector
+                - generic [ref=e842]: (
+                - generic [ref=e843]: "\"#dataTable tbody tr\""
+                - generic [ref=e844]: ));
+              - generic [ref=e845]:
+                - generic [ref=e846]: assertTrue
+                - generic [ref=e847]: (rows.
+                - generic [ref=e848]: isEmpty
+                - generic [ref=e849]: ()
+                - generic [ref=e850]: "||"
+                - generic [ref=e851]: rows.
+                - generic [ref=e852]: get
+                - generic [ref=e853]: (
+                - generic [ref=e854]: "0"
+                - generic [ref=e855]: ).
+                - generic [ref=e856]: getText
+                - generic [ref=e857]: ().
+                - generic [ref=e858]: contains
+                - generic [ref=e859]: (
+                - generic [ref=e860]: "\"No data\""
+                - generic [ref=e861]: ));
+              - button "Copy code" [ref=e862] [cursor=pointer]
+          - heading "Playwright (JS)" [level=3] [ref=e864]
+          - figure [ref=e865]:
+            - code [ref=e867]:
+              - generic [ref=e868]:
+                - generic [ref=e869]: const
+                - generic [ref=e870]: rowCount
+                - generic [ref=e871]: =
+                - generic [ref=e872]: await
+                - generic [ref=e873]: page.
+                - generic [ref=e874]: locator
+                - generic [ref=e875]: (
+                - generic [ref=e876]: "\"#dataTable tbody tr\""
+                - generic [ref=e877]: ).
+                - generic [ref=e878]: count
+                - generic [ref=e879]: ();
+              - generic [ref=e880]:
+                - generic [ref=e881]: expect
+                - generic [ref=e882]: (rowCount).
+                - generic [ref=e883]: toBe
+                - generic [ref=e884]: (
+                - generic [ref=e885]: "0"
+                - generic [ref=e886]: );
+              - generic [ref=e888]: // or check empty message
+              - generic [ref=e889]:
+                - generic [ref=e890]: await
+                - generic [ref=e891]: expect
+                - generic [ref=e892]: (page.
+                - generic [ref=e893]: locator
+                - generic [ref=e894]: (
+                - generic [ref=e895]: "\"#emptyTableMsg\""
+                - generic [ref=e896]: )).
+                - generic [ref=e897]: toBeVisible
+                - generic [ref=e898]: ();
+              - button "Copy code" [ref=e899] [cursor=pointer]
+          - heading "Playwright (Python)" [level=3] [ref=e901]
+          - figure [ref=e902]:
+            - code [ref=e904]:
+              - generic [ref=e905]:
+                - generic [ref=e906]: row_count
+                - generic [ref=e907]: =
+                - generic [ref=e908]: page.locator(
+                - generic [ref=e909]: "\"#dataTable tbody tr\""
+                - generic [ref=e910]: ).count()
+              - generic [ref=e911]:
+                - generic [ref=e912]: assert
+                - generic [ref=e913]: row_count
+                - generic [ref=e914]: ==
+                - generic [ref=e915]: "0"
+              - generic [ref=e917]: "# or"
+              - generic [ref=e918]:
+                - generic [ref=e919]: expect(page.locator(
+                - generic [ref=e920]: "\"#emptyTableMsg\""
+                - generic [ref=e921]: )).to_be_visible()
+              - button "Copy code" [ref=e922] [cursor=pointer]
+          - blockquote [ref=e924]:
+            - paragraph [ref=e925]:
+              - text: 📄
+              - strong [ref=e926]: "Also Read:"
+              - link "Top 10 Best Automation Practice Website" [ref=e927] [cursor=pointer]:
+                - /url: https://www.qaplayground.com/blog/top-10-best-automation-practice-website
+      - generic [ref=e928]:
+        - generic [ref=e929]:
+          - img [ref=e930]
+          - heading "Frequently Asked Questions" [level=2] [ref=e933]
+        - generic [ref=e934]:
+          - heading "How do I read all rows from an HTML table in Selenium WebDriver?" [level=3] [ref=e936]:
+            - button "How do I read all rows from an HTML table in Selenium WebDriver?" [ref=e937] [cursor=pointer]:
+              - text: How do I read all rows from an HTML table in Selenium WebDriver?
+              - img [ref=e938] [cursor=pointer]
+          - heading "How do I locate a specific cell in an HTML table using XPath in Selenium?" [level=3] [ref=e941]:
+            - button "How do I locate a specific cell in an HTML table using XPath in Selenium?" [ref=e942] [cursor=pointer]:
+              - text: How do I locate a specific cell in an HTML table using XPath in Selenium?
+              - img [ref=e943] [cursor=pointer]
+          - heading "How do I verify the number of rows in a data table in Playwright?" [level=3] [ref=e946]:
+            - button "How do I verify the number of rows in a data table in Playwright?" [ref=e947] [cursor=pointer]:
+              - text: How do I verify the number of rows in a data table in Playwright?
+              - img [ref=e948] [cursor=pointer]
+          - heading "How do I wait for a dynamically loaded table to finish rendering in automation?" [level=3] [ref=e951]:
+            - button "How do I wait for a dynamically loaded table to finish rendering in automation?" [ref=e952] [cursor=pointer]:
+              - text: How do I wait for a dynamically loaded table to finish rendering in automation?
+              - img [ref=e953] [cursor=pointer]
+          - heading "How do I filter table rows by text content in Playwright?" [level=3] [ref=e956]:
+            - button "How do I filter table rows by text content in Playwright?" [ref=e957] [cursor=pointer]:
+              - text: How do I filter table rows by text content in Playwright?
+              - img [ref=e958] [cursor=pointer]
+  - region "Notifications alt+T"
+  - contentinfo [ref=e960]:
+    - contentinfo "Site footer" [ref=e961]:
+      - generic [ref=e962]:
+        - text: Footer Navigation
+        - generic [ref=e963]:
+          - generic [ref=e964]:
+            - link "QA PlayGround" [ref=e965] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e966] [cursor=pointer]: QA PlayGround
+            - paragraph [ref=e967]: A purpose-built practice platform for QA automation engineers. Learn Selenium, Playwright, and Cypress through hands-on interactive elements and real-world scenarios.
+            - generic [ref=e968]:
+              - generic [ref=e969]:
+                - img [ref=e970]
+                - text: Practice Elements
+              - generic [ref=e975]:
+                - img [ref=e976]
+                - text: Bank Demo
+              - generic [ref=e978]:
+                - img [ref=e979]
+                - text: Study Tracker
+            - generic "Social media links" [ref=e981]:
+              - link "YouTube" [ref=e982] [cursor=pointer]:
+                - /url: https://www.youtube.com/@qaplayground
+                - img [ref=e983] [cursor=pointer]
+              - link "GitHub" [ref=e985] [cursor=pointer]:
+                - /url: https://github.com/kundalik-dev
+                - img [ref=e986] [cursor=pointer]
+              - link "LinkedIn" [ref=e988] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/kundalik-jadhav
+                - img [ref=e989] [cursor=pointer]
+              - link "Twitter" [ref=e991] [cursor=pointer]:
+                - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fqaplayground.com
+                - img [ref=e992] [cursor=pointer]
+              - link "Telegram" [ref=e994] [cursor=pointer]:
+                - /url: https://t.me/share/url?url=https%3A%2F%2Fqaplayground.com
+                - img [ref=e995] [cursor=pointer]
+          - generic [ref=e997]:
+            - paragraph [ref=e998]: Platform
+            - navigation "Platform links" [ref=e999]:
+              - link "Practice Elements 22+ elements" [ref=e1000] [cursor=pointer]:
+                - /url: /practice
+                - img [ref=e1002] [cursor=pointer]
+                - generic [ref=e1007] [cursor=pointer]:
+                  - text: Practice Elements
+                  - generic [ref=e1008] [cursor=pointer]: 22+ elements
+              - link "Bank Demo App E2E testing" [ref=e1009] [cursor=pointer]:
+                - /url: /bank
+                - img [ref=e1011] [cursor=pointer]
+                - generic [ref=e1013] [cursor=pointer]:
+                  - text: Bank Demo App
+                  - generic [ref=e1014] [cursor=pointer]: E2E testing
+              - link "Study Tracker New" [ref=e1015] [cursor=pointer]:
+                - /url: /study-tracker/dashboard
+                - img [ref=e1017] [cursor=pointer]
+                - generic [ref=e1019] [cursor=pointer]:
+                  - text: Study Tracker
+                  - generic [ref=e1020] [cursor=pointer]: New
+              - link "QA Tools Free" [ref=e1021] [cursor=pointer]:
+                - /url: /qa-tools
+                - img [ref=e1023] [cursor=pointer]
+                - generic [ref=e1025] [cursor=pointer]:
+                  - text: QA Tools
+                  - generic [ref=e1026] [cursor=pointer]: Free
+              - link "QA Playground Bot Free" [ref=e1027] [cursor=pointer]:
+                - /url: https://t.me/QAPlayGround_Bot
+                - img [ref=e1029] [cursor=pointer]
+                - generic [ref=e1031] [cursor=pointer]:
+                  - text: QA Playground Bot
+                  - generic [ref=e1032] [cursor=pointer]: Free
+              - link "QA Capture Extension" [ref=e1033] [cursor=pointer]:
+                - /url: https://chromewebstore.google.com/detail/jhgkhnokloeklnagbkgkgcfphafifefg?utm_source=item-share-cb
+                - img [ref=e1035] [cursor=pointer]
+                - generic [ref=e1040] [cursor=pointer]:
+                  - text: QA Capture
+                  - generic [ref=e1041] [cursor=pointer]: Extension
+              - link "QA Playground Clipper Extension" [ref=e1042] [cursor=pointer]:
+                - /url: https://chromewebstore.google.com/detail/jegdkegbomfbmhhimfjgacdblcoodfpd?utm_source=item-share-cb
+                - img [ref=e1044] [cursor=pointer]
+                - generic [ref=e1049] [cursor=pointer]:
+                  - text: QA Playground Clipper
+                  - generic [ref=e1050] [cursor=pointer]: Extension
+          - generic [ref=e1051]:
+            - paragraph [ref=e1052]: Learn
+            - navigation "Learn links" [ref=e1053]:
+              - link "Practice Elements" [ref=e1054] [cursor=pointer]:
+                - /url: /practice
+              - link "Blog & Tutorials" [ref=e1055] [cursor=pointer]:
+                - /url: /blog
+              - link "Free QA Tools" [ref=e1056] [cursor=pointer]:
+                - /url: /qa-tools
+              - link "AI Syllabus Generator" [ref=e1057] [cursor=pointer]:
+                - /url: /study-tracker/ai-syllabus-prompt
+              - link "Automation Framework" [ref=e1058] [cursor=pointer]:
+                - /url: https://github.com/kundalik5545/QA_PlayGround_Automation_Framework
+          - generic [ref=e1059]:
+            - paragraph [ref=e1060]: Company
+            - navigation "Company links" [ref=e1061]:
+              - link "About Us" [ref=e1062] [cursor=pointer]:
+                - /url: /about-us
+              - link "Contact Us" [ref=e1063] [cursor=pointer]:
+                - /url: /contact-us
+              - link "Raise an Issue" [ref=e1064] [cursor=pointer]:
+                - /url: /raise-issue
+              - link "Privacy Policy" [ref=e1065] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Login" [ref=e1066] [cursor=pointer]:
+                - /url: /login
+            - generic [ref=e1067]:
+              - paragraph [ref=e1068]: "*No account required. Creating a login is entirely optional and is only necessary if you wish to sync your progress in the Study Tracker."
+              - paragraph [ref=e1069]: "*Your data is stored locally within your browser for maximum privacy."
+        - generic [ref=e1070]:
+          - generic [ref=e1071]: © 2026 QA Playground. All rights reserved.
+          - generic [ref=e1072]:
+            - text: Built for QA Engineers by
+            - link "Kundalik Jadhav" [ref=e1073] [cursor=pointer]:
+              - /url: https://github.com/kundalik-dev
+  - alert [ref=e1074]
+```

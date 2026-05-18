@@ -1,0 +1,1464 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - link:
+    - /url: "#main-content"
+    - text: Skip to content
+  - banner:
+    - navigation:
+      - link:
+        - /url: /
+        - generic:
+          - img
+          - generic: QA PlayGround
+      - navigation:
+        - link:
+          - /url: /
+          - text: Home
+        - link:
+          - /url: /study-tracker/dashboard
+          - text: Study Tracker
+          - generic: New
+        - link:
+          - /url: /bank
+          - text: Bank Demo
+        - link:
+          - /url: /practice
+          - text: Practice
+        - link:
+          - /url: /qa-tools
+          - text: QA Tools
+        - link:
+          - /url: /blog
+          - text: Blog
+        - generic:
+          - button:
+            - img
+            - generic: Toggle theme
+          - link:
+            - /url: /login
+            - text: Login
+  - main:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - navigation:
+              - link:
+                - /url: /
+                - text: Home
+              - img
+              - link:
+                - /url: /practice
+                - text: Practice
+              - img
+              - generic: How to Automate Form Submission in Selenium and Playwright
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - text: Intermediate
+                    - generic:
+                      - img
+                      - text: 20 min
+                    - generic:
+                      - img
+                      - text: 8 scenarios
+                  - heading [level=1]: Form Automation Practice
+                  - paragraph: Practice end-to-end form automation in Selenium & Playwright — filling inputs, selecting dropdowns, toggling checkboxes, triggering validation errors, and asserting success states.
+                - generic:
+                  - region:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=3]: Personal Details
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: First Name
+                                  - generic: "*"
+                                - textbox: Akhil
+                              - generic:
+                                - generic:
+                                  - text: Last Name
+                                  - generic: "*"
+                                - textbox: Negi
+                              - generic:
+                                - generic:
+                                  - text: Email
+                                  - generic: "*"
+                                - textbox: akhil@testmail.com
+                              - generic:
+                                - generic:
+                                  - text: Phone
+                                  - generic: "*"
+                                - textbox: "9876543210"
+                              - generic:
+                                - generic:
+                                  - text: Date of Birth
+                                  - generic: "*"
+                                - textbox: 1988-09-18
+                              - generic:
+                                - generic:
+                                  - text: Gender
+                                  - generic: "*"
+                                - generic:
+                                  - generic:
+                                    - radio [checked]
+                                    - generic: Male
+                                  - generic:
+                                    - radio
+                                    - generic: Female
+                                  - generic:
+                                    - radio
+                                    - generic: Other
+                          - generic:
+                            - heading [level=3]: Address
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: Country
+                                  - generic: "*"
+                                - combobox [expanded]:
+                                  - generic: Select country
+                                  - img
+                                - combobox
+                              - generic:
+                                - generic:
+                                  - text: City
+                                  - generic: "*"
+                                - textbox
+                              - generic:
+                                - generic: About You
+                                - textbox
+                          - generic:
+                            - heading [level=3]: Interests
+                            - generic:
+                              - generic:
+                                - checkbox
+                                - checkbox
+                                - generic: Selenium
+                              - generic:
+                                - checkbox
+                                - checkbox
+                                - generic: Playwright
+                              - generic:
+                                - checkbox
+                                - checkbox
+                                - generic: Cypress
+                              - generic:
+                                - checkbox
+                                - checkbox
+                                - generic: Appium
+                              - generic:
+                                - checkbox
+                                - checkbox
+                                - generic: Jest
+                          - generic:
+                            - heading [level=3]: Account Details
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: Password
+                                  - generic: "*"
+                                - textbox
+                              - generic:
+                                - generic:
+                                  - text: Confirm Password
+                                  - generic: "*"
+                                - textbox
+                          - generic:
+                            - generic:
+                              - checkbox
+                              - checkbox
+                              - generic:
+                                - text: I agree to the
+                                - generic: Terms & Conditions
+                          - generic:
+                            - button: Submit
+                            - button: Reset
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: What You'll Learn
+                        - img
+                      - generic:
+                        - generic:
+                          - button: Selenium (Java)
+                          - button: Playwright (JS/PY)
+                        - generic:
+                          - paragraph: Selenium (Java)
+                          - list:
+                            - listitem:
+                              - generic: sendKeys()
+                            - listitem:
+                              - generic: click()
+                            - listitem:
+                              - generic: selectByVisibleText()
+                            - listitem:
+                              - generic: submit()
+                            - listitem:
+                              - generic: isDisplayed()
+                      - generic:
+                        - img
+                        - generic: Tutorial video coming soon
+                    - generic:
+                      - paragraph: Up Next
+                      - link:
+                        - /url: /practice/dropdowns
+                        - generic:
+                          - img
+                        - generic:
+                          - paragraph: Dropdowns
+                          - paragraph: Handle single and multi-option dropdown selections
+                        - img
+                - generic:
+                  - heading [level=2]: Test Cases
+                  - generic:
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC01: Fill all fields with valid data and submit successfully"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC02: Verify required field errors appear on empty submit"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC03: Verify invalid email format shows validation error"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC04: Verify invalid phone number format shows error"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC05: Verify password minimum length validation"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC06: Verify password mismatch shows confirm password error"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC07: Verify T&C checkbox required error appears"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC08: Verify success message displays submitted name"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC09: Verify reset button clears all fields"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC10: Verify gender radio button selection"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC11: Verify country dropdown selection"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC12: Verify multiple interest checkboxes can be selected"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC13: Verify form fields retain values after validation failure"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC14: Verify Fill Again button returns to empty form from success state"
+                          - img
+                    - generic:
+                      - heading [level=3]:
+                        - button:
+                          - generic: "TC15: Verify form page loads without errors"
+                          - img
+            - article:
+              - generic:
+                - heading [level=2]: Introduction
+                - paragraph: "Forms combine every element type — text inputs, dropdowns, radio buttons, checkboxes, and passwords. Automating them well means:"
+                - list:
+                  - listitem: Filling all field types correctly
+                  - listitem: Triggering and asserting validation error messages
+                  - listitem: Submitting and verifying the success state
+                  - listitem: Resetting and verifying fields are cleared
+                - heading [level=2]: Key Methods Summary
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell: Action
+                      - cell: Selenium (Java)
+                      - cell: Playwright (JS)
+                      - cell: Playwright (Python)
+                  - rowgroup:
+                    - row:
+                      - cell: Fill text input
+                      - cell:
+                        - code: "`sendKeys(\"text\")`"
+                      - cell:
+                        - code: "`fill(\"text\")`"
+                      - cell:
+                        - code: "`fill(\"text\")`"
+                    - row:
+                      - cell: Select dropdown
+                      - cell:
+                        - code: "`selectByVisibleText()`"
+                      - cell:
+                        - code: "`selectOption({ label: ... })`"
+                      - cell:
+                        - code: "`select_option(label=...)`"
+                    - row:
+                      - cell: Radio button
+                      - cell:
+                        - code: "`click()`"
+                      - cell:
+                        - code: "`check()`"
+                      - cell:
+                        - code: "`check()`"
+                    - row:
+                      - cell: Checkbox
+                      - cell:
+                        - code: "`click()`"
+                      - cell:
+                        - code: "`check()`"
+                        - text: /
+                        - code: "`uncheck()`"
+                      - cell:
+                        - code: "`check()`"
+                        - text: /
+                        - code: "`uncheck()`"
+                    - row:
+                      - cell: Submit form
+                      - cell:
+                        - code: "`click()`"
+                        - text: on submit
+                      - cell:
+                        - code: "`click()`"
+                        - text: on submit
+                      - cell:
+                        - code: "`click()`"
+                        - text: on submit
+                    - row:
+                      - cell: Assert error
+                      - cell:
+                        - code: "`getText()`"
+                        - text: on error el
+                      - cell:
+                        - code: "`toHaveText(...)`"
+                      - cell:
+                        - code: "`to_have_text(...)`"
+                    - row:
+                      - cell: Assert visible
+                      - cell:
+                        - code: "`isDisplayed()`"
+                      - cell:
+                        - code: "`toBeVisible()`"
+                      - cell:
+                        - code: "`to_be_visible()`"
+                - separator
+                - heading [level=2]: 1. Fill text inputs
+                - heading [level=3]: Selenium (Java)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"firstName\""
+                        - generic: )).
+                        - generic: sendKeys
+                        - generic: (
+                        - generic: "\"John\""
+                        - generic: );
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"lastName\""
+                        - generic: )).
+                        - generic: sendKeys
+                        - generic: (
+                        - generic: "\"Doe\""
+                        - generic: );
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"email\""
+                        - generic: )).
+                        - generic: sendKeys
+                        - generic: (
+                        - generic: "\"john@example.com\""
+                        - generic: );
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"phone\""
+                        - generic: )).
+                        - generic: sendKeys
+                        - generic: (
+                        - generic: "\"9876543210\""
+                        - generic: );
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"city\""
+                        - generic: )).
+                        - generic: sendKeys
+                        - generic: (
+                        - generic: "\"Mumbai\""
+                        - generic: );
+                      - button
+                - heading [level=3]: Playwright (JS)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: fill
+                        - generic: (
+                        - generic: "\"#firstName\""
+                        - generic: ","
+                        - generic: "\"John\""
+                        - generic: );
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: fill
+                        - generic: (
+                        - generic: "\"#lastName\""
+                        - generic: ","
+                        - generic: "\"Doe\""
+                        - generic: );
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: fill
+                        - generic: (
+                        - generic: "\"#email\""
+                        - generic: ","
+                        - generic: "\"john@example.com\""
+                        - generic: );
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: fill
+                        - generic: (
+                        - generic: "\"#phone\""
+                        - generic: ","
+                        - generic: "\"9876543210\""
+                        - generic: );
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: fill
+                        - generic: (
+                        - generic: "\"#city\""
+                        - generic: ","
+                        - generic: "\"Mumbai\""
+                        - generic: );
+                      - button
+                - heading [level=3]: Playwright (Python)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: page.fill(
+                        - generic: "\"#firstName\""
+                        - generic: ","
+                        - generic: "\"John\""
+                        - generic: )
+                      - generic:
+                        - generic: page.fill(
+                        - generic: "\"#lastName\""
+                        - generic: ","
+                        - generic: "\"Doe\""
+                        - generic: )
+                      - generic:
+                        - generic: page.fill(
+                        - generic: "\"#email\""
+                        - generic: ","
+                        - generic: "\"john@example.com\""
+                        - generic: )
+                      - generic:
+                        - generic: page.fill(
+                        - generic: "\"#phone\""
+                        - generic: ","
+                        - generic: "\"9876543210\""
+                        - generic: )
+                      - generic:
+                        - generic: page.fill(
+                        - generic: "\"#city\""
+                        - generic: ","
+                        - generic: "\"Mumbai\""
+                        - generic: )
+                      - button
+                - separator
+                - heading [level=2]: 2. Fill date of birth
+                - heading [level=3]: Selenium (Java)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"dob\""
+                        - generic: )).
+                        - generic: sendKeys
+                        - generic: (
+                        - generic: "\"1995-06-15\""
+                        - generic: );
+                      - button
+                - heading [level=3]: Playwright (JS)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: fill
+                        - generic: (
+                        - generic: "\"#dob\""
+                        - generic: ","
+                        - generic: "\"1995-06-15\""
+                        - generic: );
+                      - button
+                - heading [level=3]: Playwright (Python)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: page.fill(
+                        - generic: "\"#dob\""
+                        - generic: ","
+                        - generic: "\"1995-06-15\""
+                        - generic: )
+                      - button
+                - separator
+                - heading [level=2]: 3. Select a radio button (Gender)
+                - heading [level=3]: Selenium (Java)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"gender-male\""
+                        - generic: )).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: assertTrue
+                        - generic: (driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"gender-male\""
+                        - generic: )).
+                        - generic: isSelected
+                        - generic: ());
+                      - button
+                - heading [level=3]: Playwright (JS)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"radio-gender-male\""
+                        - generic: ).
+                        - generic: check
+                        - generic: ();
+                      - generic:
+                        - generic: await
+                        - generic: expect
+                        - generic: (page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"radio-gender-male\""
+                        - generic: )).
+                        - generic: toBeChecked
+                        - generic: ();
+                      - button
+                - heading [level=3]: Playwright (Python)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: page.get_by_test_id(
+                        - generic: "\"radio-gender-male\""
+                        - generic: ).check()
+                      - generic:
+                        - generic: expect(page.get_by_test_id(
+                        - generic: "\"radio-gender-male\""
+                        - generic: )).to_be_checked()
+                      - button
+                - separator
+                - heading [level=2]: 4. Select country from dropdown
+                - heading [level=3]: Selenium (Java)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: // shadcn Select is a custom component — click trigger, then option
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: cssSelector
+                        - generic: (
+                        - generic: "\"[data-testid='select-country']\""
+                        - generic: )).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: xpath
+                        - generic: (
+                        - generic: "\"//div[text()='India']\""
+                        - generic: )).
+                        - generic: click
+                        - generic: ();
+                      - button
+                - heading [level=3]: Playwright (JS)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"select-country\""
+                        - generic: ).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: getByText
+                        - generic: (
+                        - generic: "\"India\""
+                        - generic: ).
+                        - generic: click
+                        - generic: ();
+                      - button
+                - heading [level=3]: Playwright (Python)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: page.get_by_test_id(
+                        - generic: "\"select-country\""
+                        - generic: ).click()
+                      - generic:
+                        - generic: page.get_by_text(
+                        - generic: "\"India\""
+                        - generic: ).click()
+                      - button
+                - separator
+                - heading [level=2]: 5. Check interest checkboxes
+                - heading [level=3]: Selenium (Java)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"interest-selenium\""
+                        - generic: )).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"interest-playwright\""
+                        - generic: )).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: assertTrue
+                        - generic: (driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"interest-selenium\""
+                        - generic: )).
+                        - generic: isSelected
+                        - generic: ());
+                      - button
+                - heading [level=3]: Playwright (JS)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"checkbox-interest-selenium\""
+                        - generic: ).
+                        - generic: check
+                        - generic: ();
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"checkbox-interest-playwright\""
+                        - generic: ).
+                        - generic: check
+                        - generic: ();
+                      - generic:
+                        - generic: await
+                        - generic: expect
+                        - generic: (page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"checkbox-interest-selenium\""
+                        - generic: )).
+                        - generic: toBeChecked
+                        - generic: ();
+                      - button
+                - heading [level=3]: Playwright (Python)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: page.get_by_test_id(
+                        - generic: "\"checkbox-interest-selenium\""
+                        - generic: ).check()
+                      - generic:
+                        - generic: page.get_by_test_id(
+                        - generic: "\"checkbox-interest-playwright\""
+                        - generic: ).check()
+                      - generic:
+                        - generic: expect(page.get_by_test_id(
+                        - generic: "\"checkbox-interest-selenium\""
+                        - generic: )).to_be_checked()
+                      - button
+                - separator
+                - heading [level=2]: 6. Fill password and confirm password
+                - heading [level=3]: Selenium (Java)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"password\""
+                        - generic: )).
+                        - generic: sendKeys
+                        - generic: (
+                        - generic: "\"secret123\""
+                        - generic: );
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"confirmPassword\""
+                        - generic: )).
+                        - generic: sendKeys
+                        - generic: (
+                        - generic: "\"secret123\""
+                        - generic: );
+                      - button
+                - heading [level=3]: Playwright (JS)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: fill
+                        - generic: (
+                        - generic: "\"#password\""
+                        - generic: ","
+                        - generic: "\"secret123\""
+                        - generic: );
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: fill
+                        - generic: (
+                        - generic: "\"#confirmPassword\""
+                        - generic: ","
+                        - generic: "\"secret123\""
+                        - generic: );
+                      - button
+                - heading [level=3]: Playwright (Python)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: page.fill(
+                        - generic: "\"#password\""
+                        - generic: ","
+                        - generic: "\"secret123\""
+                        - generic: )
+                      - generic:
+                        - generic: page.fill(
+                        - generic: "\"#confirmPassword\""
+                        - generic: ","
+                        - generic: "\"secret123\""
+                        - generic: )
+                      - button
+                - separator
+                - heading [level=2]: 7. Accept terms and submit
+                - heading [level=3]: Selenium (Java)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"terms\""
+                        - generic: )).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"submitFormBtn\""
+                        - generic: )).
+                        - generic: click
+                        - generic: ();
+                      - button
+                - heading [level=3]: Playwright (JS)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"checkbox-terms\""
+                        - generic: ).
+                        - generic: check
+                        - generic: ();
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"submit-form-btn\""
+                        - generic: ).
+                        - generic: click
+                        - generic: ();
+                      - button
+                - heading [level=3]: Playwright (Python)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: page.get_by_test_id(
+                        - generic: "\"checkbox-terms\""
+                        - generic: ).check()
+                      - generic:
+                        - generic: page.get_by_test_id(
+                        - generic: "\"submit-form-btn\""
+                        - generic: ).click()
+                      - button
+                - separator
+                - heading [level=2]: 8. Assert validation errors on empty submit
+                - heading [level=3]: Selenium (Java)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"submitFormBtn\""
+                        - generic: )).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: assertTrue
+                        - generic: (driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"firstNameError\""
+                        - generic: )).
+                        - generic: isDisplayed
+                        - generic: ());
+                      - generic:
+                        - generic: assertEquals
+                        - generic: (
+                        - generic: "\"Email is required.\""
+                        - generic: ", driver."
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"emailError\""
+                        - generic: )).
+                        - generic: getText
+                        - generic: ());
+                      - generic:
+                        - generic: assertTrue
+                        - generic: (driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"genderError\""
+                        - generic: )).
+                        - generic: isDisplayed
+                        - generic: ());
+                      - button
+                - heading [level=3]: Playwright (JS)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"submit-form-btn\""
+                        - generic: ).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: await
+                        - generic: expect
+                        - generic: (page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"error-first-name\""
+                        - generic: )).
+                        - generic: toBeVisible
+                        - generic: ();
+                      - generic:
+                        - generic: await
+                        - generic: expect
+                        - generic: (page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"error-email\""
+                        - generic: )).
+                        - generic: toHaveText
+                        - generic: (
+                        - generic: "\"Email is required.\""
+                        - generic: );
+                      - generic:
+                        - generic: await
+                        - generic: expect
+                        - generic: (page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"error-gender\""
+                        - generic: )).
+                        - generic: toBeVisible
+                        - generic: ();
+                      - button
+                - heading [level=3]: Playwright (Python)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: page.get_by_test_id(
+                        - generic: "\"submit-form-btn\""
+                        - generic: ).click()
+                      - generic:
+                        - generic: expect(page.get_by_test_id(
+                        - generic: "\"error-first-name\""
+                        - generic: )).to_be_visible()
+                      - generic:
+                        - generic: expect(page.get_by_test_id(
+                        - generic: "\"error-email\""
+                        - generic: )).to_have_text(
+                        - generic: "\"Email is required.\""
+                        - generic: )
+                      - generic:
+                        - generic: expect(page.get_by_test_id(
+                        - generic: "\"error-gender\""
+                        - generic: )).to_be_visible()
+                      - button
+                - separator
+                - heading [level=2]: 9. Assert password mismatch error
+                - heading [level=3]: Selenium (Java)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"password\""
+                        - generic: )).
+                        - generic: sendKeys
+                        - generic: (
+                        - generic: "\"secret123\""
+                        - generic: );
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"confirmPassword\""
+                        - generic: )).
+                        - generic: sendKeys
+                        - generic: (
+                        - generic: "\"wrong456\""
+                        - generic: );
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"submitFormBtn\""
+                        - generic: )).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: assertEquals
+                        - generic: (
+                        - generic: "\"Passwords do not match.\""
+                        - generic: ", driver."
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"confirmPasswordError\""
+                        - generic: )).
+                        - generic: getText
+                        - generic: ());
+                      - button
+                - heading [level=3]: Playwright (JS)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: fill
+                        - generic: (
+                        - generic: "\"#password\""
+                        - generic: ","
+                        - generic: "\"secret123\""
+                        - generic: );
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: fill
+                        - generic: (
+                        - generic: "\"#confirmPassword\""
+                        - generic: ","
+                        - generic: "\"wrong456\""
+                        - generic: );
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"submit-form-btn\""
+                        - generic: ).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: await
+                        - generic: expect
+                        - generic: (page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"error-confirm-password\""
+                        - generic: )).
+                        - generic: toHaveText
+                        - generic: (
+                        - generic: "\"Passwords do not match.\""
+                        - generic: );
+                      - button
+                - heading [level=3]: Playwright (Python)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: page.fill(
+                        - generic: "\"#password\""
+                        - generic: ","
+                        - generic: "\"secret123\""
+                        - generic: )
+                      - generic:
+                        - generic: page.fill(
+                        - generic: "\"#confirmPassword\""
+                        - generic: ","
+                        - generic: "\"wrong456\""
+                        - generic: )
+                      - generic:
+                        - generic: page.get_by_test_id(
+                        - generic: "\"submit-form-btn\""
+                        - generic: ).click()
+                      - generic:
+                        - generic: expect(page.get_by_test_id(
+                        - generic: "\"error-confirm-password\""
+                        - generic: )).to_have_text(
+                        - generic: "\"Passwords do not match.\""
+                        - generic: )
+                      - button
+                - separator
+                - heading [level=2]: 10. Assert success state after valid submit
+                - heading [level=3]: Selenium (Java)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: // after filling all fields correctly...
+                      - generic:
+                        - generic: driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"submitFormBtn\""
+                        - generic: )).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: assertTrue
+                        - generic: (driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"formSuccessMsg\""
+                        - generic: )).
+                        - generic: isDisplayed
+                        - generic: ());
+                      - generic:
+                        - generic: assertTrue
+                        - generic: (driver.
+                        - generic: findElement
+                        - generic: (By.
+                        - generic: id
+                        - generic: (
+                        - generic: "\"submittedName\""
+                        - generic: )).
+                        - generic: getText
+                        - generic: ().
+                        - generic: contains
+                        - generic: (
+                        - generic: "\"John\""
+                        - generic: ));
+                      - button
+                - heading [level=3]: Playwright (JS)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: await
+                        - generic: page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"submit-form-btn\""
+                        - generic: ).
+                        - generic: click
+                        - generic: ();
+                      - generic:
+                        - generic: await
+                        - generic: expect
+                        - generic: (page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"form-success-msg\""
+                        - generic: )).
+                        - generic: toBeVisible
+                        - generic: ();
+                      - generic:
+                        - generic: await
+                        - generic: expect
+                        - generic: (page.
+                        - generic: getByTestId
+                        - generic: (
+                        - generic: "\"submitted-name\""
+                        - generic: )).
+                        - generic: toContainText
+                        - generic: (
+                        - generic: "\"John\""
+                        - generic: );
+                      - button
+                - heading [level=3]: Playwright (Python)
+                - figure:
+                  - generic:
+                    - code:
+                      - generic:
+                        - generic: page.get_by_test_id(
+                        - generic: "\"submit-form-btn\""
+                        - generic: ).click()
+                      - generic:
+                        - generic: expect(page.get_by_test_id(
+                        - generic: "\"form-success-msg\""
+                        - generic: )).to_be_visible()
+                      - generic:
+                        - generic: expect(page.get_by_test_id(
+                        - generic: "\"submitted-name\""
+                        - generic: )).to_contain_text(
+                        - generic: "\"John\""
+                        - generic: )
+                      - button
+                - blockquote:
+                  - paragraph:
+                    - text: 📄
+                    - strong: "Also Read:"
+                    - link:
+                      - /url: https://www.qaplayground.com/blog/top-10-best-automation-practice-website
+                      - text: Top 10 Best Automation Practice Website
+            - generic:
+              - generic:
+                - img
+                - heading [level=2]: Frequently Asked Questions
+              - generic:
+                - generic:
+                  - heading [level=3]:
+                    - button:
+                      - text: How do I fill and submit a form with Selenium WebDriver?
+                      - img
+                - generic:
+                  - heading [level=3]:
+                    - button:
+                      - text: How do I test form validation errors in Playwright?
+                      - img
+                - generic:
+                  - heading [level=3]:
+                    - button:
+                      - text: How do I locate form inputs by their label text in Playwright?
+                      - img
+                - generic:
+                  - heading [level=3]:
+                    - button:
+                      - text: How do I handle form dropdowns (select elements) in Selenium WebDriver?
+                      - img
+                - generic:
+                  - heading [level=3]:
+                    - button:
+                      - text: How do I reset or clear a form in automation testing?
+                      - img
+                - generic:
+                  - heading [level=3]:
+                    - button:
+                      - text: How do I automate a multi-step form or wizard in Playwright?
+                      - img
+  - region "Notifications alt+T"
+  - contentinfo:
+    - contentinfo:
+      - generic:
+        - text: Footer Navigation
+        - generic:
+          - generic:
+            - link:
+              - /url: /
+              - generic: QA PlayGround
+            - paragraph: A purpose-built practice platform for QA automation engineers. Learn Selenium, Playwright, and Cypress through hands-on interactive elements and real-world scenarios.
+            - generic:
+              - generic:
+                - img
+                - text: Practice Elements
+              - generic:
+                - img
+                - text: Bank Demo
+              - generic:
+                - img
+                - text: Study Tracker
+            - generic:
+              - link:
+                - /url: https://www.youtube.com/@qaplayground
+                - img
+              - link:
+                - /url: https://github.com/kundalik-dev
+                - img
+              - link:
+                - /url: https://www.linkedin.com/in/kundalik-jadhav
+                - img
+              - link:
+                - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fqaplayground.com
+                - img
+              - link:
+                - /url: https://t.me/share/url?url=https%3A%2F%2Fqaplayground.com
+                - img
+          - generic:
+            - paragraph: Platform
+            - navigation:
+              - link:
+                - /url: /practice
+                - generic:
+                  - img
+                - generic:
+                  - text: Practice Elements
+                  - generic: 22+ elements
+              - link:
+                - /url: /bank
+                - generic:
+                  - img
+                - generic:
+                  - text: Bank Demo App
+                  - generic: E2E testing
+              - link:
+                - /url: /study-tracker/dashboard
+                - generic:
+                  - img
+                - generic:
+                  - text: Study Tracker
+                  - generic: New
+              - link:
+                - /url: /qa-tools
+                - generic:
+                  - img
+                - generic:
+                  - text: QA Tools
+                  - generic: Free
+              - link:
+                - /url: https://t.me/QAPlayGround_Bot
+                - generic:
+                  - img
+                - generic:
+                  - text: QA Playground Bot
+                  - generic: Free
+              - link:
+                - /url: https://chromewebstore.google.com/detail/jhgkhnokloeklnagbkgkgcfphafifefg?utm_source=item-share-cb
+                - generic:
+                  - img
+                - generic:
+                  - text: QA Capture
+                  - generic: Extension
+              - link:
+                - /url: https://chromewebstore.google.com/detail/jegdkegbomfbmhhimfjgacdblcoodfpd?utm_source=item-share-cb
+                - generic:
+                  - img
+                - generic:
+                  - text: QA Playground Clipper
+                  - generic: Extension
+          - generic:
+            - paragraph: Learn
+            - navigation:
+              - link:
+                - /url: /practice
+                - text: Practice Elements
+              - link:
+                - /url: /blog
+                - text: Blog & Tutorials
+              - link:
+                - /url: /qa-tools
+                - text: Free QA Tools
+              - link:
+                - /url: /study-tracker/ai-syllabus-prompt
+                - text: AI Syllabus Generator
+              - link:
+                - /url: https://github.com/kundalik5545/QA_PlayGround_Automation_Framework
+                - text: Automation Framework
+          - generic:
+            - paragraph: Company
+            - navigation:
+              - link:
+                - /url: /about-us
+                - text: About Us
+              - link:
+                - /url: /contact-us
+                - text: Contact Us
+              - link:
+                - /url: /raise-issue
+                - text: Raise an Issue
+              - link:
+                - /url: /privacy-policy
+                - text: Privacy Policy
+              - link:
+                - /url: /login
+                - text: Login
+            - generic:
+              - paragraph: "*No account required. Creating a login is entirely optional and is only necessary if you wish to sync your progress in the Study Tracker."
+              - paragraph: "*Your data is stored locally within your browser for maximum privacy."
+        - generic:
+          - generic: © 2026 QA Playground. All rights reserved.
+          - generic:
+            - text: Built for QA Engineers by
+            - link:
+              - /url: https://github.com/kundalik-dev
+              - text: Kundalik Jadhav
+  - alert
+  - listbox [ref=e1]:
+    - option "India" [active] [ref=e2]:
+      - generic [ref=e4]: India
+    - option "USA" [ref=e5]:
+      - generic [ref=e7]: USA
+    - option "UK" [ref=e8]:
+      - generic [ref=e10]: UK
+    - option "Australia" [ref=e11]:
+      - generic [ref=e13]: Australia
+    - option "Germany" [ref=e14]:
+      - generic [ref=e16]: Germany
+    - option "Canada" [ref=e17]:
+      - generic [ref=e19]: Canada
+```

@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './InsurancePOC',
+  testDir: './MAY2026',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -32,22 +32,29 @@ export default defineConfig({
   use: {
 
     browserName: 'chromium',
-    headless: true,
-    video: 'on', // 🔹 always record video
-    // 'retain-on-failure' → keep only on test failures
-    // 'on-first-retry' → keep on first retry
-    
+
+    // Open browser UI
+    headless: false,
+
+    // Smooth execution delay after every Playwright action
+    launchOptions: {
+      slowMo: 800
+    },
+
+    video: 'on',
+
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://restful-booker.herokuapp.com',
 
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    /* Collect trace when retrying the failed test. */
     trace: 'on-first-retry',
+
     /* Maximum time each action (click, fill, etc.) can take */
-    actionTimeout: 60000, // 60 seconds
+    actionTimeout: 60000,
 
     /* Maximum time for page.goto/navigation */
-    navigationTimeout: 60000, // 60 seconds
-  },
+    navigationTimeout: 60000,
+},
 
   /* Configure projects for major browsers */
   projects: [

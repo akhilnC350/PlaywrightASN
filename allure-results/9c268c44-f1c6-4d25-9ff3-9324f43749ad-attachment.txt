@@ -1,0 +1,7 @@
+🎥 Video recorded for akhil1809+1779032209476_0@gmail.com: C:\PlaywrightASN\videos\parallel\5b43400e75487f095a4ff0f916c9bf50.webm
+🎥 Video recorded for akhil1809+1779032212863_3@gmail.com: C:\PlaywrightASN\videos\parallel\53ac31044d83ed053e3b79ff1bd55923.webm
+🎥 Video recorded for akhil1809+1779032210977_2@gmail.com: C:\PlaywrightASN\videos\parallel\58814fa8705bcb0365645eb0e1b77cf5.webm
+🎥 Video recorded for akhil1809+1779032215259_4@gmail.com: C:\PlaywrightASN\videos\parallel\cde1f6c0b0e059f6b80499b9cdfb12b6.webm
+🎥 Video recorded for akhil1809+1779032210091_1@gmail.com: C:\PlaywrightASN\videos\parallel\aa4eef5c4623a3d3dab6d0db8ffd1a58.webm
+✅ All 5 users completed registration, login, and timestamp validation
+🎬 Videos saved in directory: videos/parallel/

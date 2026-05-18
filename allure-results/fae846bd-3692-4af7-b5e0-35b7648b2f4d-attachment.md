@@ -1,0 +1,105 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - heading "BrightSpark" [level=1] [ref=e7]
+          - button [ref=e8] [cursor=pointer]:
+            - img
+        - navigation [ref=e9]:
+          - list [ref=e10]:
+            - listitem [ref=e11]:
+              - link "Home" [ref=e12] [cursor=pointer]:
+                - /url: /
+                - img [ref=e13] [cursor=pointer]
+                - generic [ref=e16] [cursor=pointer]: Home
+            - listitem [ref=e17]:
+              - link "Learning" [ref=e18] [cursor=pointer]:
+                - /url: /learning
+                - img [ref=e19] [cursor=pointer]
+                - generic [ref=e21] [cursor=pointer]: Learning
+            - listitem [ref=e22]:
+              - link "ADHD Education" [ref=e23] [cursor=pointer]:
+                - /url: /adhd-education
+                - img [ref=e24] [cursor=pointer]
+                - generic [ref=e34] [cursor=pointer]: ADHD Education
+            - listitem [ref=e35]:
+              - link "Schedule" [ref=e36] [cursor=pointer]:
+                - /url: /schedule
+                - img [ref=e37] [cursor=pointer]
+                - generic [ref=e39] [cursor=pointer]: Schedule
+            - listitem [ref=e40]:
+              - link "Calm Tools" [ref=e41] [cursor=pointer]:
+                - /url: /calm-tools
+                - img [ref=e42] [cursor=pointer]
+                - generic [ref=e44] [cursor=pointer]: Calm Tools
+            - listitem [ref=e45]:
+              - link "Resources" [ref=e46] [cursor=pointer]:
+                - /url: /resources
+                - img [ref=e47] [cursor=pointer]
+                - generic [ref=e49] [cursor=pointer]: Resources
+            - listitem [ref=e50]:
+              - link "Community" [ref=e51] [cursor=pointer]:
+                - /url: /community
+                - img [ref=e52] [cursor=pointer]
+                - generic [ref=e57] [cursor=pointer]: Community
+        - generic [ref=e59]: BrightSpark Learning © 2025
+      - main [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - button "English" [ref=e64] [cursor=pointer]:
+              - img
+              - generic [ref=e65] [cursor=pointer]: English
+            - heading "Welcome to BrightSpark" [level=1] [ref=e66]
+            - paragraph [ref=e67]: A supportive learning environment designed for autistic learners of all ages
+          - generic [ref=e68]:
+            - link "Learning Activities Interactive lessons and activities across different subjects" [ref=e69] [cursor=pointer]:
+              - /url: /learning
+              - img [ref=e71] [cursor=pointer]
+              - heading "Learning Activities" [level=3] [ref=e73] [cursor=pointer]
+              - paragraph [ref=e74] [cursor=pointer]: Interactive lessons and activities across different subjects
+            - link "Visual Schedule Create and manage your daily routines and schedules" [ref=e75] [cursor=pointer]:
+              - /url: /schedule
+              - img [ref=e77] [cursor=pointer]
+              - heading "Visual Schedule" [level=3] [ref=e79] [cursor=pointer]
+              - paragraph [ref=e80] [cursor=pointer]: Create and manage your daily routines and schedules
+            - link "Calm-Down Tools Sensory exercises and tools for emotional regulation" [ref=e81] [cursor=pointer]:
+              - /url: /calm-tools
+              - img [ref=e83] [cursor=pointer]
+              - heading "Calm-Down Tools" [level=3] [ref=e93] [cursor=pointer]
+              - paragraph [ref=e94] [cursor=pointer]: Sensory exercises and tools for emotional regulation
+            - link "Resources Library Helpful guides and materials for caregivers and educators" [ref=e95] [cursor=pointer]:
+              - /url: /resources
+              - img [ref=e97] [cursor=pointer]
+              - heading "Resources Library" [level=3] [ref=e99] [cursor=pointer]
+              - paragraph [ref=e100] [cursor=pointer]: Helpful guides and materials for caregivers and educators
+            - link "Community Connect with others in the autism community" [ref=e101] [cursor=pointer]:
+              - /url: /community
+              - img [ref=e103] [cursor=pointer]
+              - heading "Community" [level=3] [ref=e108] [cursor=pointer]
+              - paragraph [ref=e109] [cursor=pointer]: Connect with others in the autism community
+            - link "home.category.kidsTracking home.category.kidsTracking.desc" [ref=e110] [cursor=pointer]:
+              - /url: /kids-tracking
+              - img [ref=e112] [cursor=pointer]
+              - heading "home.category.kidsTracking" [level=3] [ref=e115] [cursor=pointer]
+              - paragraph [ref=e116] [cursor=pointer]: home.category.kidsTracking.desc
+          - generic [ref=e117]:
+            - heading "Getting Started" [level=2] [ref=e118]
+            - paragraph [ref=e119]: BrightSpark is designed to provide personalized learning experiences for autistic individuals. Our platform offers visual schedules, sensory tools, and educational resources that adapt to different learning styles and sensory needs.
+            - generic [ref=e120]:
+              - link "Explore Learning Activities" [ref=e121] [cursor=pointer]:
+                - /url: /learning
+              - button "Learn More About Us" [ref=e122] [cursor=pointer]
+  - complementary "Edit with Lovable" [ref=e123]:
+    - link "Edit with Lovable" [ref=e124] [cursor=pointer]:
+      - /url: https://lovable.dev/projects/b2b60fed-a834-4446-872e-61dbb85e521e?utm_source=lovable-badge
+      - generic [ref=e125] [cursor=pointer]: Edit with
+      - img [ref=e126] [cursor=pointer]
+    - button "Dismiss" [ref=e131] [cursor=pointer]:
+      - img [ref=e132] [cursor=pointer]
+```

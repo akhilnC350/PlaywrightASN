@@ -1,0 +1,136 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - heading "BrightSpark" [level=1] [ref=e7]
+          - button [ref=e8] [cursor=pointer]:
+            - img
+        - navigation [ref=e9]:
+          - list [ref=e10]:
+            - listitem [ref=e11]:
+              - link "Home" [ref=e12] [cursor=pointer]:
+                - /url: /
+                - img [ref=e13] [cursor=pointer]
+                - generic [ref=e16] [cursor=pointer]: Home
+            - listitem [ref=e17]:
+              - link "Learning" [ref=e18] [cursor=pointer]:
+                - /url: /learning
+                - img [ref=e19] [cursor=pointer]
+                - generic [ref=e21] [cursor=pointer]: Learning
+            - listitem [ref=e22]:
+              - link "ADHD Education" [ref=e23] [cursor=pointer]:
+                - /url: /adhd-education
+                - img [ref=e24] [cursor=pointer]
+                - generic [ref=e34] [cursor=pointer]: ADHD Education
+            - listitem [ref=e35]:
+              - link "Schedule" [active] [ref=e36] [cursor=pointer]:
+                - /url: /schedule
+                - img [ref=e37] [cursor=pointer]
+                - generic [ref=e39] [cursor=pointer]: Schedule
+            - listitem [ref=e40]:
+              - link "Calm Tools" [ref=e41] [cursor=pointer]:
+                - /url: /calm-tools
+                - img [ref=e42] [cursor=pointer]
+                - generic [ref=e44] [cursor=pointer]: Calm Tools
+            - listitem [ref=e45]:
+              - link "Resources" [ref=e46] [cursor=pointer]:
+                - /url: /resources
+                - img [ref=e47] [cursor=pointer]
+                - generic [ref=e49] [cursor=pointer]: Resources
+            - listitem [ref=e50]:
+              - link "Community" [ref=e51] [cursor=pointer]:
+                - /url: /community
+                - img [ref=e52] [cursor=pointer]
+                - generic [ref=e57] [cursor=pointer]: Community
+        - generic [ref=e59]: BrightSpark Learning © 2025
+      - main [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - img [ref=e63]
+            - heading "Visual Schedule" [level=1] [ref=e65]
+          - paragraph [ref=e66]: Create and manage your daily schedule with visual supports
+        - generic [ref=e67]:
+          - heading "Today's Schedule" [level=2] [ref=e69]
+          - button "Add Activity" [ref=e70] [cursor=pointer]:
+            - img
+            - text: Add Activity
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: 08:00
+              - generic [ref=e77]:
+                - generic [ref=e78]: Morning Routine
+                - generic [ref=e79]: Daily Routine
+            - generic [ref=e80]:
+              - button [disabled]:
+                - img
+              - button [ref=e81] [cursor=pointer]:
+                - img
+              - button [ref=e82] [cursor=pointer]:
+                - img
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: 09:30
+              - generic [ref=e86]:
+                - generic [ref=e87]: Math Learning
+                - generic [ref=e88]: Learning Activity
+            - generic [ref=e89]:
+              - button [ref=e90] [cursor=pointer]:
+                - img
+              - button [ref=e91] [cursor=pointer]:
+                - img
+              - button [ref=e92] [cursor=pointer]:
+                - img
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: 12:00
+              - generic [ref=e96]:
+                - generic [ref=e97]: Lunch Break
+                - generic [ref=e98]: Meal Time
+            - generic [ref=e99]:
+              - button [ref=e100] [cursor=pointer]:
+                - img
+              - button [ref=e101] [cursor=pointer]:
+                - img
+              - button [ref=e102] [cursor=pointer]:
+                - img
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]: 13:30
+              - generic [ref=e106]:
+                - generic [ref=e107]: Reading Time
+                - generic [ref=e108]: Learning Activity
+            - generic [ref=e109]:
+              - button [ref=e110] [cursor=pointer]:
+                - img
+              - button [ref=e111] [cursor=pointer]:
+                - img
+              - button [ref=e112] [cursor=pointer]:
+                - img
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - generic [ref=e115]: 15:00
+              - generic [ref=e116]:
+                - generic [ref=e117]: Free Play
+                - generic [ref=e118]: Free Time
+            - generic [ref=e119]:
+              - button [ref=e120] [cursor=pointer]:
+                - img
+              - button [disabled]:
+                - img
+              - button [ref=e121] [cursor=pointer]:
+                - img
+  - complementary "Edit with Lovable" [ref=e122]:
+    - link "Edit with Lovable" [ref=e123] [cursor=pointer]:
+      - /url: https://lovable.dev/projects/b2b60fed-a834-4446-872e-61dbb85e521e?utm_source=lovable-badge
+      - generic [ref=e124] [cursor=pointer]: Edit with
+      - img [ref=e125] [cursor=pointer]
+    - button "Dismiss" [ref=e130] [cursor=pointer]:
+      - img [ref=e131] [cursor=pointer]
+```
