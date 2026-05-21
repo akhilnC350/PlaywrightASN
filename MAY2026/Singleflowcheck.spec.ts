@@ -13,7 +13,7 @@ test('User Registration Form Automation', async ({ page }) => {
 
   await page.locator('#email').fill('akhil@testmail.com');
 
-  await page.locator('#phone').fill('9876543210');
+  await page.locator('#phone').fill('9717530599');
 
   await page.locator('#dob').fill('1988-09-18');
 

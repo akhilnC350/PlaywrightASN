@@ -1,0 +1,258 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "QA PlayGround - Automation Testing Practice Platform QA PlayGround" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6] [cursor=pointer]:
+          - img "QA PlayGround - Automation Testing Practice Platform" [ref=e7] [cursor=pointer]
+          - generic [ref=e8] [cursor=pointer]: QA PlayGround
+      - navigation "Main navigation" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "Study Tracker (New feature)" [ref=e11] [cursor=pointer]:
+          - /url: /study-tracker/dashboard
+          - text: Study Tracker
+          - generic "(New feature)" [ref=e12] [cursor=pointer]: New
+        - link "Bank Demo" [ref=e13] [cursor=pointer]:
+          - /url: /bank
+        - link "Practice" [ref=e14] [cursor=pointer]:
+          - /url: /practice
+        - link "QA Tools" [ref=e15] [cursor=pointer]:
+          - /url: /qa-tools
+        - link "Blog" [ref=e16] [cursor=pointer]:
+          - /url: /blog
+        - generic [ref=e17]:
+          - button "Toggle theme" [ref=e18] [cursor=pointer]:
+            - img
+            - generic [ref=e19] [cursor=pointer]: Toggle theme
+          - link "Login" [ref=e20] [cursor=pointer]:
+            - /url: /login
+  - main [ref=e21]:
+    - generic [ref=e23]:
+      - button [ref=e24] [cursor=pointer]:
+        - img
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - img [ref=e31]
+            - generic [ref=e35]:
+              - heading "Welcome to SecureBank" [level=1] [ref=e36]:
+                - text: Welcome to
+                - generic [ref=e37]: SecureBank
+              - paragraph [ref=e38]: Your premier automation testing practice ground. Master complex UI interactions, state management, and end-to-end testing scenarios.
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: SecureBank Demo
+              - generic [ref=e43]: Automation Testing Practice Application
+            - generic [ref=e46]:
+              - generic [ref=e47]:
+                - generic [ref=e48]: Username
+                - textbox "Username" [ref=e49]: admin
+              - generic [ref=e50]:
+                - generic [ref=e51]: Password
+                - generic [ref=e52]:
+                  - textbox "Password" [ref=e53]: wrongpassword
+                  - button "Toggle password visibility" [ref=e54] [cursor=pointer]:
+                    - img
+              - generic [ref=e55]:
+                - checkbox "Remember me" [ref=e56] [cursor=pointer]
+                - checkbox
+                - generic [ref=e57] [cursor=pointer]: Remember me
+              - alert [ref=e58]:
+                - generic [ref=e59]: ⚠️ Invalid username or password. Please try again.
+              - generic [ref=e60]:
+                - button "Login" [active] [ref=e61] [cursor=pointer]
+                - button "Clear" [ref=e62] [cursor=pointer]
+            - generic [ref=e64]:
+              - paragraph [ref=e65]: "Demo Credentials:"
+              - table [ref=e66]:
+                - rowgroup [ref=e67]:
+                  - row "Role Username Password" [ref=e68]:
+                    - cell "Role" [ref=e69]
+                    - cell "Username" [ref=e70]
+                    - cell "Password" [ref=e71]
+                - rowgroup [ref=e72]:
+                  - row "Full Access admin admin123" [ref=e73]:
+                    - cell "Full Access" [ref=e74]
+                    - cell "admin" [ref=e75]:
+                      - code [ref=e76]: admin
+                    - cell "admin123" [ref=e77]:
+                      - code [ref=e78]: admin123
+                  - row "Read-only viewer viewer123" [ref=e79]:
+                    - cell "Read-only" [ref=e80]
+                    - cell "viewer" [ref=e81]:
+                      - code [ref=e82]: viewer
+                    - cell "viewer123" [ref=e83]:
+                      - code [ref=e84]: viewer123
+        - link "2 free interviews Have an interview coming up? Practice with AI and boost confidence before the real call. Start now" [ref=e86] [cursor=pointer]:
+          - /url: /study-tracker/interview-practice
+          - generic [ref=e87] [cursor=pointer]:
+            - generic [ref=e88] [cursor=pointer]:
+              - generic [ref=e89] [cursor=pointer]: 2 free interviews
+              - generic [ref=e90] [cursor=pointer]: Have an interview coming up?
+              - generic [ref=e91] [cursor=pointer]: Practice with AI and boost confidence before the real call.
+            - generic [ref=e92] [cursor=pointer]: Start now
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - img [ref=e96]
+            - heading "Login Page — Test Cases" [level=2] [ref=e99]
+          - paragraph [ref=e100]:
+            - text: Expand each test case to see step-by-step automation instructions for Selenium and Playwright. Looking for more inspiration? Read our
+            - link "guide on 25 real-world automation test cases" [ref=e101] [cursor=pointer]:
+              - /url: /blog/25-real-world-automation-test-cases-for-qa-engineers
+            - text: .
+          - generic [ref=e102]:
+            - heading "TC-LOGIN-01:Successful login with admin credentials" [level=3] [ref=e104]:
+              - button "TC-LOGIN-01:Successful login with admin credentials" [ref=e105] [cursor=pointer]:
+                - generic [ref=e106] [cursor=pointer]:
+                  - generic [ref=e107] [cursor=pointer]: "TC-LOGIN-01:"
+                  - text: Successful login with admin credentials
+                - img [ref=e108] [cursor=pointer]
+            - heading "TC-LOGIN-02:Failed login shows error alert for invalid credentials" [level=3] [ref=e111]:
+              - button "TC-LOGIN-02:Failed login shows error alert for invalid credentials" [ref=e112] [cursor=pointer]:
+                - generic [ref=e113] [cursor=pointer]:
+                  - generic [ref=e114] [cursor=pointer]: "TC-LOGIN-02:"
+                  - text: Failed login shows error alert for invalid credentials
+                - img [ref=e115] [cursor=pointer]
+            - heading "TC-LOGIN-03:Toggle password visibility hides and reveals password text" [level=3] [ref=e118]:
+              - button "TC-LOGIN-03:Toggle password visibility hides and reveals password text" [ref=e119] [cursor=pointer]:
+                - generic [ref=e120] [cursor=pointer]:
+                  - generic [ref=e121] [cursor=pointer]: "TC-LOGIN-03:"
+                  - text: Toggle password visibility hides and reveals password text
+                - img [ref=e122] [cursor=pointer]
+            - heading "TC-LOGIN-04:Pressing Enter in the password field submits the login form" [level=3] [ref=e125]:
+              - button "TC-LOGIN-04:Pressing Enter in the password field submits the login form" [ref=e126] [cursor=pointer]:
+                - generic [ref=e127] [cursor=pointer]:
+                  - generic [ref=e128] [cursor=pointer]: "TC-LOGIN-04:"
+                  - text: Pressing Enter in the password field submits the login form
+                - img [ref=e129] [cursor=pointer]
+            - heading "TC-LOGIN-05:Read-only viewer login grants restricted access" [level=3] [ref=e132]:
+              - button "TC-LOGIN-05:Read-only viewer login grants restricted access" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134] [cursor=pointer]:
+                  - generic [ref=e135] [cursor=pointer]: "TC-LOGIN-05:"
+                  - text: Read-only viewer login grants restricted access
+                - img [ref=e136] [cursor=pointer]
+  - region "Notifications alt+T"
+  - contentinfo [ref=e138]:
+    - contentinfo "Site footer" [ref=e139]:
+      - generic [ref=e140]:
+        - text: Footer Navigation
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - link "QA PlayGround" [ref=e143] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e144] [cursor=pointer]: QA PlayGround
+            - paragraph [ref=e145]: A purpose-built practice platform for QA automation engineers. Learn Selenium, Playwright, and Cypress through hands-on interactive elements and real-world scenarios.
+            - generic [ref=e146]:
+              - generic [ref=e147]:
+                - img [ref=e148]
+                - text: Practice Elements
+              - generic [ref=e153]:
+                - img [ref=e154]
+                - text: Bank Demo
+              - generic [ref=e156]:
+                - img [ref=e157]
+                - text: Study Tracker
+            - generic "Social media links" [ref=e159]:
+              - link "YouTube" [ref=e160] [cursor=pointer]:
+                - /url: https://www.youtube.com/@qaplayground
+                - img [ref=e161] [cursor=pointer]
+              - link "GitHub" [ref=e163] [cursor=pointer]:
+                - /url: https://github.com/kundalik-dev
+                - img [ref=e164] [cursor=pointer]
+              - link "LinkedIn" [ref=e166] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/kundalik-jadhav
+                - img [ref=e167] [cursor=pointer]
+              - link "Twitter" [ref=e169] [cursor=pointer]:
+                - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fqaplayground.com
+                - img [ref=e170] [cursor=pointer]
+              - link "Telegram" [ref=e172] [cursor=pointer]:
+                - /url: https://t.me/share/url?url=https%3A%2F%2Fqaplayground.com
+                - img [ref=e173] [cursor=pointer]
+          - generic [ref=e175]:
+            - paragraph [ref=e176]: Platform
+            - navigation "Platform links" [ref=e177]:
+              - link "Practice Elements 22+ elements" [ref=e178] [cursor=pointer]:
+                - /url: /practice
+                - img [ref=e180] [cursor=pointer]
+                - generic [ref=e185] [cursor=pointer]:
+                  - text: Practice Elements
+                  - generic [ref=e186] [cursor=pointer]: 22+ elements
+              - link "Bank Demo App E2E testing" [ref=e187] [cursor=pointer]:
+                - /url: /bank
+                - img [ref=e189] [cursor=pointer]
+                - generic [ref=e191] [cursor=pointer]:
+                  - text: Bank Demo App
+                  - generic [ref=e192] [cursor=pointer]: E2E testing
+              - link "Study Tracker New" [ref=e193] [cursor=pointer]:
+                - /url: /study-tracker/dashboard
+                - img [ref=e195] [cursor=pointer]
+                - generic [ref=e197] [cursor=pointer]:
+                  - text: Study Tracker
+                  - generic [ref=e198] [cursor=pointer]: New
+              - link "QA Tools Free" [ref=e199] [cursor=pointer]:
+                - /url: /qa-tools
+                - img [ref=e201] [cursor=pointer]
+                - generic [ref=e203] [cursor=pointer]:
+                  - text: QA Tools
+                  - generic [ref=e204] [cursor=pointer]: Free
+              - link "QA Playground Bot Free" [ref=e205] [cursor=pointer]:
+                - /url: https://t.me/QAPlayGround_Bot
+                - img [ref=e207] [cursor=pointer]
+                - generic [ref=e209] [cursor=pointer]:
+                  - text: QA Playground Bot
+                  - generic [ref=e210] [cursor=pointer]: Free
+              - link "QA Capture Extension" [ref=e211] [cursor=pointer]:
+                - /url: https://chromewebstore.google.com/detail/jhgkhnokloeklnagbkgkgcfphafifefg?utm_source=item-share-cb
+                - img [ref=e213] [cursor=pointer]
+                - generic [ref=e218] [cursor=pointer]:
+                  - text: QA Capture
+                  - generic [ref=e219] [cursor=pointer]: Extension
+              - link "QA Playground Clipper Extension" [ref=e220] [cursor=pointer]:
+                - /url: https://chromewebstore.google.com/detail/jegdkegbomfbmhhimfjgacdblcoodfpd?utm_source=item-share-cb
+                - img [ref=e222] [cursor=pointer]
+                - generic [ref=e227] [cursor=pointer]:
+                  - text: QA Playground Clipper
+                  - generic [ref=e228] [cursor=pointer]: Extension
+          - generic [ref=e229]:
+            - paragraph [ref=e230]: Learn
+            - navigation "Learn links" [ref=e231]:
+              - link "Practice Elements" [ref=e232] [cursor=pointer]:
+                - /url: /practice
+              - link "Blog & Tutorials" [ref=e233] [cursor=pointer]:
+                - /url: /blog
+              - link "Free QA Tools" [ref=e234] [cursor=pointer]:
+                - /url: /qa-tools
+              - link "AI Syllabus Generator" [ref=e235] [cursor=pointer]:
+                - /url: /study-tracker/ai-syllabus-prompt
+              - link "Automation Framework" [ref=e236] [cursor=pointer]:
+                - /url: https://github.com/kundalik5545/QA_PlayGround_Automation_Framework
+          - generic [ref=e237]:
+            - paragraph [ref=e238]: Company
+            - navigation "Company links" [ref=e239]:
+              - link "About Us" [ref=e240] [cursor=pointer]:
+                - /url: /about-us
+              - link "Contact Us" [ref=e241] [cursor=pointer]:
+                - /url: /contact-us
+              - link "Raise an Issue" [ref=e242] [cursor=pointer]:
+                - /url: /raise-issue
+              - link "Privacy Policy" [ref=e243] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Login" [ref=e244] [cursor=pointer]:
+                - /url: /login
+            - generic [ref=e245]:
+              - paragraph [ref=e246]: "*No account required. Creating a login is entirely optional and is only necessary if you wish to sync your progress in the Study Tracker."
+              - paragraph [ref=e247]: "*Your data is stored locally within your browser for maximum privacy."
+        - generic [ref=e248]:
+          - generic [ref=e249]: © 2026 QA Playground. All rights reserved.
+          - generic [ref=e250]:
+            - text: Built for QA Engineers by
+            - link "Kundalik Jadhav" [ref=e251] [cursor=pointer]:
+              - /url: https://github.com/kundalik-dev
+  - alert [ref=e252]
+```

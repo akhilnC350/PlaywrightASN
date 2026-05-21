@@ -1,0 +1,184 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - navigation "Bank navigation" [ref=e6]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - img [ref=e10]
+            - generic [ref=e14]: SecureBank
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "📊 Dashboard" [ref=e17] [cursor=pointer]:
+                - /url: /bank/dashboard
+            - listitem [ref=e18]:
+              - link "💳 Accounts" [ref=e19] [cursor=pointer]:
+                - /url: /bank/accounts
+            - listitem [ref=e20]:
+              - link "💸 Transactions" [ref=e21] [cursor=pointer]:
+                - /url: /bank/transactions
+          - generic [ref=e22]:
+            - link "Help & Docs" [ref=e23] [cursor=pointer]:
+              - /url: /docs/bank-demo
+            - generic [ref=e24]:
+              - text: 👤
+              - generic [ref=e25]: admin
+            - button "Logout" [ref=e26] [cursor=pointer]
+      - main [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]: Total Balance
+              - img [ref=e33]
+            - generic [ref=e36]:
+              - generic [ref=e37]: $7,500.00
+              - paragraph [ref=e38]: +$1,000.00 in deposits this week
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]: Active Accounts
+              - img [ref=e43]
+            - generic [ref=e45]:
+              - generic [ref=e46]: "2"
+              - paragraph [ref=e47]: +2 new this week
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: Total Transactions
+              - img [ref=e52]
+            - generic [ref=e55]:
+              - generic [ref=e56]: "1"
+              - paragraph [ref=e57]: +1 this week
+        - generic [ref=e58]:
+          - heading "Quick Actions" [level=2] [ref=e59]
+          - generic [ref=e60]:
+            - link "Add Account" [ref=e61] [cursor=pointer]:
+              - /url: /bank/accounts?action=add
+              - img
+              - text: Add Account
+            - link "New Transaction" [ref=e62] [cursor=pointer]:
+              - /url: /bank/transactions?action=new
+              - img
+              - text: New Transaction
+            - link "View All Accounts" [ref=e63] [cursor=pointer]:
+              - /url: /bank/accounts
+              - img
+              - text: View All Accounts
+        - generic [ref=e64]:
+          - heading "Quick Stats" [level=2] [ref=e65]
+          - paragraph [ref=e66]: Last 7 days — deposits vs withdrawals
+          - generic "7-day deposit vs withdrawal chart" [ref=e67]:
+            - generic [ref=e70]: May 14
+            - generic [ref=e73]: May 15
+            - generic [ref=e76]: May 16
+            - generic [ref=e79]: May 17
+            - generic [ref=e82]: May 18
+            - generic [ref=e85]: May 19
+            - generic [ref=e89]: May 20
+          - generic [ref=e90]:
+            - generic [ref=e91]: Deposits
+            - generic [ref=e93]: Withdrawals
+        - generic [ref=e95]:
+          - heading "Pinned Accounts" [level=2] [ref=e96]
+          - paragraph [ref=e97]: Drag to reorder your pinned accounts.
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - img [ref=e100]
+              - generic [ref=e107]: 🏦
+              - generic [ref=e108]:
+                - paragraph [ref=e109]: Primary Savings
+                - paragraph [ref=e110]: $5,000.00
+                - paragraph [ref=e111]: savings • 1001234567
+            - generic [ref=e112]:
+              - img [ref=e113]
+              - generic [ref=e120]: 💳
+              - generic [ref=e121]:
+                - paragraph [ref=e122]: Checking Account
+                - paragraph [ref=e123]: $2,500.00
+                - paragraph [ref=e124]: checking • 1001234568
+        - generic [ref=e125]:
+          - heading "Recent Transactions" [level=2] [ref=e126]
+          - table [ref=e129]:
+            - rowgroup [ref=e130]:
+              - row "Date Type Account Amount Status" [ref=e131]:
+                - cell "Date" [ref=e132]
+                - cell "Type" [ref=e133]
+                - cell "Account" [ref=e134]
+                - cell "Amount" [ref=e135]
+                - cell "Status" [ref=e136]
+            - rowgroup [ref=e137]:
+              - row "May 20, 2026 💰 Deposit Primary Savings +$1,000.00 Completed" [ref=e138]:
+                - cell "May 20, 2026" [ref=e139]
+                - cell "💰 Deposit" [ref=e140]:
+                  - generic [ref=e141]: 💰 Deposit
+                - cell "Primary Savings" [ref=e142]
+                - cell "+$1,000.00" [ref=e143]
+                - cell "Completed" [ref=e144]:
+                  - generic [ref=e145]: Completed
+        - generic [ref=e146]:
+          - heading "Accounts Overview" [level=2] [ref=e147]
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - generic [ref=e152]: 🏦
+                - generic [ref=e153]: Active
+              - generic [ref=e154]:
+                - heading "Primary Savings" [level=3] [ref=e155]
+                - paragraph [ref=e156]: $5,000.00
+                - paragraph [ref=e157]: Savings • 1001234567
+                - paragraph [ref=e160]: 66.7% of total
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e164]: 💳
+                - generic [ref=e165]: Active
+              - generic [ref=e166]:
+                - heading "Checking Account" [level=3] [ref=e167]
+                - paragraph [ref=e168]: $2,500.00
+                - paragraph [ref=e169]: Checking • 1001234568
+                - paragraph [ref=e172]: 33.3% of total
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - img [ref=e176]
+          - heading "Dashboard — Test Cases" [level=2] [ref=e179]
+        - paragraph [ref=e180]:
+          - text: Expand each test case to see step-by-step automation instructions for Selenium and Playwright. Looking for more inspiration? Read our
+          - link "guide on 25 real-world automation test cases" [ref=e181] [cursor=pointer]:
+            - /url: /blog/25-real-world-automation-test-cases-for-qa-engineers
+          - text: .
+        - generic [ref=e182]:
+          - heading "TC-DASH-01:Skeleton loading state appears on page load then data renders" [level=3] [ref=e184]:
+            - button "TC-DASH-01:Skeleton loading state appears on page load then data renders" [ref=e185] [cursor=pointer]:
+              - generic [ref=e186] [cursor=pointer]:
+                - generic [ref=e187] [cursor=pointer]: "TC-DASH-01:"
+                - text: Skeleton loading state appears on page load then data renders
+              - img [ref=e188] [cursor=pointer]
+          - heading "TC-DASH-02:Stat card values match actual account and transaction data" [level=3] [ref=e191]:
+            - button "TC-DASH-02:Stat card values match actual account and transaction data" [ref=e192] [cursor=pointer]:
+              - generic [ref=e193] [cursor=pointer]:
+                - generic [ref=e194] [cursor=pointer]: "TC-DASH-02:"
+                - text: Stat card values match actual account and transaction data
+              - img [ref=e195] [cursor=pointer]
+          - heading "TC-DASH-03:Quick Actions navigate to correct pages" [level=3] [ref=e198]:
+            - button "TC-DASH-03:Quick Actions navigate to correct pages" [ref=e199] [cursor=pointer]:
+              - generic [ref=e200] [cursor=pointer]:
+                - generic [ref=e201] [cursor=pointer]: "TC-DASH-03:"
+                - text: Quick Actions navigate to correct pages
+              - img [ref=e202] [cursor=pointer]
+          - heading "TC-DASH-04:Recent Transactions table shows up to 5 latest transactions" [level=3] [ref=e205]:
+            - button "TC-DASH-04:Recent Transactions table shows up to 5 latest transactions" [ref=e206] [cursor=pointer]:
+              - generic [ref=e207] [cursor=pointer]:
+                - generic [ref=e208] [cursor=pointer]: "TC-DASH-04:"
+                - text: Recent Transactions table shows up to 5 latest transactions
+              - img [ref=e209] [cursor=pointer]
+          - heading "TC-DASH-05:Pinned Accounts section supports drag-and-drop reorder" [level=3] [ref=e212]:
+            - button "TC-DASH-05:Pinned Accounts section supports drag-and-drop reorder" [ref=e213] [cursor=pointer]:
+              - generic [ref=e214] [cursor=pointer]:
+                - generic [ref=e215] [cursor=pointer]: "TC-DASH-05:"
+                - text: Pinned Accounts section supports drag-and-drop reorder
+              - img [ref=e216] [cursor=pointer]
+      - paragraph [ref=e219]: © 2025 SecureBank Demo - For Testing Purposes Only
+  - region "Notifications alt+T"
+  - alert [ref=e220]: Bank Dashboard – SecureBank Demo | QA Playground
+```
